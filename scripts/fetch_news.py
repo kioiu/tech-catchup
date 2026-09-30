@@ -8,8 +8,8 @@ from sources.hackernews import fetch_hackernews
 from sources.x import fetch_x
 
 # Edit these lists to tune the beginner audience without changing the pipeline.
-BEGINNER_KEYWORDS={"github":4,"git":3,"docker":3,"python":3,"javascript":3,"typescript":3,"react":2,"html":2,"css":2,"sql":3,"database":3,"api":3,"http":2,"linux":2,"aws":2,"cloudflare":2,"security":2,"vscode":2,"beginner":5,"tutorial":4,"guide":3,"how to":3,"ai coding":3,"copilot":2}
-CATEGORIES={"AI":["ai","llm","copilot","agent","machine learning"],"Cloud":["aws","cloud","cloudflare","kubernetes","serverless"],"Security":["security","vulnerability","cve","privacy","auth"],"Web":["html","css","javascript","typescript","react","web","http","browser"],"Tools":["vscode","docker","github actions","gitlab","terminal","cli","tool"],"Development":["python","java","rust","go","api","database","sql","linux","git"]}
+BEGINNER_KEYWORDS={"github":4,"git":3,"docker":3,"python":3,"java":3,"spring":2,"jvm":2,"javascript":3,"typescript":3,"react":2,"html":2,"css":2,"sql":3,"database":3,"api":3,"http":2,"linux":2,"aws":2,"cloudflare":2,"security":2,"vscode":2,"beginner":5,"tutorial":4,"guide":3,"how to":3,"ai coding":3,"copilot":2}
+CATEGORIES={"AI":["ai","llm","copilot","agent","machine learning"],"Cloud":["aws","cloud","cloudflare","kubernetes","serverless"],"Security":["security","vulnerability","cve","privacy","auth"],"Web":["html","css","javascript","typescript","react","web","http","browser"],"Tools":["vscode","docker","github actions","gitlab","terminal","cli","tool"],"Development":["python","java","spring","jvm","rust","go","api","database","sql","linux","git"]}
 def score(item):
     text=f"{item['title']} {item.get('description','')}".lower(); return min(10,sum(weight for word,weight in BEGINNER_KEYWORDS.items() if word in text))
 def category(item):
