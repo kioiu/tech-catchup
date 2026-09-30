@@ -1,0 +1,7 @@
+[
+  {"type":"article","title":"GitHub Actionsをはじめるための基本","url":"https://docs.github.com/ja/actions","source":"GitHub Docs","published_at":"2026-09-30T00:00:00Z","category":"Beginner","description":"ワークフロー、ジョブ、ステップの関係を理解して、自動化の最初の一歩を始めよう。","beginner_score":10,"rank_score":100},
+  {"type":"article","title":"HTTPの仕組みをやさしく理解する","url":"https://developer.mozilla.org/ja/docs/Web/HTTP","source":"MDN","published_at":"2026-09-29T22:00:00Z","category":"Web","description":"ブラウザとサーバーの間で何が起きているのか、リクエストとレスポンスから学ぶ。","beginner_score":9,"rank_score":92},
+  {"type":"article","title":"Cloudflare Workersの基礎","url":"https://developers.cloudflare.com/workers/","source":"Cloudflare","published_at":"2026-09-29T20:00:00Z","category":"Cloud","description":"サーバーレスなJavaScript実行環境を使って、小さなWeb APIを公開する。","beginner_score":8,"rank_score":84},
+  {"type":"social","title":"VS Codeの新しい開発体験について","url":"https://x.com/microsoft","source":"X · @code","published_at":"2026-09-29T18:00:00Z","category":"Tools","description":"毎日のコーディングを速く、わかりやすくする開発ツールのアップデート。","beginner_score":7,"rank_score":78},
+  {"type":"article","title":"PythonでJSON APIを呼び出す","url":"https://docs.python.org/ja/3/library/urllib.request.html","source":"Python Docs","published_at":"2026-09-29T16:00:00Z","category":"Development","description":"標準ライブラリでAPIへアクセスし、取得したデータを扱う基本を確認する。","beginner_score":9,"rank_score":75}
+]
