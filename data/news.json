@@ -1,6 +1,17 @@
 [
   {
     "type": "article",
+    "title": "HTML-in-Canvas で DOM を画像化し、動画にも書き出す",
+    "url": "https://zenn.dev/chot/articles/html-in-canvas-dom-to-video",
+    "source": "Zenn",
+    "published_at": "2026-09-30T11:20:18Z",
+    "description": "はじめに\nここでは、提案中の API である HTML-in-Canvas で DOM を画像化する方法と、その応用として CSS アニメーションを動画としてエクスポートする方法を紹介します。\nhttps://github.com/WICG/html-in-canvas\n!\nHTML-in-Canvas は仕様策定中で、API の名前や引数が Chromium のバージョンごとに変わっています。この記事のコードと結果は Chrome Canary 156.0.8071.0 の",
+    "category": "Web",
+    "beginner_score": 10,
+    "rank_score": 100.0
+  },
+  {
+    "type": "article",
     "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
     "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent",
     "source": "GitHub Blog",
@@ -78,6 +89,28 @@
   },
   {
     "type": "article",
+    "title": "10 technical talks I’m excited about at GitHub Universe 2026",
+    "url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026",
+    "source": "GitHub Blog",
+    "published_at": "2026-10-01T15:07:16Z",
+    "description": "From verifying AI-written code to securing npm dependencies, these are the sessions I’m building my Universe agenda around. \n The post  10 technical talks I’m excited about at GitHub Universe 2026  appeared first on  The GitHub Blog .",
+    "category": "AI",
+    "beginner_score": 9,
+    "rank_score": 94.6925032500926
+  },
+  {
+    "type": "article",
+    "title": "AI-Slopな日本語を構造レベルで読みやすくするSkill『yomiyasu（よみやす）』を作りました",
+    "url": "https://zenn.dev/algoartis/articles/0b1c731881b25c",
+    "source": "Zenn",
+    "published_at": "2026-09-30T18:28:20Z",
+    "description": "TL;DR\n本日、AI生成された臭くて読みにくい日本語を、自然で読みやすい日本語へ書き直すスキル『yomiyasu（よみやす）』をリリースしました。\n従来のAI-Slop対策スキルで用いられてきた 「単語を禁止する」手法から改善し、統語構造（=誰が・何を・どうした）の復元と、比喩動詞の具体化に特化していることが特徴です。\nClaude Code, Codex, Cursorなどの主要なAI Agentで/yomiyasuで呼び出せます。\n// 導入コマンド\nnpx skill",
+    "category": "AI",
+    "beginner_score": 9,
+    "rank_score": 90.0
+  },
+  {
+    "type": "article",
     "title": "別会社の開発チームに AWS 環境を共有するのって大変だ",
     "url": "https://zenn.dev/dress_code/articles/f89590d105ba5f",
     "source": "Zenn",
@@ -122,28 +155,6 @@
   },
   {
     "type": "article",
-    "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
-    "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp",
-    "source": "GitHub Blog",
-    "published_at": "2026-09-18T15:00:00Z",
-    "description": "We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast. \n The post  Should you read the code, is RAG dead, and did Skills kill MCP?  appeared first on  The GitHub Blog .",
-    "category": "AI",
-    "beginner_score": 9,
-    "rank_score": 90.0
-  },
-  {
-    "type": "article",
-    "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
-    "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-09-28T15:50:00Z",
-    "description": "We are releasing cf, our new command-line tool that mirrors the entire Cloudflare API and supports programmatic TypeScript configuration. We are also open-sourcing Forge, our internal SDK generator.",
-    "category": "AI",
-    "beginner_score": 8,
-    "rank_score": 80.0
-  },
-  {
-    "type": "article",
     "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
     "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026",
     "source": "AWS Blog",
@@ -155,23 +166,12 @@
   },
   {
     "type": "article",
-    "title": "Monetization Gateway beta: charge AI agents for consumption with HTTP 402",
-    "url": "https://blog.cloudflare.com/monetization-gateway-beta",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-09-30T13:00:00Z",
-    "description": "Cloudflare’s AI Gateway, Ceramic.ai, Stocktwits, and more are using the Cloudflare Monetization Gateway today to charge agents for access to tokens, APIs, and MCP tools. U.S.-based sellers can now apply for access to the closed beta.",
-    "category": "AI",
-    "beginner_score": 7,
-    "rank_score": 74.07378389046296
-  },
-  {
-    "type": "article",
-    "title": "Cloudflare の CLI を wrangler から cf に移行する",
-    "url": "https://zenn.dev/sora_kumo/articles/cloudflare-to-cf",
+    "title": "学生が無料枠だけでRAGシステムを作った話",
+    "url": "https://zenn.dev/bigshine/articles/ai-librarian-free-tier",
     "source": "Zenn",
-    "published_at": "2026-09-29T04:43:50Z",
-    "description": "はじめに\nCloudflare から次世代の統合 CLI ツール cf（現在 v1.0.0-beta）が登場しました。\n従来の wrangler（wrangler.json / wrangler.jsonc / wrangler.toml）から、TypeScript ベースの型安全な設定ファイル cloudflare.config.ts への移行が推奨されています。\n公式には cf migrate という移行コマンドが用意されていますが、実行するだけでそのまま本番稼働できるわ",
-    "category": "Cloud",
+    "published_at": "2026-09-30T13:05:57Z",
+    "description": "概要\n\nAzure for Students・Supabase Free・GitHub Actions・Oracle Cloud Always Freeを組み合わせて、RAGシステムを無料で作成\n1ページのMarkdown化にかかるコストは約$0.006。応答用のモデル仕様を含めても年間$100のAzure for Studentsクレジットで十分運用可能\n\n\n 作ったもの\n今回作成するのは、RAGシステムと言われる検索の仕組みです。学内の資料やPDF、授業ノートなどを横断的",
+    "category": "AI",
     "beginner_score": 7,
     "rank_score": 70.0
   },
@@ -188,25 +188,14 @@
   },
   {
     "type": "article",
-    "title": "Is your domain using post-quantum encryption? Now you can see for yourself",
-    "url": "https://blog.cloudflare.com/post-quantum-visibility",
+    "title": "Monetization Gateway beta: charge AI agents for consumption with HTTP 402",
+    "url": "https://blog.cloudflare.com/monetization-gateway-beta",
     "source": "Cloudflare Blog",
-    "published_at": "2026-09-29T13:00:00Z",
-    "description": "Cloudflare has added visibility into post-quantum (PQ) encryption in TLS 1.3 directly into HTTP Analytics, Log Explorer, and Logpush. Learn how to make sure your domain is protected with PQ encryption.",
+    "published_at": "2026-09-30T13:00:00Z",
+    "description": "Cloudflare’s AI Gateway, Ceramic.ai, Stocktwits, and more are using the Cloudflare Monetization Gateway today to charge agents for access to tokens, APIs, and MCP tools. U.S.-based sellers can now apply for access to the closed beta.",
     "category": "AI",
     "beginner_score": 7,
     "rank_score": 70.0
-  },
-  {
-    "type": "article",
-    "title": "Enforce positive security with Cloudflare Application Profiles",
-    "url": "https://blog.cloudflare.com/application-profiles",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-09-29T13:00:00Z",
-    "description": "Cloudflare learns the structure of your HTTP requests and identifies deviations. You can add a positive security layer that helps reduce attack surface as AI makes it easier for attackers to generate and vary payloads.",
-    "category": "AI",
-    "beginner_score": 6,
-    "rank_score": 60.0
   },
   {
     "type": "article",
@@ -243,14 +232,47 @@
   },
   {
     "type": "article",
-    "title": "Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake",
-    "url": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake",
-    "source": "AWS Blog",
-    "published_at": "2026-09-30T17:22:31Z",
-    "description": "Amazon Aurora PostgreSQL now lets you directly query Apache Iceberg and Parquet data stored in your data lake alongside live operational data—no ETL pipelines required. Powered by DuckDB embedded within Aurora, this capability enables singl",
+    "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
+    "url": "https://blog.gitbutler.com/git-3-sha-256",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-01T16:57:03Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 5,
+    "rank_score": 55.3024106575
+  },
+  {
+    "type": "article",
+    "title": "RIP, vector database",
+    "url": "https://turbopuffer.com/blog/rip-vector-database",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-01T16:01:56Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 5,
+    "rank_score": 54.996206953796296
+  },
+  {
+    "type": "article",
+    "title": "Introducing Workers KV Instant — powered by Quicksilver",
+    "url": "https://blog.cloudflare.com/workers-kv-instant",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-01T13:00:00Z",
+    "description": "Workers KV Instant delivers sub-2ms p99 read latencies and 250ms global replication across Cloudflare’s 300+ edge locations. KV Instant eliminates cold-read penalties and uses the familiar Workers KV API.",
     "category": "Cloud",
     "beginner_score": 5,
-    "rank_score": 55.532209816388885
+    "rank_score": 53.98546621305555
+  },
+  {
+    "type": "article",
+    "title": "We want you to build the next Git platform on Cloudflare",
+    "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-01T13:00:00Z",
+    "description": "Cloudflare is hosting a competition to see who will build the next Git platform for an era of AI agents. Artifacts is in open beta, with Workers bindings, data jurisdiction controls, and event subscriptions for repository changes.",
+    "category": "AI",
+    "beginner_score": 5,
+    "rank_score": 53.98546621305555
   },
   {
     "type": "article",
@@ -261,7 +283,18 @@
     "description": "Cloudflare Registrar’s new search delivers fast, transparent results across 420+ extensions using Workers, Durable Objects, and WebSockets. Its expanded API and cf CLI also let agents search, register, and transfer domains.",
     "category": "AI",
     "beginner_score": 5,
-    "rank_score": 54.07378389046296
+    "rank_score": 50.0
+  },
+  {
+    "type": "article",
+    "title": "Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake",
+    "source": "AWS Blog",
+    "published_at": "2026-09-30T17:22:31Z",
+    "description": "Amazon Aurora PostgreSQL now lets you directly query Apache Iceberg and Parquet data stored in your data lake alongside live operational data—no ETL pipelines required. Powered by DuckDB embedded within Aurora, this capability enables singl",
+    "category": "Cloud",
+    "beginner_score": 5,
+    "rank_score": 50.0
   },
   {
     "type": "article",
@@ -298,36 +331,47 @@
   },
   {
     "type": "article",
-    "title": "AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support",
-    "url": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support",
+    "title": "Several vulnerabilities have been discovered in the Linux kernel",
+    "url": "https://lwn.net/Articles/1097401",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-01T23:10:44Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 4,
+    "rank_score": 47.37842917601852
+  },
+  {
+    "type": "article",
+    "title": "CSS Bed: Classless CSS themes to use as starting points in web development",
+    "url": "https://www.cssbed.com",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-01T21:21:32Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 4,
+    "rank_score": 46.77176250935185
+  },
+  {
+    "type": "article",
+    "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
+    "url": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview",
     "source": "AWS Blog",
-    "published_at": "2026-08-21T18:53:26Z",
-    "description": "AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.13, and Scala 2.13,&nbsp;delivering 30% lower pricing than previous AWS Glue versions.",
+    "published_at": "2026-10-01T20:04:04Z",
+    "description": "Introducing the public preview of AWS Well-Architected Agent, an AI-powered service that analyzes your AWS environment to deliver targeted, contextual recommendations for improving your applications' cost, security, performance, and resilie",
     "category": "AI",
-    "beginner_score": 5,
-    "rank_score": 50.0
-  },
-  {
-    "type": "article",
-    "title": "Cloudflare 上で Jev で作るほぼ0円運用可能な高品質なページ内検索",
-    "url": "https://zenn.dev/mazrean/articles/bd9b563ace18db",
-    "source": "Zenn",
-    "published_at": "2026-09-26T11:26:39Z",
-    "description": "自分は Go Proposal Weekly Digest というサイトを個人で運用しています。\nhttps://go-proposal-weekly-digest.mazrean.com\nGo 言語の Proposal と呼ばれる言語機能追加の提案を毎週 Claude Code がまとめるサイトで、公開してからそろそろ 8か月程度が立つものになります。\nありがたいことにユーザーが一定数付いて毎週 200PV 程度が安定してあるのですが、懐事情関係なく継続運用できるように C",
-    "category": "Cloud",
     "beginner_score": 4,
-    "rank_score": 40.0
+    "rank_score": 46.34139213898148
   },
   {
     "type": "article",
-    "title": "Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks",
-    "url": "https://blog.cloudflare.com/ai-era-framework",
+    "title": "One year later: Sovereign AI and the fight for choice",
+    "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later",
     "source": "Cloudflare Blog",
-    "published_at": "2026-09-29T13:00:00Z",
-    "description": "Cloudflare introduces an adaptive security framework connecting risk discovery, agent governance, runtime protection, and AI-powered response in a continuous learning loop.",
+    "published_at": "2026-10-01T13:04:19Z",
+    "description": "AI sovereignty is not a zero-sum game, but many governments now believe it is. Cloudflare's answer: more local open-source models, model-agnostic security tools, and a commitment to giving nations genuine choice.",
     "category": "AI",
     "beginner_score": 4,
-    "rank_score": 40.0
+    "rank_score": 44.00944769453704
   },
   {
     "type": "article",
@@ -339,6 +383,28 @@
     "category": "AI",
     "beginner_score": 4,
     "rank_score": 40.0
+  },
+  {
+    "type": "article",
+    "title": "How to speed up the Rust compiler in September 2026",
+    "url": "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html",
+    "source": "Hacker News",
+    "published_at": "2026-10-01T12:44:38Z",
+    "description": "230 points · 115 comments on Hacker News.",
+    "category": "Development",
+    "beginner_score": 3,
+    "rank_score": 33.90009584268518
+  },
+  {
+    "type": "article",
+    "title": "Claude Code の使用量はどう数えられているのか ── Max 20x で実測した重みは API 料金表と違った",
+    "url": "https://zenn.dev/tksfjt1024/articles/25c0ab111c277c",
+    "source": "Zenn",
+    "published_at": "2026-10-01T02:34:27Z",
+    "description": "Claude Code を Pro や Max のプランで使うと、使った分だけ「使用量制限」の枠を消費します。この制限には、5 時間ごとにリセットされる「5時間のセッション制限」と、週ごとにリセットされる「週間使用制限」の 2 つがあります[1]。この 5 時間枠と週間枠が何でどれだけ減るのかを、条件を揃えた実験で測り、使用量の計算式を求めました。\n主な結果は次のとおりです。\n\ncache read（キャッシュから読み直す分）も使用量に入ります。ただし、1 トークンの重みは ",
+    "category": "AI",
+    "beginner_score": 3,
+    "rank_score": 30.51018843527778
   },
   {
     "type": "article",
@@ -386,267 +452,234 @@
   },
   {
     "type": "article",
-    "title": "EDG C++ Compiler is open source",
-    "url": "https://github.com/edgcpp/compiler",
+    "title": "Apple's smart home camera reportedly won't record video",
+    "url": "https://www.theapplepost.com/2026/10/01/72882/apples-smart-home-camera-reportedly-wont-record-video",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-09-30T22:48:44Z",
+    "published_at": "2026-10-01T23:00:10Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.344524631203704
+    "rank_score": 27.319725472314815
   },
   {
     "type": "article",
-    "title": "56k.rip – the 1996 dial-up internet experience",
-    "url": "https://56k.rip",
+    "title": "Your Big Mac might cost more if McDonald's AI thinks people nearby can afford it",
+    "url": "https://neow.in/NGxhb3d6",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-09-30T22:08:50Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 27.122857964537037
-  },
-  {
-    "type": "article",
-    "title": "The top secret URSALA, RAQUEL, and FARRAH satellites",
-    "url": "https://www.thespacereview.com/article/4951/1",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-09-30T22:03:04Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 27.0908209275
-  },
-  {
-    "type": "article",
-    "title": "Gemini 4 Argon",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-09-30T20:04:37Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.432765371944445
-  },
-  {
-    "type": "article",
-    "title": "Halfspace experimental IDE for solid modeling with distance fields",
-    "url": "https://www.mattkeeter.com/projects/halfspace",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-09-30T19:44:37Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.321654260833334
-  },
-  {
-    "type": "article",
-    "title": "EDG C++ front-end goes public",
-    "url": "https://edgcpp.org",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-09-30T19:26:37Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.221654260833333
-  },
-  {
-    "type": "article",
-    "title": "Surprisingly complex waves reveal the brain's inner workings",
-    "url": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-09-30T19:04:50Z",
+    "published_at": "2026-10-01T22:15:57Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 26.100635742314815
+    "rank_score": 27.074077324166666
   },
   {
     "type": "article",
-    "title": "Before pixels: Modular industrial dashboards",
-    "url": "https://unsung.aresluna.org/before-pixels-modular-industrial-dashboards",
+    "title": "Aweb – Communication for AI Agents",
+    "url": "https://aweb.ai",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-09-30T18:49:06Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.013228334907406
-  },
-  {
-    "type": "article",
-    "title": "5x faster Edge Functions: V8 isolates to Firecracker MicroVMs",
-    "url": "https://www.netlify.com/blog/edge-functions-firecracker-microvms",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-09-30T18:17:45Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.839061668240742
-  },
-  {
-    "type": "article",
-    "title": "CHOMPI portable sampler instrument is now open-source (hardware and software)",
-    "url": "https://www.chompiclub.com/opensource",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-09-30T17:42:13Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.641654260833334
-  },
-  {
-    "type": "article",
-    "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
-    "url": "https://github.com/magnitudedev/magnitude",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-09-30T17:37:40Z",
+    "published_at": "2026-10-01T22:02:31Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 25.616376483055557
+    "rank_score": 26.999447694537036
   },
   {
     "type": "article",
-    "title": "Celebrating Our Newest AWS Heroes – September 2026",
-    "url": "https://aws.amazon.com/blogs/aws/celebrating-our-newest-aws-heroes-september-2026",
-    "source": "AWS Blog",
-    "published_at": "2026-09-30T17:04:05Z",
-    "description": "Today, we’re excited to introduce the newest members of the AWS Heroes program. AWS Heroes are a vibrant, worldwide group of AWS experts who go above and beyond to share knowledge, mentor others, and build thriving communities. These indivi",
+    "title": "Using Opus 5.5 to discover a new eyewitness record of the dodo",
+    "url": "https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-01T20:48:37Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.588892138981482
+  },
+  {
+    "type": "article",
+    "title": "Show HN: Janus – Go binary that runs GGUF models via Vulkan on AMD/Intel/Nvidia",
+    "url": "https://github.com/Vibra-Ingenn/Janus",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-01T20:36:47Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.523151398240742
+  },
+  {
+    "type": "article",
+    "title": "Automatic Transmission – a data-privacy study of connected vehicles",
+    "url": "https://automatictransmission.khoury.northeastern.edu/index.html",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-01T20:23:27Z",
+    "description": "Comments",
+    "category": "Security",
+    "beginner_score": 2,
+    "rank_score": 26.449077324166666
+  },
+  {
+    "type": "article",
+    "title": "SvelteKit 3",
+    "url": "https://svelte.dev/blog/sveltekit-3-is-here",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-01T20:14:23Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.398706953796296
+  },
+  {
+    "type": "article",
+    "title": "ArXiv's Updated Rate Limit Policy",
+    "url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-01T20:12:15Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.386855101944445
+  },
+  {
+    "type": "article",
+    "title": "Pi 1.0",
+    "url": "https://earendil.com/posts/pi-1-0",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-01T19:33:05Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.169262509351853
+  },
+  {
+    "type": "article",
+    "title": "Pi Durable",
+    "url": "https://earendil.com/posts/pi-durable",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-01T19:24:08Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.11954028712963
+  },
+  {
+    "type": "article",
+    "title": "Oxygen-deprived underwater zones may not be “dead zones” but clue to early life",
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026AV002570",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-01T19:03:42Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.00602176861111
+  },
+  {
+    "type": "article",
+    "title": "Vote on which of Hacker News' challenges for AI have been met",
+    "url": "https://stoppels.ch/goalposts",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-01T17:32:43Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 25.500558805648147
+  },
+  {
+    "type": "article",
+    "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+    "url": "https://blog.cloudflare.com/clef-decision-models",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-01T16:18:57Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.09074399083333
+  },
+  {
+    "type": "article",
+    "title": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers",
+    "url": "https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-01T15:07:42Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.6949106575
+  },
+  {
+    "type": "article",
+    "title": "Ask HN: Who is hiring? (October 2026)",
+    "url": "https://news.ycombinator.com/item?id=49922569",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-01T15:02:07Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.66389213898148
+  },
+  {
+    "type": "article",
+    "title": "Cloudflare OS: your company’s agent workspace, managed for you",
+    "url": "https://blog.cloudflare.com/managed-cloudflare-os",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-01T13:00:00Z",
+    "description": "Cloudflare OS gives everyone in your organization an agent workspace that knows how your company works and connects to its data and systems. We’re opening the waitlist for fully managed deployments that you’ll be able to launch in a few cli",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 23.985466213055556
+  },
+  {
+    "type": "article",
+    "title": "Announcing Cloudflare K2: serverless event streams",
+    "url": "https://blog.cloudflare.com/cloudflare-k2-streams",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-01T13:00:00Z",
+    "description": "Cloudflare K2 is a serverless event streaming service built directly on top of R2 object storage for high-scale data movement and long-term retention. By decoupling producers and consumers at the edge, K2 enables durable, ordered log stream",
     "category": "Cloud",
     "beginner_score": 2,
-    "rank_score": 25.42980240898148
+    "rank_score": 23.985466213055556
   },
   {
     "type": "article",
-    "title": "Great Dirhombicosidodecahedron (\"Miller's Monster\")",
-    "url": "https://www.software3d.com/MillersMonster.php",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-09-30T17:00:44Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.41119129787037
-  },
-  {
-    "type": "article",
-    "title": "Coltrane's Tone Circle",
-    "url": "https://jtomschroeder.com/blog/tone-circle",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-09-30T14:59:42Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 24.738783890462962
-  },
-  {
-    "type": "article",
-    "title": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose",
-    "url": "https://lathoa.ai/en",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-09-30T14:38:57Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 24.623506112685185
-  },
-  {
-    "type": "article",
-    "title": "A brief history of the Bloomberg terminal",
-    "url": "https://spectrum.ieee.org/bloomberg-terminal",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-09-30T14:34:07Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 24.596654260833333
-  },
-  {
-    "type": "article",
-    "title": "Cloudflare Impact reaches $100 million in donations",
-    "url": "https://blog.cloudflare.com/100-million-donations",
+    "title": "Support for modern cryptographic algorithms in Workers",
+    "url": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support",
     "source": "Cloudflare Blog",
-    "published_at": "2026-09-30T13:01:55Z",
-    "description": "This week, Cloudflare's Impact programs will reach $100 million in donated services. This milestone means that thousands of entities including journalists, civil society, state and local governments, election management bodies, and public s",
+    "published_at": "2026-10-01T13:00:00Z",
+    "description": "Cloudflare Workers is adding opt-in support for post-quantum-resistant algorithms ML-KEM and ML-DSA. You can try it today.",
     "category": "Cloud",
     "beginner_score": 2,
-    "rank_score": 24.084432038611112
+    "rank_score": 23.985466213055556
   },
   {
     "type": "article",
-    "title": "Cut your AI spend with AI Gateway's Auto Router",
-    "url": "https://blog.cloudflare.com/auto-router",
+    "title": "Introducing Cloudflare Basin: an open, serverless data platform, now generally available",
+    "url": "https://blog.cloudflare.com/cloudflare-basin",
     "source": "Cloudflare Blog",
-    "published_at": "2026-09-30T13:00:00Z",
-    "description": "Cloudflare AI Gateway now features a model router that evaluates request complexity using an edge-deployed classifier to select the optimal model. By balancing expected output quality against token costs, organizations can dramatically cut ",
+    "published_at": "2026-10-01T12:58:00Z",
+    "description": "Cloudflare Basin is built on Apache Iceberg and R2 Object Storage. With general availability, developers can ingest, manage, and query large datasets at scale without paying data egress fees.",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 24.073783890462963
+    "rank_score": 23.974355101944443
   },
   {
     "type": "article",
-    "title": "Detect and send production issues straight to your agent",
-    "url": "https://blog.cloudflare.com/real-time-issue-detection",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-09-30T13:00:00Z",
-    "description": "You can now use built-in error monitoring in Cloudflare Workers to group production failures and send stack traces, logs, traces, and application context directly to a coding agent to investigate further and open a pull request.",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 24.073783890462963
-  },
-  {
-    "type": "article",
-    "title": "Pay Per Use: when AI uses your work, you should get paid",
-    "url": "https://blog.cloudflare.com/pay-per-use",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-09-30T13:00:00Z",
-    "description": "Pay Per Use is now in beta. AI companies report when they use publishers’ content, and Cloudflare handles billing, payouts, and reporting, so our customers are paid according to use.",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 24.073783890462963
-  },
-  {
-    "type": "article",
-    "title": "Cloudflare Containers, rebuilt to scale agent sandboxes",
-    "url": "https://blog.cloudflare.com/faster-agent-sandboxes",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-09-30T12:58:00Z",
-    "description": "Cloudflare Containers now start 6x faster, let your agent choose each sandbox's image and instance type at runtime, and support filesystem snapshots in public beta, all controlled from a Durable Object.",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 24.062672779351853
-  },
-  {
-    "type": "article",
-    "title": "The Internet has a second audience",
-    "url": "https://blog.cloudflare.com/agentic-web",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-09-30T12:58:00Z",
-    "description": "More than half the traffic reaching sites on Cloudflare is now automated, and AI agents are the fastest-growing part of it. We're giving site owners the tools to see who's visiting, decide who gets in, and charge for access.",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 24.062672779351853
-  },
-  {
-    "type": "article",
-    "title": "You said no MCP",
-    "url": "https://earendil.com/posts/you-said-no-mcp",
+    "title": "StreetComplete on iOS is now in public beta",
+    "url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-09-30T09:55:23Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 23.048135742314816
-  },
-  {
-    "type": "article",
-    "title": "Singapore govt dating app uses Gale-Shapley stable marriage algorithm",
-    "url": "https://twitter.com/tuakdotsol/status/2105105417760391258",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-09-30T09:27:04Z",
+    "published_at": "2026-10-01T10:59:57Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 22.890820927500002
+    "rank_score": 23.318521768611113
+  },
+  {
+    "type": "article",
+    "title": "『構文解析のしくみ』が出版されました（出版にあたって宣伝と裏話）",
+    "url": "https://zenn.dev/kmizu/articles/2026-09-parser-book",
+    "source": "Zenn",
+    "published_at": "2026-09-30T12:12:41Z",
+    "description": "はじめに\nこんにちは！水島です。\n2026年9月28日に、ZEN大学出版会から『構文解析のしくみ 電卓から言語処理系まで自分で書く』という本を出しました。\n\n出版社のページ：https://zen.ac.jp/press/books/b_0019\n\n通販ページ：\n\nAmazon：https://amzn.asia/d/030QeHhu\n\n最短で10月7日配達（2026/09/30現在）\n\n\n楽天ブックス：https://books.rakuten.co.jp/rb/18780",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
   },
   {
     "type": "article",
@@ -655,39 +688,6 @@
     "source": "Zenn",
     "published_at": "2026-09-30T09:00:08Z",
     "description": "こんにちは！ サイボウズ株式会社 デザインテクノロジストの saku (@sakupi01) です。\n\n はじめに\nサイボウズは 2025 年 4 月より、W3C のメンバーに加入しました。\nhttps://blog.cybozu.io/entry/joining-w3c\n標準化プロセスに関わることができるようになるための最初の一歩として、フロントエンドエンジニアの一部のメンバーは積極的に Web 標準のキャッチアップを行っています。\nそこで、毎月メンバーが興味を持った We",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 22.74119129787037
-  },
-  {
-    "type": "article",
-    "title": "Doing a Machine Learning PhD While Working in Japan",
-    "url": "https://www.tokyodev.com/articles/doing-a-machine-learning-phd-while-working-in-japan",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-09-30T07:33:45Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 22.261283890462963
-  },
-  {
-    "type": "article",
-    "title": "Why the Bronze Age Collapsed",
-    "url": "https://www.worksinprogress.news/p/why-really-caused-the-bronze-age",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-09-29T10:10:18Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "A Closer Look at Australopithecus Africanus",
-    "url": "https://lflank.wordpress.com/2026/09/29/a-closer-look-at-australopithecus-africanus",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-09-29T19:27:28Z",
-    "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
     "rank_score": 20.0
@@ -705,6 +705,72 @@
   },
   {
     "type": "article",
+    "title": "Cloudflare Impact reaches $100 million in donations",
+    "url": "https://blog.cloudflare.com/100-million-donations",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-09-30T13:01:55Z",
+    "description": "This week, Cloudflare's Impact programs will reach $100 million in donated services. This milestone means that thousands of entities including journalists, civil society, state and local governments, election management bodies, and public s",
+    "category": "Cloud",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Cut your AI spend with AI Gateway's Auto Router",
+    "url": "https://blog.cloudflare.com/auto-router",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-09-30T13:00:00Z",
+    "description": "Cloudflare AI Gateway now features a model router that evaluates request complexity using an edge-deployed classifier to select the optimal model. By balancing expected output quality against token costs, organizations can dramatically cut ",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Detect and send production issues straight to your agent",
+    "url": "https://blog.cloudflare.com/real-time-issue-detection",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-09-30T13:00:00Z",
+    "description": "You can now use built-in error monitoring in Cloudflare Workers to group production failures and send stack traces, logs, traces, and application context directly to a coding agent to investigate further and open a pull request.",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Pay Per Use: when AI uses your work, you should get paid",
+    "url": "https://blog.cloudflare.com/pay-per-use",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-09-30T13:00:00Z",
+    "description": "Pay Per Use is now in beta. AI companies report when they use publishers’ content, and Cloudflare handles billing, payouts, and reporting, so our customers are paid according to use.",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Cloudflare Containers, rebuilt to scale agent sandboxes",
+    "url": "https://blog.cloudflare.com/faster-agent-sandboxes",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-09-30T12:58:00Z",
+    "description": "Cloudflare Containers now start 6x faster, let your agent choose each sandbox's image and instance type at runtime, and support filesystem snapshots in public beta, all controlled from a Durable Object.",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "The Internet has a second audience",
+    "url": "https://blog.cloudflare.com/agentic-web",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-09-30T12:58:00Z",
+    "description": "More than half the traffic reaching sites on Cloudflare is now automated, and AI agents are the fastest-growing part of it. We're giving site owners the tools to see who's visiting, decide who gets in, and charge for access.",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
     "title": "Building a certificate authority for the whole Internet",
     "url": "https://blog.cloudflare.com/cloudflare-certificate-authority",
     "source": "Cloudflare Blog",
@@ -716,23 +782,12 @@
   },
   {
     "type": "article",
-    "title": "Building a post-quantum certificate authority with Merkle Tree Certificates",
-    "url": "https://blog.cloudflare.com/pq-ca-with-mtcs",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-09-29T13:00:00Z",
-    "description": "As post-quantum signatures threaten to inflate TLS handshakes and certificate transparency logs, Merkle Tree Certificates offer a path to compact, auditable authentication. Cloudflare’s new certificate authority will support MTC issuance at",
+    "title": "Celebrating Our Newest AWS Heroes – September 2026",
+    "url": "https://aws.amazon.com/blogs/aws/celebrating-our-newest-aws-heroes-september-2026",
+    "source": "AWS Blog",
+    "published_at": "2026-09-30T17:04:05Z",
+    "description": "Today, we’re excited to introduce the newest members of the AWS Heroes program. AWS Heroes are a vibrant, worldwide group of AWS experts who go above and beyond to share knowledge, mentor others, and build thriving communities. These indivi",
     "category": "Cloud",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account",
-    "url": "https://blog.cloudflare.com/threat-signals",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-09-29T13:00:00Z",
-    "description": "We are expanding access to Cloudforce One's Threat Events Platform to every Cloudflare account and introducing Threat Signals. Threat Signals automatically parses open-source threat reporting, extracts structured indicators, and connects th",
-    "category": "AI",
     "beginner_score": 2,
     "rank_score": 20.0
   },
@@ -823,60 +878,5 @@
     "category": "AI",
     "beginner_score": 2,
     "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "AWS Weekly Roundup: Student Rewards on AWS Builder Center, Local Zone in Las Vegas, and more (August 24, 2026)",
-    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026",
-    "source": "AWS Blog",
-    "published_at": "2026-08-24T16:20:15Z",
-    "description": "During my time at AWS, I have always looked for opportunities to work with students. I have delivered over 50 talks at universities across the region, and watching the potential in the room is always a strong motivator. It reminds me of why",
-    "category": "Cloud",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
-    "url": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types",
-    "source": "AWS Blog",
-    "published_at": "2026-09-30T22:10:00Z",
-    "description": "Amazon S3 Tables now offer complete support for the Apache Iceberg V3 spec. Upgrade existing V2 tables or create new V3 tables with built-in compaction, maintenance, and engine compatibility.",
-    "category": "AI",
-    "beginner_score": 0,
-    "rank_score": 7.129339446018519
-  },
-  {
-    "type": "article",
-    "title": "Automating Wi-Fi setup testing on the ESP32",
-    "url": "https://groundrun.io/blog/automating-wi-fi-setup-testing-on-the-esp32",
-    "source": "Hacker News",
-    "published_at": "2026-09-30T22:07:51Z",
-    "description": "11 points · 0 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 7.117395001574074
-  },
-  {
-    "type": "article",
-    "title": "pldb: programming languages papers",
-    "url": "https://pldb.kirancodes.me",
-    "source": "Hacker News",
-    "published_at": "2026-09-30T21:23:24Z",
-    "description": "11 points · 0 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 6.8704505571296295
-  },
-  {
-    "type": "article",
-    "title": "Functional Ultrasound Imaging (fUSI) from scratch",
-    "url": "https://www.neuroai.science/p/functional-ultrasound-imaging-from",
-    "source": "Hacker News",
-    "published_at": "2026-09-30T20:06:39Z",
-    "description": "23 points · 4 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 6.4440616682407414
   }
 ]
