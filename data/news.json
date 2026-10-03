@@ -78,22 +78,22 @@
   },
   {
     "type": "article",
+    "title": "【最新v1.0.5公開】AI-Slopな日本語を構造レベルで読みやすくするSkill『yomiyasu（よみやす）』を作りました",
+    "url": "https://zenn.dev/algoartis/articles/0b1c731881b25c",
+    "source": "Zenn",
+    "published_at": "2026-09-30T18:28:20Z",
+    "description": "2026/10/04追記\nyomiyasuは日々更新を重ねております！\n特にv1.0.4以降、「公開当時より格段に読みやすくなった」との声を多数いただいております(大感謝...)！\n\n文末表現を文書の立場で統一するようにするなど、変更は多岐にわたります。\n最新版にアップデートするコマンドはこちら👇️\nnpx skills update yomiyasu\nリリースの詳細情報はこちら👇️\nhttps://github.com/nanaism/yomiyasu/releases\n\n",
+    "category": "AI",
+    "beginner_score": 9,
+    "rank_score": 90.0
+  },
+  {
+    "type": "article",
     "title": "AI is changing developer work. Here are three skills to strengthen.",
     "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
     "source": "GitHub Blog",
     "published_at": "2026-10-02T15:00:00Z",
     "description": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow. \n The post  AI is changing developer work. Here are three skills to strengthen.  appeared first on  The GitHub Blog .",
-    "category": "AI",
-    "beginner_score": 9,
-    "rank_score": 94.77766236064815
-  },
-  {
-    "type": "article",
-    "title": "AI-Slopな日本語を構造レベルで読みやすくするSkill『yomiyasu（よみやす）』を作りました",
-    "url": "https://zenn.dev/algoartis/articles/0b1c731881b25c",
-    "source": "Zenn",
-    "published_at": "2026-09-30T18:28:20Z",
-    "description": "TL;DR\n本日、AI生成された臭くて読みにくい日本語を、自然で読みやすい日本語へ書き直すスキル『yomiyasu（よみやす）』をリリースしました。\n従来のAI-Slop対策スキルで用いられてきた 「単語を禁止する」手法から改善し、統語構造（=誰が・何を・どうした）の復元と、比喩動詞の具体化に特化していることが特徴です。\nClaude Code, Codex, Cursorなどの主要なAI Agentで/yomiyasuで呼び出せます。\n// 導入コマンド\nnpx skill",
     "category": "AI",
     "beginner_score": 9,
     "rank_score": 90.0
@@ -144,6 +144,28 @@
   },
   {
     "type": "article",
+    "title": "Cloudflare の CLI を wrangler から cf に移行する",
+    "url": "https://zenn.dev/sora_kumo/articles/cloudflare-to-cf",
+    "source": "Zenn",
+    "published_at": "2026-09-29T04:43:50Z",
+    "description": "はじめに\nCloudflare から次世代の統合 CLI ツール cf（現在 v1.0.0-beta）が登場しました。\n従来の wrangler（wrangler.json / wrangler.jsonc / wrangler.toml）から、TypeScript ベースの型安全な設定ファイル cloudflare.config.ts への移行が推奨されています。\n公式には cf migrate という移行コマンドが用意されていますが、実行するだけでそのまま本番稼働できるわ",
+    "category": "Cloud",
+    "beginner_score": 7,
+    "rank_score": 70.0
+  },
+  {
+    "type": "article",
+    "title": "Jujutsu と出会い、15 年使った Git にもう戻れなくなった理由",
+    "url": "https://zenn.dev/oukayuka/articles/15years-git-then-jujutsu",
+    "source": "Zenn",
+    "published_at": "2026-09-28T23:30:05Z",
+    "description": "2026 年、初めて自分の意思で VCS を選択した\nふりかえると私にとって VCS（バージョン管理システム）は、会社に指定されたものを使ってきただけでした。それまでの会社では社内にサーバを立てて Subversion を使うことが多かった中、2011 年から働き出した会社では GitHub が導入されており、そのため個々のエンジニアは Git を使うことを求められました。Git / GitHub を本格的に使い始めたのはそのときからです。\nしかし Subversion と比",
+    "category": "Development",
+    "beginner_score": 7,
+    "rank_score": 70.0
+  },
+  {
+    "type": "article",
     "title": "JavaScript Temporal is coming",
     "url": "https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming",
     "source": "MDN",
@@ -184,18 +206,7 @@
     "description": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine.",
     "category": "AI",
     "beginner_score": 5,
-    "rank_score": 55.18738458287037
-  },
-  {
-    "type": "article",
-    "title": "Strands Decider 2Bについて理解する",
-    "url": "https://zenn.dev/fusic/articles/db6e62832a4a1f",
-    "source": "Zenn",
-    "published_at": "2026-10-02T13:37:55Z",
-    "description": "はじめに\nFusicのレオナです。\nStrands Agentsは、AWSが開発し、オープンソースとして公開しているAIエージェント開発用SDKです。LLMに与える指示と利用可能なツールを定義することで、状況に応じてツールを選び、その実行結果を踏まえながら処理を進めるエージェントを構築できます。AWS専用のSDKではなく、Amazon Bedrock以外のモデルAPIやローカルモデルにも対応しています。\n今回のブログで取り上げる「Strands Decider 2B」は、St",
-    "category": "AI",
-    "beginner_score": 5,
-    "rank_score": 54.32164384212963
+    "rank_score": 50.0
   },
   {
     "type": "article",
@@ -206,7 +217,7 @@
     "description": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings.",
     "category": "AI",
     "beginner_score": 5,
-    "rank_score": 54.267477175462965
+    "rank_score": 50.0
   },
   {
     "type": "article",
@@ -276,14 +287,14 @@
   },
   {
     "type": "article",
-    "title": "The Forgetful CPU (Linux on M4)",
-    "url": "https://yuka.dev/blog-2026-10-02-linux-m4.html",
+    "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+    "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-02T14:22:12Z",
+    "published_at": "2026-10-03T19:14:48Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 4,
-    "rank_score": 44.56766236064815
+    "rank_score": 46.41899077564815
   },
   {
     "type": "article",
@@ -294,7 +305,7 @@
     "description": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack.",
     "category": "Cloud",
     "beginner_score": 4,
-    "rank_score": 44.11099569398148
+    "rank_score": 40.0
   },
   {
     "type": "article",
@@ -305,7 +316,7 @@
     "description": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products.",
     "category": "Cloud",
     "beginner_score": 4,
-    "rank_score": 44.11099569398148
+    "rank_score": 40.0
   },
   {
     "type": "article",
@@ -316,18 +327,7 @@
     "description": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse.",
     "category": "AI",
     "beginner_score": 4,
-    "rank_score": 44.11099569398148
-  },
-  {
-    "type": "article",
-    "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
-    "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-02T02:51:27Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 4,
-    "rank_score": 40.73016236064815
+    "rank_score": 40.0
   },
   {
     "type": "article",
@@ -364,14 +364,25 @@
   },
   {
     "type": "article",
-    "title": "Claude Code の使用量はどう数えられているのか ── Max 20x で実測した重みは API 料金表と違った",
-    "url": "https://zenn.dev/tksfjt1024/articles/25c0ab111c277c",
-    "source": "Zenn",
-    "published_at": "2026-10-01T02:34:27Z",
-    "description": "Claude Code を Pro や Max のプランで使うと、使った分だけ「使用量制限」の枠を消費します。この制限には、5 時間ごとにリセットされる「5時間のセッション制限」と、週ごとにリセットされる「週間使用制限」の 2 つがあります[1]。この 5 時間枠と週間枠が何でどれだけ減るのかを、条件を揃えた実験で測り、使用量の計算式を求めました。\n主な結果は次のとおりです。\n\ncache read（キャッシュから読み直す分）も使用量に入ります。ただし、1 トークンの重みは ",
-    "category": "AI",
+    "title": "How to hack time, with C2PA",
+    "url": "https://www.da.vidbuchanan.co.uk/blog/hacking-time.html",
+    "source": "Hacker News",
+    "published_at": "2026-10-03T18:52:06Z",
+    "description": "11 points · 2 comments on Hacker News.",
+    "category": "Other",
     "beginner_score": 3,
-    "rank_score": 30.0
+    "rank_score": 36.29287966453704
+  },
+  {
+    "type": "article",
+    "title": "Docker has always used microVMs (well since 2016)",
+    "url": "https://dave.recoil.org/docker-has-always-used-microvms",
+    "source": "Hacker News",
+    "published_at": "2026-10-03T15:55:31Z",
+    "description": "12 points · 6 comments on Hacker News.",
+    "category": "Tools",
+    "beginner_score": 3,
+    "rank_score": 35.311861146018515
   },
   {
     "type": "article",
@@ -419,265 +430,210 @@
   },
   {
     "type": "article",
-    "title": "Show HN: Pyxel – A Python retro game engine with built-in art and sound editors",
-    "url": "https://github.com/kitao/pyxel",
-    "source": "Hacker News",
-    "published_at": "2026-10-01T23:26:35Z",
-    "description": "65 points · 8 comments on Hacker News.",
-    "category": "Development",
-    "beginner_score": 3,
-    "rank_score": 30.0
-  },
-  {
-    "type": "article",
-    "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-    "url": "https://allenai.org/blog/astabrief",
+    "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+    "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-02T21:25:25Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.918866064351853
-  },
-  {
-    "type": "article",
-    "title": "Every SaaS business will become a harness around a model",
-    "url": "https://blog.sshh.io/p/the-harness-is-the-company",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-02T21:06:56Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.816180879166666
-  },
-  {
-    "type": "article",
-    "title": "Zig v0.17.0",
-    "url": "https://ziglang.org/download/0.17.0/release-notes.html",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-02T20:56:36Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.75877347175926
-  },
-  {
-    "type": "article",
-    "title": "Show HN: Made an open-source Lego AI generator",
-    "url": "https://github.com/anteloc/ldraw-nova",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-02T20:00:15Z",
+    "published_at": "2026-10-03T22:18:13Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 26.445717916203705
+    "rank_score": 27.43797225712963
   },
   {
     "type": "article",
-    "title": "Updates to Full Disk Access in macOS",
-    "url": "https://developer.apple.com/news/?id=p6zjojqw",
+    "title": "Federal judge calls Flock 'indiscriminate mass surveillance'",
+    "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-02T19:37:01Z",
+    "published_at": "2026-10-03T22:07:13Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.31664384212963
+    "rank_score": 27.37686114601852
   },
   {
     "type": "article",
-    "title": "Muse Gadgets",
-    "url": "https://gadgets.muse.ai",
+    "title": "Reasons I didn't become an EMT, ranked",
+    "url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-02T19:26:54Z",
+    "published_at": "2026-10-03T20:49:15Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.260440138425928
+    "rank_score": 26.94371299787037
   },
   {
     "type": "article",
-    "title": "Apple Pass Designer",
-    "url": "https://developer.apple.com/pass-designer",
+    "title": "Surely you have ultra-wideband radios on your bins too?",
+    "url": "https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-02T19:06:56Z",
+    "published_at": "2026-10-03T20:27:44Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.1495142125
+    "rank_score": 26.824175960833333
   },
   {
     "type": "article",
-    "title": "From the creator of Redis; run LLM locally with ds4",
-    "url": "https://dwarfstar.sh",
+    "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+    "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-02T18:01:16Z",
+    "published_at": "2026-10-03T18:29:30Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.167324108981482
+  },
+  {
+    "type": "article",
+    "title": "What Meta got right with Muse",
+    "url": "https://metedata.substack.com/p/what-meta-got-right-with-muse",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-03T18:23:48Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.135657442314816
+  },
+  {
+    "type": "article",
+    "title": "Hole Punch: Sling your spaceship around gravitational fields",
+    "url": "https://notoriousbfg.com/hole-punch",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-03T18:06:45Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.040935220092592
+  },
+  {
+    "type": "article",
+    "title": "Treachery in the Rodin Museum 3D scan verdict",
+    "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-03T18:01:27Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.01149077564815
+  },
+  {
+    "type": "article",
+    "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
+    "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-03T17:44:29Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 25.784699397685184
+    "rank_score": 25.91723151638889
   },
   {
     "type": "article",
-    "title": "One month coding with GLM 5.3 Flash",
-    "url": "https://wagtail.org/blog/one-month-on-glm-53-flash",
+    "title": "Agents don't need memory, they need documentation",
+    "url": "https://liao.gg/blog/agents-dont-need-memory",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-02T15:29:15Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 24.94016236064815
-  },
-  {
-    "type": "article",
-    "title": "With most information hidden, the game Stratego had stumped AI until now",
-    "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-02T14:11:24Z",
+    "published_at": "2026-10-03T17:03:37Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 24.507662360648148
+    "rank_score": 25.690194479351852
   },
   {
     "type": "article",
-    "title": "Venice’s failed war against Constantinople led to the first bond market",
-    "url": "https://bigthink.com/books/a-fabulous-debt",
+    "title": "RetailReady (YC W24) Is Hiring",
+    "url": "https://www.ycombinator.com/companies/retailready/jobs/bFcgIe4-implementations",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-02T13:17:47Z",
+    "published_at": "2026-10-03T17:00:12Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 24.20979199027778
+    "rank_score": 25.67121299787037
   },
   {
     "type": "article",
-    "title": "8 major updates to Cloudflare Observability",
-    "url": "https://blog.cloudflare.com/one-observability-platform",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-02T13:00:00Z",
-    "description": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
+    "title": "FTL: A new operating system for clouds",
+    "url": "https://ftl-os.org",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-03T15:02:36Z",
+    "description": "Comments",
     "category": "Cloud",
     "beginner_score": 2,
-    "rank_score": 24.11099569398148
+    "rank_score": 25.017879664537038
   },
   {
     "type": "article",
-    "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
-    "url": "https://blog.cloudflare.com/enterprise-for-all-update",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-02T13:00:00Z",
-    "description": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these tools internally, and",
-    "category": "Cloud",
+    "title": "Watson Jr. memo about CDC 6600 (1963)",
+    "url": "https://www.computerhistory.org/revolution/supercomputers/10/33/62",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-03T12:27:31Z",
+    "description": "Comments",
+    "category": "Web",
     "beginner_score": 2,
-    "rank_score": 24.11099569398148
+    "rank_score": 24.156305590462964
   },
   {
     "type": "article",
-    "title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
-    "url": "https://blog.cloudflare.com/protected-quick-tunnels",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-02T13:00:00Z",
-    "description": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on either side.",
+    "title": "Kolibri: A Sovereign Open-Weight Model",
+    "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-03T09:36:04Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 23.203805590462963
+  },
+  {
+    "type": "article",
+    "title": "Show HN: Thoreau BASIC – What if BASIC hadn't gone out of fashion?",
+    "url": "https://thoreaubasic.com",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-03T07:28:54Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 22.49732410898148
+  },
+  {
+    "type": "article",
+    "title": "New York City should carefully measure a new tree",
+    "url": "https://blog.willmeye.rs/new-york-city-should-carefully-measure-a-new-tree",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-03T02:28:03Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.825935220092592
+  },
+  {
+    "type": "article",
+    "title": "Celebrating the 100th birthday of the kidney donated to him as a teenager",
+    "url": "https://www.whec.com/top-news/webster-man-celebrating-the-100th-birthday-of-the-kidney-his-mom-donated-to-him-as-a-teenager",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-01T16:32:40Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Gboard Conveyor Belt Version",
+    "url": "https://github.com/google/mozc-devices/tree/main/mozc-conveyorbelt",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-01T21:54:26Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
+    "url": "https://pipod.dev",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-02T19:10:38Z",
+    "description": "Comments",
     "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 24.11099569398148
-  },
-  {
-    "type": "article",
-    "title": "Building for good: How civil society organizations are automating on Cloudflare",
-    "url": "https://blog.cloudflare.com/civil-society-automation",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-02T13:00:00Z",
-    "description": "Some of the world's leading organizations are building the future of non-profit work with Cloudflare.",
-    "category": "Cloud",
-    "beginner_score": 2,
-    "rank_score": 24.11099569398148
-  },
-  {
-    "type": "article",
-    "title": "2026 Birthday week: network performance update",
-    "url": "https://blog.cloudflare.com/network-performance-birthday-week-2026",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-02T13:00:00Z",
-    "description": "Cloudflare now ranks as the fastest provider across 74% of the top 1,000 global networks. By incorporating background telemetry from Cloudflare Challenge Pages, we have expanded our real-user measurement scale while maintaining user privacy",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 24.11099569398148
-  },
-  {
-    "type": "article",
-    "title": "Our Project Suncatcher prototype satellite is in orbit",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-02T11:13:02Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 23.516736434722223
-  },
-  {
-    "type": "article",
-    "title": "A 12-year sequence of telescope images of a star and four planets orbiting",
-    "url": "https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-02T11:07:17Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 23.484791990277778
-  },
-  {
-    "type": "article",
-    "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
-    "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-01T22:23:07Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Mike Tomlin spent 12 years building a Minecraft city",
-    "url": "https://www.nytimes.com/athletic/7648198/2026/10/01/mike-tomlin-minecraft-nfl-coach",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-01T18:20:18Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Loss of cell identity drives human aging: Two new papers",
-    "url": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-01T20:02:57Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "FLUX 3 Image",
-    "url": "https://bfl.ai/models/flux-3-image",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-01T19:24:29Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Sites in ChatGPT",
-    "url": "https://chatgpt.com/features/sites",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-01T22:22:21Z",
-    "description": "Comments",
-    "category": "Web",
     "beginner_score": 2,
     "rank_score": 20.0
   },
@@ -689,6 +645,72 @@
     "published_at": "2026-09-30T09:00:08Z",
     "description": "こんにちは！ サイボウズ株式会社 デザインテクノロジストの saku (@sakupi01) です。\n\n はじめに\nサイボウズは 2025 年 4 月より、W3C のメンバーに加入しました。\nhttps://blog.cybozu.io/entry/joining-w3c\n標準化プロセスに関わることができるようになるための最初の一歩として、フロントエンドエンジニアの一部のメンバーは積極的に Web 標準のキャッチアップを行っています。\nそこで、毎月メンバーが興味を持った We",
     "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "大きなボトルネックをごろごろ見つける方法 - 優秀なエンジニアになる",
+    "url": "https://zenn.dev/339/articles/56ef43afde8bd2",
+    "source": "Zenn",
+    "published_at": "2026-09-28T23:46:04Z",
+    "description": "以下の記事を読んで、ボトルネックについての考えが私とだいぶ違うなあと思ったので、未来の大きなボトルネックを簡単にたくさん見つける方法について書きます。\nhttps://www.pospome.work/entry/2026/09/28/152221\n\n ボトルネックは爆弾ではない\nそもそもですが、緊急性のない重要な課題やボトルネックの発現の仕方について、私は 爆弾ではない と思います。というのは、緊急性のない重要な課題というのは、期日にいきなり爆発するというよりは、（もし期日",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "8 major updates to Cloudflare Observability",
+    "url": "https://blog.cloudflare.com/one-observability-platform",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-02T13:00:00Z",
+    "description": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
+    "category": "Cloud",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
+    "url": "https://blog.cloudflare.com/enterprise-for-all-update",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-02T13:00:00Z",
+    "description": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these tools internally, and",
+    "category": "Cloud",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
+    "url": "https://blog.cloudflare.com/protected-quick-tunnels",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-02T13:00:00Z",
+    "description": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on either side.",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Building for good: How civil society organizations are automating on Cloudflare",
+    "url": "https://blog.cloudflare.com/civil-society-automation",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-02T13:00:00Z",
+    "description": "Some of the world's leading organizations are building the future of non-profit work with Cloudflare.",
+    "category": "Cloud",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "2026 Birthday week: network performance update",
+    "url": "https://blog.cloudflare.com/network-performance-birthday-week-2026",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-02T13:00:00Z",
+    "description": "Cloudflare now ranks as the fastest provider across 74% of the top 1,000 global networks. By incorporating background telemetry from Cloudflare Challenge Pages, we have expanded our real-user measurement scale while maintaining user privacy",
+    "category": "AI",
     "beginner_score": 2,
     "rank_score": 20.0
   },
@@ -856,27 +878,5 @@
     "category": "Cloud",
     "beginner_score": 2,
     "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Debian Inference Portal",
-    "url": "https://inference.debian.net",
-    "source": "Hacker News",
-    "published_at": "2026-10-02T22:43:01Z",
-    "description": "6 points · 2 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 7.349977175462963
-  },
-  {
-    "type": "article",
-    "title": "【Cursor pstack】AIエージェントに開発を任せる環境をつくる ―月2,500件のPRを支えた開発基盤とは？",
-    "url": "https://zenn.dev/sc30gsw/books/080faba713547b",
-    "source": "Zenn",
-    "published_at": "2026-10-02T13:19:46Z",
-    "description": "AIエージェントに開発を任せるための環境づくりを、Cursorのpstackから学ぶ実践ガイドです。月2,500件のPRを支えた考え方を手がかりに、成果物を検証する仕組みから、pstackに含まれるPlaybook・Principle・Skillといった全項目を解説。\n\nさらに、自分のアプリに検証スキルを作る方法から、調査・設計・計画をエージェントと進める方法まで、全39章で扱います。\n\n読み終えたとき、自分のプロジェクトでエージェントに任せる範囲を広げるための環境づくりを始",
-    "category": "AI",
-    "beginner_score": 0,
-    "rank_score": 4.220810508796296
   }
 ]
