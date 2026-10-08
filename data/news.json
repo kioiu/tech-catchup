@@ -1,6 +1,17 @@
 [
   {
     "type": "article",
+    "title": "Secret protection must scale with software",
+    "url": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software",
+    "source": "GitHub Blog",
+    "published_at": "2026-10-07T17:45:34Z",
+    "description": "Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it. \n The post  Secret protection must scale with software  appeared fir",
+    "category": "AI",
+    "beginner_score": 10,
+    "rank_score": 105.51168538722223
+  },
+  {
+    "type": "article",
     "title": "ReviewBench: An open benchmark for AI code review",
     "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review",
     "source": "GitHub Blog",
@@ -45,17 +56,6 @@
   },
   {
     "type": "article",
-    "title": "When chat is the wrong UI",
-    "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui",
-    "source": "GitHub Blog",
-    "published_at": "2026-09-24T20:00:00Z",
-    "description": "What is a developer to do when they need something more tangible than a chat box? Enter canvases. \n The post  When chat is the wrong UI  appeared first on  The GitHub Blog .",
-    "category": "AI",
-    "beginner_score": 10,
-    "rank_score": 100.0
-  },
-  {
-    "type": "article",
     "title": "A beginner-friendly guide to view transitions in CSS",
     "url": "https://developer.mozilla.org/en-US/blog/view-transitions-beginner-guide",
     "source": "MDN",
@@ -67,14 +67,14 @@
   },
   {
     "type": "article",
-    "title": "Building Git infrastructure for agent-scale development",
-    "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development",
-    "source": "GitHub Blog",
-    "published_at": "2026-10-06T20:57:56Z",
-    "description": "We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development. \n The post  Building Git infrastructure for agent-scale development  appeared first on  The GitHub Blog .",
+    "title": "マーケティングエンジニア入門",
+    "url": "https://zenn.dev/kevin_namba/books/afe09c60f698e8",
+    "source": "Zenn",
+    "published_at": "2026-10-06T09:00:57Z",
+    "description": "マーケティングエンジニア(Growth Engineer / GTM Engineer)とは、マーケティングや営業活動を自動運転するためにツールや AI を整備する AI 時代の新たな職種です。\nこの本では、AI Agent の概念である Skill やハーネス、オントロジーなどについて触れながら、実際にマーケティングの業務を棚卸して、自動化するための方法を紹介します。\n\nサンプルとなる Skill は https://github.com/kevin-namba/marke",
     "category": "AI",
     "beginner_score": 9,
-    "rank_score": 96.66971823194444
+    "rank_score": 90.0
   },
   {
     "type": "article",
@@ -85,7 +85,7 @@
     "description": "こんにちは、株式会社イエソドでバックエンドエンジニアをしているik-fib（@ik11235）です。\n\n はじめに\n前回の記事では、毎回タイムアウトしていた脆弱性スキャンのCIを約2分まで縮めた経緯を書きました。その際、保存したキャッシュが容量不足で削除されてしまう問題があったため、保存容量の上限を引き上げて、不要なキャッシュを自動削除するようにしました。今回はその対応を紹介します。\nhttps://zenn.dev/yesodco/articles/yesod-owasp-",
     "category": "Web",
     "beginner_score": 9,
-    "rank_score": 91.8765700837963
+    "rank_score": 90.0
   },
   {
     "type": "article",
@@ -95,6 +95,17 @@
     "published_at": "2026-10-04T17:22:57Z",
     "description": "Claude Modsは、Claude Codeの公式の拡張の仕組みだ。Claude Codeの中で動くTypeScript（またはJavaScript）の関数で、画面にペインを足したり、プロンプトやツール呼び出しを書き換えたりできる。2026年10月1日（米国時間）のv2.1.287で正式にリリースされた（公式ブログ、リリースノート）。\n私は発表の数日後に、公開されているmodを3つ入れた。この記事では、modsでできること、入れた3つのmodの使い方、入れる前に中身を確か",
     "category": "Web",
+    "beginner_score": 9,
+    "rank_score": 90.0
+  },
+  {
+    "type": "article",
+    "title": "Building Git infrastructure for agent-scale development",
+    "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development",
+    "source": "GitHub Blog",
+    "published_at": "2026-10-06T20:57:56Z",
+    "description": "We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development. \n The post  Building Git infrastructure for agent-scale development  appeared first on  The GitHub Blog .",
+    "category": "AI",
     "beginner_score": 9,
     "rank_score": 90.0
   },
@@ -155,17 +166,6 @@
   },
   {
     "type": "article",
-    "title": "JSONはシンプルで明快な仕様が魅力ですが、そんなJSONでも微妙な実装差異が生じる罠がいくつかあります。本稿はこうした機微を実装の比較を通",
-    "url": "https://zenn.dev/qnighy/articles/json-ambiguity",
-    "source": "Zenn",
-    "published_at": "2026-10-04T08:18:23Z",
-    "description": "タイトルは「JSONはシンプルで明快な仕様が魅力ですが、そんなJSONでも微妙な実装差異が生じる罠がいくつかあります。本稿はこうした機微を実装の比較を通じて明らかにします。」です。\n\n JSON とは\nJSON (JavaScript Object Notation) はテキストベースでスキーマレスな、構造化されたデータ交換用フォーマットです。\nJavaScript の Expression 構文のサブセットとなることを意識して作られているため、この名前があります。\n\n JS",
-    "category": "Web",
-    "beginner_score": 6,
-    "rank_score": 60.0
-  },
-  {
-    "type": "article",
     "title": "JavaScript Temporal is coming",
     "url": "https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming",
     "source": "MDN",
@@ -199,33 +199,44 @@
   },
   {
     "type": "article",
-    "title": "How Fast is Python 3.15?",
-    "url": "https://blog.miguelgrinberg.com/post/how-fast-is-python-3-15",
+    "title": "Rust Port of TypeScript (Tsc)",
+    "url": "https://github.com/pingdotgg/ts-rust",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T21:52:57Z",
+    "published_at": "2026-10-08T00:46:00Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 5,
-    "rank_score": 56.975366380092595
+    "rank_score": 57.84742612796296
   },
   {
     "type": "article",
-    "title": "Decisions API is in public beta",
-    "url": "https://developers.openai.com/api/docs/guides/decisions",
+    "title": "Docker Agent",
+    "url": "https://github.com/docker/docker-agent",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T20:57:25Z",
+    "published_at": "2026-10-07T17:48:38Z",
     "description": "Comments",
-    "category": "Web",
+    "category": "AI",
     "beginner_score": 5,
-    "rank_score": 56.66684786157408
+    "rank_score": 55.52872242425926
   },
   {
     "type": "article",
-    "title": "「田中さんの代理で来ました」をIAMで検証可能にする",
-    "url": "https://zenn.dev/akring/articles/e3aa2d897bdbfe",
+    "title": "1本の記事をテキストマイニングで読み解く：頻出語・TF-IDF・章節の語彙構造",
+    "url": "https://zenn.dev/tyasuakwa/articles/613c9d1f9834ce",
     "source": "Zenn",
-    "published_at": "2026-10-05T23:00:05Z",
-    "description": "Webやモバイルのアプリで、画面の裏で動くサーバー（frontend）がbackendのAPIを呼ぶ構成は、ごく身近だと思います。たとえば、次のような呼び出しです。\n\nfrontendからbackendへの呼び出し（よくある形）\nGET /cases/C-2001/summary HTTP/1.1\nx-api-key: &lt;frontendに発行したAPIキー&gt;\nx-user-id: tanaka\n\nfrontendは、ログインした田中さんの代理として、backen",
+    "published_at": "2026-10-07T12:04:02Z",
+    "description": "はじめに\nテキストデータを分析することでわかるのは単語の頻度だけではない。ここでは1本の記事をとりあげテキストデータの分析した例を紹介する。分析対象は、ペンギンのデータセットを題材にした次のブログ記事である。[1]。\nhttps://note.com/jdsc/n/na0d33485db75\n以下では、頻出語からTF-IDF、章節間の語彙的な近さ、簡易的な意味空間まで、この記事の語彙構造を段階的に見ていく。\n分析は基本的にRで進め、形態素解析だけPythonの fugashi",
+    "category": "Web",
+    "beginner_score": 5,
+    "rank_score": 53.614277979814815
+  },
+  {
+    "type": "article",
+    "title": "A new write and space optimized storage engine for MySQL is here",
+    "url": "https://tidesdb.com/articles/tidesdb-now-available-for-mysql",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-05T11:40:15Z",
+    "description": "Comments",
     "category": "Web",
     "beginner_score": 5,
     "rank_score": 50.0
@@ -331,14 +342,14 @@
   },
   {
     "type": "article",
-    "title": "Penguin Mail – open-source Rust email client for Linux with AI",
-    "url": "https://penguin-mail.com",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T21:59:43Z",
-    "description": "Comments",
+    "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
+    "url": "https://blog.cloudflare.com/agentic-security-operations",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-07T16:30:36Z",
+    "description": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded rec",
     "category": "AI",
     "beginner_score": 4,
-    "rank_score": 47.01295897268518
+    "rank_score": 45.09520390574074
   },
   {
     "type": "article",
@@ -347,17 +358,6 @@
     "source": "Zenn",
     "published_at": "2026-10-05T08:26:58Z",
     "description": "こんにちは。株式会社ラディウス･ファイブでバックエンド、GPUインフラ、フロントエンド、あといろいろやってるだけのエンジニアではない人です。\nhttps://www.copainter.ai/\nウィルキンソンのジンジャ無糖は美味しいので買いましょう。\nhttps://amzn.asia/d/01vS9hzH\n\n Cloudflare Birthday Week\nみなさんはちゃんとCloudflare Birthday Weekの内容は全て見ましたか?\n見てない方は全て目を通し",
-    "category": "AI",
-    "beginner_score": 4,
-    "rank_score": 40.0
-  },
-  {
-    "type": "article",
-    "title": "朝のあの時間だけEC2のキャパシティ予約したいんだよなあ",
-    "url": "https://zenn.dev/educom_tech/articles/e0445b9e5da82a",
-    "source": "Zenn",
-    "published_at": "2026-10-05T06:01:42Z",
-    "description": "こんにちは、EDUCOMのかどげんです。\n最近、インスタンスタイプT8iが出てきましたね。\nこの影響かわからないのですがInsufficientInstanceCapacityによるインスタンスタイプt3の自動起動が失敗することが多くなりました。\nhttps://aws.amazon.com/jp/blogs/news/new-low-cost-burstable-amazon-ec2-t8i-instances-are-generally-available/\nそのため、要",
     "category": "AI",
     "beginner_score": 4,
     "rank_score": 40.0
@@ -441,36 +441,25 @@
   },
   {
     "type": "article",
-    "title": "OOPとFPの使い分けを、図書館の貸出管理システム作って確かめてみた",
-    "url": "https://zenn.dev/satoru_o/articles/2804938058ab47",
+    "title": "巨大 SQL を実行したら DB 負荷が高まったエンジニアの備忘録",
+    "url": "https://zenn.dev/ryoya_cre8tor/articles/0cdc8623498f11",
     "source": "Zenn",
-    "published_at": "2026-10-06T14:38:08Z",
-    "description": "はじめに\nOOP の基本を、銀行口座・通知・価格計算(Strategy)といった題材で一つずつ学んできました。その総合演習として、「実際にありそうなシステムを超ミニマム版で作ってみる」という企画を立て、Python で図書館の貸出管理を作りました。今回は OOP に FP の考え方も取り入れ、設計に絞ってまとめます。\n結論として、純粋関数にできるコアなロジックは関数に、インターフェースや境界になるものはクラス(OOP)に置く、という使い分けをしました。データは不変の値にしてい",
+    "published_at": "2026-10-07T00:30:37Z",
+    "description": "3行まとめ\n\nOR 条件を数万個並べた SQL は、実行に入る前の planning だけで、条件の数に比例したメモリと、二乗で増える時間を使う\nこのメモリは work_mem の対象外で、上げても下げても変わらない。planner のメモリに上限をかける設定は見つからず、確実なのは SQL の形を変えること\n配列を渡す ANY にすると planner から見た条件の数が減り、件数が増えても SQL の形が変わらない\n\n\n\n 巨大 SQL は実行される前に DB を重くする",
     "category": "Development",
     "beginner_score": 3,
-    "rank_score": 34.559718231944444
+    "rank_score": 30.0
   },
   {
     "type": "article",
-    "title": "Keras入門 第４回 Kerasモデルの量子化(LiteRT)",
-    "url": "https://zenn.dev/hoshinagi1219/articles/6c2446701595cc",
+    "title": "iOSアプリ開発でGit Worktreeを使ってもCompilation Cacheを効かせたい",
+    "url": "https://zenn.dev/sryu/articles/worktree-compilation-cache",
     "source": "Zenn",
-    "published_at": "2026-10-06T13:23:05Z",
-    "description": "星杜なぎさです。\n今回は、Kerasモデルの量子化についてまとめてみました。\n\n 環境\n\ngoogle colaboratory\n\nPython : 3.13.15\n\nkeras：3.13.2\ntensorflow：2.21.0\nai-edge-litert：2.2.0\n\n\n\n\n\n\n 1. 準備\n\n 1.1 ライブラリの読み込み\n2026年10月6日現在、google colaboratoryにはai-edge-litertのライブラリがなかったため、以下のコマンドで導入しま",
+    "published_at": "2026-10-06T17:15:27Z",
+    "description": "Coding Agent主軸での開発をするようになってから、Git Worktreeを使う機会が増えました。\nしかし、iOSアプリ開発では、worktreeを切るとDerivedDataのpathが変わるため、Clean Buildをすることになります。\nそこで今回は、iOSアプリ開発でworktreeを切っても、Compilation Cacheを再利用してビルドする方法について解説します。\n\n Xcode 26の新機能\nXcode 26ではCOMPILATION_CACH",
     "category": "AI",
     "beginner_score": 3,
-    "rank_score": 34.1427737875
-  },
-  {
-    "type": "article",
-    "title": "時系列予測の第一歩？ OLTPとOLAP",
-    "url": "https://zenn.dev/neurogica/articles/a37c2fdb8bc0d4",
-    "source": "Zenn",
-    "published_at": "2026-10-06T10:36:19Z",
-    "description": "この記事は Neurogica Tech Blog の転載です。\n\n\n はじめに\nシステムを作るとき、最初はたいてい、アプリサーバとRDB（PostgreSQLやMySQLなど）の2つだけというシンプルな構成から始まる。\nしかし、システムがスケールすると次第に様々な要望が出てくる。\n「月ごとに請求額を計算したいから、あの顧客の利用回数を集計してくれ」\n「どの時期にどの商品が売れていたのか知りたいから月ごとの売れ筋を集計してくれ」\nこれらの要望は、そう簡単には解決できない。\nス",
-    "category": "Development",
-    "beginner_score": 3,
-    "rank_score": 33.21629230601852
+    "rank_score": 30.0
   },
   {
     "type": "article",
@@ -496,58 +485,168 @@
   },
   {
     "type": "article",
-    "title": "Stanford scientists found a way to regrow cartilage and stop arthritis",
-    "url": "https://www.sciencedaily.com/releases/2026/10/261005011249.htm",
+    "title": "Margaret Hamilton has died",
+    "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T23:54:35Z",
+    "published_at": "2026-10-07T21:16:18Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.651107120833334
+    "rank_score": 26.682426127962962
   },
   {
     "type": "article",
-    "title": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
-    "url": "https://github.com/boykopovar/AnyPS5",
+    "title": "'Jonathan' is the oldest land animal on Earth",
+    "url": "https://www.404media.co/oldest-living-land-animal-jonathan-the-tortoise",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T23:28:08Z",
+    "published_at": "2026-10-07T20:01:37Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.50416267638889
+    "rank_score": 26.267518720555554
   },
   {
     "type": "article",
-    "title": "State of Devs 2026 survey results: developers are exhausted",
-    "url": "https://2026.stateofdevs.com/en-US",
+    "title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+    "url": "https://debasishg.github.io/blog/push-ifs-up-fors-down",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T23:26:30Z",
+    "published_at": "2026-10-07T18:43:18Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.495088602314816
+    "rank_score": 25.832426127962965
   },
   {
     "type": "article",
-    "title": "Integer multiplication below n log n",
-    "url": "https://github.com/openai/math/tree/main/preprints/Integer-multiplication-below-n-log-n-September-23-2026",
+    "title": "Claude Haiku 5.5",
+    "url": "https://www.anthropic.com/claude-haiku-5-5",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T23:14:52Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 27.430458972685184
-  },
-  {
-    "type": "article",
-    "title": "UniEvo-VL: Self-Distillation Training for Multimodal Model Self-Improvement",
-    "url": "https://arxiv.org/abs/2609.38721",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T22:51:35Z",
+    "published_at": "2026-10-07T18:01:32Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 27.301107120833333
+    "rank_score": 25.600389090925926
+  },
+  {
+    "type": "article",
+    "title": "GPT‑6 and Intelligent UI for everyone",
+    "url": "https://openai.com/index/gpt-6-for-everyone",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-07T18:00:58Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.597240942777777
+  },
+  {
+    "type": "article",
+    "title": "In Vienna and Beijing, the first (thorium) nuclear clocks begin to tick",
+    "url": "https://www.nytimes.com/2026/10/07/science/first-nuclear-clocks-thorium-229.html",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-07T17:59:34Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.589463165
+  },
+  {
+    "type": "article",
+    "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+    "url": "https://bigwords.page",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-07T15:44:21Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.838259461296296
+  },
+  {
+    "type": "article",
+    "title": "Navier–Stokes Lost in Translation",
+    "url": "https://arxiv.org/abs/2610.08144",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-07T15:24:38Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.72872242425926
+  },
+  {
+    "type": "article",
+    "title": "Animated ASCII Art for Web Pages",
+    "url": "https://ascii.rest",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-07T15:05:37Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.62307427611111
+  },
+  {
+    "type": "article",
+    "title": "Shipping JPEG XL in Chrome",
+    "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-07T11:25:02Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 23.397611313148147
+  },
+  {
+    "type": "article",
+    "title": "A font recreated from photographs of classic Commodore 64 keycaps",
+    "url": "https://github.com/szabadkai/c64-keyboard-font",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-07T09:17:55Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 22.691407609444443
+  },
+  {
+    "type": "article",
+    "title": "How did Rosalind Franklin miss the helix in her iconic DNA image? She didn't",
+    "url": "https://www.science.org/content/article/how-did-rosalind-franklin-miss-helix-her-iconic-dna-image-she-didn-t",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-05T19:07:07Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "A minimal kernel in Swift, running in QEMU",
+    "url": "https://carette.xyz/posts/minimal_swift_kernel_on_qemu",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-06T12:20:03Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "If somebody tries to hot-patch an already-hot-patched function",
+    "url": "https://devblogs.microsoft.com/oldnewthing/20261005-00/?p=112755",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-06T13:39:59Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "How machines learned precision",
+    "url": "https://glinscott.github.io/how-machines-learned-precision",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-06T16:14:42Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
   },
   {
     "type": "article",
@@ -558,139 +657,18 @@
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 27.110921935648147
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "The Query Transformation Pipeline",
-    "url": "https://readyset.io/blog/how-readyset-rewrites-your-sql-inside-the-query-transformation-pipeline",
+    "title": "Brownian Motion",
+    "url": "https://gregorygundersen.com/blog/2026/04/22/brownian-motion",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T22:09:14Z",
+    "published_at": "2026-10-06T11:11:34Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.065829343055555
-  },
-  {
-    "type": "article",
-    "title": "Vibecoding Photoshop: Time and pressure",
-    "url": "https://andreklein.net/vibecoding-photoshop-time-and-pressure",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T20:40:48Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.57453304675926
-  },
-  {
-    "type": "article",
-    "title": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
-    "url": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T20:33:47Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.53555156527778
-  },
-  {
-    "type": "article",
-    "title": "When random is not actually random enough",
-    "url": "https://ersc.io/blog/when-random-isnt-random-enough",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T20:12:05Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.414996009722223
-  },
-  {
-    "type": "article",
-    "title": "Claude Code’s suggested message feature: I think the real customer is the model",
-    "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T18:00:34Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.684347861574075
-  },
-  {
-    "type": "article",
-    "title": "Utah to let AI examine patients and prescribe medication without human oversight",
-    "url": "https://www.techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T17:01:52Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 25.358236750462964
-  },
-  {
-    "type": "article",
-    "title": "OpenTPU – An open-source AI accelerator, developed by AI",
-    "url": "https://github.com/FeSens/openTPU",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T16:23:25Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 25.14462563935185
-  },
-  {
-    "type": "article",
-    "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
-    "url": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws",
-    "source": "AWS Blog",
-    "published_at": "2026-10-06T16:09:36Z",
-    "description": "Amazon Prime Day 2026 was exclusively for Prime members and ran June 23–26, 2026 with millions of deals across more than 35 categories. As part of our annual tradition of sharing how AWS powered Prime Day (2016, 2017, 2019, 2020, 2021, 2022",
-    "category": "Cloud",
-    "beginner_score": 2,
-    "rank_score": 25.067866380092592
-  },
-  {
-    "type": "article",
-    "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T16:03:49Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.035736750462963
-  },
-  {
-    "type": "article",
-    "title": "Mistral Large 4",
-    "url": "https://mistral.ai/news/mistral-large-4/\\",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T13:15:49Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 24.10240341712963
-  },
-  {
-    "type": "article",
-    "title": "Nobel Prize in Physics 2026: Francis Halzen",
-    "url": "https://www.nobelprize.org/prizes/physics/2026",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T09:48:46Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 22.952125639351852
-  },
-  {
-    "type": "article",
-    "title": "LLMs may have helped my RSI",
-    "url": "https://vaughanhilts.me/2026/10/05/llms-immensely-helped-my-rsi.html",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T03:01:04Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.68712563935185
+    "rank_score": 20.0
   },
   {
     "type": "article",
@@ -776,6 +754,17 @@
     "source": "Cloudflare Blog",
     "published_at": "2026-10-01T13:00:00Z",
     "description": "Cloudflare K2 is a serverless event streaming service built directly on top of R2 object storage for high-scale data movement and long-term retention. By decoupling producers and consumers at the edge, K2 enables durable, ordered log stream",
+    "category": "Cloud",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
+    "url": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws",
+    "source": "AWS Blog",
+    "published_at": "2026-10-06T16:09:36Z",
+    "description": "Amazon Prime Day 2026 was exclusively for Prime members and ran June 23–26, 2026 with millions of deals across more than 35 categories. As part of our annual tradition of sharing how AWS powered Prime Day (2016, 2017, 2019, 2020, 2021, 2022",
     "category": "Cloud",
     "beginner_score": 2,
     "rank_score": 20.0
@@ -870,13 +859,24 @@
   },
   {
     "type": "article",
-    "title": "South Korea says AI agents appear to have been used to hack the country's banks",
-    "url": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06",
+    "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+    "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai",
     "source": "Hacker News",
-    "published_at": "2026-10-06T23:50:33Z",
-    "description": "15 points · 2 comments on Hacker News.",
+    "published_at": "2026-10-07T18:49:40Z",
+    "description": "266 points · 264 comments on Hacker News.",
     "category": "AI",
     "beginner_score": 0,
-    "rank_score": 7.6286997134259265
+    "rank_score": 5.867796498333334
+  },
+  {
+    "type": "article",
+    "title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+    "url": "https://agent.reviews",
+    "source": "Hacker News",
+    "published_at": "2026-10-07T16:59:11Z",
+    "description": "42 points · 38 comments on Hacker News.",
+    "category": "AI",
+    "beginner_score": 0,
+    "rank_score": 5.254000202037037
   }
 ]
