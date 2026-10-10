@@ -1,6 +1,17 @@
 [
   {
     "type": "article",
+    "title": "Notion や Slack から AI に仕事を依頼できる仕組みを Claude Code Routines で作った",
+    "url": "https://zenn.dev/terass_dev/articles/6e6562d54d5505",
+    "source": "Zenn",
+    "published_at": "2026-10-09T02:47:29Z",
+    "description": "Notion のチケットや Slack 上から Claude Code に仕事を依頼できる仕組みを、Claude Code Routines を使って実装し、チーム内で運用しています。\nClaude Code Routines は、あらかじめ保存しておいたプロンプトで Claude Code のセッションをクラウド上に起動する機能です。API の呼び出しや、スケジュールでの定期実行、GitHub のイベントなどから起動できます。\n個人で Routines を使ってこういった仕",
+    "category": "AI",
+    "beginner_score": 10,
+    "rank_score": 100.54569345407407
+  },
+  {
+    "type": "article",
     "title": "How one bug bounty researcher chooses the features they investigate",
     "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate",
     "source": "GitHub Blog",
@@ -8,7 +19,7 @@
     "description": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub. \n The post  How one bug bounty researcher chooses the features the",
     "category": "AI",
     "beginner_score": 10,
-    "rank_score": 105.23214849833333
+    "rank_score": 100.0
   },
   {
     "type": "article",
@@ -45,17 +56,6 @@
   },
   {
     "type": "article",
-    "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
-    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
-    "source": "GitHub Blog",
-    "published_at": "2026-09-25T18:00:00Z",
-    "description": "Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done. \n The post  GitHub Copilot app for Beginners: Ho",
-    "category": "AI",
-    "beginner_score": 10,
-    "rank_score": 100.0
-  },
-  {
-    "type": "article",
     "title": "A beginner-friendly guide to view transitions in CSS",
     "url": "https://developer.mozilla.org/en-US/blog/view-transitions-beginner-guide",
     "source": "MDN",
@@ -64,6 +64,17 @@
     "category": "Web",
     "beginner_score": 10,
     "rank_score": 100.0
+  },
+  {
+    "type": "article",
+    "title": "Hack the World: Why hackathons are still the best place to learn to build",
+    "url": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build",
+    "source": "GitHub Blog",
+    "published_at": "2026-10-09T16:00:00Z",
+    "description": "The barriers to building software have collapsed. Today, anyone can build. Hackathons are a great place to start learning. \n The post  Hack the World: Why hackathons are still the best place to learn to build  appeared first on  The GitHub ",
+    "category": "Web",
+    "beginner_score": 9,
+    "rank_score": 94.94856382444445
   },
   {
     "type": "article",
@@ -195,7 +206,7 @@
     "description": "若手エンジニアに必要だと感じた「AIを使う力」\n\n はじめに\n私は現在、JavaやReactを使った金融系Webアプリの開発に携わっています。開発経験はまだ浅く、業務では分からないことに遭遇する場面も多くあります。そのため、調査、実装、文章作成、レビューなど、さまざまな場面でAIを使ってきました。私自身、AIを使うことで実装や調査を効率化できる場面が多くありました。一方で、使えば使うほど「若手エンジニアがAIを使う際に陥りやすい問題」もあると感じるようになりました。\n若手エン",
     "category": "AI",
     "beginner_score": 5,
-    "rank_score": 52.38103738722222
+    "rank_score": 50.0
   },
   {
     "type": "article",
@@ -216,17 +227,6 @@
     "published_at": "2026-10-02T13:28:10Z",
     "description": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings.",
     "category": "AI",
-    "beginner_score": 5,
-    "rank_score": 50.0
-  },
-  {
-    "type": "article",
-    "title": "Introducing Workers KV Instant — powered by Quicksilver",
-    "url": "https://blog.cloudflare.com/workers-kv-instant",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-01T13:00:00Z",
-    "description": "Workers KV Instant delivers sub-2ms p99 read latencies and 250ms global replication across Cloudflare’s 300+ edge locations. KV Instant eliminates cold-read penalties and uses the familiar Workers KV API.",
-    "category": "Cloud",
     "beginner_score": 5,
     "rank_score": 50.0
   },
@@ -287,10 +287,21 @@
   },
   {
     "type": "article",
-    "title": "ETH-68: Ethernet Audio Interface for Linux",
-    "url": "https://naturalsystems.io/eth68",
+    "title": "Cloudflare acquires Deno",
+    "url": "https://deno.com/blog/cloudflare",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-07T13:58:05Z",
+    "published_at": "2026-10-09T13:03:48Z",
+    "description": "Comments",
+    "category": "Cloud",
+    "beginner_score": 4,
+    "rank_score": 43.96967493555556
+  },
+  {
+    "type": "article",
+    "title": "Show HN: Proton Drive for Linux",
+    "url": "https://oss.lsantos.dev/proton-drive-linux-fs",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-08T09:10:42Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 4,
@@ -386,6 +397,17 @@
   },
   {
     "type": "article",
+    "title": "AIエージェントにMicrosoft Fabricを操作させる ― Fabric CLIとSkills for Fabric",
+    "url": "https://zenn.dev/headwaters/articles/12175106cd8c79",
+    "source": "Zenn",
+    "published_at": "2026-10-08T23:00:05Z",
+    "description": "はじめに\nClaude Code のようなコーディングエージェントに Microsoft Fabric の開発を手伝わせようとすると、二つの問題があります。一つは操作の手段です。Fabric の操作は Web の画面で行うことが多いので、エージェントが端末から使える手段を別に用意する必要があります。もう一つは知識です。エージェントは、Fabric 固有の API の呼び方や、Notebook の定義ファイルの形式を最初から正確に知っているわけではありません。\nFabric に",
+    "category": "AI",
+    "beginner_score": 3,
+    "rank_score": 30.0
+  },
+  {
+    "type": "article",
     "title": "巨大 SQL を実行したら DB 負荷が高まったエンジニアの備忘録",
     "url": "https://zenn.dev/ryoya_cre8tor/articles/0cdc8623498f11",
     "source": "Zenn",
@@ -419,157 +441,245 @@
   },
   {
     "type": "article",
-    "title": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
-    "url": "https://github.com/edrisranjbar/lifeos",
+    "title": "How to Fix autoconf-style Configuration Probing",
+    "url": "https://build2.org/blog/fix-autoconf.xhtml",
+    "source": "Hacker News",
+    "published_at": "2026-10-08T13:48:11Z",
+    "description": "9 points · 4 comments on Hacker News.",
+    "category": "Other",
+    "beginner_score": 3,
+    "rank_score": 30.0
+  },
+  {
+    "type": "article",
+    "title": "Show HN: Yeah Nah – a BS score for Australian job ads",
+    "url": "https://yeahnah.lol",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T00:02:19Z",
+    "published_at": "2026-10-10T00:38:18Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.82800826888889
+  },
+  {
+    "type": "article",
+    "title": "REA Reverse – Engineer Anything",
+    "url": "https://rea.tools",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-10T00:37:07Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.821434194814813
+  },
+  {
+    "type": "article",
+    "title": "11 of 23 Core Open Source Projects Run on 1 or 2 People",
+    "url": "https://linuxstans.com/11-of-23-core-open-source-projects-run-on-1-or-2-people",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-09T23:56:55Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.59810086148148
+  },
+  {
+    "type": "article",
+    "title": "Compiling Rust to readable C with Eurydice",
+    "url": "https://lwn.net/Articles/1055211",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-09T23:28:36Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.440786046666666
+  },
+  {
+    "type": "article",
+    "title": "Rewriting Prime Agent in Rust",
+    "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-09T23:06:25Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 27.56242627611111
+    "rank_score": 27.317545305925925
   },
   {
     "type": "article",
-    "title": "Show HN: SVG Spark – 10 client-side SVG design and dev tools",
-    "url": "https://svg-spark.vercel.app",
+    "title": "Japan's Most Famous Tuna Buyer Says He Turned Somali Pirates into Fishermen",
+    "url": "https://www.japaninsides.com/the-sushi-king-who-went-to-somalia-how-japans-most-famous-tuna-buyer-says-he-turned-pirates-into-fishermen-55344",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-08T23:32:49Z",
+    "published_at": "2026-10-09T22:05:53Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.398537387222223
+    "rank_score": 26.98124900962963
   },
   {
     "type": "article",
-    "title": "OpenAI, the Partition Principle, and Mathematics",
-    "url": "https://karagila.org/2026/openai-pp",
+    "title": "Anthropic AI model submits false tip on unsolved Philly murder",
+    "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-08T23:29:43Z",
+    "published_at": "2026-10-09T22:00:35Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 27.381315165
+    "rank_score": 26.951804565185185
   },
   {
     "type": "article",
-    "title": "AI-ready biological data: $1.8B global commitment",
-    "url": "https://biohub.org/news/virtual-biology-initiative-expansion",
+    "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
+    "url": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-08T20:46:25Z",
+    "published_at": "2026-10-09T21:06:59Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.654026787407407
+  },
+  {
+    "type": "article",
+    "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
+    "url": "https://carrierexplode.com",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-09T18:10:55Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.67587863925926
+  },
+  {
+    "type": "article",
+    "title": "Show HN: The rarest tech books and docs you've probably never read",
+    "url": "https://readrare.com",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-09T17:39:44Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.50263789851852
+  },
+  {
+    "type": "article",
+    "title": "Typesafe AI raises $870M at $7.5B",
+    "url": "https://typesafe.ai/blog/series-ai",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-09T17:02:31Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 26.474092942777776
+    "rank_score": 25.295878639259257
   },
   {
     "type": "article",
-    "title": "ADHD as a circadian rhythm disorder: evidence and implications for chronotherapy (2025)",
-    "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1697900/full",
+    "title": "Triple-A Minesweeper",
+    "url": "https://minesweeper.mikelacher.com",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-08T20:42:16Z",
+    "published_at": "2026-10-09T15:51:05Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.45103738722222
+    "rank_score": 24.899026787407408
   },
   {
     "type": "article",
-    "title": "The value of not getting to the point (2015)",
-    "url": "https://ken.arneson.name/2015/11/the-value-of-not-getting-to-the-point",
+    "title": "Our $445M Series D",
+    "url": "https://oxide.computer/blog/our-445m-series-d",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-08T19:04:56Z",
+    "published_at": "2026-10-09T13:12:47Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.91029664648148
+    "rank_score": 24.019582342962963
   },
   {
     "type": "article",
-    "title": "Show HN: Pocketty – iPhone SSH terminal that pings you when an agent is blocked",
-    "url": "https://pocketty.app",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-08T18:11:52Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 25.615481831666667
-  },
-  {
-    "type": "article",
-    "title": "Theranos.world",
-    "url": "https://www.theranos.world",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-08T17:51:49Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.504092942777778
-  },
-  {
-    "type": "article",
-    "title": "Whistle: Speech to Text in 16.9 MB",
-    "url": "https://cactuscompute.com/blog/whistle",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-08T16:59:39Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.214278127962963
-  },
-  {
-    "type": "article",
-    "title": "Show HN: Jevman – AI decision models play Pac-Man",
-    "url": "https://opper.ai/jevman-benchmark",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-08T16:34:13Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 25.072981831666667
-  },
-  {
-    "type": "article",
-    "title": "Step 5 Preview, a 1M-context MoE from StepFun, shows up on OpenRouter",
-    "url": "https://openrouter.ai/stepfun/step-5-preview",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-08T16:20:20Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 24.995852202037035
-  },
-  {
-    "type": "article",
-    "title": "Beauty in DVD Menus",
-    "url": "https://vale.rocks/posts/dvd-menus",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-08T13:22:01Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 24.00520405388889
-  },
-  {
-    "type": "article",
-    "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
-    "url": "https://blog.cloudflare.com/radar-redesign",
+    "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
+    "url": "https://blog.cloudflare.com/workers-on-demand-profiling",
     "source": "Cloudflare Blog",
-    "published_at": "2026-10-08T13:00:00Z",
-    "description": "We redesigned Cloudflare Radar to make real-time global traffic and outage data accessible to a wider audience — including journalists, less technical researchers, and everyday users. By introducing an interactive map and standardized compo",
+    "published_at": "2026-10-09T13:00:00Z",
+    "description": "On-demand CPU and memory profiling for Cloudflare Workers and Durable Objects is now available. Now you can generate interactive flamegraphs directly in production to quickly track down memory leaks and performance bottlenecks.",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 23.948563824444445
+  },
+  {
+    "type": "article",
+    "title": "Deno is joining Cloudflare",
+    "url": "https://blog.cloudflare.com/deno-joins-cloudflare",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-09T12:50:00Z",
+    "description": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects, so developers can use the same primitives in more places.",
     "category": "Cloud",
     "beginner_score": 2,
-    "rank_score": 23.882889239074075
+    "rank_score": 23.893008268888888
   },
   {
     "type": "article",
-    "title": "Yes, and",
-    "url": "https://htmx.org/essays/yes-and",
+    "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+    "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-08T09:48:18Z",
+    "published_at": "2026-10-09T11:36:20Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 23.48374900962963
+  },
+  {
+    "type": "article",
+    "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-09T11:03:48Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 23.303008268888888
+  },
+  {
+    "type": "article",
+    "title": "Nobel Peace Prize for 2026 to Navanethem Pillay",
+    "url": "https://www.nobelprize.org/prizes/peace/2026/press-release",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-09T10:12:11Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 22.817889239074074
+    "rank_score": 23.01624900962963
+  },
+  {
+    "type": "article",
+    "title": "Sorry, I'm in a meeting",
+    "url": "https://iminafleeting.com",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-09T09:21:48Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 22.736341602222222
+  },
+  {
+    "type": "article",
+    "title": "My static site was serving my internal docs",
+    "url": "https://tminuslabs.space/serving-secrets",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-07T15:44:39Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Haiku 5.5 を機に Sonnet 以下で動かしていたサブエージェントを見直した",
+    "url": "https://zenn.dev/genda_jp/articles/haiku-5-5-subagent-roles",
+    "source": "Zenn",
+    "published_at": "2026-10-08T11:42:21Z",
+    "description": "はじめに\n株式会社GENDA 開発部エンジニアの奥山です。\nClaude Haiku 5.5 が出ました。\nhttps://www.anthropic.com/claude-haiku-5-5\nHaiku で effort を指定できるのは 5.5 が初めてで、単価は Haiku 4.5 のちょうど 1/10 になっています。\n\n\n\nモデル\ninput / output（per MTok）\nSonnet 5.5 比\n\n\n\n\nClaude Opus 5.5\n$4 / $20\n2",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.0
   },
   {
     "type": "article",
@@ -580,71 +690,16 @@
     "description": "ボタンの文字などを上下中央に配置するとき、CSSで中央揃えを指定しても、少しズレて見えることがあります。この記事では、文字がズレて見える理由と、上下中央に揃えるための考え方を、CSSとフォントの仕組みから解説します。\n\n 中央揃えなのにズレて見える理由\n次のボタンは、横書きで1行のラベルをFlexboxで上下中央に配置した例です。\n&lt;button class=\"button\"&gt;\n  &lt;span class=\"button-label\"&gt;Save&lt;",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 21.661407757592592
-  },
-  {
-    "type": "article",
-    "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
-    "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-08T00:14:48Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
     "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
-    "url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-07T16:56:30Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
-    "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-07T01:41:03Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "A Terminal Protocol for Program Status (OSC 7501)",
-    "url": "https://mitchellh.com/writing/program-status-osc7501",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T21:08:00Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "A 5.3M-year-old deep-sea whale necropolis in the Diamantina Zone",
-    "url": "https://www.nature.com/articles/s41586-026-10546-z",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-07T18:14:41Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Ask HN: What do you run on a $5 VPS that's worth keeping online 24/7?",
-    "url": "https://news.ycombinator.com/item?id=49985548",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T23:16:56Z",
-    "description": "Comments",
-    "category": "Web",
+    "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
+    "url": "https://blog.cloudflare.com/radar-redesign",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-08T13:00:00Z",
+    "description": "We redesigned Cloudflare Radar to make real-time global traffic and outage data accessible to a wider audience — including journalists, less technical researchers, and everyday users. By introducing an interactive map and standardized compo",
+    "category": "Cloud",
     "beginner_score": 2,
     "rank_score": 20.0
   },
@@ -711,28 +766,6 @@
     "published_at": "2026-10-02T13:00:00Z",
     "description": "Cloudflare now ranks as the fastest provider across 74% of the top 1,000 global networks. By incorporating background telemetry from Cloudflare Challenge Pages, we have expanded our real-user measurement scale while maintaining user privacy",
     "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Cloudflare OS: your company’s agent workspace, managed for you",
-    "url": "https://blog.cloudflare.com/managed-cloudflare-os",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-01T13:00:00Z",
-    "description": "Cloudflare OS gives everyone in your organization an agent workspace that knows how your company works and connects to its data and systems. We’re opening the waitlist for fully managed deployments that you’ll be able to launch in a few cli",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Announcing Cloudflare K2: serverless event streams",
-    "url": "https://blog.cloudflare.com/cloudflare-k2-streams",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-01T13:00:00Z",
-    "description": "Cloudflare K2 is a serverless event streaming service built directly on top of R2 object storage for high-scale data movement and long-term retention. By decoupling producers and consumers at the edge, K2 enables durable, ordered log stream",
-    "category": "Cloud",
     "beginner_score": 2,
     "rank_score": 20.0
   },
@@ -837,46 +870,13 @@
   },
   {
     "type": "article",
-    "title": "Spinal: A near-instant, predictive surface for any codebase",
-    "url": "https://spinal.sh",
+    "title": "Atari Falcon",
+    "url": "https://atarimuseum.nl/atari-falcon",
     "source": "Hacker News",
-    "published_at": "2026-10-08T22:48:30Z",
-    "description": "7 points · 2 comments on Hacker News.",
+    "published_at": "2026-10-09T22:54:13Z",
+    "description": "9 points · 2 comments on Hacker News.",
     "category": "Other",
     "beginner_score": 0,
-    "rank_score": 7.152333683518518
-  },
-  {
-    "type": "article",
-    "title": "半陽的微分代数方程式の解を微分する：VJP編",
-    "url": "https://zenn.dev/wheatear11/articles/c293bb49ad3ae7",
-    "source": "Zenn",
-    "published_at": "2026-10-08T17:45:45Z",
-    "description": "概要\nこの記事では、目的関数が指数1の半陽的微分代数方程式の解を通して初期値やパラメータに依存するとき、その勾配をAdjoint法により数値的に計算する方法を導出します。対象とするのは、目的関数が x_1 \\in \\mathbb{R}^{N_x}と y_1, \\dot y_1 \\in \\mathbb{R}^{N_y}の関数として\n\nJ = J(x_1, y_1, \\dot y_1)\n\nと与えられていて、x_1, y_1, \\dot y_1が指数1の半陽的微分代数方程式の初期値",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 5.470389239074074
-  },
-  {
-    "type": "article",
-    "title": "Scaling and benchmarking a critical message bus using a new indexing strategy",
-    "url": "https://blog.janestreet.com/scaling-and-benchmarking-a-critical-message-bus",
-    "source": "Hacker News",
-    "published_at": "2026-10-08T17:39:26Z",
-    "description": "9 points · 0 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 5.435296646481482
-  },
-  {
-    "type": "article",
-    "title": "Show HN: Making a flexible \"neon\" t-shirt with LED filaments",
-    "url": "http://scottbezek.blogspot.com/2026/10/making-flexible-neon-t-shirt-with-leds.html",
-    "source": "Hacker News",
-    "published_at": "2026-10-08T16:37:24Z",
-    "description": "106 points · 19 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 5.090667016851852
+    "rank_score": 7.249767528148148
   }
 ]
