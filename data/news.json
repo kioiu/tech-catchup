@@ -1,14 +1,14 @@
 [
   {
     "type": "article",
-    "title": "Notion や Slack から AI に仕事を依頼できる仕組みを Claude Code Routines で作った",
+    "title": "Claude Code Routines で Notion や Slack から AI に仕事を依頼できる仕組みを作った",
     "url": "https://zenn.dev/terass_dev/articles/6e6562d54d5505",
     "source": "Zenn",
     "published_at": "2026-10-09T02:47:29Z",
     "description": "Notion のチケットや Slack 上から Claude Code に仕事を依頼できる仕組みを、Claude Code Routines を使って実装し、チーム内で運用しています。\nClaude Code Routines は、あらかじめ保存しておいたプロンプトで Claude Code のセッションをクラウド上に起動する機能です。API の呼び出しや、スケジュールでの定期実行、GitHub のイベントなどから起動できます。\n個人で Routines を使ってこういった仕",
     "category": "AI",
     "beginner_score": 10,
-    "rank_score": 100.54569345407407
+    "rank_score": 100.0
   },
   {
     "type": "article",
@@ -67,17 +67,6 @@
   },
   {
     "type": "article",
-    "title": "Hack the World: Why hackathons are still the best place to learn to build",
-    "url": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build",
-    "source": "GitHub Blog",
-    "published_at": "2026-10-09T16:00:00Z",
-    "description": "The barriers to building software have collapsed. Today, anyone can build. Hackathons are a great place to start learning. \n The post  Hack the World: Why hackathons are still the best place to learn to build  appeared first on  The GitHub ",
-    "category": "Web",
-    "beginner_score": 9,
-    "rank_score": 94.94856382444445
-  },
-  {
-    "type": "article",
     "title": "マーケティングエンジニア入門",
     "url": "https://zenn.dev/kevin_namba/books/afe09c60f698e8",
     "source": "Zenn",
@@ -94,6 +83,17 @@
     "source": "Zenn",
     "published_at": "2026-10-04T17:22:57Z",
     "description": "Claude Modsは、Claude Codeの公式の拡張の仕組みだ。Claude Codeの中で動くTypeScript（またはJavaScript）の関数で、画面にペインを足したり、プロンプトやツール呼び出しを書き換えたりできる。2026年10月1日（米国時間）のv2.1.287で正式にリリースされた（公式ブログ、リリースノート）。\n私は発表の数日後に、公開されているmodを3つ入れた。この記事では、modsでできること、入れた3つのmodの使い方、入れる前に中身を確か",
+    "category": "Web",
+    "beginner_score": 9,
+    "rank_score": 90.0
+  },
+  {
+    "type": "article",
+    "title": "Hack the World: Why hackathons are still the best place to learn to build",
+    "url": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build",
+    "source": "GitHub Blog",
+    "published_at": "2026-10-09T16:00:00Z",
+    "description": "The barriers to building software have collapsed. Today, anyone can build. Hackathons are a great place to start learning. \n The post  Hack the World: Why hackathons are still the best place to learn to build  appeared first on  The GitHub ",
     "category": "Web",
     "beginner_score": 9,
     "rank_score": 90.0
@@ -163,6 +163,17 @@
     "category": "AI",
     "beginner_score": 8,
     "rank_score": 80.0
+  },
+  {
+    "type": "article",
+    "title": "2025 年 10 月から 2026 年 10 月までの Mozc に対する主な変更",
+    "url": "https://zenn.dev/komatsuh/articles/komatsuh_mozc_updates_from_2025_10",
+    "source": "Zenn",
+    "published_at": "2026-10-10T14:30:00Z",
+    "description": "初稿: 2026-10-10\n小松弘幸 (@komatsuh:bsky, @komatsuh:twitter)\n2025 年 10 月以降の Mozc に対する主な変更をまとめました。ドキュメントやコミットログ、 Issues に書かれているものをまとめました。\nMozc の問題の報告や機能の要望等は、GitHub の Issues や Discussions へお願いしま\nす。\n\n 関連記事\n\n2024 年 10 月から 2025 年 10 月までの Mozc に対する主な",
+    "category": "Development",
+    "beginner_score": 7,
+    "rank_score": 74.70353488064815
   },
   {
     "type": "article",
@@ -287,25 +298,14 @@
   },
   {
     "type": "article",
-    "title": "Cloudflare acquires Deno",
-    "url": "https://deno.com/blog/cloudflare",
+    "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+    "url": "https://github.com/rociiu/talorys",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T13:03:48Z",
+    "published_at": "2026-10-10T10:52:09Z",
     "description": "Comments",
-    "category": "Cloud",
+    "category": "AI",
     "beginner_score": 4,
-    "rank_score": 43.96967493555556
-  },
-  {
-    "type": "article",
-    "title": "Show HN: Proton Drive for Linux",
-    "url": "https://oss.lsantos.dev/proton-drive-linux-fs",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-08T09:10:42Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 4,
-    "rank_score": 40.0
+    "rank_score": 43.49325710287037
   },
   {
     "type": "article",
@@ -397,6 +397,17 @@
   },
   {
     "type": "article",
+    "title": "SQLite 本体にベクトル検索拡張 vec1 がやってきた",
+    "url": "https://zenn.dev/mattn/articles/6e9996319ac099",
+    "source": "Zenn",
+    "published_at": "2026-10-10T17:16:42Z",
+    "description": "はじめに\n2026 年 9 月 30 日、SQLite のソースツリーに ext/vec1/ というディレクトリが追加されました。コミットしたのは FTS5 などでおなじみの Dan Kennedy 氏。コミットメッセージはたった 1 行です。\nImport vec1 sources into directory ext/vec1/ of this project.\nこれまで別の場所で開発されていた vec1 が、まるっと SQLite 本体のリポジトリに取り込まれました。本",
+    "category": "Development",
+    "beginner_score": 3,
+    "rank_score": 35.62964599175926
+  },
+  {
+    "type": "article",
     "title": "AIエージェントにMicrosoft Fabricを操作させる ― Fabric CLIとSkills for Fabric",
     "url": "https://zenn.dev/headwaters/articles/12175106cd8c79",
     "source": "Zenn",
@@ -441,25 +452,102 @@
   },
   {
     "type": "article",
-    "title": "How to Fix autoconf-style Configuration Probing",
-    "url": "https://build2.org/blog/fix-autoconf.xhtml",
-    "source": "Hacker News",
-    "published_at": "2026-10-08T13:48:11Z",
-    "description": "9 points · 4 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 3,
-    "rank_score": 30.0
-  },
-  {
-    "type": "article",
-    "title": "Show HN: Yeah Nah – a BS score for Australian job ads",
-    "url": "https://yeahnah.lol",
+    "title": "Build your own decision model",
+    "url": "https://nishtahir.com/build-your-own-decision-model",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-10T00:38:18Z",
+    "published_at": "2026-10-10T22:50:10Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.82800826888889
+    "rank_score": 27.48223858435185
+  },
+  {
+    "type": "article",
+    "title": "A city-building game in which the city would prefer you didn't",
+    "url": "https://housing.over.pizza",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-10T20:31:50Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.713720065833332
+  },
+  {
+    "type": "article",
+    "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+    "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-10T18:48:35Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 26.140108954722223
+  },
+  {
+    "type": "article",
+    "title": "Why DuckDB 2.0 is faster",
+    "url": "https://motherduck.com/blog/why-duckdb-20-is-faster",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-10T18:08:49Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.919183028796297
+  },
+  {
+    "type": "article",
+    "title": "Knuth reward check",
+    "url": "https://www.thomas-huehn.com/knuth-reward-check",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-10T15:47:01Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.131405251018517
+  },
+  {
+    "type": "article",
+    "title": "Bitwarden Dual License Model",
+    "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-10T14:32:50Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.71927562138889
+  },
+  {
+    "type": "article",
+    "title": "Unikernels were hard. key word: were",
+    "url": "https://ghuntley.com/unikernels",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-10T14:27:09Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.687701547314816
+  },
+  {
+    "type": "article",
+    "title": "Apple/macOS removed from official Unix registry",
+    "url": "https://www.opengroup.org//openbrand/register",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-10T10:57:31Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 23.523071917685186
+  },
+  {
+    "type": "article",
+    "title": "The Lightbulb Computer",
+    "url": "https://lightbulbcomputer.com",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-10T04:12:26Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 21.272608954722223
   },
   {
     "type": "article",
@@ -470,201 +558,102 @@
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.821434194814813
+    "rank_score": 20.076405251018517
   },
   {
     "type": "article",
-    "title": "11 of 23 Core Open Source Projects Run on 1 or 2 People",
-    "url": "https://linuxstans.com/11-of-23-core-open-source-projects-run-on-1-or-2-people",
+    "title": "2D Vehicles",
+    "url": "https://patkerr.co.uk/2d-vehicles",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T23:56:55Z",
+    "published_at": "2026-10-07T12:30:40Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.59810086148148
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "Compiling Rust to readable C with Eurydice",
-    "url": "https://lwn.net/Articles/1055211",
+    "title": "Nix wrote half of my debugger",
+    "url": "https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T23:28:36Z",
+    "published_at": "2026-10-09T07:29:08Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.440786046666666
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "Rewriting Prime Agent in Rust",
-    "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
+    "title": "Five months treating bugs like patients and coding agents like a medical team",
+    "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T23:06:25Z",
+    "published_at": "2026-10-09T15:26:33Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 27.317545305925925
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "Japan's Most Famous Tuna Buyer Says He Turned Somali Pirates into Fishermen",
-    "url": "https://www.japaninsides.com/the-sushi-king-who-went-to-somalia-how-japans-most-famous-tuna-buyer-says-he-turned-pirates-into-fishermen-55344",
+    "title": "Mxc: Microsoft Execution Containers version 1.0.0",
+    "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T22:05:53Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.98124900962963
-  },
-  {
-    "type": "article",
-    "title": "Anthropic AI model submits false tip on unsolved Philly murder",
-    "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T22:00:35Z",
+    "published_at": "2026-10-09T06:52:49Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 26.951804565185185
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
-    "url": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
+    "title": "Recent AI models struggled to match a human algorithmic innovation",
+    "url": "https://epoch.ai/publications/innovationeval",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T21:06:59Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.654026787407407
-  },
-  {
-    "type": "article",
-    "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
-    "url": "https://carrierexplode.com",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T18:10:55Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.67587863925926
-  },
-  {
-    "type": "article",
-    "title": "Show HN: The rarest tech books and docs you've probably never read",
-    "url": "https://readrare.com",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T17:39:44Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.50263789851852
-  },
-  {
-    "type": "article",
-    "title": "Typesafe AI raises $870M at $7.5B",
-    "url": "https://typesafe.ai/blog/series-ai",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T17:02:31Z",
+    "published_at": "2026-10-09T22:14:40Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 25.295878639259257
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "Triple-A Minesweeper",
-    "url": "https://minesweeper.mikelacher.com",
+    "title": "Getting old Macromedia Director Games to run on modern Hardware",
+    "url": "https://werwolv.net/posts/macromedia_copy_protection",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T15:51:05Z",
+    "published_at": "2026-10-09T14:18:03Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 24.899026787407408
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "Our $445M Series D",
-    "url": "https://oxide.computer/blog/our-445m-series-d",
+    "title": "Grieving the loss of details",
+    "url": "https://purplesyringa.moe/blog/grieving-the-loss-of-details",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T13:12:47Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 24.019582342962963
-  },
-  {
-    "type": "article",
-    "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
-    "url": "https://blog.cloudflare.com/workers-on-demand-profiling",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-09T13:00:00Z",
-    "description": "On-demand CPU and memory profiling for Cloudflare Workers and Durable Objects is now available. Now you can generate interactive flamegraphs directly in production to quickly track down memory leaks and performance bottlenecks.",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 23.948563824444445
-  },
-  {
-    "type": "article",
-    "title": "Deno is joining Cloudflare",
-    "url": "https://blog.cloudflare.com/deno-joins-cloudflare",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-09T12:50:00Z",
-    "description": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects, so developers can use the same primitives in more places.",
-    "category": "Cloud",
-    "beginner_score": 2,
-    "rank_score": 23.893008268888888
-  },
-  {
-    "type": "article",
-    "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
-    "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T11:36:20Z",
+    "published_at": "2026-10-06T16:37:21Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 23.48374900962963
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
-    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "title": "OpenSCAD the Programmers Solid 3D CAD Modeller",
+    "url": "https://openscad.org",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T11:03:48Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 23.303008268888888
-  },
-  {
-    "type": "article",
-    "title": "Nobel Peace Prize for 2026 to Navanethem Pillay",
-    "url": "https://www.nobelprize.org/prizes/peace/2026/press-release",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T10:12:11Z",
+    "published_at": "2026-10-06T21:22:44Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 23.01624900962963
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "Sorry, I'm in a meeting",
-    "url": "https://iminafleeting.com",
+    "title": "Rampart: Browser native on-device PII radaction",
+    "url": "https://ndstudio.gov/posts/say-hello-to-rampart",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T09:21:48Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 22.736341602222222
-  },
-  {
-    "type": "article",
-    "title": "My static site was serving my internal docs",
-    "url": "https://tminuslabs.space/serving-secrets",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-07T15:44:39Z",
+    "published_at": "2026-10-09T17:52:07Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
@@ -689,6 +678,28 @@
     "published_at": "2026-10-08T06:20:08Z",
     "description": "ボタンの文字などを上下中央に配置するとき、CSSで中央揃えを指定しても、少しズレて見えることがあります。この記事では、文字がズレて見える理由と、上下中央に揃えるための考え方を、CSSとフォントの仕組みから解説します。\n\n 中央揃えなのにズレて見える理由\n次のボタンは、横書きで1行のラベルをFlexboxで上下中央に配置した例です。\n&lt;button class=\"button\"&gt;\n  &lt;span class=\"button-label\"&gt;Save&lt;",
     "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
+    "url": "https://blog.cloudflare.com/workers-on-demand-profiling",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-09T13:00:00Z",
+    "description": "On-demand CPU and memory profiling for Cloudflare Workers and Durable Objects is now available. Now you can generate interactive flamegraphs directly in production to quickly track down memory leaks and performance bottlenecks.",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Deno is joining Cloudflare",
+    "url": "https://blog.cloudflare.com/deno-joins-cloudflare",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-09T12:50:00Z",
+    "description": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects, so developers can use the same primitives in more places.",
+    "category": "Cloud",
     "beginner_score": 2,
     "rank_score": 20.0
   },
@@ -867,16 +878,5 @@
     "category": "Cloud",
     "beginner_score": 2,
     "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Atari Falcon",
-    "url": "https://atarimuseum.nl/atari-falcon",
-    "source": "Hacker News",
-    "published_at": "2026-10-09T22:54:13Z",
-    "description": "9 points · 2 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 7.249767528148148
   }
 ]
