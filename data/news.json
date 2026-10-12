@@ -1,17 +1,6 @@
 [
   {
     "type": "article",
-    "title": "Claude Code Routines で Notion や Slack から AI に仕事を依頼できる仕組みを作った",
-    "url": "https://zenn.dev/terass_dev/articles/6e6562d54d5505",
-    "source": "Zenn",
-    "published_at": "2026-10-09T02:47:29Z",
-    "description": "Notion のチケットや Slack 上から Claude Code に仕事を依頼できる仕組みを、Claude Code Routines を使って実装し、チーム内で運用しています。\nClaude Code Routines は、あらかじめ保存しておいたプロンプトで Claude Code のセッションをクラウド上に起動する機能です。API の呼び出しや、スケジュールでの定期実行、GitHub のイベントなどから起動できます。\n個人で Routines を使ってこういった仕",
-    "category": "AI",
-    "beginner_score": 10,
-    "rank_score": 100.0
-  },
-  {
-    "type": "article",
     "title": "How one bug bounty researcher chooses the features they investigate",
     "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate",
     "source": "GitHub Blog",
@@ -64,28 +53,6 @@
     "category": "Web",
     "beginner_score": 10,
     "rank_score": 100.0
-  },
-  {
-    "type": "article",
-    "title": "マーケティングエンジニア入門",
-    "url": "https://zenn.dev/kevin_namba/books/afe09c60f698e8",
-    "source": "Zenn",
-    "published_at": "2026-10-06T09:00:57Z",
-    "description": "マーケティングエンジニア(Growth Engineer / GTM Engineer)とは、マーケティングや営業活動を自動運転するためにツールや AI を整備する AI 時代の新たな職種です。\nこの本では、AI Agent の概念である Skill やハーネス、オントロジーなどについて触れながら、実際にマーケティングの業務を棚卸して、自動化するための方法を紹介します。\n\nサンプルとなる Skill は https://github.com/kevin-namba/marke",
-    "category": "AI",
-    "beginner_score": 9,
-    "rank_score": 90.0
-  },
-  {
-    "type": "article",
-    "title": "Claude Codeの「Claude Mods」とは？ 入れてみた3つのmodと、安全に入れる手順",
-    "url": "https://zenn.dev/yoshihiko555/articles/ea2db6070058b3",
-    "source": "Zenn",
-    "published_at": "2026-10-04T17:22:57Z",
-    "description": "Claude Modsは、Claude Codeの公式の拡張の仕組みだ。Claude Codeの中で動くTypeScript（またはJavaScript）の関数で、画面にペインを足したり、プロンプトやツール呼び出しを書き換えたりできる。2026年10月1日（米国時間）のv2.1.287で正式にリリースされた（公式ブログ、リリースノート）。\n私は発表の数日後に、公開されているmodを3つ入れた。この記事では、modsでできること、入れた3つのmodの使い方、入れる前に中身を確か",
-    "category": "Web",
-    "beginner_score": 9,
-    "rank_score": 90.0
   },
   {
     "type": "article",
@@ -173,7 +140,18 @@
     "description": "初稿: 2026-10-10\n小松弘幸 (@komatsuh:bsky, @komatsuh:twitter)\n2025 年 10 月以降の Mozc に対する主な変更をまとめました。ドキュメントやコミットログ、 Issues に書かれているものをまとめました。\nMozc の問題の報告や機能の要望等は、GitHub の Issues や Discussions へお願いしま\nす。\n\n 関連記事\n\n2024 年 10 月から 2025 年 10 月までの Mozc に対する主な",
     "category": "Development",
     "beginner_score": 7,
-    "rank_score": 74.70353488064815
+    "rank_score": 70.0
+  },
+  {
+    "type": "article",
+    "title": "apsw: Another Python SQLite Wrapper",
+    "url": "https://github.com/rogerbinns/apsw",
+    "source": "Hacker News",
+    "published_at": "2026-10-11T16:58:22Z",
+    "description": "55 points · 13 comments on Hacker News.",
+    "category": "Development",
+    "beginner_score": 6,
+    "rank_score": 65.42356768703704
   },
   {
     "type": "article",
@@ -298,14 +276,25 @@
   },
   {
     "type": "article",
-    "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
-    "url": "https://github.com/rociiu/talorys",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-10T10:52:09Z",
-    "description": "Comments",
+    "title": "React習熟度ベンチマークでHaiku 5.5が見せた底力",
+    "url": "https://zenn.dev/uhyo/articles/react-profession-bench-20",
+    "source": "Zenn",
+    "published_at": "2026-10-10T14:35:53Z",
+    "description": "皆さんこんにちは。React習熟度シリーズの20記事目です。今回は、Claude Haiku 5.5のReact習熟度ベンチマークの結果をお届けしようと思います。Claude Haiku 5.5は、Haikuシリーズで久しぶりに出たモデルです。HaikuはClaudeシリーズの中で最も廉価なモデルで、そこそこの性能の代わりに安いという位置づけです。そんなHaiku 5.5は、いったいどんな結果を出したのでしょうか。\n前回の記事はこちらです。\nhttps://zenn.dev/",
     "category": "AI",
     "beginner_score": 4,
-    "rank_score": 43.49325710287037
+    "rank_score": 40.0
+  },
+  {
+    "type": "article",
+    "title": "JevとClefを画像生成AIのプロダクトに組み込もう!",
+    "url": "https://zenn.dev/radius5/articles/20261004-j3v7cl3f",
+    "source": "Zenn",
+    "published_at": "2026-10-05T08:26:58Z",
+    "description": "こんにちは。株式会社ラディウス･ファイブでバックエンド、GPUインフラ、フロントエンド、あといろいろやってるだけのエンジニアではない人です。\nhttps://www.copainter.ai/\nウィルキンソンのジンジャ無糖は美味しいので買いましょう。\nhttps://amzn.asia/d/01vS9hzH\n\n Cloudflare Birthday Week\nみなさんはちゃんとCloudflare Birthday Weekの内容は全て見ましたか?\n見てない方は全て目を通し",
+    "category": "AI",
+    "beginner_score": 4,
+    "rank_score": 40.0
   },
   {
     "type": "article",
@@ -404,28 +393,6 @@
     "description": "はじめに\n2026 年 9 月 30 日、SQLite のソースツリーに ext/vec1/ というディレクトリが追加されました。コミットしたのは FTS5 などでおなじみの Dan Kennedy 氏。コミットメッセージはたった 1 行です。\nImport vec1 sources into directory ext/vec1/ of this project.\nこれまで別の場所で開発されていた vec1 が、まるっと SQLite 本体のリポジトリに取り込まれました。本",
     "category": "Development",
     "beginner_score": 3,
-    "rank_score": 35.62964599175926
-  },
-  {
-    "type": "article",
-    "title": "AIエージェントにMicrosoft Fabricを操作させる ― Fabric CLIとSkills for Fabric",
-    "url": "https://zenn.dev/headwaters/articles/12175106cd8c79",
-    "source": "Zenn",
-    "published_at": "2026-10-08T23:00:05Z",
-    "description": "はじめに\nClaude Code のようなコーディングエージェントに Microsoft Fabric の開発を手伝わせようとすると、二つの問題があります。一つは操作の手段です。Fabric の操作は Web の画面で行うことが多いので、エージェントが端末から使える手段を別に用意する必要があります。もう一つは知識です。エージェントは、Fabric 固有の API の呼び方や、Notebook の定義ファイルの形式を最初から正確に知っているわけではありません。\nFabric に",
-    "category": "AI",
-    "beginner_score": 3,
-    "rank_score": 30.0
-  },
-  {
-    "type": "article",
-    "title": "巨大 SQL を実行したら DB 負荷が高まったエンジニアの備忘録",
-    "url": "https://zenn.dev/ryoya_cre8tor/articles/0cdc8623498f11",
-    "source": "Zenn",
-    "published_at": "2026-10-07T00:30:37Z",
-    "description": "3行まとめ\n\nOR 条件を数万個並べた SQL は、実行に入る前の planning だけで、条件の数に比例したメモリと、二乗で増える時間を使う\nこのメモリは work_mem の対象外で、上げても下げても変わらない。planner のメモリに上限をかける設定は見つからず、確実なのは SQL の形を変えること\n配列を渡す ANY にすると planner から見た条件の数が減り、件数が増えても SQL の形が変わらない\n\n\n\n 巨大 SQL は実行される前に DB を重くする",
-    "category": "Development",
-    "beginner_score": 3,
     "rank_score": 30.0
   },
   {
@@ -452,208 +419,230 @@
   },
   {
     "type": "article",
-    "title": "Build your own decision model",
-    "url": "https://nishtahir.com/build-your-own-decision-model",
+    "title": "Local Indexing to reduce tool calling and token usage",
+    "url": "https://tedhaley.ca/pensieve",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-10T22:50:10Z",
+    "published_at": "2026-10-12T00:03:53Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.48223858435185
+    "rank_score": 27.78754916851852
   },
   {
     "type": "article",
-    "title": "A city-building game in which the city would prefer you didn't",
-    "url": "https://housing.over.pizza",
+    "title": "Whatever became of holography? (2011)",
+    "url": "https://www.americanscientist.org/article/whatever-became-of-holography",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-10T20:31:50Z",
+    "published_at": "2026-10-11T23:50:34Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.713720065833332
+    "rank_score": 27.713567687037038
   },
   {
     "type": "article",
-    "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
-    "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+    "title": "Governments are mishandling the affordability crisis",
+    "url": "https://www.economist.com/finance-and-economics/2026/10/08/governments-are-mishandling-the-affordability-crisis",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-10T18:48:35Z",
+    "published_at": "2026-10-11T23:40:06Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.65541953888889
+  },
+  {
+    "type": "article",
+    "title": "Illustration Beyond Proof",
+    "url": "https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-11T23:22:36Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.558197316666668
+  },
+  {
+    "type": "article",
+    "title": "Google Data Centers around the world",
+    "url": "https://datacenters.google/locations",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-11T22:45:40Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.35301213148148
+  },
+  {
+    "type": "article",
+    "title": "Fingerprints Are the New Cookies",
+    "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-11T22:33:39Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.28625287222222
+  },
+  {
+    "type": "article",
+    "title": "Google is illegaly cutting forest to build data centers",
+    "url": "https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-11T22:33:30Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.28541953888889
+  },
+  {
+    "type": "article",
+    "title": "Recursive self-improvement through collective intelligence",
+    "url": "https://pub.sakana.ai/mass",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-11T22:22:10Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.222456575925925
+  },
+  {
+    "type": "article",
+    "title": "Passkeys are a trap. Do not use them",
+    "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-11T21:59:48Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.098197316666667
+  },
+  {
+    "type": "article",
+    "title": "A Remote Employee Refused 160 Webcam Photos a Day. Her Employer Fired Her",
+    "url": "https://www.inc.com/chloe-rosenberg/a-remote-employee-refused-160-webcam-photos-a-day-her-employer-fired-her/91415963",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-11T21:07:20Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.806715835185184
+  },
+  {
+    "type": "article",
+    "title": "The gap in shared understanding of LLM capability is widening",
+    "url": "https://twitter.com/karpathy/status/2109361546505966046",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-11T20:20:52Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 26.140108954722223
+    "rank_score": 26.548567687037036
   },
   {
     "type": "article",
-    "title": "Why DuckDB 2.0 is faster",
-    "url": "https://motherduck.com/blog/why-duckdb-20-is-faster",
+    "title": "Cartographers of North Korea (2019)",
+    "url": "https://cartographers-nk.wonyoung.so",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-10T18:08:49Z",
+    "published_at": "2026-10-11T19:46:40Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.919183028796297
+    "rank_score": 26.358567687037038
   },
   {
     "type": "article",
-    "title": "Knuth reward check",
-    "url": "https://www.thomas-huehn.com/knuth-reward-check",
+    "title": "So, You’d Like To Sell Your Print Issues Of The Onion?",
+    "url": "https://theonion.com/archivehunt",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-10T15:47:01Z",
+    "published_at": "2026-10-11T19:43:32Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.131405251018517
+    "rank_score": 26.34116027962963
   },
   {
     "type": "article",
-    "title": "Bitwarden Dual License Model",
-    "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+    "title": "Chapter 1 of Ways of Seeing by John Berger",
+    "url": "https://www.ways-of-seeing.com/ch1",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-10T14:32:50Z",
+    "published_at": "2026-10-11T18:26:24Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 24.71927562138889
+    "rank_score": 25.91264176111111
   },
   {
     "type": "article",
-    "title": "Unikernels were hard. key word: were",
-    "url": "https://ghuntley.com/unikernels",
+    "title": "Total Annihilation, rebuilt for modern computers",
+    "url": "https://nanolathe.gg",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-10T14:27:09Z",
+    "published_at": "2026-10-11T18:04:47Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 24.687701547314816
+    "rank_score": 25.79254916851852
   },
   {
     "type": "article",
-    "title": "Apple/macOS removed from official Unix registry",
-    "url": "https://www.opengroup.org//openbrand/register",
+    "title": "NYC's \"Click to Cancel\" rule is now in effect",
+    "url": "https://www.nyc.gov/main/click-to-cancel",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-10T10:57:31Z",
+    "published_at": "2026-10-11T18:01:16Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 23.523071917685186
+    "rank_score": 25.773012131481483
   },
   {
     "type": "article",
-    "title": "The Lightbulb Computer",
-    "url": "https://lightbulbcomputer.com",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-10T04:12:26Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 21.272608954722223
-  },
-  {
-    "type": "article",
-    "title": "REA Reverse – Engineer Anything",
-    "url": "https://rea.tools",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-10T00:37:07Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.076405251018517
-  },
-  {
-    "type": "article",
-    "title": "2D Vehicles",
-    "url": "https://patkerr.co.uk/2d-vehicles",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-07T12:30:40Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Nix wrote half of my debugger",
-    "url": "https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T07:29:08Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Five months treating bugs like patients and coding agents like a medical team",
-    "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T15:26:33Z",
-    "description": "Comments",
+    "title": "Besu ローカル環境構築ハンズオン",
+    "url": "https://zenn.dev/komlock_lab/articles/besu-local-network-handson",
+    "source": "Zenn",
+    "published_at": "2026-10-11T14:28:19Z",
+    "description": "こんにちは。ブロックチェーン×AI Agentで自律経済圏を創るKomlock lab（Pacific Meta Group）でCTOをしている山口夏生 @0x_natto です。\n前編の「Besu（旧Hyperledger Besu）解説」では、バリデータの3分の2以上の署名で取引が確定し（4台なら3台）、3分の1を超えるバリデータが止まるとネットワーク全体が止まる、と書きました。前編は解説だけで、手を動かす部分はありませんでした。今回は自分の Mac で4台のバリデータを",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 20.0
+    "rank_score": 24.589956575925925
   },
   {
     "type": "article",
-    "title": "Mxc: Microsoft Execution Containers version 1.0.0",
-    "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents",
+    "title": "Terence Tao: Math 2.0 [pdf]",
+    "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T06:52:49Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Recent AI models struggled to match a human algorithmic innovation",
-    "url": "https://epoch.ai/publications/innovationeval",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T22:14:40Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Getting old Macromedia Director Games to run on modern Hardware",
-    "url": "https://werwolv.net/posts/macromedia_copy_protection",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T14:18:03Z",
+    "published_at": "2026-10-11T13:16:45Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 20.0
+    "rank_score": 24.192363983333333
   },
   {
     "type": "article",
-    "title": "Grieving the loss of details",
-    "url": "https://purplesyringa.moe/blog/grieving-the-loss-of-details",
+    "title": "IRCv3",
+    "url": "https://ircv3.net",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T16:37:21Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "OpenSCAD the Programmers Solid 3D CAD Modeller",
-    "url": "https://openscad.org",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-06T21:22:44Z",
+    "published_at": "2026-10-11T10:11:27Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 20.0
+    "rank_score": 23.16291953888889
   },
   {
     "type": "article",
-    "title": "Rampart: Browser native on-device PII radaction",
-    "url": "https://ndstudio.gov/posts/say-hello-to-rampart",
+    "title": "Ask HN: Do you want a router that has DD-WRT pre-installed?",
+    "url": "https://news.ycombinator.com/item?id=50039291",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T17:52:07Z",
+    "published_at": "2026-10-11T02:37:33Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.64125287222222
+  },
+  {
+    "type": "article",
+    "title": "I guess I'm using WebP now?",
+    "url": "https://anderegg.ca/2026/10/08/i-guess-im-using-webp-now",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-09T15:32:04Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
@@ -878,5 +867,16 @@
     "category": "Cloud",
     "beginner_score": 2,
     "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Show HN: Plimsoll, a self-hosted sandbox for code your AI agent writes",
+    "url": "https://github.com/plimsollmark/plimsoll",
+    "source": "Hacker News",
+    "published_at": "2026-10-11T23:47:59Z",
+    "description": "5 points · 1 comments on Hacker News.",
+    "category": "AI",
+    "beginner_score": 0,
+    "rank_score": 7.699215835185186
   }
 ]
