@@ -1,6 +1,17 @@
 [
   {
     "type": "article",
+    "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase",
+    "source": "GitHub Blog",
+    "published_at": "2026-10-12T17:43:59Z",
+    "description": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. \n The post  GitHub Copilot app for Beginners: How to teach Copilot about your codebase  appeared first on  The G",
+    "category": "AI",
+    "beginner_score": 10,
+    "rank_score": 105.01445953768518
+  },
+  {
+    "type": "article",
     "title": "How one bug bounty researcher chooses the features they investigate",
     "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate",
     "source": "GitHub Blog",
@@ -111,25 +122,25 @@
   },
   {
     "type": "article",
-    "title": "Highlights from Git 2.56",
-    "url": "https://github.blog/open-source/git/highlights-from-git-2-56",
-    "source": "GitHub Blog",
-    "published_at": "2026-09-28T17:23:33Z",
-    "description": "The open source Git project just released Git 2.56. Here is GitHub's look at some of the most interesting features and changes introduced since last time. \n The post  Highlights from Git 2.56  appeared first on  The GitHub Blog .",
-    "category": "Web",
-    "beginner_score": 9,
-    "rank_score": 90.0
+    "title": "PRコメントからKubernetesに訊く ~GitHub ActionsからA2Aエージェントをシークレットレスで繋ぐ~",
+    "url": "https://zenn.dev/hyeonjae/articles/secretless-a2a-github-actions-ja",
+    "source": "Zenn",
+    "published_at": "2026-10-12T14:31:57Z",
+    "description": "A2Aエージェントを活用するにあたって、セキュリティの観点からどのように補強していったかを整理します。\n\n 1. 背景\nまず現在の状況を分かりやすく整理します。私たちは main ブランチにマージする前に、 k8s クラスタ上の job の状態を把握する必要がありました。\nそのため GitHub で PR を上げた状態で、複数の開発者が実際に k8s クラスタへ接続して各種リソースの状態を確認していました。しかし k8s クラスタに接続するたびに VPN へ繋ぐ必要があり、手",
+    "category": "AI",
+    "beginner_score": 7,
+    "rank_score": 73.94760768583333
   },
   {
     "type": "article",
-    "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
-    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026",
-    "source": "AWS Blog",
-    "published_at": "2026-08-31T14:45:25Z",
-    "description": "The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind DuckDB, the popular open source analytical database that runs in-proc",
-    "category": "AI",
-    "beginner_score": 8,
-    "rank_score": 80.0
+    "title": "GitLabを月500円で自社運用する 退役PCと「出島サーバ」の構成",
+    "url": "https://zenn.dev/miyanaga/articles/zenn-2026-10-11",
+    "source": "Zenn",
+    "published_at": "2026-10-10T22:02:34Z",
+    "description": "クラウドとSaaSがこれだけ充実した時代に、Gitホスティングを自社運用するのは時代に逆行しているように見えます。それでも弊社（アイデアマンズ）は、クライアントとのソースコード共有とWikiによるドキュメント共有のために、GitLabをセルフホスティングしています。\nしかも、実質的なランニングコストは月500円程度です。この記事では、その動機と構成、運用上の判断を整理します。自社でGitホスティングを持つことを検討している方の材料になれば幸いです。\n\n なぜGitHubではな",
+    "category": "Tools",
+    "beginner_score": 7,
+    "rank_score": 70.0
   },
   {
     "type": "article",
@@ -141,17 +152,6 @@
     "category": "Development",
     "beginner_score": 7,
     "rank_score": 70.0
-  },
-  {
-    "type": "article",
-    "title": "apsw: Another Python SQLite Wrapper",
-    "url": "https://github.com/rogerbinns/apsw",
-    "source": "Hacker News",
-    "published_at": "2026-10-11T16:58:22Z",
-    "description": "55 points · 13 comments on Hacker News.",
-    "category": "Development",
-    "beginner_score": 6,
-    "rank_score": 65.42356768703704
   },
   {
     "type": "article",
@@ -276,25 +276,14 @@
   },
   {
     "type": "article",
-    "title": "React習熟度ベンチマークでHaiku 5.5が見せた底力",
-    "url": "https://zenn.dev/uhyo/articles/react-profession-bench-20",
-    "source": "Zenn",
-    "published_at": "2026-10-10T14:35:53Z",
-    "description": "皆さんこんにちは。React習熟度シリーズの20記事目です。今回は、Claude Haiku 5.5のReact習熟度ベンチマークの結果をお届けしようと思います。Claude Haiku 5.5は、Haikuシリーズで久しぶりに出たモデルです。HaikuはClaudeシリーズの中で最も廉価なモデルで、そこそこの性能の代わりに安いという位置づけです。そんなHaiku 5.5は、いったいどんな結果を出したのでしょうか。\n前回の記事はこちらです。\nhttps://zenn.dev/",
-    "category": "AI",
+    "title": "Announcing AWS Lambda Web Functions",
+    "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere",
+    "source": "AWS Blog",
+    "published_at": "2026-10-12T22:34:47Z",
+    "description": "AWS Lambda Web Functions is a serverless compute primitive that runs your HTTP framework natively, delivering fast, consistent responses through multi-concurrent execution and automated global distribution.",
+    "category": "Cloud",
     "beginner_score": 4,
-    "rank_score": 40.0
-  },
-  {
-    "type": "article",
-    "title": "JevとClefを画像生成AIのプロダクトに組み込もう!",
-    "url": "https://zenn.dev/radius5/articles/20261004-j3v7cl3f",
-    "source": "Zenn",
-    "published_at": "2026-10-05T08:26:58Z",
-    "description": "こんにちは。株式会社ラディウス･ファイブでバックエンド、GPUインフラ、フロントエンド、あといろいろやってるだけのエンジニアではない人です。\nhttps://www.copainter.ai/\nウィルキンソンのジンジャ無糖は美味しいので買いましょう。\nhttps://amzn.asia/d/01vS9hzH\n\n Cloudflare Birthday Week\nみなさんはちゃんとCloudflare Birthday Weekの内容は全て見ましたか?\n見てない方は全て目を通し",
-    "category": "AI",
-    "beginner_score": 4,
-    "rank_score": 40.0
+    "rank_score": 46.63001509324074
   },
   {
     "type": "article",
@@ -353,17 +342,6 @@
   },
   {
     "type": "article",
-    "title": "One year later: Sovereign AI and the fight for choice",
-    "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-01T13:04:19Z",
-    "description": "AI sovereignty is not a zero-sum game, but many governments now believe it is. Cloudflare's answer: more local open-source models, model-agnostic security tools, and a commitment to giving nations genuine choice.",
-    "category": "AI",
-    "beginner_score": 4,
-    "rank_score": 40.0
-  },
-  {
-    "type": "article",
     "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
     "url": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview",
     "source": "AWS Blog",
@@ -383,6 +361,39 @@
     "category": "AI",
     "beginner_score": 4,
     "rank_score": 40.0
+  },
+  {
+    "type": "article",
+    "title": "Filter, reshape, and redact logs before export with Transformers",
+    "url": "https://blog.cloudflare.com/transformers-on-logpush",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-12T14:44:59Z",
+    "description": "Logpush now supports Transformers, allowing teams to filter, redact, and reshape log streams using SQL before export. Powered by Apache DataFusion and Apache Arrow, Transformers apply those changes directly to log data before it reaches the",
+    "category": "Development",
+    "beginner_score": 3,
+    "rank_score": 34.020015093240744
+  },
+  {
+    "type": "article",
+    "title": "Canton Network ローカル環境構築ハンズオン",
+    "url": "https://zenn.dev/komlock_lab/articles/canton-localnet-handson",
+    "source": "Zenn",
+    "published_at": "2026-10-12T14:29:03Z",
+    "description": "こんにちは。ブロックチェーン×AI Agentで自律経済圏を創るKomlock lab（Pacific Meta Group）でCTOをしている山口夏生 @0x_natto です。\n2026年10月5日（UTC）、Splice 0.9.0 と Canton 3.6.1 が出ました。Splice は、Canton Network の Validator と Super Validator を動かすためのアプリケーション群です。\nところが Digital Asset の入門用リポ",
+    "category": "AI",
+    "beginner_score": 3,
+    "rank_score": 33.931496574722225
+  },
+  {
+    "type": "article",
+    "title": "WSL Containerのsettings.yaml他、基本的な挙動をみていく",
+    "url": "https://zenn.dev/eien_syogakusya/articles/a34040c33e63d2",
+    "source": "Zenn",
+    "published_at": "2026-10-12T11:19:34Z",
+    "description": "WSL Containerへ移行する価値はあるのか\n「composeが実装されるまで待機」と判断される意見が散見するWSLc。\n筆者はDockerやcomposeを扱ったことのないPodmanユーザーであり、だいぶ素人です。\nその素人が、AIツールを触る上で、PodmanからWSLcに移行する価値があるのか興味を抱いており、判明した情報をまとめ、共有していきたいと思います。\n本記事の対象者は、\n・DockerないしPodmanの経験がある方\n理由は、初心者向けの説明を省くから",
+    "category": "AI",
+    "beginner_score": 3,
+    "rank_score": 32.878811389537034
   },
   {
     "type": "article",
@@ -419,232 +430,254 @@
   },
   {
     "type": "article",
-    "title": "Local Indexing to reduce tool calling and token usage",
-    "url": "https://tedhaley.ca/pensieve",
+    "title": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
+    "url": "https://doi.org/10.1111/acel.70751",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-12T00:03:53Z",
+    "published_at": "2026-10-12T23:34:22Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.78754916851852
+    "rank_score": 26.96103361175926
   },
   {
     "type": "article",
-    "title": "Whatever became of holography? (2011)",
-    "url": "https://www.americanscientist.org/article/whatever-became-of-holography",
+    "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+    "url": "https://github.com/prabanta-dev/janas",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-11T23:50:34Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 27.713567687037038
-  },
-  {
-    "type": "article",
-    "title": "Governments are mishandling the affordability crisis",
-    "url": "https://www.economist.com/finance-and-economics/2026/10/08/governments-are-mishandling-the-affordability-crisis",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-11T23:40:06Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 27.65541953888889
-  },
-  {
-    "type": "article",
-    "title": "Illustration Beyond Proof",
-    "url": "https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-11T23:22:36Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 27.558197316666668
-  },
-  {
-    "type": "article",
-    "title": "Google Data Centers around the world",
-    "url": "https://datacenters.google/locations",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-11T22:45:40Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 27.35301213148148
-  },
-  {
-    "type": "article",
-    "title": "Fingerprints Are the New Cookies",
-    "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-11T22:33:39Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 27.28625287222222
-  },
-  {
-    "type": "article",
-    "title": "Google is illegaly cutting forest to build data centers",
-    "url": "https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-11T22:33:30Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 27.28541953888889
-  },
-  {
-    "type": "article",
-    "title": "Recursive self-improvement through collective intelligence",
-    "url": "https://pub.sakana.ai/mass",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-11T22:22:10Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 27.222456575925925
-  },
-  {
-    "type": "article",
-    "title": "Passkeys are a trap. Do not use them",
-    "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-11T21:59:48Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 27.098197316666667
-  },
-  {
-    "type": "article",
-    "title": "A Remote Employee Refused 160 Webcam Photos a Day. Her Employer Fired Her",
-    "url": "https://www.inc.com/chloe-rosenberg/a-remote-employee-refused-160-webcam-photos-a-day-her-employer-fired-her/91415963",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-11T21:07:20Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.806715835185184
-  },
-  {
-    "type": "article",
-    "title": "The gap in shared understanding of LLM capability is widening",
-    "url": "https://twitter.com/karpathy/status/2109361546505966046",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-11T20:20:52Z",
+    "published_at": "2026-10-12T22:05:43Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 26.548567687037036
+    "rank_score": 26.46853361175926
   },
   {
     "type": "article",
-    "title": "Cartographers of North Korea (2019)",
-    "url": "https://cartographers-nk.wonyoung.so",
+    "title": "Phreak.ing – Internet Phone Switch",
+    "url": "https://phreak.ing",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-11T19:46:40Z",
+    "published_at": "2026-10-12T21:39:32Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.358567687037038
+    "rank_score": 26.323070648796296
   },
   {
     "type": "article",
-    "title": "So, You’d Like To Sell Your Print Issues Of The Onion?",
-    "url": "https://theonion.com/archivehunt",
+    "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+    "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-11T19:43:32Z",
+    "published_at": "2026-10-12T21:35:35Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 26.301126204351853
+  },
+  {
+    "type": "article",
+    "title": "Who is vfmaddrnd231pd?",
+    "url": "https://purplesyringa.moe/blog/who-is-vfmaddrnd231pd",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-12T21:12:43Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.34116027962963
+    "rank_score": 26.174089167314815
   },
   {
     "type": "article",
-    "title": "Chapter 1 of Ways of Seeing by John Berger",
-    "url": "https://www.ways-of-seeing.com/ch1",
+    "title": "Show HN: Brickbrag – A multiplayer brick-building world in the browser",
+    "url": "https://brickbrag.com",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-11T18:26:24Z",
+    "published_at": "2026-10-12T21:03:36Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.91264176111111
+    "rank_score": 26.123441019166666
   },
   {
     "type": "article",
-    "title": "Total Annihilation, rebuilt for modern computers",
-    "url": "https://nanolathe.gg",
+    "title": "Writing a Demoscene Intro for the ZX Spectrum",
+    "url": "https://www.markround.com/blog/2026/zx-spectrum-intro",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-11T18:04:47Z",
+    "published_at": "2026-10-12T19:40:00Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.79254916851852
+    "rank_score": 25.658996574722224
   },
   {
     "type": "article",
-    "title": "NYC's \"Click to Cancel\" rule is now in effect",
-    "url": "https://www.nyc.gov/main/click-to-cancel",
+    "title": "Making big downloads resumable in Firefox",
+    "url": "https://lunarwatcher.codeberg.page/til/firefox/resumable-big-downloads.html",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-11T18:01:16Z",
+    "published_at": "2026-10-12T19:36:02Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.773012131481483
+    "rank_score": 25.636959537685186
   },
   {
     "type": "article",
-    "title": "Besu ローカル環境構築ハンズオン",
-    "url": "https://zenn.dev/komlock_lab/articles/besu-local-network-handson",
+    "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+    "url": "https://github.com/openai/codex/issues/48195",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-12T18:29:04Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.264922500648147
+  },
+  {
+    "type": "article",
+    "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
+    "url": "https://news.ycombinator.com/item?id=50059096",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-12T16:46:34Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 24.695478056203704
+  },
+  {
+    "type": "article",
+    "title": "A Modern Web App in C",
+    "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-12T16:13:10Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.50992250064815
+  },
+  {
+    "type": "article",
+    "title": "GLM-Legal",
+    "url": "https://z.ai/blog/glm-legal",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-12T16:11:45Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.50205213027778
+  },
+  {
+    "type": "article",
+    "title": "Solar panels that plug into your wall",
+    "url": "https://www.nationalgeographic.com/environment/article/balcony-plug-in-solar-panels-renewable-energy",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-12T14:19:04Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 23.87603361175926
+  },
+  {
+    "type": "article",
+    "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
+    "url": "https://github.com/h0m3us3r/w1700k-sdr",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-12T12:41:58Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 23.336589167314816
+  },
+  {
+    "type": "article",
+    "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+    "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-12T12:16:42Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 23.196218796944443
+  },
+  {
+    "type": "article",
+    "title": "Citroen revives the 2CV for an electric age",
+    "url": "https://www.bbc.com/news/articles/c620r33plgppo",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-12T12:09:09Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 23.1542743525
+  },
+  {
+    "type": "article",
+    "title": "【C++言語入門STL編】 第2回 文字列操作",
+    "url": "https://zenn.dev/yoshia/articles/cpp2-section2-string-operations-0bc4a0ca4858",
     "source": "Zenn",
-    "published_at": "2026-10-11T14:28:19Z",
-    "description": "こんにちは。ブロックチェーン×AI Agentで自律経済圏を創るKomlock lab（Pacific Meta Group）でCTOをしている山口夏生 @0x_natto です。\n前編の「Besu（旧Hyperledger Besu）解説」では、バリデータの3分の2以上の署名で取引が確定し（4台なら3台）、3分の1を超えるバリデータが止まるとネットワーク全体が止まる、と書きました。前編は解説だけで、手を動かす部分はありませんでした。今回は自分の Mac で4台のバリデータを",
+    "published_at": "2026-10-12T07:01:08Z",
+    "description": "https://youtu.be/5nDF56Iw_Pg\n\n\\textcolor{pink}{四国めたん: }教師役ですわ\n\n\\textcolor{lime}{ずんだもん: }生徒役なのだ\n\\footnotesize \\textcolor{pink}{四国めたん:} こんにちは。四国めたんです\n\\footnotesize \\textcolor{lime}{ずんだもん:} ずんだもんなのだ。こんにちはなのだ\n\\footnotesize \\textcolor{pink}{四国めた",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 21.443070648796297
+  },
+  {
+    "type": "article",
+    "title": "Amazon Bedrock の利用料金をユーザーごとに確認するダッシュボードを CUR 2.0 と Amazon Quick で作る",
+    "url": "https://zenn.dev/aws_japan/articles/aws-bedrock-cur2-user-cost-dashboard",
+    "source": "Zenn",
+    "published_at": "2026-10-12T04:17:19Z",
+    "description": "Amazon Bedrock の利用料金をユーザーごとに確認するダッシュボードを CUR 2.0 と Amazon Quick で作る\nこんにちは！ AWS でソリューションアーキテクトをしている杉山です。\nClaude Desktop (Chat / Cowork) や Claude Code を Amazon Bedrock 経由で社内に展開すると、「誰が、どのモデルを、どれくらい使っているのか」を知りたくなります。AWS Cost Explorer でタグを使って集計す",
+    "category": "Cloud",
+    "beginner_score": 2,
+    "rank_score": 20.532978056203703
+  },
+  {
+    "type": "article",
+    "title": "The baffling intelligence of a single cell (2024)",
+    "url": "https://jsomers.net/e-coli-chemotaxis",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-11T11:02:30Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Auto Research: Integer multiplication below n log n",
+    "url": "https://app.getsupers.com/auto-research",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-11T20:48:30Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Secret of Orange Cats Revealed After 60-Year Search",
+    "url": "https://www.sciencealert.com/secret-of-orange-cats-finally-revealed-after-60-year-search",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-10T22:10:57Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "The Making Of Super Mario 64 – full Giles Goddard interview (2001)",
+    "url": "https://pixelatron.com/blog/the-making-of-super-mario-64-full-giles-goddard-interview-ngc",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-10T19:28:41Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Microsoft-Decision-1でAI-OCRの品質ゲートを作ってみた",
+    "url": "https://zenn.dev/headwaters/articles/6e889f79ee9f2e",
+    "source": "Zenn",
+    "published_at": "2026-10-12T01:45:36Z",
+    "description": "執筆日\n2026/10/12\n\n 参考資料\nhttps://commandline.microsoft.com/microsoft-decision-1-model-foundry/\nhttps://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-microsoft-decision-1-in-microsoft-foundry-for-decision-and-classific/4562",
     "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 24.589956575925925
-  },
-  {
-    "type": "article",
-    "title": "Terence Tao: Math 2.0 [pdf]",
-    "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-11T13:16:45Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 24.192363983333333
-  },
-  {
-    "type": "article",
-    "title": "IRCv3",
-    "url": "https://ircv3.net",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-11T10:11:27Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 23.16291953888889
-  },
-  {
-    "type": "article",
-    "title": "Ask HN: Do you want a router that has DD-WRT pre-installed?",
-    "url": "https://news.ycombinator.com/item?id=50039291",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-11T02:37:33Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.64125287222222
-  },
-  {
-    "type": "article",
-    "title": "I guess I'm using WebP now?",
-    "url": "https://anderegg.ca/2026/10/08/i-guess-im-using-webp-now",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-09T15:32:04Z",
-    "description": "Comments",
-    "category": "Web",
     "beginner_score": 2,
     "rank_score": 20.0
   },
@@ -845,38 +878,5 @@
     "category": "Cloud",
     "beginner_score": 2,
     "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "AWS Weekly Roundup: OpenAI GPT-6 Astra on Amazon Bedrock, Amazon Quick desktop GA, Kiro for students, and more (September 14, 2026)",
-    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-openai-gpt-6-astra-on-amazon-bedrock-amazon-quick-desktop-ga-kiro-for-students-and-more-september-14-2026",
-    "source": "AWS Blog",
-    "published_at": "2026-09-14T15:56:33Z",
-    "description": "There’s a particular energy to mid-September in New York. Pumpkin spice lattes are flowing, temperatures are dropping, and it’s nearly sweater weather. The city is back at full speed, and so is the AWS launch calendar. This week that energy",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Introducing Amazon EBS Volume Clones across AWS accounts",
-    "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-across-aws-accounts",
-    "source": "AWS Blog",
-    "published_at": "2026-09-09T22:01:47Z",
-    "description": "AWS introduces Amazon EBS Volume Clones with cross-account copy, so you can create copies of your EBS volumes into other AWS accounts and optionally re-encrypt them with an AWS Key Management Service (AWS KMS) key in the target account.",
-    "category": "Cloud",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Show HN: Plimsoll, a self-hosted sandbox for code your AI agent writes",
-    "url": "https://github.com/plimsollmark/plimsoll",
-    "source": "Hacker News",
-    "published_at": "2026-10-11T23:47:59Z",
-    "description": "5 points · 1 comments on Hacker News.",
-    "category": "AI",
-    "beginner_score": 0,
-    "rank_score": 7.699215835185186
   }
 ]
