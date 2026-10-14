@@ -1,6 +1,17 @@
 [
   {
     "type": "article",
+    "title": "GitHub Pages の証明書失効で Error 526 になったので Cloudflare Pages へ移行した",
+    "url": "https://zenn.dev/unsoluble_sugar/articles/6a3fd085a60ec6",
+    "source": "Zenn",
+    "published_at": "2026-10-12T09:43:09Z",
+    "description": "はじめに\n個人開発で、Web カメラに映った自分の動きに合わせて VRM アバターを動かす Web アプリ Mirai Mirror を β版として公開しています。カメラ映像はブラウザの中だけで処理するため、サーバー側の処理はなく、サイトは静的ファイルの配信だけで動いています。\nhttps://miraimirror.app/\nこの公開基盤づくりは、これまで 3 本の記事にしてきました。ドメイン取得 → クリーンURL化 → β版公開 という流れです。\n2 本目のクリーンUR",
+    "category": "AI",
+    "beginner_score": 10,
+    "rank_score": 100.0
+  },
+  {
+    "type": "article",
     "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
     "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase",
     "source": "GitHub Blog",
@@ -8,7 +19,7 @@
     "description": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. \n The post  GitHub Copilot app for Beginners: How to teach Copilot about your codebase  appeared first on  The G",
     "category": "AI",
     "beginner_score": 10,
-    "rank_score": 105.01445953768518
+    "rank_score": 100.0
   },
   {
     "type": "article",
@@ -45,17 +56,6 @@
   },
   {
     "type": "article",
-    "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
-    "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent",
-    "source": "GitHub Blog",
-    "published_at": "2026-09-28T19:00:00Z",
-    "description": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. \n The post  How we found 24 Android vulnerabilities using our open source AI sec",
-    "category": "AI",
-    "beginner_score": 10,
-    "rank_score": 100.0
-  },
-  {
-    "type": "article",
     "title": "A beginner-friendly guide to view transitions in CSS",
     "url": "https://developer.mozilla.org/en-US/blog/view-transitions-beginner-guide",
     "source": "MDN",
@@ -64,6 +64,28 @@
     "category": "Web",
     "beginner_score": 10,
     "rank_score": 100.0
+  },
+  {
+    "type": "article",
+    "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+    "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise",
+    "source": "GitHub Blog",
+    "published_at": "2026-10-13T17:56:33Z",
+    "description": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%. \n The post  GitHub’s model for secret detection: Finding more secrets with less noise  ",
+    "category": "AI",
+    "beginner_score": 9,
+    "rank_score": 95.80737226694444
+  },
+  {
+    "type": "article",
+    "title": "話題の逆解析 MCP「REA」を Claude Code に隔離してつないだ——静的解析の A/B 試験と安全設計",
+    "url": "https://zenn.dev/keigoly/articles/8738d8d241b5a1",
+    "source": "Zenn",
+    "published_at": "2026-10-13T17:54:44Z",
+    "description": "はじめに\n2026 年 10 月 13 日、話題の逆解析ツール「REA」を、AI エージェントである Claude Code に接続して試験導入を行いました。逆解析の道具をそのままエージェントに渡す運用には安全上の懸念があるため、専用の隔離環境を整えた上で実務課題を用いた評価を実施しています。\n\n静的な JavaScript や Web の解析において、標準の道具と REA で回答の正確さは同等でした\nREA を導入した条件では試行錯誤が増え、所要時間は最大 2.00 倍、A",
+    "category": "AI",
+    "beginner_score": 9,
+    "rank_score": 95.79727967435186
   },
   {
     "type": "article",
@@ -122,17 +144,6 @@
   },
   {
     "type": "article",
-    "title": "PRコメントからKubernetesに訊く ~GitHub ActionsからA2Aエージェントをシークレットレスで繋ぐ~",
-    "url": "https://zenn.dev/hyeonjae/articles/secretless-a2a-github-actions-ja",
-    "source": "Zenn",
-    "published_at": "2026-10-12T14:31:57Z",
-    "description": "A2Aエージェントを活用するにあたって、セキュリティの観点からどのように補強していったかを整理します。\n\n 1. 背景\nまず現在の状況を分かりやすく整理します。私たちは main ブランチにマージする前に、 k8s クラスタ上の job の状態を把握する必要がありました。\nそのため GitHub で PR を上げた状態で、複数の開発者が実際に k8s クラスタへ接続して各種リソースの状態を確認していました。しかし k8s クラスタに接続するたびに VPN へ繋ぐ必要があり、手",
-    "category": "AI",
-    "beginner_score": 7,
-    "rank_score": 73.94760768583333
-  },
-  {
-    "type": "article",
     "title": "GitLabを月500円で自社運用する 退役PCと「出島サーバ」の構成",
     "url": "https://zenn.dev/miyanaga/articles/zenn-2026-10-11",
     "source": "Zenn",
@@ -144,14 +155,14 @@
   },
   {
     "type": "article",
-    "title": "2025 年 10 月から 2026 年 10 月までの Mozc に対する主な変更",
-    "url": "https://zenn.dev/komatsuh/articles/komatsuh_mozc_updates_from_2025_10",
-    "source": "Zenn",
-    "published_at": "2026-10-10T14:30:00Z",
-    "description": "初稿: 2026-10-10\n小松弘幸 (@komatsuh:bsky, @komatsuh:twitter)\n2025 年 10 月以降の Mozc に対する主な変更をまとめました。ドキュメントやコミットログ、 Issues に書かれているものをまとめました。\nMozc の問題の報告や機能の要望等は、GitHub の Issues や Discussions へお願いしま\nす。\n\n 関連記事\n\n2024 年 10 月から 2025 年 10 月までの Mozc に対する主な",
+    "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
+    "url": "https://blog.cloudflare.com/d1-control-plane",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-13T16:20:18Z",
+    "description": "A deep dive into how D1 architected its control plane to scale and manage millions of databases, while keeping data plane query operations at the edge. We share guiding principles on how to build on the Developer Platform effectively.",
     "category": "Development",
-    "beginner_score": 7,
-    "rank_score": 70.0
+    "beginner_score": 6,
+    "rank_score": 65.27265004472223
   },
   {
     "type": "article",
@@ -188,12 +199,23 @@
   },
   {
     "type": "article",
-    "title": "若手エンジニアに必要だと感じた「AIを使う力」",
-    "url": "https://zenn.dev/muit_techblog/articles/6ea28887c79457",
-    "source": "Zenn",
-    "published_at": "2026-10-08T08:29:40Z",
-    "description": "若手エンジニアに必要だと感じた「AIを使う力」\n\n はじめに\n私は現在、JavaやReactを使った金融系Webアプリの開発に携わっています。開発経験はまだ浅く、業務では分からないことに遭遇する場面も多くあります。そのため、調査、実装、文章作成、レビューなど、さまざまな場面でAIを使ってきました。私自身、AIを使うことで実装や調査を効率化できる場面が多くありました。一方で、使えば使うほど「若手エンジニアがAIを使う際に陥りやすい問題」もあると感じるようになりました。\n若手エン",
-    "category": "AI",
+    "title": "Physical Intelligence API Beta: Frontier Models for Every Robot",
+    "url": "https://www.pi.website/blog/api-beta",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-13T21:55:25Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 5,
+    "rank_score": 57.134409303981485
+  },
+  {
+    "type": "article",
+    "title": "900-Page Pre-Pantone Guide to Color from 1692 (With Complete High-Res Scan)",
+    "url": "https://www.openculture.com/2026/10/a-900-page-pre-pantone-guide-to-color-from-1692.html",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-12T09:05:02Z",
+    "description": "Comments",
+    "category": "Web",
     "beginner_score": 5,
     "rank_score": 50.0
   },
@@ -265,28 +287,6 @@
   },
   {
     "type": "article",
-    "title": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 processors are now generally available",
-    "url": "https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available",
-    "source": "AWS Blog",
-    "published_at": "2026-08-31T19:53:34Z",
-    "description": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 are now generally available, delivering up to 25% better compute performance than R8g, ideal for databases, in-memory caches, and real-time analytics.",
-    "category": "AI",
-    "beginner_score": 5,
-    "rank_score": 50.0
-  },
-  {
-    "type": "article",
-    "title": "Announcing AWS Lambda Web Functions",
-    "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere",
-    "source": "AWS Blog",
-    "published_at": "2026-10-12T22:34:47Z",
-    "description": "AWS Lambda Web Functions is a serverless compute primitive that runs your HTTP framework natively, delivering fast, consistent responses through multi-concurrent execution and automated global distribution.",
-    "category": "Cloud",
-    "beginner_score": 4,
-    "rank_score": 46.63001509324074
-  },
-  {
-    "type": "article",
     "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
     "url": "https://blog.cloudflare.com/agentic-security-operations",
     "source": "Cloudflare Blog",
@@ -342,6 +342,17 @@
   },
   {
     "type": "article",
+    "title": "Announcing AWS Lambda Web Functions",
+    "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere",
+    "source": "AWS Blog",
+    "published_at": "2026-10-12T22:34:47Z",
+    "description": "AWS Lambda Web Functions is a serverless compute primitive that runs your HTTP framework natively, delivering fast, consistent responses through multi-concurrent execution and automated global distribution.",
+    "category": "Cloud",
+    "beginner_score": 4,
+    "rank_score": 40.0
+  },
+  {
+    "type": "article",
     "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
     "url": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview",
     "source": "AWS Blog",
@@ -364,36 +375,47 @@
   },
   {
     "type": "article",
-    "title": "Filter, reshape, and redact logs before export with Transformers",
-    "url": "https://blog.cloudflare.com/transformers-on-logpush",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-12T14:44:59Z",
-    "description": "Logpush now supports Transformers, allowing teams to filter, redact, and reshape log streams using SQL before export. Powered by Apache DataFusion and Apache Arrow, Transformers apply those changes directly to log data before it reaches the",
+    "title": "How to engineer an AI harness for game development",
+    "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+    "source": "Hacker News",
+    "published_at": "2026-10-13T14:14:23Z",
+    "description": "123 points · 57 comments on Hacker News.",
+    "category": "AI",
+    "beginner_score": 3,
+    "rank_score": 34.57311300768519
+  },
+  {
+    "type": "article",
+    "title": "Show HN: Spotatui, a Spotify TUI/GUI without web API rate limits",
+    "url": "https://github.com/LargeModGames/spotatui",
+    "source": "Hacker News",
+    "published_at": "2026-10-13T11:32:00Z",
+    "description": "42 points · 8 comments on Hacker News.",
+    "category": "Web",
+    "beginner_score": 3,
+    "rank_score": 33.67098337805555
+  },
+  {
+    "type": "article",
+    "title": "Maybe a better way to track the release history of a Git repo",
+    "url": "https://blog.plover.com/prog/git/history-proposal.html",
+    "source": "Hacker News",
+    "published_at": "2026-10-13T06:47:42Z",
+    "description": "19 points · 4 comments on Hacker News.",
     "category": "Development",
     "beginner_score": 3,
-    "rank_score": 34.020015093240744
+    "rank_score": 32.09153893361111
   },
   {
     "type": "article",
-    "title": "Canton Network ローカル環境構築ハンズオン",
-    "url": "https://zenn.dev/komlock_lab/articles/canton-localnet-handson",
+    "title": "dbtの「4層品質モデル」をTypeScript+クリーンアーキテクチャで例えてみる",
+    "url": "https://zenn.dev/ronnabyte/articles/c6a53615a9df56",
     "source": "Zenn",
-    "published_at": "2026-10-12T14:29:03Z",
-    "description": "こんにちは。ブロックチェーン×AI Agentで自律経済圏を創るKomlock lab（Pacific Meta Group）でCTOをしている山口夏生 @0x_natto です。\n2026年10月5日（UTC）、Splice 0.9.0 と Canton 3.6.1 が出ました。Splice は、Canton Network の Validator と Super Validator を動かすためのアプリケーション群です。\nところが Digital Asset の入門用リポ",
-    "category": "AI",
+    "published_at": "2026-10-13T00:18:23Z",
+    "description": "dbtの「4層品質モデル」をTypeScript+クリーンアーキテクチャで例えてみる\n\n はじめに\n『dbtとそれにまつわる技術について語ろうじゃないか』(DATUM STUDIO・ちゅらデータ技術書典支部)を読みました。\n私自身、Webアプリ開発と比べるとデータエンジニアリングに携わってまだ歴が浅いのでこちらの書籍でdbt周りの知見を深められたらなと思って本書を手に取った次第です。\n弊社でdbtを活用しているエンジニアの方々が、実践で得た知見や設計の考え方、最新の動向を詳し",
+    "category": "Web",
     "beginner_score": 3,
-    "rank_score": 33.931496574722225
-  },
-  {
-    "type": "article",
-    "title": "WSL Containerのsettings.yaml他、基本的な挙動をみていく",
-    "url": "https://zenn.dev/eien_syogakusya/articles/a34040c33e63d2",
-    "source": "Zenn",
-    "published_at": "2026-10-12T11:19:34Z",
-    "description": "WSL Containerへ移行する価値はあるのか\n「composeが実装されるまで待機」と判断される意見が散見するWSLc。\n筆者はDockerやcomposeを扱ったことのないPodmanユーザーであり、だいぶ素人です。\nその素人が、AIツールを触る上で、PodmanからWSLcに移行する価値があるのか興味を抱いており、判明した情報をまとめ、共有していきたいと思います。\n本記事の対象者は、\n・DockerないしPodmanの経験がある方\n理由は、初心者向けの説明を省くから",
-    "category": "AI",
-    "beginner_score": 3,
-    "rank_score": 32.878811389537034
+    "rank_score": 30.0
   },
   {
     "type": "article",
@@ -402,6 +424,17 @@
     "source": "Zenn",
     "published_at": "2026-10-10T17:16:42Z",
     "description": "はじめに\n2026 年 9 月 30 日、SQLite のソースツリーに ext/vec1/ というディレクトリが追加されました。コミットしたのは FTS5 などでおなじみの Dan Kennedy 氏。コミットメッセージはたった 1 行です。\nImport vec1 sources into directory ext/vec1/ of this project.\nこれまで別の場所で開発されていた vec1 が、まるっと SQLite 本体のリポジトリに取り込まれました。本",
+    "category": "Development",
+    "beginner_score": 3,
+    "rank_score": 30.0
+  },
+  {
+    "type": "article",
+    "title": "Filter, reshape, and redact logs before export with Transformers",
+    "url": "https://blog.cloudflare.com/transformers-on-logpush",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-12T14:44:59Z",
+    "description": "Logpush now supports Transformers, allowing teams to filter, redact, and reshape log streams using SQL before export. Powered by Apache DataFusion and Apache Arrow, Transformers apply those changes directly to log data before it reaches the",
     "category": "Development",
     "beginner_score": 3,
     "rank_score": 30.0
@@ -430,190 +463,256 @@
   },
   {
     "type": "article",
-    "title": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
-    "url": "https://doi.org/10.1111/acel.70751",
+    "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+    "url": "https://pulseos.finance",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-12T23:34:22Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.96103361175926
-  },
-  {
-    "type": "article",
-    "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
-    "url": "https://github.com/prabanta-dev/janas",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-12T22:05:43Z",
+    "published_at": "2026-10-13T23:13:23Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 26.46853361175926
+    "rank_score": 27.56755745212963
   },
   {
     "type": "article",
-    "title": "Phreak.ing – Internet Phone Switch",
-    "url": "https://phreak.ing",
+    "title": "Recreational Programming",
+    "url": "https://www.cphiri.dev/presentations/recreational-programming",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-12T21:39:32Z",
+    "published_at": "2026-10-13T22:33:33Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.323070648796296
+    "rank_score": 27.346261155833332
   },
   {
     "type": "article",
-    "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
-    "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+    "title": "AlphaNIST",
+    "url": "https://alpha-nist.github.io",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-12T21:35:35Z",
+    "published_at": "2026-10-13T21:57:29Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.145890785462964
+  },
+  {
+    "type": "article",
+    "title": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
+    "url": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-13T21:01:12Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 26.301126204351853
+    "rank_score": 26.83320560027778
   },
   {
     "type": "article",
-    "title": "Who is vfmaddrnd231pd?",
-    "url": "https://purplesyringa.moe/blog/who-is-vfmaddrnd231pd",
+    "title": "OpenAI engineer arrested in bugging of executive conference room",
+    "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-12T21:12:43Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.174089167314815
-  },
-  {
-    "type": "article",
-    "title": "Show HN: Brickbrag – A multiplayer brick-building world in the browser",
-    "url": "https://brickbrag.com",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-12T21:03:36Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.123441019166666
-  },
-  {
-    "type": "article",
-    "title": "Writing a Demoscene Intro for the ZX Spectrum",
-    "url": "https://www.markround.com/blog/2026/zx-spectrum-intro",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-12T19:40:00Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.658996574722224
-  },
-  {
-    "type": "article",
-    "title": "Making big downloads resumable in Firefox",
-    "url": "https://lunarwatcher.codeberg.page/til/firefox/resumable-big-downloads.html",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-12T19:36:02Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.636959537685186
-  },
-  {
-    "type": "article",
-    "title": "Codex CLI installs a persistent, self-updating background daemon by default",
-    "url": "https://github.com/openai/codex/issues/48195",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-12T18:29:04Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.264922500648147
-  },
-  {
-    "type": "article",
-    "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
-    "url": "https://news.ycombinator.com/item?id=50059096",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-12T16:46:34Z",
+    "published_at": "2026-10-13T20:23:55Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 24.695478056203704
+    "rank_score": 26.62607597064815
   },
   {
     "type": "article",
-    "title": "A Modern Web App in C",
-    "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+    "title": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
+    "url": "https://guitoro.com",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-12T16:13:10Z",
+    "published_at": "2026-10-13T19:11:48Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 24.50992250064815
+    "rank_score": 26.2254278225
   },
   {
     "type": "article",
-    "title": "GLM-Legal",
-    "url": "https://z.ai/blog/glm-legal",
+    "title": "Gemini 4 Argon",
+    "url": "https://deepmind.google/models/gemini",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-12T16:11:45Z",
+    "published_at": "2026-10-13T16:03:16Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 24.50205213027778
+    "rank_score": 25.178020415092593
   },
   {
     "type": "article",
-    "title": "Solar panels that plug into your wall",
-    "url": "https://www.nationalgeographic.com/environment/article/balcony-plug-in-solar-panels-renewable-energy",
+    "title": "AWS Weekly Roundup: Prime Day 2026 by the numbers, Claude Haiku 5.5, Amazon Nova 2.5 Sonic, and more (October 13, 2026)",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026",
+    "source": "AWS Blog",
+    "published_at": "2026-10-13T15:59:06Z",
+    "description": "Some numbers are hard to picture until you sit with them for a moment. Last week we published the Prime Day 2026 metrics, and the one that stuck with me is 2.3 quadrillion: the daily requests Amazon ElastiCache peaked at during the event. P",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 25.154872266944444
+  },
+  {
+    "type": "article",
+    "title": "Redesigning source control at Anthropic",
+    "url": "https://www.anthropic.com/engineering/redesigning-source-control",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-12T14:19:04Z",
+    "published_at": "2026-10-13T15:49:56Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 23.87603361175926
+    "rank_score": 25.103946341018517
   },
   {
     "type": "article",
-    "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
-    "url": "https://github.com/h0m3us3r/w1700k-sdr",
+    "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+    "url": "https://www.sammystraus.com",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-12T12:41:58Z",
+    "published_at": "2026-10-13T15:25:50Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 24.97005745212963
+  },
+  {
+    "type": "article",
+    "title": "The United Kingdom generates less electricity per person than in the 1970s",
+    "url": "https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-13T15:12:57Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 23.336589167314816
+    "rank_score": 24.898483378055555
   },
   {
     "type": "article",
-    "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
-    "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+    "title": "Thunderbird for iOS",
+    "url": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-12T12:16:42Z",
+    "published_at": "2026-10-13T15:07:37Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 23.196218796944443
+    "rank_score": 24.868853748425927
   },
   {
     "type": "article",
-    "title": "Citroen revives the 2CV for an electric age",
-    "url": "https://www.bbc.com/news/articles/c620r33plgppo",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-12T12:09:09Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 23.1542743525
-  },
-  {
-    "type": "article",
-    "title": "【C++言語入門STL編】 第2回 文字列操作",
-    "url": "https://zenn.dev/yoshia/articles/cpp2-section2-string-operations-0bc4a0ca4858",
+    "title": "EmDash を pnpm の 7 日ルールで入れ直したら、つまずいたところ",
+    "url": "https://zenn.dev/n_tong/articles/5ea0a290d8923d",
     "source": "Zenn",
-    "published_at": "2026-10-12T07:01:08Z",
-    "description": "https://youtu.be/5nDF56Iw_Pg\n\n\\textcolor{pink}{四国めたん: }教師役ですわ\n\n\\textcolor{lime}{ずんだもん: }生徒役なのだ\n\\footnotesize \\textcolor{pink}{四国めたん:} こんにちは。四国めたんです\n\\footnotesize \\textcolor{lime}{ずんだもん:} ずんだもんなのだ。こんにちはなのだ\n\\footnotesize \\textcolor{pink}{四国めた",
+    "published_at": "2026-10-13T14:56:02Z",
+    "description": "はじめに\n前回、Astro 製の CMS「EmDash」を初期設定のまま試してみた。\nhttps://zenn.dev/n_tong/articles/d764cb1e13d25c\nEmDash が生成する pnpm-workspace.yaml のデフォルト設定は、「公開から 1 日未満の版は入れない」になっている。\n今回は、これを自分の方針（Mini Shai-Huludなどの対策）に合わせて 7 日に延ばして入れ直してみた。\n何か所かつまずいたので、記録しておく。\n\n ",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 24.804501896574074
+  },
+  {
+    "type": "article",
+    "title": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
+    "url": "https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-13T14:26:08Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 24.638390785462963
+  },
+  {
+    "type": "article",
+    "title": "New Apple TV 4K",
+    "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-13T13:21:35Z",
+    "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 21.443070648796297
+    "rank_score": 24.27977967435185
+  },
+  {
+    "type": "article",
+    "title": "Apple HomeView",
+    "url": "https://www.apple.com/apple-homeview",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-13T13:02:12Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.172094489166668
+  },
+  {
+    "type": "article",
+    "title": "Firefox Enterprise",
+    "url": "https://www.firefox.com/en-US/enterprise",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-13T12:00:42Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 23.8304278225
+  },
+  {
+    "type": "article",
+    "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
+    "url": "https://eg2.haku.sh",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-13T11:27:14Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 23.644501896574074
+  },
+  {
+    "type": "article",
+    "title": "11 year old unsoundness bugs found in Rust borrow checker",
+    "url": "https://github.com/rust-lang/rust/issues/164250",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-13T10:27:00Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 23.309872266944446
+  },
+  {
+    "type": "article",
+    "title": "AI-DLC富山合宿に参加してみた",
+    "url": "https://zenn.dev/nuance/articles/ai-dlc-toyama-camp-2026",
+    "source": "Zenn",
+    "published_at": "2026-10-13T09:32:44Z",
+    "description": "はじめに\n2026年10月10日・11日に開催された「JAWS-UG 富山#7 AI-DLC富山合宿」に参加しました。講師はAWSの福井厚さんです。[1]\n座学でAI-DLCの考え方を学び、その後はチームに分かれてシステム開発に取り組みました。\n\n 参加のきっかけ\n最近、業務担当者とエンジニアの距離が、AIによって少しずつ縮まっていると感じています。\n業務担当者は、プログラミング言語に詳しくなくても、AIと話しながら画面や操作のモックを作れるようになってきました。「こんなもの",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 23.008390785462964
+  },
+  {
+    "type": "article",
+    "title": "Azure SRE Agent から Azure SRE Agent を呼ぶときに認証エラーになる件",
+    "url": "https://zenn.dev/maaya8585/articles/b1160260c86805",
+    "source": "Zenn",
+    "published_at": "2026-10-13T07:43:12Z",
+    "description": "こんにちは。まーやです。最近Azure SRE Agentで遊んでます。元々アプリとその周りのクラウドPaaSの運用エンジニアをしていた私としてはかなりポテンシャルを(勝手に)感じているサービス。ちょっと使う分にはそんなにはまることもないですが、それなりに使い倒そうとするとまだまだアラも出てくる新サービス。しかもAI系。今回出会ったエラーとその解決の内容を備忘録しておきます。\n\n はじめに\nAzure SRE Agent の概要やドキュメントはこちら\nhttps://lear",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 22.399872266944445
+  },
+  {
+    "type": "article",
+    "title": "Next.js（Pages Router）+ react-i18next で多言語化を実装する",
+    "url": "https://zenn.dev/socialplus/articles/f363cdf24340cf",
+    "source": "Zenn",
+    "published_at": "2026-10-13T00:44:01Z",
+    "description": "こんにちは、koyablueです。\nソーシャルPLUSでは、Shopify ストアなどのサービスと連携して使うログイン/会員登録画面（以下、ログイン画面）を、エンドユーザー向けのNext.js製アプリとして提供しています。\n今回このログイン画面を多言語化するにあたってフロントエンドで行った内容を紹介します。\n技術スタック:\n\nNext.js v16.3.8（Pages Router）\ni18next v21.9.2\nreact-i18next v11.18.6\n\n\n 実装方針",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.07107597064815
+  },
+  {
+    "type": "article",
+    "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+    "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-12T10:09:37Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
   },
   {
     "type": "article",
@@ -624,81 +723,15 @@
     "description": "Amazon Bedrock の利用料金をユーザーごとに確認するダッシュボードを CUR 2.0 と Amazon Quick で作る\nこんにちは！ AWS でソリューションアーキテクトをしている杉山です。\nClaude Desktop (Chat / Cowork) や Claude Code を Amazon Bedrock 経由で社内に展開すると、「誰が、どのモデルを、どれくらい使っているのか」を知りたくなります。AWS Cost Explorer でタグを使って集計す",
     "category": "Cloud",
     "beginner_score": 2,
-    "rank_score": 20.532978056203703
-  },
-  {
-    "type": "article",
-    "title": "The baffling intelligence of a single cell (2024)",
-    "url": "https://jsomers.net/e-coli-chemotaxis",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-11T11:02:30Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
     "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "Auto Research: Integer multiplication below n log n",
-    "url": "https://app.getsupers.com/auto-research",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-11T20:48:30Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Secret of Orange Cats Revealed After 60-Year Search",
-    "url": "https://www.sciencealert.com/secret-of-orange-cats-finally-revealed-after-60-year-search",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-10T22:10:57Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "The Making Of Super Mario 64 – full Giles Goddard interview (2001)",
-    "url": "https://pixelatron.com/blog/the-making-of-super-mario-64-full-giles-goddard-interview-ngc",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-10T19:28:41Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Microsoft-Decision-1でAI-OCRの品質ゲートを作ってみた",
-    "url": "https://zenn.dev/headwaters/articles/6e889f79ee9f2e",
+    "title": "Raspberry Pi 4でMCPサーバを構築する(3)",
+    "url": "https://zenn.dev/drbobt1122/articles/blog26101101",
     "source": "Zenn",
-    "published_at": "2026-10-12T01:45:36Z",
-    "description": "執筆日\n2026/10/12\n\n 参考資料\nhttps://commandline.microsoft.com/microsoft-decision-1-model-foundry/\nhttps://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-microsoft-decision-1-in-microsoft-foundry-for-decision-and-classific/4562",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Haiku 5.5 を機に Sonnet 以下で動かしていたサブエージェントを見直した",
-    "url": "https://zenn.dev/genda_jp/articles/haiku-5-5-subagent-roles",
-    "source": "Zenn",
-    "published_at": "2026-10-08T11:42:21Z",
-    "description": "はじめに\n株式会社GENDA 開発部エンジニアの奥山です。\nClaude Haiku 5.5 が出ました。\nhttps://www.anthropic.com/claude-haiku-5-5\nHaiku で effort を指定できるのは 5.5 が初めてで、単価は Haiku 4.5 のちょうど 1/10 になっています。\n\n\n\nモデル\ninput / output（per MTok）\nSonnet 5.5 比\n\n\n\n\nClaude Opus 5.5\n$4 / $20\n2",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "CSSの`text-box`で文字を上下中央に揃えたい",
-    "url": "https://zenn.dev/chot/articles/be424332489e7a",
-    "source": "Zenn",
-    "published_at": "2026-10-08T06:20:08Z",
-    "description": "ボタンの文字などを上下中央に配置するとき、CSSで中央揃えを指定しても、少しズレて見えることがあります。この記事では、文字がズレて見える理由と、上下中央に揃えるための考え方を、CSSとフォントの仕組みから解説します。\n\n 中央揃えなのにズレて見える理由\n次のボタンは、横書きで1行のラベルをFlexboxで上下中央に配置した例です。\n&lt;button class=\"button\"&gt;\n  &lt;span class=\"button-label\"&gt;Save&lt;",
+    "published_at": "2026-10-11T22:43:02Z",
+    "description": "以前、Raspberry Pi Pico Wを使って、Ambientサービスのようなシステムを構築しました。\nhttps://zenn.dev/drbobt1122/articles/blog26082301\nhttps://zenn.dev/drbobt1122/articles/blog26082701\nまた、Raspberry Pi 4(以下、Pi 4)をMCP(Model Context Protocol)サーバにして、いくつかのクライアント仕様で接続確認しました。\n",
     "category": "Web",
     "beginner_score": 2,
     "rank_score": 20.0
@@ -793,17 +826,6 @@
   },
   {
     "type": "article",
-    "title": "2026 Birthday week: network performance update",
-    "url": "https://blog.cloudflare.com/network-performance-birthday-week-2026",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-02T13:00:00Z",
-    "description": "Cloudflare now ranks as the fastest provider across 74% of the top 1,000 global networks. By incorporating background telemetry from Cloudflare Challenge Pages, we have expanded our real-user measurement scale while maintaining user privacy",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
     "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
     "url": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws",
     "source": "AWS Blog",
@@ -854,28 +876,6 @@
     "published_at": "2026-09-21T16:11:24Z",
     "description": "Living in the Netherlands, I spend a fair amount of time on trains, and that is usually where I catch up on what the builder community is writing. Until now, that meant opening a laptop or squinting at a browser tab on my phone. This week I",
     "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "AWS Elastic Beanstalk introduces Cluster Mode",
-    "url": "https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode",
-    "source": "AWS Blog",
-    "published_at": "2026-09-17T19:20:21Z",
-    "description": "Run an application on AWS Elastic Beanstalk Cluster Mode without provisioning or operating the compute underneath it. You provide a container image or source code; Elastic Beanstalk with service-operated compute creates and operates the env",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "AWS reimagines the getting started experience",
-    "url": "https://aws.amazon.com/blogs/aws/aws-reimagines-the-getting-started-experience",
-    "source": "AWS Blog",
-    "published_at": "2026-09-16T17:50:14Z",
-    "description": "AWS has reimagined the getting started experience with smart and sensible defaults to help developers get started fast so that they can focus on building. New customers can sign up and get started right away with $100 in Free Tier credits, ",
-    "category": "Cloud",
     "beginner_score": 2,
     "rank_score": 20.0
   }
