@@ -1,14 +1,14 @@
 [
   {
     "type": "article",
-    "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
-    "url": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers",
+    "title": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
+    "url": "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org",
     "source": "GitHub Blog",
-    "published_at": "2026-10-14T19:11:33Z",
-    "description": "Our new repo star history API now provides trends without returning individual identities or requiring unbounded database work. These are the engineering tradeoffs we made. \n The post  From 2,500 requests to 24: Rebuilding star history with",
-    "category": "Web",
+    "published_at": "2026-10-15T18:00:00Z",
+    "description": "Put native GitHub features to work to review outside collaborator access and archive stale repositories. \n The post  Staying Evergreen: How we automated secure access and repo hygiene in a shared org  appeared first on  The GitHub Blog .",
+    "category": "Security",
     "beginner_score": 10,
-    "rank_score": 106.38570618805555
+    "rank_score": 106.07400282851852
   },
   {
     "type": "article",
@@ -18,6 +18,17 @@
     "published_at": "2026-10-13T17:54:44Z",
     "description": "https://eof.keigoly.jp/tech-1\n\n はじめに\n2026 年 10 月 13 日、話題の逆解析ツール「REA」を、AI エージェントである Claude Code に接続して試験導入を行いました。逆解析の道具をそのままエージェントに渡す運用には安全上の懸念があるため、専用の隔離環境を整えた上で実務課題を用いた評価を実施しています。\n\n静的な JavaScript や Web の解析において、標準の道具と REA で回答の正確さは同等でした\nREA を",
     "category": "AI",
+    "beginner_score": 10,
+    "rank_score": 100.0
+  },
+  {
+    "type": "article",
+    "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
+    "url": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers",
+    "source": "GitHub Blog",
+    "published_at": "2026-10-14T19:11:33Z",
+    "description": "Our new repo star history API now provides trends without returning individual identities or requiring unbounded database work. These are the engineering tradeoffs we made. \n The post  From 2,500 requests to 24: Rebuilding star history with",
+    "category": "Web",
     "beginner_score": 10,
     "rank_score": 100.0
   },
@@ -56,17 +67,6 @@
   },
   {
     "type": "article",
-    "title": "ReviewBench: An open benchmark for AI code review",
-    "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review",
-    "source": "GitHub Blog",
-    "published_at": "2026-10-05T15:59:40Z",
-    "description": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics. \n The post  ReviewBench: An open benchmark for A",
-    "category": "AI",
-    "beginner_score": 10,
-    "rank_score": 100.0
-  },
-  {
-    "type": "article",
     "title": "A beginner-friendly guide to view transitions in CSS",
     "url": "https://developer.mozilla.org/en-US/blog/view-transitions-beginner-guide",
     "source": "MDN",
@@ -78,6 +78,17 @@
   },
   {
     "type": "article",
+    "title": "The next developer interface is ambient intelligence",
+    "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence",
+    "source": "GitHub Blog",
+    "published_at": "2026-10-15T19:39:27Z",
+    "description": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. \n The post  The next developer interface is ambient intelligence  appeared",
+    "category": "AI",
+    "beginner_score": 9,
+    "rank_score": 96.62650282851851
+  },
+  {
+    "type": "article",
     "title": "GitHub availability report: September 2026",
     "url": "https://github.blog/news-insights/company-news/github-availability-report-september-2026",
     "source": "GitHub Blog",
@@ -85,7 +96,7 @@
     "description": "In September, we experienced two incidents that resulted in degraded performance across GitHub services.   \n The post  GitHub availability report: September 2026  appeared first on  The GitHub Blog .",
     "category": "AI",
     "beginner_score": 9,
-    "rank_score": 96.66366915101852
+    "rank_score": 90.0
   },
   {
     "type": "article",
@@ -122,17 +133,6 @@
   },
   {
     "type": "article",
-    "title": "AI is changing developer work. Here are three skills to strengthen.",
-    "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
-    "source": "GitHub Blog",
-    "published_at": "2026-10-02T15:00:00Z",
-    "description": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow. \n The post  AI is changing developer work. Here are three skills to strengthen.  appeared first on  The GitHub Blog .",
-    "category": "AI",
-    "beginner_score": 9,
-    "rank_score": 90.0
-  },
-  {
-    "type": "article",
     "title": "【セキュリティ】お客さんからの「うちは大丈夫？」に答えるため、IPAの点検項目をレガシーPHPのECサイトで上から順にやってみた",
     "url": "https://zenn.dev/subara3/articles/b90ff538d87aa6",
     "source": "Zenn",
@@ -140,7 +140,7 @@
     "description": "連日の情報漏洩により、世間は何かと騒がしいものですが、やっぱりみんな心配なようで、お仕事をしていると「うちは大丈夫なのか」とお問い合わせがやみません。\n「これ、どういうつくりになってるんだっけ？　外部にデータ保存してましたっけ？」なーんてね……。\n10月9日に、IPA（基本技術者情報試験とかやってる組織）が「不正アクセスによる漏えい等の事案を踏まえ、速やかに実施すべき対策等について」を発表しました。\nhttps://www.ipa.go.jp/security/securit",
     "category": "Security",
     "beginner_score": 6,
-    "rank_score": 64.10579878064814
+    "rank_score": 60.0
   },
   {
     "type": "article",
@@ -188,14 +188,14 @@
   },
   {
     "type": "article",
-    "title": "Phloem: Git history grown like a slime mold",
-    "url": "https://phloem.stemdeck.app",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-12T10:52:25Z",
-    "description": "Comments",
-    "category": "Web",
+    "title": "国産モデル sarashina3-mini は日本語の推敲で何を変えるのか？",
+    "url": "https://zenn.dev/algoartis/articles/03ca12150ccbee",
+    "source": "Zenn",
+    "published_at": "2026-10-15T08:30:03Z",
+    "description": "こんにちは。ALGO ARTISの大賀 愛一郎です。yomiyasuの開発者でもあります。\n最近、日本語性能が高いモデルが相次いで公開されていますね。\n2026年10月13日、SB Intuitions は、国産LLM「Sarashina」のAPIを利用できる「Sarashinaサービス」の無償ベータを提供しはじめました。\nhttps://www.sbintuitions.co.jp/news/press/20261013_01/\nというわけで、標準の対話モデル sarash",
+    "category": "AI",
     "beginner_score": 5,
-    "rank_score": 50.0
+    "rank_score": 52.90761393962963
   },
   {
     "type": "article",
@@ -265,14 +265,25 @@
   },
   {
     "type": "article",
-    "title": "【2026/10/8 アップデート】GuardDuty RDS Protectionのデータ流出・破壊の検出について調べた",
-    "url": "https://zenn.dev/aki42/articles/aws-20261008-guardduty-rds-data-activity",
-    "source": "Zenn",
-    "published_at": "2026-10-14T15:56:29Z",
-    "description": "はじめに\n2026/10/8 に発表された「Amazon GuardDuty RDS Protection が Aurora および RDS データベースでのデータ流出とデータ破壊を検出可能に」について、調べたことをまとめます。\nhttps://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-rds-data-exfiltration/\n!\n\n🤖 AIの解説 は Claude が書いた解説です。内容がまちがっている可能",
-    "category": "AI",
+    "title": "Wayland desktop for Linux with skeuomorphic design",
+    "url": "https://github.com/fyzugx/DEsk",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-15T13:23:44Z",
+    "description": "Comments",
+    "category": "Web",
     "beginner_score": 4,
-    "rank_score": 45.30200248435185
+    "rank_score": 44.5391880137037
+  },
+  {
+    "type": "article",
+    "title": "Major ICQ security hole (1998)",
+    "url": "https://opennet.ru/base/maillist/169.txt.html",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-13T10:21:17Z",
+    "description": "Comments",
+    "category": "Security",
+    "beginner_score": 4,
+    "rank_score": 40.0
   },
   {
     "type": "article",
@@ -320,28 +331,6 @@
   },
   {
     "type": "article",
-    "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
-    "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-02T13:00:00Z",
-    "description": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products.",
-    "category": "Cloud",
-    "beginner_score": 4,
-    "rank_score": 40.0
-  },
-  {
-    "type": "article",
-    "title": "Follow the thread: a new dashboard to investigate account abuse",
-    "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-02T13:00:00Z",
-    "description": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse.",
-    "category": "AI",
-    "beginner_score": 4,
-    "rank_score": 40.0
-  },
-  {
-    "type": "article",
     "title": "Announcing AWS Lambda Web Functions",
     "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere",
     "source": "AWS Blog",
@@ -364,14 +353,25 @@
   },
   {
     "type": "article",
-    "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
-    "url": "https://blog.cloudflare.com/hyperdrive-mysql",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-14T13:00:00Z",
-    "description": "While adding MySQL support to Hyperdrive, we found a subtle protocol bug when caching query results. Here is how we tracked down a 0.001% rate error and made Hyperdrive MySQL generally available.",
-    "category": "AI",
+    "title": "jpstatで始めるe-Stat API入門",
+    "url": "https://zenn.dev/tyasuakwa/articles/3f6a1394323275",
+    "source": "Zenn",
+    "published_at": "2026-10-15T03:10:05Z",
+    "description": "日本の公的統計を横断的に検索できるポータルサイトが、e-Stat（政府統計の総合窓口）である。e-Statでは、統計表をWebページで閲覧するだけでなく、API（Application Programming Interface、他のプログラムから機能を呼び出すための窓口）を通じて数値データを直接取得できる。\nこの記事は、Rで公的統計データを扱いたい人のうち、e-Stat APIとRパッケージjpstatをこれから使う人に向けて書いたものである。APIキーの取得から、統計表の",
+    "category": "Web",
     "beginner_score": 3,
-    "rank_score": 34.321539521388885
+    "rank_score": 31.130021347037037
+  },
+  {
+    "type": "article",
+    "title": "日本の農業を公的統計から読む〜第2回 統計表はどこで途切れるかを教えるが、なぜ途切れるのかは教えない",
+    "url": "https://zenn.dev/jdsc_sol_dev/articles/39ed750de601bb",
+    "source": "Zenn",
+    "published_at": "2026-10-15T03:00:06Z",
+    "description": "第1回で使った米生産費統計は、昭和26年産から令和5年産までの73年産を収めている。ところが、e-StatのAPIでこの表を取り出すと、年産を並べた分類には78の項目があり、年産の数より5つ多くなっている。\n今回は、連載「日本の農業を公的統計から読む」の第2回である。最初に断っておくと、今回はAPIからメターデータの扱いを盛り込んでおり、詳細な内容が多く、込み入っていると感じられるかもしれない。とはいえ、次回以降の前提となる部分なので根気良く付き合って欲しい。\nさて、前回の表",
+    "category": "Development",
+    "beginner_score": 3,
+    "rank_score": 31.074558384074074
   },
   {
     "type": "article",
@@ -381,6 +381,17 @@
     "published_at": "2026-10-10T17:16:42Z",
     "description": "はじめに\n2026 年 9 月 30 日、SQLite のソースツリーに ext/vec1/ というディレクトリが追加されました。コミットしたのは FTS5 などでおなじみの Dan Kennedy 氏。コミットメッセージはたった 1 行です。\nImport vec1 sources into directory ext/vec1/ of this project.\nこれまで別の場所で開発されていた vec1 が、まるっと SQLite 本体のリポジトリに取り込まれました。本",
     "category": "Development",
+    "beginner_score": 3,
+    "rank_score": 30.0
+  },
+  {
+    "type": "article",
+    "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
+    "url": "https://blog.cloudflare.com/hyperdrive-mysql",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-14T13:00:00Z",
+    "description": "While adding MySQL support to Hyperdrive, we found a subtle protocol bug when caching query results. Here is how we tracked down a 0.001% rate error and made Hyperdrive MySQL generally available.",
+    "category": "AI",
     "beginner_score": 3,
     "rank_score": 30.0
   },
@@ -419,212 +430,278 @@
   },
   {
     "type": "article",
-    "title": "Tiny Little Office",
-    "url": "https://tinylittleoffice.com",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-14T22:10:08Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 27.377835817685185
+    "title": "Game of Life – But Multiplayer, Hypermedia and Python",
+    "url": "https://stario.dev/apps/life",
+    "source": "Hacker News",
+    "published_at": "2026-10-14T10:13:39Z",
+    "description": "42 points · 17 comments on Hacker News.",
+    "category": "Development",
+    "beginner_score": 3,
+    "rank_score": 30.0
   },
   {
     "type": "article",
-    "title": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
-    "url": "https://typesafe.ai/blog/jev-1-14",
+    "title": "What I Self-Host",
+    "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-14T21:11:03Z",
+    "published_at": "2026-10-15T20:23:25Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.049595076944446
+    "rank_score": 26.870762087777777
   },
   {
     "type": "article",
-    "title": "OpenCode 2.0",
-    "url": "https://anoma.ly/notes/opencode-2-0",
+    "title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+    "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-14T20:48:24Z",
+    "published_at": "2026-10-15T19:55:49Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.92376174361111
+    "rank_score": 26.717428754444445
   },
   {
     "type": "article",
-    "title": "Anthropic's Scion is heavily inspired by Mononoke",
-    "url": "https://sunshowers.io/posts/anthropic-mononoke",
+    "title": "Someone on Torrent Sites Kept Fucking with My Sonarr",
+    "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-14T20:30:54Z",
+    "published_at": "2026-10-15T19:21:38Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.826539521388888
+    "rank_score": 26.527521347037037
   },
   {
     "type": "article",
-    "title": "Yandex outage: data shows that instead of going dark, malicious bots moved",
-    "url": "https://blog.cloudflare.com/yandex-outage",
+    "title": "E Ink Kaleido 4",
+    "url": "https://www.eink.com/news/detail/EInk-Launches-Latest-Version-of-Color-ePaper-Platform-E-Ink-Kaleido-4",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-14T20:29:13Z",
+    "published_at": "2026-10-15T18:38:16Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.817187669537038
+    "rank_score": 26.286595421111112
   },
   {
     "type": "article",
-    "title": "Fancy Curl Sites",
-    "url": "https://nytpu.com/gemlog/2026-03-18",
+    "title": "Muse Spark Open",
+    "url": "https://research.meta.ai/blog/muse-spark-open",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-14T19:29:12Z",
+    "published_at": "2026-10-15T17:47:39Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.48376174361111
+    "rank_score": 26.005391717407406
   },
   {
     "type": "article",
-    "title": "Things to know when you get cancer – 2026 Edition",
-    "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer",
+    "title": "A fully programmable secure web gateway",
+    "url": "https://blog.cloudflare.com/programmable-gateway-dlp",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-15T17:11:12Z",
+    "description": "Cloudflare Gateway and Data Loss Prevention have inherited the flexibility and power of Cloudflare Workers through our full-stack integration with the Cloudflare Developer platform.",
+    "category": "Cloud",
+    "beginner_score": 2,
+    "rank_score": 25.80289171740741
+  },
+  {
+    "type": "article",
+    "title": "Jev meets the Trolley Problem",
+    "url": "https://zachlandes.com/trolley-problem",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-14T19:26:30Z",
+    "published_at": "2026-10-15T16:24:52Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.46876174361111
+    "rank_score": 25.54548431
   },
   {
     "type": "article",
-    "title": "Fire at Starlink site in Bulgaria after suspected sabotage in Poland",
-    "url": "https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530",
+    "title": "Krea 3 – An image model built for editing at scale",
+    "url": "https://www.krea.ai/krea-3",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-14T18:37:21Z",
+    "published_at": "2026-10-15T16:04:05Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.195706188055556
+    "rank_score": 25.430021347037037
   },
   {
     "type": "article",
-    "title": "Banks are now trying to offload the AI data center debt they just underwrote",
-    "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote",
+    "title": "Neural networks are clean",
+    "url": "https://already-clean.goodfire.com",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-14T18:32:52Z",
+    "published_at": "2026-10-15T16:04:01Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.429650976666668
+  },
+  {
+    "type": "article",
+    "title": "Celebrating 70 Years of Fortran",
+    "url": "https://fortran-lang.org/news/2026/09-15-Fortran-birthday",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-15T15:03:17Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.09224356925926
+  },
+  {
+    "type": "article",
+    "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
+    "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-15T14:58:48Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 26.17079878064815
+    "rank_score": 25.067336161851852
   },
   {
     "type": "article",
-    "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
-    "url": "https://petal.live",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-14T18:23:14Z",
-    "description": "Comments",
+    "title": "Prompt injection in HTTP headers: what 217M web responses show",
+    "url": "https://www.signalscorps.com/blog/prompt-injection-in-http-headers",
+    "source": "Hacker News",
+    "published_at": "2026-10-15T14:36:22Z",
+    "description": "81 points · 16 comments on Hacker News.",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.11728026212963
+    "rank_score": 24.94270653222222
   },
   {
     "type": "article",
-    "title": "Virtual Oxide Labs: Emulating a Full Oxide Rack",
-    "url": "https://oxide.computer/blog/voxel-labs",
+    "title": "Using AI to reverse engineer hardware",
+    "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-14T18:21:14Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.10616915101852
-  },
-  {
-    "type": "article",
-    "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
-    "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-14T17:45:23Z",
+    "published_at": "2026-10-15T14:35:15Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 25.907002484351853
+    "rank_score": 24.93650282851852
   },
   {
     "type": "article",
-    "title": "Has AI tells",
-    "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-14T16:52:42Z",
-    "description": "Comments",
+    "title": "Deploy with Void",
+    "url": "https://blog.cloudflare.com/deploy-with-void",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-15T14:00:00Z",
+    "description": "Introducing Void: an open-source SDK, CLI, and self-hosted platform for building full-stack Vite apps and deploying them to Cloudflare.",
+    "category": "Cloud",
+    "beginner_score": 2,
+    "rank_score": 24.740669495185184
+  },
+  {
+    "type": "article",
+    "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
+    "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-15T13:00:00Z",
+    "description": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 25.614317299166668
+    "rank_score": 24.407336161851852
   },
   {
     "type": "article",
-    "title": "Better HTTP/1 connection reuse in Go 1.27",
-    "url": "https://go.dev/blog/http-connection-reuse",
+    "title": "Libreboot 26.10 \"Ominous Olive\" released with UEFI, Chromebook support",
+    "url": "https://libreboot.org/news/libreboot2610.html",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-14T16:29:33Z",
+    "published_at": "2026-10-15T12:52:16Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.485706188055556
+    "rank_score": 24.364373198888888
   },
   {
     "type": "article",
-    "title": "Americans' social activity has steeply declined in the past 30 years",
-    "url": "https://www.dataforprogress.org/blog/2026/9/29/americans-social-activity-has-steeply-declined-in-the-past-30-years",
+    "title": "Show HN: Unfenced – Land for sale that borders public land",
+    "url": "https://unfenced.land",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-14T16:09:00Z",
+    "published_at": "2026-10-15T11:38:57Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.37153952138889
+    "rank_score": 23.957058384074074
   },
   {
     "type": "article",
-    "title": "Submarine cable resilience",
-    "url": "https://blog.apnic.net/2026/10/14/submarine-cable-resilience",
+    "title": "AdFection: Targeted ads turned into a pipeline for zero-click mercenary spyware",
+    "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-14T15:31:15Z",
+    "published_at": "2026-10-15T10:43:36Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.161817299166668
+    "rank_score": 23.649558384074073
   },
   {
     "type": "article",
-    "title": "Passkeys are not a trap",
-    "url": "https://scotthelme.co.uk/passkeys-are-not-a-trap",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-14T15:15:45Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.075706188055555
-  },
-  {
-    "type": "article",
-    "title": "【SWTT 2026】Snowflake Well-Architected Frameworkで実現する実践的なデータマネジメント",
-    "url": "https://zenn.dev/finatext/articles/swtt2026-snow-waf-datamanagement",
+    "title": "FFRI × NFLabs. Cybersecurity Challenge 2026 ゆるWriteup",
+    "url": "https://zenn.dev/juck28/articles/74c43f18838188",
     "source": "Zenn",
-    "published_at": "2026-10-14T08:51:39Z",
-    "description": "はじめに\nこんにちは！ナウキャストの庵原です。\n先日 Snowflake World Tour Tokyo 2026 に登壇させていただきました！\nタイトルは「Snowflake Well-Architected Framework で実現する実践的なデータマネジメント」です。\n登壇資料はこちら。\n\n登壇内容をブログとしてまとめておこうと思います。\n同じく World Tour Tokyo 2026 で弊社メンバーが登壇した Semantic View の継続運用の話もブログ",
-    "category": "Web",
+    "published_at": "2026-10-15T07:47:43Z",
+    "description": "JUCKです。\nFFRI × NFLabs. Cybersecurity Challenge 2026という学生向けCTFに参加し2100pt/26thでした。\n\nここでは\n\nCopy(pentest)\nThe Hidden Layer(pentest)\nUnearthed(pentest)\ndo_you_know_buf?(BinaryExploitation)\nView Source(Web Exploitation)\nSmile(Web Exploitation)\nkn",
+    "category": "Security",
     "beginner_score": 2,
-    "rank_score": 22.941817299166665
+    "rank_score": 22.672428754444443
   },
   {
     "type": "article",
-    "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
-    "url": "https://typeof.net/Iosevka",
+    "title": "OpenTelemetryでStep Functions越しにtraceparentを引き回し、複数Lambdaを一つのトレースにつなぐ",
+    "url": "https://zenn.dev/boy_techblog/articles/connecting-trace-serverless",
+    "source": "Zenn",
+    "published_at": "2026-10-15T03:59:10Z",
+    "description": "はじめに\n横浜銀行アジャイル開発チームのwatariです。\nAWS上で、次のようなサーバーレスアプリケーションをOpenTelemetryで計装する機会がありました。\nこれまではAWS X-Ray SDKを利用してトレースを可視化していましたが、AWSがOpenTelemetryへの移行を推奨しています。\nそのためOpenTelemetryを用いた計装をPoC（概念実証）として試しました。\n\nテレメトリの送信先にはNew Relicを使用します。本稿ではOTLPによる直接送信",
+    "category": "Cloud",
+    "beginner_score": 2,
+    "rank_score": 21.402706532222222
+  },
+  {
+    "type": "article",
+    "title": "The engineering that allows articulated buses to bend",
+    "url": "https://www.theautopian.com/you-wont-believe-the-incredible-engineering-that-allows-articulated-buses-to-bend",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-14T08:27:59Z",
+    "published_at": "2026-10-15T01:02:05Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 22.810335817685186
+    "rank_score": 20.418910235925928
+  },
+  {
+    "type": "article",
+    "title": "The 8-mile hole in a Hawaii national park that no one can explain",
+    "url": "https://www.sfgate.com/national-parks/article/hawaii-volcanoes-park-great-crack-22358849.php",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-14T05:08:09Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Why I Wrote PGP (1991, revised 1999)",
+    "url": "https://philzimmermann.com/EN/essays/WhyIWrotePGP.html",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-14T09:17:06Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Delta’s Biscoff cookies were supposed to be temporary",
+    "url": "https://www.seriouseats.com/biscoff-history-12168161",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-13T23:00:46Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
   },
   {
     "type": "article",
@@ -635,27 +712,27 @@
     "description": "時々作っては作り方を忘れるので備忘録も兼ねて記事にします。正式名称を知らないのですが、スクロールしていくと前景のコンテンツがカーテンみたいにせり上がって背景が見えてくる演出のやつです。\n▼こういうやつ\n\n\n position: stickyを使うメリット\nposition: fixedで背景に固定するのもいいですが、全体のレイアウトに影響があり関係ない要素まで副作用に巻き込まれるおそれがあります。position: stickyを使うとこの演出前後のみに影響を抑えられるのでコ",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 21.988021002870372
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "Do dentists know what they're doing?",
-    "url": "https://mapwriting.substack.com/p/dentists",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-12T02:21:54Z",
-    "description": "Comments",
-    "category": "Web",
+    "title": "WAF でブロックする前に確かめていること",
+    "url": "https://zenn.dev/azunyan/articles/7a105969d7d16c",
+    "source": "Zenn",
+    "published_at": "2026-10-10T03:17:20Z",
+    "description": "🧱 はじめに\nWAF の運用で、既知の攻撃を止めるルールをすり抜けてくる迷惑なアクセスや、攻撃ばかりを送ってくるアクセスを調べ、その送信元をブロックしています。\nこの記事では、そのときに気をつけていることと、前提になる基礎知識をまとめます。ポイントは次の 3 つです。\n\n止める前に、巻き添えになる正規の利用者がいないかを確かめる\n国や一般的なブラウザの JA4 のように広く当たる条件は、自動化や攻撃を示す条件と組み合わせる\n決め手がなければ止めずに保留し、その判断も記録に残す",
+    "category": "Cloud",
     "beginner_score": 2,
     "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "Amazon BedrockとSageMakerのAIエージェントでOpenTelemetryの自動計装が行われる範囲",
-    "url": "https://zenn.dev/ymotongpoo/articles/20261014-bedrock-sagemaker-otel",
-    "source": "Zenn",
-    "published_at": "2026-10-14T00:00:08Z",
-    "description": "!\n一次情報は2026年10月13日の時点のものを確認しました。AWSのサービス側の仕様もOpenTelemetry側の規約も動いている最中なので、採用前に同じページを読み直してください。本文のうち実際に動かして確かめた部分も同じ日に実施したもので、リージョンとバージョンを該当箇所か脚注に書いています。対象にした一次情報と検証環境は次のとおりです。\n\nGenAI規約のBedrock関連: semantic-conventions-genai のコミット 5293eff の d",
-    "category": "AI",
+    "title": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move",
+    "url": "https://blog.cloudflare.com/yandex-outage",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-14T20:24:19Z",
+    "description": "When strikes hit Yandex data centers, many assumed Russian bot operations went dark. Cloudflare data reveals that while search crawling stopped, malicious bots simply migrated to other networks.",
+    "category": "Cloud",
     "beginner_score": 2,
     "rank_score": 20.0
   },
@@ -710,17 +787,6 @@
     "source": "Cloudflare Blog",
     "published_at": "2026-10-02T18:00:00Z",
     "description": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
-    "category": "Cloud",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
-    "url": "https://blog.cloudflare.com/enterprise-for-all-update",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-02T13:00:00Z",
-    "description": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these tools internally, and",
     "category": "Cloud",
     "beginner_score": 2,
     "rank_score": 20.0
@@ -812,71 +878,5 @@
     "category": "Cloud",
     "beginner_score": 2,
     "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "AWS Weekly Roundup: OpenAI GPT-6 Astra on Amazon Bedrock, Amazon Quick desktop GA, Kiro for students, and more (September 14, 2026)",
-    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-openai-gpt-6-astra-on-amazon-bedrock-amazon-quick-desktop-ga-kiro-for-students-and-more-september-14-2026",
-    "source": "AWS Blog",
-    "published_at": "2026-09-14T15:56:33Z",
-    "description": "There’s a particular energy to mid-September in New York. Pumpkin spice lattes are flowing, temperatures are dropping, and it’s nearly sweater weather. The city is back at full speed, and so is the AWS launch calendar. This week that energy",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Introducing Amazon EBS Volume Clones across AWS accounts",
-    "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-across-aws-accounts",
-    "source": "AWS Blog",
-    "published_at": "2026-09-09T22:01:47Z",
-    "description": "AWS introduces Amazon EBS Volume Clones with cross-account copy, so you can create copies of your EBS volumes into other AWS accounts and optionally re-encrypt them with an AWS Key Management Service (AWS KMS) key in the target account.",
-    "category": "Cloud",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
-    "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0",
-    "source": "AWS Blog",
-    "published_at": "2026-10-14T19:30:48Z",
-    "description": "You can now migrate existing Apache Hive datasets in Amazon S3 to fully managed Apache Iceberg tables in Amazon S3 Tables, with no pipelines to build or compute to provision, while production workloads keep running.",
-    "category": "AI",
-    "beginner_score": 0,
-    "rank_score": 6.492650632499999
-  },
-  {
-    "type": "article",
-    "title": "Suicide rates highest ever among middle-aged men",
-    "url": "https://www.telegraph.co.uk/news/2026/10/13/suicide-rates-highest-ever-among-middle-aged-men",
-    "source": "Hacker News",
-    "published_at": "2026-10-14T19:03:58Z",
-    "description": "215 points · 281 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 6.3435765584259265
-  },
-  {
-    "type": "article",
-    "title": "America didn't lose its rare earth industry, it sold it",
-    "url": "https://www.lawfaremedia.org/article/america-didn-t-lose-its-rare-earth-industry.-it-sold-it",
-    "source": "Hacker News",
-    "published_at": "2026-10-14T17:50:26Z",
-    "description": "143 points · 70 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 5.935058039907408
-  },
-  {
-    "type": "article",
-    "title": "Show HN: I wrote an email app that accepts only one sender per inbox",
-    "url": "https://clova.email",
-    "source": "Hacker News",
-    "published_at": "2026-10-14T17:00:59Z",
-    "description": "70 points · 57 comments on Hacker News.",
-    "category": "AI",
-    "beginner_score": 0,
-    "rank_score": 5.660335817685184
   }
 ]
