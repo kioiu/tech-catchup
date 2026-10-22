@@ -1,14 +1,14 @@
 [
   {
     "type": "article",
-    "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
-    "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity",
-    "source": "GitHub Blog",
-    "published_at": "2026-10-20T16:05:03Z",
-    "description": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. \n The post  How 3 Java Champions are using GitHub Copilot for increased productivity  appeared fi",
-    "category": "AI",
+    "title": "Laravel の token guard 認証バイパス、表に無い 11 以下はどうなの？全タグのソースを確認してみた",
+    "url": "https://zenn.dev/nix/articles/236ceb8194a9c5",
+    "source": "Zenn",
+    "published_at": "2026-10-21T00:52:36Z",
+    "description": "はじめに\nセキュリティ関連対応に追われている @___nix___  です。\n\n 背景\n2026/10/19 に Laravel からこんなアドバイザリが出ました。\nhttps://github.com/laravel/framework/security/advisories/GHSA-f9x3-7vq9-cph6\nMySQL / MariaDB 環境で token guard を使っていると、API トークンを知らなくても既存ユーザーとしてログインできてしまう、という C",
+    "category": "Security",
     "beginner_score": 10,
-    "rank_score": 105.3433122712963
+    "rank_score": 100.24273802444445
   },
   {
     "type": "article",
@@ -17,6 +17,17 @@
     "source": "Zenn",
     "published_at": "2026-10-19T23:00:05Z",
     "description": "はじめに\nこんにちは。e-dash でエンジニアをしている iakito です。\nAI コーディングエージェントを使って開発していると、実装と一緒にテストも増えていき、気づいたときには膨大な量になっていることがあります。私が担当しているプロダクトも例外ではなく、PR CI の待ち時間は長いときで 18 分を超え、日々の開発で地味なストレスになっていました。\n本記事では、Claude Code を使ってこの待ち時間を 4 分台まで短縮した取り組みを紹介します。\n\n 背景\nCI ",
+    "category": "AI",
+    "beginner_score": 10,
+    "rank_score": 100.0
+  },
+  {
+    "type": "article",
+    "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity",
+    "source": "GitHub Blog",
+    "published_at": "2026-10-20T16:05:03Z",
+    "description": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. \n The post  How 3 Java Champions are using GitHub Copilot for increased productivity  appeared fi",
     "category": "AI",
     "beginner_score": 10,
     "rank_score": 100.0
@@ -67,17 +78,6 @@
   },
   {
     "type": "article",
-    "title": "How one bug bounty researcher chooses the features they investigate",
-    "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate",
-    "source": "GitHub Blog",
-    "published_at": "2026-10-08T17:02:52Z",
-    "description": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub. \n The post  How one bug bounty researcher chooses the features the",
-    "category": "AI",
-    "beginner_score": 10,
-    "rank_score": 100.0
-  },
-  {
-    "type": "article",
     "title": "A beginner-friendly guide to view transitions in CSS",
     "url": "https://developer.mozilla.org/en-US/blog/view-transitions-beginner-guide",
     "source": "MDN",
@@ -89,6 +89,17 @@
   },
   {
     "type": "article",
+    "title": "The bridge to agent-scale Git infrastructure",
+    "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure",
+    "source": "GitHub Blog",
+    "published_at": "2026-10-21T16:00:00Z",
+    "description": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. \n The post  The bridge to agent-scale Git infrastructure  appe",
+    "category": "AI",
+    "beginner_score": 9,
+    "rank_score": 95.28384913555556
+  },
+  {
+    "type": "article",
     "title": "Chromium(V8)のArray.prototype.fillを最大約7倍高速化した",
     "url": "https://zenn.dev/dinii/articles/5b8edc7856c25b",
     "source": "Zenn",
@@ -96,7 +107,7 @@
     "description": "はじめに\n!\n修正や追加等はコメントまたはGitHubで編集リクエストをお待ちしております。\n\nダイニーで一番若いエンジニアのriya amemiya(21歳)です。\n(V8の配列系メソッド高速化職人をそろそろ名乗っても怒られないんじゃないか？と最近思い始めました🧐)\n今回は Array.prototype.fill（以下 fill）をSmiとdouble向けに最大約7倍高速化しました。\nV8の配列系メソッドのfast path実装に取り組む人は世界で見てもほとんどいないので",
     "category": "Web",
     "beginner_score": 9,
-    "rank_score": 90.3157196787037
+    "rank_score": 90.0
   },
   {
     "type": "article",
@@ -151,7 +162,7 @@
     "description": "はじめに\nこんにちは。FLINTERSの河内です。\n社内で毎週開いている AI 活用の勉強会で、今回（2026-10-19）は REA（Reverse Engineer Anything）を取り上げました。担当は川上さんです。AI エージェントにバイナリやアプリを解析させるためのツールで、10月に入ってから GitHub のスターが急に伸びています。\n結論から書くと、REA を使いこなすところまでは行けませんでした。題材選びでつまずき、コマンドの引数でつまずき、最後は別のスキ",
     "category": "AI",
     "beginner_score": 7,
-    "rank_score": 70.98238634537037
+    "rank_score": 70.0
   },
   {
     "type": "article",
@@ -210,25 +221,25 @@
   },
   {
     "type": "article",
-    "title": "IKEA – 3D Guide",
-    "url": "https://sael.net/flatpack",
+    "title": "Google's Rust Style Guide",
+    "url": "https://google.github.io/styleguide/rustguide.html",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-20T15:42:45Z",
+    "published_at": "2026-10-21T19:11:57Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 5,
-    "rank_score": 55.219423382407406
+    "rank_score": 56.350238024444444
   },
   {
     "type": "article",
-    "title": "Tsrs: A Port of TypeScript to Rust",
-    "url": "https://blog.cloudflare.com/typescript-rust-port",
+    "title": "GitLab Critical Patch Release",
+    "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-20T13:18:07Z",
+    "published_at": "2026-10-21T19:01:12Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 5,
-    "rank_score": 54.41590486388889
+    "rank_score": 56.290515802222224
   },
   {
     "type": "article",
@@ -238,6 +249,17 @@
     "published_at": "2026-10-19T03:19:32Z",
     "description": "はじめに\nこんにちは。PKSHA Technology でソフトウェアエンジニアをしている山本です。\n2026 年 8 月 22 日に広島で開催された PyCon JP 2026 にて、「AI 時代、配布する Python コードをどう守るか: 難読化の実験と判断軸」というタイトルで発表しました。本記事は、その発表内容をもとに、発表時間の都合で触れられなかった内容も加えて文章にまとめ直したものです。\n\n発表ページ: https://2026.pycon.jp/ja/talks",
     "category": "AI",
+    "beginner_score": 5,
+    "rank_score": 50.0
+  },
+  {
+    "type": "article",
+    "title": "Introducing tsrs: A port of TypeScript to Rust",
+    "url": "https://blog.cloudflare.com/typescript-rust-port",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-20T13:00:00Z",
+    "description": "Cloudflare is collaborating on tsrs, a Rust port of TypeScript that is up to 8x faster and uses 70% less memory.",
+    "category": "Cloud",
     "beginner_score": 5,
     "rank_score": 50.0
   },
@@ -287,23 +309,45 @@
   },
   {
     "type": "article",
+    "title": "Railway Security Disclosure",
+    "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-21T21:58:03Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 4,
+    "rank_score": 47.27301580222222
+  },
+  {
+    "type": "article",
+    "title": "Today's PHP security release, and how we're strengthening security",
+    "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-21T15:48:56Z",
+    "description": "Comments",
+    "category": "Security",
+    "beginner_score": 4,
+    "rank_score": 45.22236765407408
+  },
+  {
+    "type": "article",
+    "title": "Introducing full transaction detection for Cloudflare WAF",
+    "url": "https://blog.cloudflare.com/full-transaction-waf",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-21T14:10:42Z",
+    "description": "Cloudflare's web application firewall can now correlate an HTTP request with its response. Full transaction detection helps every customer find successful exploits, data exposure, and risky misconfigurations that request-only inspection can",
+    "category": "Cloud",
+    "beginner_score": 4,
+    "rank_score": 44.67662691333334
+  },
+  {
+    "type": "article",
     "title": "Cloudflare + EmDash の自サイトを点検したら Server-Timing から内部情報が見えていた話",
     "url": "https://zenn.dev/masaru21/articles/2100616bb5110d",
     "source": "Zenn",
     "published_at": "2026-10-19T14:42:30Z",
     "description": "Webサイトのセキュリティについて勉強するため、まずは自分で管理しているサイトを実際に点検してみることにしました。\n対象は、Cloudflare上で動かしている自分のWebサイトです。\n構成は大まかに、\n\nCloudflare Workers\nAstro\nEmDash CMS\nCloudflare D1\nCloudflare KV\nCloudflare R2\n\nなどを利用しています。\n今回は、いきなり広範囲な脆弱性スキャンを行うのではなく、\n\nNucleiで低負荷な技術判定\n",
     "category": "Cloud",
-    "beginner_score": 4,
-    "rank_score": 40.0
-  },
-  {
-    "type": "article",
-    "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
-    "url": "https://blog.cloudflare.com/agentic-security-operations",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-07T16:30:36Z",
-    "description": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded rec",
-    "category": "AI",
     "beginner_score": 4,
     "rank_score": 40.0
   },
@@ -349,7 +393,7 @@
     "description": "会議のホワイトボードを写真に撮る。帰り道に「来週までに見積り」と声で残す。ここまでは誰でもやっています。問題はそのあとで、撮った写真も録った声も、二度と開かない。私のスマホには、読み返されたことのない音声メモが何十本も眠っています。\nそこで、LINEに写真か音声を送るだけで、自宅のPCが文字に起こして、日記用のリポジトリへ分類してしまってくれる仕組みを作りました。文字起こしも要約もクラウドのAIは使わず、全部手元のGPUでやっています。\n\n なぜクラウドに投げなかったのか\n最",
     "category": "AI",
     "beginner_score": 3,
-    "rank_score": 34.85812708611111
+    "rank_score": 30.0
   },
   {
     "type": "article",
@@ -360,7 +404,7 @@
     "description": "長らく ESLint + Prettier を使ってきました。大きな不満はなかったものの、実行時間が少し気になっていました。そこで、Biome と Oxc を実際のモノレポで検証して、最終的に Oxlint + Oxfmt に移行しました。\nこの記事では、Biome と Oxc を比較・検証した過程と、Oxlint + Oxfmt を使ってコーディング規約をコードとして強制する運用を紹介します。\n\n 導入の経緯とモチベーション\n\n lint / format の待ち時間が気に",
     "category": "Web",
     "beginner_score": 3,
-    "rank_score": 30.649053012037037
+    "rank_score": 30.0
   },
   {
     "type": "article",
@@ -419,25 +463,223 @@
   },
   {
     "type": "article",
-    "title": "The Other Epidemic: Trying to get off benzodiazepines",
-    "url": "https://www.thebeliever.net/the-other-epidemic",
+    "title": "mitmproxy adds --emudhra option",
+    "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-20T23:04:09Z",
+    "published_at": "2026-10-21T23:51:37Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.671645604629628
+    "rank_score": 27.903941728148148
   },
   {
     "type": "article",
-    "title": "Feds suspect ransom negotiator ran ShinyHunters extortion site",
-    "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site",
+    "title": "There isn't an easy exploit for this PHP vulnerability",
+    "url": "https://eliastaylor.com/noexploit",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-20T22:21:05Z",
+    "published_at": "2026-10-21T23:13:27Z",
+    "description": "Comments",
+    "category": "Security",
+    "beginner_score": 2,
+    "rank_score": 27.691904691111112
+  },
+  {
+    "type": "article",
+    "title": "Qpack amplification attacks against HTTP/3 servers",
+    "url": "https://foxio.io/blog/header-accordions-qpack-amplification-attacks-against-http-3-servers",
+    "source": "Hacker News",
+    "published_at": "2026-10-21T22:32:45Z",
+    "description": "11 points · 1 comments on Hacker News.",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 27.46579358
+  },
+  {
+    "type": "article",
+    "title": "Claude Duet",
+    "url": "https://claude.com/product/claude-duet",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-21T19:14:01Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.43238634537037
+    "rank_score": 26.361719505925926
+  },
+  {
+    "type": "article",
+    "title": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
+    "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-21T17:45:13Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.868386172592594
+  },
+  {
+    "type": "article",
+    "title": "EA is shutting down BioWare",
+    "url": "https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-21T17:29:33Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.781349135555555
+  },
+  {
+    "type": "article",
+    "title": "New plastic pollution discovered: 'Plasticorals' coral rubble fused with plastic",
+    "url": "https://www.oist.jp/news-center/news/2026/9/18/new-form-plastic-pollution-discovered-shores-vulnerable-coral-reefs",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-21T16:20:37Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.39838617259259
+  },
+  {
+    "type": "article",
+    "title": "Oregon lawmakers approve money to buy an iconic waterfall listed on Redfin",
+    "url": "https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-21T15:20:04Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.061997283703704
+  },
+  {
+    "type": "article",
+    "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+    "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-21T14:03:43Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 24.637830617037036
+  },
+  {
+    "type": "article",
+    "title": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
+    "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-21T14:01:22Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.624775061481483
+  },
+  {
+    "type": "article",
+    "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+    "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-21T14:00:26Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 24.619589876296295
+  },
+  {
+    "type": "article",
+    "title": "Cloudflare deploys protections against php2shell vulnerability",
+    "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-21T13:56:45Z",
+    "description": "Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and prevent exposed data from r",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 24.599126913333333
+  },
+  {
+    "type": "article",
+    "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
+    "url": "https://blog.cloudflare.com/webmcp-commerce",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-21T13:00:00Z",
+    "description": "Almost 100,000 Commerce.com domains now give AI agents real shopping tools through WebMCP on Cloudflare. Here's how we turned it on across every store at once, while keeping each merchant in control.",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 24.283849135555556
+  },
+  {
+    "type": "article",
+    "title": "OpenAI models are coming to Google Cloud",
+    "url": "https://openai.com/index/openai-models-google-cloud",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-21T12:53:11Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 24.245978765185185
+  },
+  {
+    "type": "article",
+    "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
+    "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-21T09:08:08Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 22.995700987407407
+  },
+  {
+    "type": "article",
+    "title": "EKS に Graviton を導入して、arm64 と amd64 を混ぜて運用を始めました",
+    "url": "https://zenn.dev/socialplus/articles/eks-graviton-arm64-migration",
+    "source": "Zenn",
+    "published_at": "2026-10-21T03:00:07Z",
+    "description": "こんにちは、ソーシャルPLUSの三口です!\n弊社では Amazon EKS 上で Rails のアプリケーションを動かしていますが、これまでノードはすべて Intel/AMD (amd64) のインスタンスでした。今回、そのノードに AWS Graviton (arm64) を導入し、Spot インスタンスでは arm64 と amd64 を混ぜて運用する構成にしました。\nGraviton への移行自体はすでに多くの企業が取り組んでいて、真新しい話ではないと思います。\nただ、",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.951163950370372
+  },
+  {
+    "type": "article",
+    "title": "No More Icons in Every Menu by Default",
+    "url": "https://blog.jim-nielsen.com/2026/icons-in-every-menu",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-20T04:27:08Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Why Windows 11 still ships with Windows 95's memory manager hidden inside it",
+    "url": "https://www.windowslatest.com/2026/10/19/why-windows-11-still-ships-with-windows-95s-memory-manager-hidden-inside-it",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-20T00:14:03Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Tiny possum and glider thought extinct for 6000 years found in remote West Papua",
+    "url": "https://www.bbc.com/news/articles/cp814l80pw2o",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-20T06:20:54Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Code is clay now",
+    "url": "https://www.albertodenia.com/writing/code-is-clay-now",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-19T15:19:45Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
   },
   {
     "type": "article",
@@ -446,204 +688,6 @@
     "source": "Cloudflare Blog",
     "published_at": "2026-10-20T22:20:16Z",
     "description": "Following the discovery that eight eMudhra intermediate certificates use weak keys, Cloudflare is deploying mitigations and releasing client updates. We explain the impact, our response, and what customers and developers should do next.",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 27.427849308333332
-  },
-  {
-    "type": "article",
-    "title": "Academics have a duty to defend open knowledge systems like Wikipedia",
-    "url": "https://blogs.lse.ac.uk/impactofsocialsciences/2026/10/19/academics-have-a-duty-to-defend-open-knowledge-systems-like-wikipedia",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-20T18:51:40Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.268960419444443
-  },
-  {
-    "type": "article",
-    "title": "SimCity, but with Permits",
-    "url": "https://permit.petercai.com",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-20T18:29:09Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.143867826851853
-  },
-  {
-    "type": "article",
-    "title": "What shall I teach my son?",
-    "url": "https://stevekrouse.com/ends",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-20T17:25:07Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.78812708611111
-  },
-  {
-    "type": "article",
-    "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
-    "url": "https://research.poh.org/bot-benchmarking-2026",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-20T17:10:31Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 25.707015975
-  },
-  {
-    "type": "article",
-    "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
-    "url": "https://github.com/google-pytorch/torch_tpu",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-20T16:40:24Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.539701160185185
-  },
-  {
-    "type": "article",
-    "title": "Voxtral 3",
-    "url": "https://mistral.ai/news/voxtral-3",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-20T16:02:07Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.327015975000002
-  },
-  {
-    "type": "article",
-    "title": "Sixteen Years After Deepwater Horizon, Deep Sea Life Shows Few Signs of Recovery",
-    "url": "https://e360.yale.edu/digest/deepwater-horizon-deep-sea-recovery",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-20T15:59:06Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.310256715740742
-  },
-  {
-    "type": "article",
-    "title": "Ofcom concedes defeat in 4chan case",
-    "url": "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-20T14:30:31Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 24.81812708611111
-  },
-  {
-    "type": "article",
-    "title": "EMudhra Intermediate CA Compromise",
-    "url": "https://emudhra.we-have-a-problem.com",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-20T13:58:33Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 24.64053449351852
-  },
-  {
-    "type": "article",
-    "title": "How I got over 300 Tor exit nodes removed",
-    "url": "https://kaba.cx/posts/20261020_Tor",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-20T13:39:24Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 24.53414560462963
-  },
-  {
-    "type": "article",
-    "title": "Apple broke an essential presentation feature of iPads",
-    "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-20T12:17:28Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 24.078960419444446
-  },
-  {
-    "type": "article",
-    "title": "Google Cloud outage affects almost all banking and other operations in Europe",
-    "url": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-20T10:26:02Z",
-    "description": "Comments",
-    "category": "Cloud",
-    "beginner_score": 2,
-    "rank_score": 23.45988634537037
-  },
-  {
-    "type": "article",
-    "title": "DeepInfer: High-performance inference framework for DeepSeek models",
-    "url": "https://github.com/deepseek-ai/DeepInfer",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-20T09:08:54Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 23.031367826851852
-  },
-  {
-    "type": "article",
-    "title": "Kaigi on Rails 2026 参加レポート",
-    "url": "https://zenn.dev/xtm_blog/articles/kaigi-on-rails-2026-xtm-report",
-    "source": "Zenn",
-    "published_at": "2026-10-20T04:03:03Z",
-    "description": "クロステックマネジメントでは、各種テックカンファレンス（Go Conference、YAPC など）にスポンサーとして参加しています。今回は一参加者として Kaigi on Rails 2026（10/16〜17）に参加しました。\n聴講したセッションの中から、DHH 氏とまつもとゆきひろさんのキーノート、松田明さんの発表が印象に残ったので紹介します。\n\n Where the tracks go next（David Heinemeier Hansson 氏）\nhttps://",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 21.332201160185186
-  },
-  {
-    "type": "article",
-    "title": "SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful",
-    "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-15T19:09:34Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Making Solar Panels with a Microwave [video]",
-    "url": "https://www.youtube.com/watch?v=zcWkApGjyGM",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-18T10:25:07Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "What the heck is /pkg?",
-    "url": "https://anderegg.ca/2026/10/18/what-the-heck-is-pkg",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-18T17:21:23Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "有名 OSS が PR を閉じはじめた。何が起きていて、どう向き合うか",
-    "url": "https://zenn.dev/hand_dot/articles/ecb391d4322330",
-    "source": "Zenn",
-    "published_at": "2026-10-15T23:00:05Z",
-    "description": "2026年に入ってから、有名な OSS が次々と PR を閉じはじめているなぁと感じています。OSS のエコシステムには個人的に興味があるので、少し調べてみました。メモがてら残しておきます。\n\n Hono が外部からの PR を閉じた\n10月5日、Hono の yusukebe さんがこう投稿していました。\nhttps://x.com/yusukebe/status/2107027870019445007\n\nBut PRs don't work in this era. Co",
     "category": "AI",
     "beginner_score": 2,
     "rank_score": 20.0
@@ -738,17 +782,6 @@
   },
   {
     "type": "article",
-    "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
-    "url": "https://blog.cloudflare.com/radar-redesign",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-08T13:00:00Z",
-    "description": "We redesigned Cloudflare Radar to make real-time global traffic and outage data accessible to a wider audience — including journalists, less technical researchers, and everyday users. By introducing an interactive map and standardized compo",
-    "category": "Cloud",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
     "title": "AWS Weekly Roundup: Prime Day 2026 by the numbers, Claude Haiku 5.5, Amazon Nova 2.5 Sonic, and more (October 13, 2026)",
     "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026",
     "source": "AWS Blog",
@@ -837,46 +870,13 @@
   },
   {
     "type": "article",
-    "title": "Claude designed protein binders against scorpion neurotoxins",
-    "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+    "title": "Κ = 0.003 for integer multiplication crossed",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/4441",
     "source": "Hacker News",
-    "published_at": "2026-10-20T17:48:29Z",
-    "description": "87 points · 60 comments on Hacker News.",
-    "category": "AI",
-    "beginner_score": 0,
-    "rank_score": 5.917941900925926
-  },
-  {
-    "type": "article",
-    "title": "Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services",
-    "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services",
-    "source": "AWS Blog",
-    "published_at": "2026-10-20T17:03:38Z",
-    "description": "Try Amazon ECS Gateway, a new account-level resource that simplifies ingress networking for containerized workloads by dynamically provisioning and managing the necessary infrastructure on your behalf, with all resources created directly in",
-    "category": "AI",
-    "beginner_score": 0,
-    "rank_score": 5.66877523425926
-  },
-  {
-    "type": "article",
-    "title": "Facebook Pages require paid subscription to post more than two links per month",
-    "url": "https://mastodon.gamedev.place/@AshleyGullen/117473851565913919",
-    "source": "Hacker News",
-    "published_at": "2026-10-20T15:06:08Z",
-    "description": "404 points · 364 comments on Hacker News.",
-    "category": "AI",
-    "beginner_score": 0,
-    "rank_score": 5.0159974564814815
-  },
-  {
-    "type": "article",
-    "title": "My Friend Bob Cringely",
-    "url": "https://tyma.com/my-cringe-story",
-    "source": "Hacker News",
-    "published_at": "2026-10-20T14:13:49Z",
-    "description": "160 points · 46 comments on Hacker News.",
+    "published_at": "2026-10-21T23:22:21Z",
+    "description": "3 points · 1 comments on Hacker News.",
     "category": "Other",
     "beginner_score": 0,
-    "rank_score": 4.7253493083333336
+    "rank_score": 7.741349135555556
   }
 ]
