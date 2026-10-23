@@ -1,17 +1,6 @@
 [
   {
     "type": "article",
-    "title": "How bug bounty sharpens one researcher’s security skills",
-    "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills",
-    "source": "GitHub Blog",
-    "published_at": "2026-10-22T17:21:30Z",
-    "description": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. \n The post  How bug bounty sharpens one researcher’s securi",
-    "category": "Security",
-    "beginner_score": 10,
-    "rank_score": 105.754696315
-  },
-  {
-    "type": "article",
     "title": "Next.js の脆弱性に Dependabot が反応しなかったので、GitHub Advisory Database までの流れを追った",
     "url": "https://zenn.dev/rakko_inc/articles/dependabot-cve-to-pr-flow",
     "source": "Zenn",
@@ -40,6 +29,17 @@
     "published_at": "2026-10-19T23:00:05Z",
     "description": "はじめに\nこんにちは。e-dash でエンジニアをしている iakito です。\nAI コーディングエージェントを使って開発していると、実装と一緒にテストも増えていき、気づいたときには膨大な量になっていることがあります。私が担当しているプロダクトも例外ではなく、PR CI の待ち時間は長いときで 18 分を超え、日々の開発で地味なストレスになっていました。\n本記事では、Claude Code を使ってこの待ち時間を 4 分台まで短縮した取り組みを紹介します。\n\n 背景\nCI ",
     "category": "AI",
+    "beginner_score": 10,
+    "rank_score": 100.0
+  },
+  {
+    "type": "article",
+    "title": "How bug bounty sharpens one researcher’s security skills",
+    "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills",
+    "source": "GitHub Blog",
+    "published_at": "2026-10-22T17:21:30Z",
+    "description": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. \n The post  How bug bounty sharpens one researcher’s securi",
+    "category": "Security",
     "beginner_score": 10,
     "rank_score": 100.0
   },
@@ -166,17 +166,6 @@
   },
   {
     "type": "article",
-    "title": "AI にリバースエンジニアリングさせる REA を触って、持ち帰ったのは「証拠付きで進める」考え方でした",
-    "url": "https://zenn.dev/flinters_blog/articles/3b377ce568d676",
-    "source": "Zenn",
-    "published_at": "2026-10-20T03:00:05Z",
-    "description": "はじめに\nこんにちは。FLINTERSの河内です。\n社内で毎週開いている AI 活用の勉強会で、今回（2026-10-19）は REA（Reverse Engineer Anything）を取り上げました。担当は川上さんです。AI エージェントにバイナリやアプリを解析させるためのツールで、10月に入ってから GitHub のスターが急に伸びています。\n結論から書くと、REA を使いこなすところまでは行けませんでした。題材選びでつまずき、コマンドの引数でつまずき、最後は別のスキ",
-    "category": "AI",
-    "beginner_score": 7,
-    "rank_score": 70.0
-  },
-  {
-    "type": "article",
     "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
     "url": "https://blog.cloudflare.com/d1-control-plane",
     "source": "Cloudflare Blog",
@@ -221,36 +210,14 @@
   },
   {
     "type": "article",
-    "title": "Show HN: Turn regular JavaScript into a neural net",
-    "url": "https://chenglou.me/handwired",
-    "source": "Hacker News",
-    "published_at": "2026-10-20T21:32:23Z",
-    "description": "31 points · 11 comments on Hacker News.",
-    "category": "Web",
-    "beginner_score": 6,
-    "rank_score": 60.0
-  },
-  {
-    "type": "article",
-    "title": "巨大なGitリポジトリと戦う",
-    "url": "https://zenn.dev/spookies/articles/82112154145e4c",
-    "source": "Zenn",
-    "published_at": "2026-10-22T04:30:05Z",
-    "description": "!\nこの記事ははてなブログ（2019年12月20日公開）からの移行記事です。\n内容が古い場合がありますのでご注意ください。\n\n\n 課題\nタイトルの通り、巨大なGitリポジトリと戦った記録です。\n\nhttps://git-scm.com/\n\n 前提\n\nGitにてバイナリファイルなどを扱うことにより、リポジトリの肥大化が起きている\n\nバイナリファイルではバージョン間の差分圧縮が行われず、最適化されない\nobject系（.git/objects/以下）ファイルサイズの増大につながる",
-    "category": "Web",
-    "beginner_score": 5,
-    "rank_score": 51.46904816685185
-  },
-  {
-    "type": "article",
-    "title": "How to Design Flowers",
-    "url": "https://www.asimov.press/p/flowers",
+    "title": "Rune 1.3: adds TypeScript, a Helix editor, Kitty graphics and OSC-7501",
+    "url": "https://rune.build/blog/rune-1-3-release",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-20T14:00:07Z",
+    "published_at": "2026-10-23T19:42:01Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 5,
-    "rank_score": 50.0
+    "rank_score": 56.58246105287037
   },
   {
     "type": "article",
@@ -320,33 +287,11 @@
   },
   {
     "type": "article",
-    "title": "AWS Continuum for code vulnerabilities is now generally available",
-    "url": "https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available",
-    "source": "AWS Blog",
-    "published_at": "2026-10-22T20:33:10Z",
-    "description": "AWS Continuum for code vulnerabilities is a new security service that uses AI to automatically find, validate, and prioritize code vulnerabilities in your environment, then delivers ready-to-review fixes as pull requests replacing what prev",
-    "category": "AI",
-    "beginner_score": 4,
-    "rank_score": 46.81951112981481
-  },
-  {
-    "type": "article",
     "title": "Localizing compliance at scale: achieving South Korea’s ISMS certification",
     "url": "https://blog.cloudflare.com/k-isms",
     "source": "Cloudflare Blog",
     "published_at": "2026-10-22T13:00:00Z",
     "description": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our global security program.",
-    "category": "Cloud",
-    "beginner_score": 4,
-    "rank_score": 44.30191853722222
-  },
-  {
-    "type": "article",
-    "title": "Cloudflare + EmDash の自サイトを点検したら Server-Timing から内部情報が見えていた話",
-    "url": "https://zenn.dev/masaru21/articles/2100616bb5110d",
-    "source": "Zenn",
-    "published_at": "2026-10-19T14:42:30Z",
-    "description": "Webサイトのセキュリティについて勉強するため、まずは自分で管理しているサイトを実際に点検してみることにしました。\n対象は、Cloudflare上で動かしている自分のWebサイトです。\n構成は大まかに、\n\nCloudflare Workers\nAstro\nEmDash CMS\nCloudflare D1\nCloudflare KV\nCloudflare R2\n\nなどを利用しています。\n今回は、いきなり広範囲な脆弱性スキャンを行うのではなく、\n\nNucleiで低負荷な技術判定\n",
     "category": "Cloud",
     "beginner_score": 4,
     "rank_score": 40.0
@@ -359,6 +304,17 @@
     "published_at": "2026-10-21T14:10:42Z",
     "description": "Cloudflare's web application firewall can now correlate an HTTP request with its response. Full transaction detection helps every customer find successful exploits, data exposure, and risky misconfigurations that request-only inspection can",
     "category": "Cloud",
+    "beginner_score": 4,
+    "rank_score": 40.0
+  },
+  {
+    "type": "article",
+    "title": "AWS Continuum for code vulnerabilities is now generally available",
+    "url": "https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available",
+    "source": "AWS Blog",
+    "published_at": "2026-10-22T20:33:10Z",
+    "description": "AWS Continuum for code vulnerabilities is a new security service that uses AI to automatically find, validate, and prioritize code vulnerabilities in your environment, then delivers ready-to-review fixes as pull requests replacing what prev",
+    "category": "AI",
     "beginner_score": 4,
     "rank_score": 40.0
   },
@@ -397,23 +353,56 @@
   },
   {
     "type": "article",
+    "title": "Excel読込をcalamineで19秒→5秒にしたら、別名パッケージ経由のimportだけ壊れた【Python】",
+    "url": "https://zenn.dev/cutlet_of_pork/articles/calamine-excel-read-alias-package-import",
+    "source": "Zenn",
+    "published_at": "2026-10-23T06:59:26Z",
+    "description": "import=FAIL ModuleNotFoundError No module named 'src.core'\nsys_path_changed True\nAI に任せた実装の受け入れ検査で、この 2 行が出た。実装した側の報告では、テストは 204 件全部通っていた。\n\n 何をしていたか\n社内の生産管理システムから落とした進捗一覧の Excel を、pandas で読んで絞り込むスクリプトがある。22,267 行 × 88 列。この read_excel が 20 秒",
+    "category": "AI",
+    "beginner_score": 3,
+    "rank_score": 32.345886978796294
+  },
+  {
+    "type": "article",
+    "title": "eMudhraの中間CA証明書の秘密鍵を求めてみる",
+    "url": "https://zenn.dev/herumi/articles/search_bad_emudhra_key",
+    "source": "Zenn",
+    "published_at": "2026-10-23T05:50:11Z",
+    "description": "はじめに\n2026年10月に認証局eMudhraの中間CA証明書の署名鍵（秘密鍵）が脆弱だったという報告がありました。\nここではそのCA証明書に記載された検証鍵（公開鍵）から署名鍵を実際に求めてみます。\n\n Pythonを使って求める\n脆弱だった秘密鍵は8ビット以下だったということで、洗練された高速なライブラリを使わずナイーブな方法を使います。\n『Software Design 2022年3月号』で紹介した記事、楕円曲線暗号のPythonによる実装その1（有限体とECDH鍵共",
+    "category": "Development",
+    "beginner_score": 3,
+    "rank_score": 31.961164756574075
+  },
+  {
+    "type": "article",
+    "title": "[Flutter]main()を通らない起動ルートで初期化漏れした話（Android着信のヒヤリハット）",
+    "url": "https://zenn.dev/lincwell_inc/articles/ab2a642ea8f6f0",
+    "source": "Zenn",
+    "published_at": "2026-10-23T01:30:05Z",
+    "description": "はじめに\nFlutterアプリの初期化はmain()に書いておけばOK……と思っていたら、実はmain()を通らない起動ルートがありました。\n気づいたきっかけは、APIリクエストにUser-Agentを付与するという小さな改修で、Androidの着信機能が鳴らなくなった現象が発生してしまいました。 リリース前に気づけたので本番影響はありませんでしたが、見落としやすいポイントだったので今回記事にしてみました。\n\n 起きた問題\nリリース予定のバージョンで、Androidのクリフォ",
+    "category": "AI",
+    "beginner_score": 3,
+    "rank_score": 30.516164756574074
+  },
+  {
+    "type": "article",
+    "title": "厳選・セキュリティが心配ならClaude Codeにこの問いかけをコピペするべし20",
+    "url": "https://zenn.dev/yuiseki/articles/54b01670841898",
+    "source": "Zenn",
+    "published_at": "2026-10-22T11:28:13Z",
+    "description": "TL;DR\n\nこの記事のURLをコーディングAIエージェントに伝えてください。\n\n\n 認証\n\nこのリポジトリのサインアップ、ログイン、メール確認、パスワードリセットの実装を調べてください。UI の CAPTCHA や入力チェックを通さず API を直接呼べないか、メール確認前に使える機能がないか確認してください。問題があれば実装箇所と根拠を示してください。\nこのリポジトリのセッション、JWT、OAuth/OIDC の検証処理を調べてください。署名、issuer、audienc",
+    "category": "AI",
+    "beginner_score": 3,
+    "rank_score": 30.0
+  },
+  {
+    "type": "article",
     "title": "Oxlint + Oxfmt で規約をコード化するモノレポ運用",
     "url": "https://zenn.dev/reality_tech/articles/oxc-monorepo-20261006",
     "source": "Zenn",
     "published_at": "2026-10-20T02:00:05Z",
     "description": "長らく ESLint + Prettier を使ってきました。大きな不満はなかったものの、実行時間が少し気になっていました。そこで、Biome と Oxc を実際のモノレポで検証して、最終的に Oxlint + Oxfmt に移行しました。\nこの記事では、Biome と Oxc を比較・検証した過程と、Oxlint + Oxfmt を使ってコーディング規約をコードとして強制する運用を紹介します。\n\n 導入の経緯とモチベーション\n\n lint / format の待ち時間が気に",
     "category": "Web",
-    "beginner_score": 3,
-    "rank_score": 30.0
-  },
-  {
-    "type": "article",
-    "title": "生産計画を手を動かして学ぶ ― OSS の frePPLe で MRP・需要予測・CP-SAT まで",
-    "url": "https://zenn.dev/rkawajiri/books/frepple-tutorial-ja",
-    "source": "Zenn",
-    "published_at": "2026-10-17T21:06:40Z",
-    "description": "受注から購買・製造・配送の計画がどう作られるかを、OSS の生産計画ソフト frePPLe を Docker で動かして体験する無料ハンズオンです。MRP（所要量計算）と有限能力の制約あり計画の違い、遅れの原因をたどる方法、What-if、在庫・拠点間の配送、需要予測、OR-Tools CP-SAT による最適化まで、小さなモデルから順に学べます。業務知識は不要で、最初の3章はインストールなしで読めます。非公式ガイドです。",
-    "category": "Tools",
     "beginner_score": 3,
     "rank_score": 30.0
   },
@@ -463,190 +452,223 @@
   },
   {
     "type": "article",
-    "title": "LLMs are making formal software verification feasible at a much larger scale",
-    "url": "https://www.anthropic.com/research/formal-verification",
+    "title": "CVE Tracker",
+    "url": "https://cve.0xosprey.com",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-22T22:54:43Z",
+    "published_at": "2026-10-23T21:21:47Z",
+    "description": "Comments",
+    "category": "Security",
+    "beginner_score": 2,
+    "rank_score": 27.13672031212963
+  },
+  {
+    "type": "article",
+    "title": "No Source Code? No Problem",
+    "url": "https://queue.acm.org/doi/10.1145/945131.945155",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-23T20:38:06Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.894035126944445
+  },
+  {
+    "type": "article",
+    "title": "A whirlwind tour of systemd-nspawn containers",
+    "url": "https://quantum5.ca/2025/03/22/whirlwind-tour-of-systemd-nspawn-containers",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-23T20:37:12Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 27.605900018703704
+    "rank_score": 26.889035126944446
   },
   {
     "type": "article",
-    "title": "Railpass",
-    "url": "https://train.samismith.com",
+    "title": "Securing our frontier model training environment",
+    "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-22T21:38:32Z",
+    "published_at": "2026-10-23T19:50:56Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 27.182659277962962
+    "rank_score": 26.63199808990741
   },
   {
     "type": "article",
-    "title": "Jared Kushner Hacked Phone Reveals Secret Negotiations, Millions in Transactions",
-    "url": "https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations",
+    "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+    "url": "https://corgi.computer",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-22T21:24:41Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 27.10571483351852
-  },
-  {
-    "type": "article",
-    "title": "Hedra is a 3D open world game I wrote from scratch while in highschool",
-    "url": "https://github.com/maxilevi/project-hedra/tree/pre-ai",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-22T18:44:36Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.216362981666666
-  },
-  {
-    "type": "article",
-    "title": "AI and the Enclosure of the Scientific Commons",
-    "url": "https://arxiv.org/abs/2610.27251",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-22T18:28:16Z",
+    "published_at": "2026-10-23T19:46:38Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 26.125622240925924
+    "rank_score": 26.608109201018518
   },
   {
     "type": "article",
-    "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
-    "url": "https://github.com/NVIDIA/OpenShell",
+    "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+    "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-22T17:44:06Z",
+    "published_at": "2026-10-23T19:34:15Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 25.880251870555554
+    "rank_score": 26.539312904722223
   },
   {
     "type": "article",
-    "title": "Getting ready to operate GNU Taler in Germany",
-    "url": "https://www.taler.net/en/news/2026-13.html",
+    "title": "Dessa: the most authentic full-duplex speech model ever built",
+    "url": "https://block.xyz/dessa",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-22T16:14:31Z",
+    "published_at": "2026-10-23T19:09:54Z",
+    "description": "Comments",
+    "category": "Security",
+    "beginner_score": 2,
+    "rank_score": 26.404035126944443
+  },
+  {
+    "type": "article",
+    "title": "DNS: A Replacement for Finger",
+    "url": "https://altchan.org/sh/42",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-23T19:00:04Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.38256668537037
+    "rank_score": 26.349405497314816
   },
   {
     "type": "article",
-    "title": "Every AI model has the same \"controversial\" take on humans",
-    "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+    "title": "Bringing post-quantum cryptography to geographically fenced key management",
+    "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-23T18:06:56Z",
+    "description": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
+    "category": "Cloud",
+    "beginner_score": 2,
+    "rank_score": 26.05422031212963
+  },
+  {
+    "type": "article",
+    "title": "Air Purifiers as White Noise Machines",
+    "url": "https://www.jefftk.com/p/air-purifiers-as-white-noise-machines",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-22T16:08:00Z",
+    "published_at": "2026-10-23T17:28:36Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 25.346362981666665
+    "rank_score": 25.841257349166668
   },
   {
     "type": "article",
-    "title": "Run full iOS 16.5 firmware on Android Devices",
-    "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+    "title": "Animations for System Builders",
+    "url": "https://brooker.co.za/blog/2026/10/23/animations.html",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-22T15:26:22Z",
+    "published_at": "2026-10-23T17:02:24Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.11506668537037
+    "rank_score": 25.69570179361111
   },
   {
     "type": "article",
-    "title": "Quad9 (DNS Resolver) to Exit France",
-    "url": "https://quad9.net/news/blog/au-revoir-france",
+    "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+    "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-22T14:32:38Z",
+    "published_at": "2026-10-23T16:59:08Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 24.816548166851852
+    "rank_score": 25.677553645462964
   },
   {
     "type": "article",
-    "title": "eMudhra to exit global SSL/TLS certificate business",
-    "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+    "title": "Today, we hacked what we'd set out to hack: the iPhone",
+    "url": "https://blog.calif.io/p/iphone",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-22T13:33:39Z",
+    "published_at": "2026-10-23T16:21:50Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 24.488862981666667
+    "rank_score": 25.47033142324074
   },
   {
     "type": "article",
-    "title": "Woman faces six years in prison over Cash App account she never opened",
-    "url": "https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html",
+    "title": "Apple Music 404 Not Found",
+    "url": "https://music.apple.com/this-url-doesnt-exist",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-22T13:11:00Z",
+    "published_at": "2026-10-23T12:28:47Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 24.36302964833333
+    "rank_score": 24.175609201018517
   },
   {
     "type": "article",
-    "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
-    "url": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought",
+    "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+    "url": "https://edjefferson.com/localwiki",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-22T11:42:03Z",
+    "published_at": "2026-10-22T23:01:18Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 23.868862981666666
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.",
-    "url": "https://news.ycombinator.com/item?id=50193416",
+    "title": "The Real Kevin Bacon",
+    "url": "https://pudding.cool/2026/10/kevin-bacon",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-22T10:11:44Z",
+    "published_at": "2026-10-20T17:10:05Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 23.367103722407407
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
-    "url": "https://globus.software/blog/2026/10/16/cutting-map-polygons",
+    "title": "Canadians are running out of time to oppose Bill C-22",
+    "url": "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-22T09:31:18Z",
+    "published_at": "2026-10-22T22:43:19Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 23.14247409277778
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "Jailbreaking the Switch 2",
-    "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb",
+    "title": "A Bicycle Journey Across Brazil to Find a Vanishing Savanna",
+    "url": "https://e360.yale.edu/features/2026-film-contest-second-place-cerrado",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-22T08:01:52Z",
+    "published_at": "2026-10-21T08:17:35Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Rise of collagen-eating microbes may help explain gaps in the fossil record",
+    "url": "https://www.cam.ac.uk/research/news/rise-of-collagen-eating-microbes-may-help-explain-gaps-in-the-fossil-record",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-20T15:41:28Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 22.645622240925924
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "Hugo のビルドを just にまとめて、生成物の置き場で事故りました",
-    "url": "https://zenn.dev/fumika_676/articles/20220236284e11",
-    "source": "Zenn",
-    "published_at": "2026-10-22T07:58:08Z",
-    "description": "前回、書庫に検索を付けたら、叩くコマンドが二つに増えました。順番もあります。\n\n二つあると、だいたい片方を忘れます。そしてミスります。なので今回は、これを just gen の一言にまとめてしまおうと思います。\nまとめた先で一回やらかしてもいるので、ついでにそっちも書いておきます。\nHugo、Pagefind、Node.js は前回までに入っているものとして進めます。\njust 1.57.0\nhugo v0.165.0+extended linux/amd64\npagefin",
-    "category": "Development",
+    "title": "Show HN: Impossible Machines: declaratively program the physical world",
+    "url": "https://www.impossiblemachines.xyz",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-22T23:54:28Z",
+    "description": "Comments",
+    "category": "Web",
     "beginner_score": 2,
-    "rank_score": 22.624881500185186
+    "rank_score": 20.0
   },
   {
     "type": "article",
@@ -655,39 +677,6 @@
     "source": "Zenn",
     "published_at": "2026-10-22T01:30:07Z",
     "description": "はじめに\nこんにちは、Dress Code 株式会社でプロダクトエンジニアをやっている津田です。\n以前、SOC2 Type1 取得に向けてやったことを整理した記事を投稿しました。\nhttps://zenn.dev/dress_code/articles/1823b6c22c2534\n引き続き、プロダクトセキュリティを見ており、社内の協力もあって SOC2 Type2 の継続審査も終えることができました。\n今回は、今後の継続審査に向けて、脆弱性を管理する仕組みを整えたので書いて",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.469233352037037
-  },
-  {
-    "type": "article",
-    "title": "What Is Gridifcation",
-    "url": "https://musicalform.substack.com/p/what-is-gridifcation",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-19T09:13:12Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Dungeon Generation in the Gnomish Mines of NetHack",
-    "url": "https://www.boristhebrave.com/2026/10/18/dungeon-generation-in-the-gnomish-mines-of-nethack",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-19T16:06:40Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Speeding up code review with `small-change`",
-    "url": "https://lethain.com/small-changes",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-19T10:35:14Z",
-    "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
     "rank_score": 20.0
@@ -700,28 +689,6 @@
     "published_at": "2026-10-21T20:00:09Z",
     "description": "PHPerの皆様、お疲れさまでした。\n少し体力が残っているので、現在の対応状況をまとめてみました。\n生成AIでまとめたものを当方で確認しております。\nまた気になる追加情報を補足に追加しました。\n2026年10月21日、PHP の重大な脆弱性2件（CVE-2026-109618 / CVE-2026-109619、通称「PHP2Shell」）の修正版が公開されました。\nPHP 本体の修正版がリリースされても、実際に自分のサーバへ届くかどうかは、利用している OS のパッケージ、",
     "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "「PHPのドカ脆弱性」=「今すぐDynmap止めろ」ではなかった話",
-    "url": "https://zenn.dev/56drich/articles/f52bd4a1dae988",
-    "source": "Zenn",
-    "published_at": "2026-10-21T18:52:44Z",
-    "description": "「PHPのドカ脆弱性」=「今すぐDynmap止めろ」ではなかった話\n\n 1. はじめに\n2026/10/21、PHPに関してCVSS v4.0で9.2の重大な脆弱性（CVE-2026-109618・CVE-2026-109619）が2件出たと大騒ぎになった。日本時間21日23時に修正版（8.5.12 / 8.4.27 / 8.3.36 / 8.2.35）が公開されている。\nhttps://www.php.net/archive/2026.php#2026-10-21-5\n私の",
-    "category": "Security",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Pi 3B 2台で家のサーバを回してきた — そろそろ限界、Pi 4/5 を買う前に稼働率を測る",
-    "url": "https://zenn.dev/tinker42/articles/ca22660eedca0a",
-    "source": "Zenn",
-    "published_at": "2026-10-21T10:05:42Z",
-    "description": "先に結論\n\n家の Pi のうち4台を1週間、5分ごとに測った。CPU はどれも余裕があり、足りないのはメモリだった\nHAOS 用の Pi 3B は、メモリが平均75%・最大83%。時間帯による差がなく、常にこの水準にいる\n買い替えの理由は「速くしたい」ではなく「メモリを増やしたい」だった。Pi 4 の 3GB か 4GB が候補\n\n\n はじめに\nサーバは、持つのをやめても意外と困らない。ただ、しばらくすると Linux を触りたくなる。\nわが家のサーバは3世代目になる。第一世",
-    "category": "Development",
     "beginner_score": 2,
     "rank_score": 20.0
   },
@@ -826,17 +793,6 @@
   },
   {
     "type": "article",
-    "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
-    "url": "https://blog.cloudflare.com/workers-on-demand-profiling",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-09T13:00:00Z",
-    "description": "On-demand CPU and memory profiling for Cloudflare Workers and Durable Objects is now available. Now you can generate interactive flamegraphs directly in production to quickly track down memory leaks and performance bottlenecks.",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
     "title": "AWS Weekly Roundup: Prime Day 2026 by the numbers, Claude Haiku 5.5, Amazon Nova 2.5 Sonic, and more (October 13, 2026)",
     "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026",
     "source": "AWS Blog",
@@ -878,5 +834,49 @@
     "category": "Cloud",
     "beginner_score": 2,
     "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Introducing enhanced custom event buses in Amazon EventBridge for enterprise-scale event-driven applications",
+    "url": "https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications",
+    "source": "AWS Blog",
+    "published_at": "2026-09-24T20:58:46Z",
+    "description": "Amazon EventBridge announces an enhanced custom event bus for organizations scaling event-driven applications across teams and accounts. Deploy a single event bus shared across all AWS accounts in your organization, with ordering guarantees",
+    "category": "Cloud",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more (September 21, 2026)",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-mobile-apps-amazon-connect-talent-ga-amazon-corretto-27-and-more-september-14-2026",
+    "source": "AWS Blog",
+    "published_at": "2026-09-21T16:11:24Z",
+    "description": "Living in the Netherlands, I spend a fair amount of time on trains, and that is usually where I catch up on what the builder community is writing. Until now, that meant opening a laptop or squinting at a browser tab on my phone. This week I",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "AWS Elastic Beanstalk introduces Cluster Mode",
+    "url": "https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode",
+    "source": "AWS Blog",
+    "published_at": "2026-09-17T19:20:21Z",
+    "description": "Run an application on AWS Elastic Beanstalk Cluster Mode without provisioning or operating the compute underneath it. You provide a container image or source code; Elastic Beanstalk with service-operated compute creates and operates the env",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "German court calls Google aerial imagery 'spying'",
+    "url": "https://www.courthousenews.com/german-court-calls-google-aerial-imagery-spying",
+    "source": "Hacker News",
+    "published_at": "2026-10-23T22:18:49Z",
+    "description": "15 points · 3 comments on Hacker News.",
+    "category": "Development",
+    "beginner_score": 0,
+    "rank_score": 7.453572163981481
   }
 ]
