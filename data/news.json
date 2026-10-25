@@ -107,18 +107,7 @@
     "description": "こんにちは、ゆうです。\nFlutterKaigi 2026のアプリの開発をしています。\nXを見ると、iPhone Duoを買った人が思ったより多いようでした。mixi2さんがFlutterでiPhone Duoに最適化しているポストも流れてきたので、FlutterKaigi 2026のアプリも対応することにしました。\nhttps://x.com/chehonz201/status/2113578442751185351\n以下の2つPRで対応してます。\nhttps://gith",
     "category": "AI",
     "beginner_score": 9,
-    "rank_score": 95.81028092555556
-  },
-  {
-    "type": "article",
-    "title": "Roku developer repositories moved from GitHub to GitLab",
-    "url": "https://blog.roku.com/developer/gitlab-move",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-24T16:06:26Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 9,
-    "rank_score": 95.51398462925926
+    "rank_score": 90.0
   },
   {
     "type": "article",
@@ -129,7 +118,7 @@
     "description": "prpr (PackRat Parser in Rust) という Rust 向けの新しい Parser generator ライブラリを作りました。\nhttps://crates.io/crates/prpr\nhttps://github.com/tanakh/prpr\n詳しい使い方を書いたドキュメントがありますので、使ってみたいと思った方はぜひこちらをご覧になってください。\nhttps://tanakh.github.io/prpr/\n開発の背景についてちょっと説明してお",
     "category": "Web",
     "beginner_score": 9,
-    "rank_score": 92.46694759222223
+    "rank_score": 90.0
   },
   {
     "type": "article",
@@ -184,7 +173,18 @@
     "description": "はじめに\nFastAPIで開発している案件判定API「SUMI Job Engine」に、AWSへデプロイせずにLambda向けパッケージを検証するCIを追加しました。\n今回確認したかったのは、「SAMでビルドできるか」の一歩先です。ビルドした成果物をarm64のLambda公式Pythonコンテナに読み込ませ、実際のハンドラーを呼び出せるかを確かめました。\nこの記事では、実プロジェクトで使った構成とコードの要点を紹介します。コードは既存アプリからの抜粋です。単独で動くサンプ",
     "category": "Cloud",
     "beginner_score": 8,
-    "rank_score": 85.52111425888889
+    "rank_score": 80.0
+  },
+  {
+    "type": "article",
+    "title": "Gheist campaign plants secret-dumping workflows using stolen GitHub tokens",
+    "url": "https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles",
+    "source": "Hacker News",
+    "published_at": "2026-10-25T19:10:36Z",
+    "description": "43 points · 0 comments on Hacker News.",
+    "category": "AI",
+    "beginner_score": 7,
+    "rank_score": 76.56280696333333
   },
   {
     "type": "article",
@@ -232,14 +232,14 @@
   },
   {
     "type": "article",
-    "title": "リンクで確認した SNS のメール購読に、作り直さずに「解除の保護」を付ける",
-    "url": "https://zenn.dev/sk8jp/articles/260e3c0fa07ed9",
-    "source": "Zenn",
-    "published_at": "2026-10-24T08:24:15Z",
-    "description": "はじめに\nAmazon SNS のメール購読は、確認するときに AuthenticateOnUnsubscribe を true にすると、解除に AWS の認証（署名つきのリクエスト）が必要になります。メールの unsubscribe のリンクからは解除できなくなります。\nこの指定は確認するときにしか付けられず、確認のメールのリンクを押して確認すると付きません。\n\n\nAuthenticateOnUnsubscribe は、購読を確認する API（ConfirmSubscri",
-    "category": "Cloud",
+    "title": "Amazon's \"digital pacifier\" for toddlers",
+    "url": "https://oligarchwatch.substack.com/p/amazons-digital-pacifier-for-toddlers",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-21T18:37:48Z",
+    "description": "Comments",
+    "category": "Web",
     "beginner_score": 5,
-    "rank_score": 52.94629944407407
+    "rank_score": 50.0
   },
   {
     "type": "article",
@@ -309,14 +309,14 @@
   },
   {
     "type": "article",
-    "title": "Argus – a free, open-source agentic security operations platform – MIT",
-    "url": "https://thomasunise.com/argus",
+    "title": "UTS #39: Unicode Security Mechanisms",
+    "url": "https://unicode.org/reports/tr39",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-24T21:54:16Z",
+    "published_at": "2026-10-25T16:40:37Z",
     "description": "Comments",
-    "category": "AI",
+    "category": "Security",
     "beginner_score": 4,
-    "rank_score": 47.446392036666666
+    "rank_score": 45.729566222592595
   },
   {
     "type": "article",
@@ -386,6 +386,17 @@
   },
   {
     "type": "article",
+    "title": "Pythonの基礎学習が終わったら、Pythonでスクレイピングを始めよう！",
+    "url": "https://zenn.dev/momiji_ai/articles/67c7ce4c54fad3",
+    "source": "Zenn",
+    "published_at": "2026-10-25T07:46:55Z",
+    "description": "自己紹介\n普段はセキュリティやAIに興味があり、脆弱性、CVE-2026-73683を発見し、報告したことで採番されたり、AIを個人的に勉強している現役学生です。\n\n この記事を書く目的\n\n業務でPyppeteerを使うシステムのコスト削減に取り組んだから\n応用的な使い方も説明したいから\n\n\n はじめに\nこの記事では、Python から本物のブラウザを動かしてスクレイピングできるライブラリ Pyppeteer を、手を動かしながら学びます。\n前半の入門編では、スクレイピング練",
+    "category": "AI",
+    "beginner_score": 3,
+    "rank_score": 32.76456622259259
+  },
+  {
+    "type": "article",
     "title": "@napi-rs/canvas v1.0.12 で実質的な破壊的変更が入った話",
     "url": "https://zenn.dev/devuloper/articles/napi_rs_canvas_1_0_12_font_tofu",
     "source": "Zenn",
@@ -393,18 +404,7 @@
     "description": "@napi-rs/canvas を 1.0.11 から 1.0.12 以降に上げると、ctx.font = '48px M PLUS Rounded 1c' のように引用符なしで書いたフォント指定が、まるごと無視されるようになりました。日本語は 10px の豆腐で描かれ、例外も警告も出ません。フォント名を \"M PLUS Rounded 1c\" のように引用符で囲めば直ります。\nこの記事は、気づいたきっかけから原因の特定、対策までをまとめたものです。\n\n きっかけ\nmakei",
     "category": "Development",
     "beginner_score": 3,
-    "rank_score": 35.30102166629629
-  },
-  {
-    "type": "article",
-    "title": "Twelve years of distributed SQLite",
-    "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite",
-    "source": "Hacker News",
-    "published_at": "2026-10-24T01:16:58Z",
-    "description": "358 points · 62 comments on Hacker News.",
-    "category": "Development",
-    "beginner_score": 3,
-    "rank_score": 30.572503147777777
+    "rank_score": 30.0
   },
   {
     "type": "article",
@@ -414,17 +414,6 @@
     "published_at": "2026-10-23T05:50:11Z",
     "description": "はじめに\n2026年10月に認証局eMudhraの中間CA証明書の署名鍵（秘密鍵）が脆弱だったという報告がありました。\nここではそのCA証明書に記載された検証鍵（公開鍵）から署名鍵を実際に求めてみます。\n\n Pythonを使って求める\n脆弱だった秘密鍵は8ビット以下だったということで、洗練された高速なライブラリを使わずナイーブな方法を使います。\n『Software Design 2022年3月号』で紹介した記事、楕円曲線暗号のPythonによる実装その1（有限体とECDH鍵共",
     "category": "Development",
-    "beginner_score": 3,
-    "rank_score": 30.0
-  },
-  {
-    "type": "article",
-    "title": "厳選・セキュリティが心配ならClaude Codeにこの問いかけをコピペするべし20",
-    "url": "https://zenn.dev/yuiseki/articles/54b01670841898",
-    "source": "Zenn",
-    "published_at": "2026-10-22T11:28:13Z",
-    "description": "TL;DR\n\nこの記事のURLをコーディングAIエージェントに伝えてください。\n\n\n 認証\n\nこのリポジトリのサインアップ、ログイン、メール確認、パスワードリセットの実装を調べてください。UI の CAPTCHA や入力チェックを通さず API を直接呼べないか、メール確認前に使える機能がないか確認してください。問題があれば実装箇所と根拠を示してください。\nこのリポジトリのセッション、JWT、OAuth/OIDC の検証処理を調べてください。署名、issuer、audienc",
-    "category": "AI",
     "beginner_score": 3,
     "rank_score": 30.0
   },
@@ -485,25 +474,168 @@
   },
   {
     "type": "article",
-    "title": "Symbolic Learning in Python and Julia",
-    "url": "https://github.com/astroautomata/PySR",
-    "source": "Hacker News",
-    "published_at": "2026-10-20T20:07:35Z",
-    "description": "53 points · 8 comments on Hacker News.",
-    "category": "Development",
-    "beginner_score": 3,
-    "rank_score": 30.0
+    "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+    "url": "https://minimaxir.com/2026/10/cheap-llms",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-25T21:11:31Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 27.234566222592594
   },
   {
     "type": "article",
-    "title": "TornadoVM 7 Enables GPU-Native Workloads from Java Applications",
-    "url": "https://www.infoq.com/news/2026/10/tornadovm-7-gpu",
-    "source": "Hacker News",
-    "published_at": "2026-10-22T09:01:10Z",
-    "description": "83 points · 14 comments on Hacker News.",
-    "category": "Development",
-    "beginner_score": 3,
-    "rank_score": 30.0
+    "title": "Serbia's Vucic concedes election defeat in historic win for student movement",
+    "url": "https://www.reuters.com/world/europe/serbia-votes-students-seek-unseat-vucic-snap-election-2026-10-25",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-25T21:08:28Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.21762177814815
+  },
+  {
+    "type": "article",
+    "title": "The State of Context Engineering",
+    "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-25T20:32:31Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.017899555925926
+  },
+  {
+    "type": "article",
+    "title": "What goes into making an animated film?",
+    "url": "https://www.disneyanimation.com/process",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-25T20:27:09Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.988084741111113
+  },
+  {
+    "type": "article",
+    "title": "Eunice is almost here",
+    "url": "https://armincat.com/articles/eunice-is-almost-here",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-25T19:40:27Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.728640296666665
+  },
+  {
+    "type": "article",
+    "title": "Why I Am a Programmer",
+    "url": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-25T19:11:31Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.567899555925926
+  },
+  {
+    "type": "article",
+    "title": "Where the Romans Fought (interactive map)",
+    "url": "https://iosiflazaridis.github.io/battles-of-the-romans",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-25T18:58:14Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.49410325962963
+  },
+  {
+    "type": "article",
+    "title": "Dolly Parton's Imagination Library",
+    "url": "https://imaginationlibrary.com",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-25T18:23:54Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.30336251888889
+  },
+  {
+    "type": "article",
+    "title": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop",
+    "url": "https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-25T18:04:11Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.193825481851853
+  },
+  {
+    "type": "article",
+    "title": "I refuse to accept a censored Internet. Join Me at FOSDEM 27",
+    "url": "https://talkweb.eu/openweb/4558",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-25T17:30:55Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.009010667037035
+  },
+  {
+    "type": "article",
+    "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+    "url": "https://lynchlab.net/llm-skin-cancer",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-25T17:15:38Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 25.92410325962963
+  },
+  {
+    "type": "article",
+    "title": "Active incident at Dreamhost forcing password reset",
+    "url": "https://www.dreamhoststatus.com",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-25T13:09:16Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.555399555925927
+  },
+  {
+    "type": "article",
+    "title": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+    "url": "https://huggingface.co/destined/hurston-1",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-25T01:30:13Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.671788444814815
+  },
+  {
+    "type": "article",
+    "title": "Overgrown, when plants invade your abandoned tabs",
+    "url": "https://charliegerard.dev/blog/overgrown-extension",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-22T15:52:21Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Making the Buddha Head from Merv Whole Again",
+    "url": "https://www.getty.edu/news/buddha-head-of-merv-turkmenistan-conservation",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-23T18:46:00Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.0
   },
   {
     "type": "article",
@@ -514,203 +646,38 @@
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.408892036666668
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "Small Programs and Languages",
-    "url": "https://ratfactor.com/cards/pl-small",
+    "title": "VCF Southwest 2026, but Edited on Silicon Graphics for '90s TV [video]",
+    "url": "https://www.youtube.com/watch?v=46wxttvq9qY",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-24T21:44:23Z",
+    "published_at": "2026-10-24T17:42:08Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.39148462925926
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "The Importance of Limitations for Creativity and Learning",
-    "url": "https://ratfactor.com/cards/limitations",
+    "title": "The U.S. Power Grid",
+    "url": "https://nomagicpill.site/knowledge/powergrid.html",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-24T21:42:47Z",
+    "published_at": "2026-10-22T15:20:04Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.38259574037037
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "Show HN: Steal My Bitcoin",
-    "url": "https://stealmybitcoin.com",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-24T20:30:31Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.98111425888889
-  },
-  {
-    "type": "article",
-    "title": "No signs of AI payoff outside the tech sector",
-    "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-24T19:47:19Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 26.74111425888889
-  },
-  {
-    "type": "article",
-    "title": "Listen and read USA nuclear forces Emergency Action Messages, heard on 11175 kHz",
-    "url": "https://missileer.watch",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-24T19:43:27Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.71963277740741
-  },
-  {
-    "type": "article",
-    "title": "SpeedCrunch 1.1",
-    "url": "https://www.speedcrunch.org",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-24T19:19:43Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.587780925555556
-  },
-  {
-    "type": "article",
-    "title": "The Goose Programming Language",
-    "url": "https://aardappel.github.io/goose",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-24T19:06:55Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.516669814444445
-  },
-  {
-    "type": "article",
-    "title": "The St. Helena 5 pence coin shows Jonathan, a roughly 190 year old tortoise",
-    "url": "https://de.numista.com/9866",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-24T16:41:55Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.711114258888887
-  },
-  {
-    "type": "article",
-    "title": "Neural chip decodes interactions between brain regions",
-    "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-24T15:57:17Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 25.463151295925925
-  },
-  {
-    "type": "article",
-    "title": "FreeDNS",
-    "url": "https://freedns.afraid.org",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-24T15:20:01Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.25611425888889
-  },
-  {
-    "type": "article",
-    "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
-    "url": "https://github.com/Zagitta/gpu-unlock",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-24T09:58:27Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 23.46963277740741
-  },
-  {
-    "type": "article",
-    "title": "I don't understand quantum physics (2018)",
-    "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-24T09:53:26Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 23.441762407037036
-  },
-  {
-    "type": "article",
-    "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
-    "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-24T08:06:39Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 22.848521666296296
-  },
-  {
-    "type": "article",
-    "title": "webauthn-ruby をもう一回覗いてみた",
-    "url": "https://zenn.dev/smartcamp/articles/22bde5829493e5",
+    "title": "600人規模のイベント運営を支えたインカムを、学生1人で作った話",
+    "url": "https://zenn.dev/kodak_20/articles/3b0ba74333b56c",
     "source": "Zenn",
-    "published_at": "2026-10-24T02:11:58Z",
-    "description": "先日Kaigi on Railsに参加し、SmartHRさんのパスキー実践入門の発表を拝聴しました。\nhttps://kaigionrails.org/2026/talks/utakaha/\n過去に私はパスキーに関して以下の記事をまとめていました。\nhttps://zenn.dev/smartcamp/articles/2b757d2bb4aaf8\nそのため、なんとなくわかったつもりで聞いていましたが、知ったかぶりしているような箇所がいくつかありましたし、マルチテナント環境の",
+    "published_at": "2026-10-24T17:23:14Z",
+    "description": "はじめに\n2026年10月18日に開催された DevFest Kansai 2026 で、スタッフが連絡に使うインカムアプリ「inkam」を作りました。\nhttps://gdgkwansai.connpass.com/event/388434/\n当日は60人を超えるスタッフが使ってくれました。朝8時から夜8時までで、1,493回。特に朝から昼過ぎまでは1時間に150〜200回ほど話されていました！！\nちなみに自分はコダックといいます！！神戸電子専門学校の3年生で、GDG Gr",
     "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.878058703333334
-  },
-  {
-    "type": "article",
-    "title": "Full Disk Encryption on Fedora with TPM2",
-    "url": "https://www.apalrd.net/posts/2026/ent_luks",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-22T12:46:40Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "I Built a Stereo Vision Board for Hardware Hackers",
-    "url": "https://rootkitlabs.com/2026/10/06/i-built-a-stereo-vision-board-for-hardware-hackers",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-20T20:45:52Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Making a VGA Driver in SystemVerilog",
-    "url": "https://lukaswerner.com/post/2026-10-20@bottom-up-vga",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-20T16:00:15Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Physicists trap a single antimatter particle for a month",
-    "url": "https://www.scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-21T19:40:01Z",
-    "description": "Comments",
-    "category": "Web",
     "beginner_score": 2,
     "rank_score": 20.0
   },
@@ -876,6 +843,39 @@
     "published_at": "2026-09-30T17:04:05Z",
     "description": "Today, we’re excited to introduce the newest members of the AWS Heroes program. AWS Heroes are a vibrant, worldwide group of AWS experts who go above and beyond to share knowledge, mentor others, and build thriving communities. These indivi",
     "category": "Cloud",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "AWS Weekly Roundup: GPT-6 Sol and Luna, Claude Opus 5.5 on Amazon Bedrock, Strands harness, and more (September 28, 2026)",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-sol-and-luna-claude-opus-5-5-on-amazon-bedrock-strands-harness-and-more-september-28-2026",
+    "source": "AWS Blog",
+    "published_at": "2026-09-28T16:14:54Z",
+    "description": "If there’s one theme that defined last week, it’s choice. The frontier models keep arriving, and the interesting question is no longer just “how smart is it?” but “which model fits this step, at this cost, at this latency?” That’s exactly w",
+    "category": "Cloud",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Introducing enhanced custom event buses in Amazon EventBridge for enterprise-scale event-driven applications",
+    "url": "https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications",
+    "source": "AWS Blog",
+    "published_at": "2026-09-24T20:58:46Z",
+    "description": "Amazon EventBridge announces an enhanced custom event bus for organizations scaling event-driven applications across teams and accounts. Deploy a single event bus shared across all AWS accounts in your organization, with ordering guarantees",
+    "category": "Cloud",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more (September 21, 2026)",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-mobile-apps-amazon-connect-talent-ga-amazon-corretto-27-and-more-september-14-2026",
+    "source": "AWS Blog",
+    "published_at": "2026-09-21T16:11:24Z",
+    "description": "Living in the Netherlands, I spend a fair amount of time on trains, and that is usually where I catch up on what the builder community is writing. Until now, that meant opening a laptop or squinting at a browser tab on my phone. This week I",
+    "category": "AI",
     "beginner_score": 2,
     "rank_score": 20.0
   }
