@@ -12,17 +12,6 @@
   },
   {
     "type": "article",
-    "title": "Claude Code で CI 待ち時間を 18 分から 4 分台に短縮する【GitHub Actions】",
-    "url": "https://zenn.dev/edash_tech_blog/articles/5b90aa33bd8d49",
-    "source": "Zenn",
-    "published_at": "2026-10-19T23:00:05Z",
-    "description": "はじめに\nこんにちは。e-dash でエンジニアをしている iakito です。\nAI コーディングエージェントを使って開発していると、実装と一緒にテストも増えていき、気づいたときには膨大な量になっていることがあります。私が担当しているプロダクトも例外ではなく、PR CI の待ち時間は長いときで 18 分を超え、日々の開発で地味なストレスになっていました。\n本記事では、Claude Code を使ってこの待ち時間を 4 分台まで短縮した取り組みを紹介します。\n\n 背景\nCI ",
-    "category": "AI",
-    "beginner_score": 10,
-    "rank_score": 100.0
-  },
-  {
-    "type": "article",
     "title": "How bug bounty sharpens one researcher’s security skills",
     "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills",
     "source": "GitHub Blog",
@@ -100,17 +89,6 @@
   },
   {
     "type": "article",
-    "title": "Flutter アプリを iPhone Duo の「縦帯」に対応させる",
-    "url": "https://zenn.dev/yus1127/articles/flutter-iphone-duo-vertical-bar",
-    "source": "Zenn",
-    "published_at": "2026-10-24T16:59:46Z",
-    "description": "こんにちは、ゆうです。\nFlutterKaigi 2026のアプリの開発をしています。\nXを見ると、iPhone Duoを買った人が思ったより多いようでした。mixi2さんがFlutterでiPhone Duoに最適化しているポストも流れてきたので、FlutterKaigi 2026のアプリも対応することにしました。\nhttps://x.com/chehonz201/status/2113578442751185351\n以下の2つPRで対応してます。\nhttps://gith",
-    "category": "AI",
-    "beginner_score": 9,
-    "rank_score": 90.0
-  },
-  {
-    "type": "article",
     "title": "prpr: Rust 向けのシンプルで高速な Parser generator",
     "url": "https://zenn.dev/tanakh/articles/prpr-packrat-parser",
     "source": "Zenn",
@@ -166,25 +144,25 @@
   },
   {
     "type": "article",
-    "title": "AWSにデプロイせず、FastAPI製Lambdaのarm64実行をCIで検証する",
-    "url": "https://zenn.dev/shingokumon/articles/4da5acb9697d56",
+    "title": "最近の E2E 戦略（2026 年 10 月現在）",
+    "url": "https://zenn.dev/polyco/articles/26624b38c951b5",
     "source": "Zenn",
-    "published_at": "2026-10-24T16:07:43Z",
-    "description": "はじめに\nFastAPIで開発している案件判定API「SUMI Job Engine」に、AWSへデプロイせずにLambda向けパッケージを検証するCIを追加しました。\n今回確認したかったのは、「SAMでビルドできるか」の一歩先です。ビルドした成果物をarm64のLambda公式Pythonコンテナに読み込ませ、実際のハンドラーを呼び出せるかを確かめました。\nこの記事では、実プロジェクトで使った構成とコードの要点を紹介します。コードは既存アプリからの抜粋です。単独で動くサンプ",
-    "category": "Cloud",
-    "beginner_score": 8,
-    "rank_score": 80.0
+    "published_at": "2026-10-26T01:18:03Z",
+    "description": "この記事に書いてあること\n\nE2E を主要シナリオだけでなく網羅的に整備した\n実装から拾った確認対象とシナリオの対応漏れをチェックし漏れがあれば CI で落とす\n開発ワークフローの品質ゲートにローカル E2E 実行を組み込んでいる\n毎回全シナリオを回すのではなく、実装に関連する箇所のみ回している（でかいリファクタの時は回帰テストとして全シナリオ回す）\nやるなら e2e ライブラリがいいよという話\n\n\n 前提となる構成\nWeb も API も TypeScript で書いている",
+    "category": "Web",
+    "beginner_score": 6,
+    "rank_score": 60.19809808777778
   },
   {
     "type": "article",
-    "title": "Gheist campaign plants secret-dumping workflows using stolen GitHub tokens",
-    "url": "https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles",
-    "source": "Hacker News",
-    "published_at": "2026-10-25T19:10:36Z",
-    "description": "43 points · 0 comments on Hacker News.",
-    "category": "AI",
-    "beginner_score": 7,
-    "rank_score": 76.56280696333333
+    "title": "スタックトレースを読むとヒープが約1,470 MB増えていた話",
+    "url": "https://zenn.dev/dress_code/articles/f2a51226c9ec6f",
+    "source": "Zenn",
+    "published_at": "2026-10-26T00:00:13Z",
+    "description": "はじめに\nDress Code 株式会社のかわうそです。\nAPI サーバーのメモリを測っていたら、スタックトレースを一度読んだだけで、ヒープが約 1,470 MB 増えていました。調べてみると、source-map-support が巨大な source map を読み込み、結果を保持していました。エラーの場所を教えてくれる処理に、これだけのメモリを使っていました。\n今回は、本番プロセスで source map を読み込まない構成を採用しました。ローカルでは、ほかの改善も合わ",
+    "category": "Web",
+    "beginner_score": 6,
+    "rank_score": 60.0
   },
   {
     "type": "article",
@@ -229,28 +207,6 @@
     "category": "Web",
     "beginner_score": 6,
     "rank_score": 60.0
-  },
-  {
-    "type": "article",
-    "title": "Amazon's \"digital pacifier\" for toddlers",
-    "url": "https://oligarchwatch.substack.com/p/amazons-digital-pacifier-for-toddlers",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-21T18:37:48Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 5,
-    "rank_score": 50.0
-  },
-  {
-    "type": "article",
-    "title": "AI時代、配布するPythonコードをどう守るか: 難読化の実験と判断軸",
-    "url": "https://zenn.dev/pksha/articles/0f9c11d1daea2e",
-    "source": "Zenn",
-    "published_at": "2026-10-19T03:19:32Z",
-    "description": "はじめに\nこんにちは。PKSHA Technology でソフトウェアエンジニアをしている山本です。\n2026 年 8 月 22 日に広島で開催された PyCon JP 2026 にて、「AI 時代、配布する Python コードをどう守るか: 難読化の実験と判断軸」というタイトルで発表しました。本記事は、その発表内容をもとに、発表時間の都合で触れられなかった内容も加えて文章にまとめ直したものです。\n\n発表ページ: https://2026.pycon.jp/ja/talks",
-    "category": "AI",
-    "beginner_score": 5,
-    "rank_score": 50.0
   },
   {
     "type": "article",
@@ -309,14 +265,14 @@
   },
   {
     "type": "article",
-    "title": "UTS #39: Unicode Security Mechanisms",
-    "url": "https://unicode.org/reports/tr39",
+    "title": "CSS-Tricks has a new owner",
+    "url": "https://css-tricks.com/css-tricks-has-a-new-owner",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-25T16:40:37Z",
+    "published_at": "2026-10-26T15:51:23Z",
     "description": "Comments",
-    "category": "Security",
+    "category": "Web",
     "beginner_score": 4,
-    "rank_score": 45.729566222592595
+    "rank_score": 45.04994993962963
   },
   {
     "type": "article",
@@ -386,22 +342,33 @@
   },
   {
     "type": "article",
-    "title": "Pythonの基礎学習が終わったら、Pythonでスクレイピングを始めよう！",
-    "url": "https://zenn.dev/momiji_ai/articles/67c7ce4c54fad3",
-    "source": "Zenn",
-    "published_at": "2026-10-25T07:46:55Z",
-    "description": "自己紹介\n普段はセキュリティやAIに興味があり、脆弱性、CVE-2026-73683を発見し、報告したことで採番されたり、AIを個人的に勉強している現役学生です。\n\n この記事を書く目的\n\n業務でPyppeteerを使うシステムのコスト削減に取り組んだから\n応用的な使い方も説明したいから\n\n\n はじめに\nこの記事では、Python から本物のブラウザを動かしてスクレイピングできるライブラリ Pyppeteer を、手を動かしながら学びます。\n前半の入門編では、スクレイピング練",
-    "category": "AI",
+    "title": "Is PHP Running on Your ColdFusion Server? How to Check, and Remove It",
+    "url": "https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it",
+    "source": "Hacker News",
+    "published_at": "2026-10-26T22:27:17Z",
+    "description": "13 points · 7 comments on Hacker News.",
+    "category": "Other",
     "beginner_score": 3,
-    "rank_score": 32.76456622259259
+    "rank_score": 37.24939438407407
   },
   {
     "type": "article",
-    "title": "@napi-rs/canvas v1.0.12 で実質的な破壊的変更が入った話",
-    "url": "https://zenn.dev/devuloper/articles/napi_rs_canvas_1_0_12_font_tofu",
+    "title": "S3のParquet、そのままSnowflakeで分析しても遅くない？Parquet Directを検証",
+    "url": "https://zenn.dev/snowflakejp/articles/parquet-direct-pruning-benchmark",
     "source": "Zenn",
-    "published_at": "2026-10-24T15:28:06Z",
-    "description": "@napi-rs/canvas を 1.0.11 から 1.0.12 以降に上げると、ctx.font = '48px M PLUS Rounded 1c' のように引用符なしで書いたフォント指定が、まるごと無視されるようになりました。日本語は 10px の豆腐で描かれ、例外も警告も出ません。フォント名を \"M PLUS Rounded 1c\" のように引用符で囲めば直ります。\nこの記事は、気づいたきっかけから原因の特定、対策までをまとめたものです。\n\n きっかけ\nmakei",
+    "published_at": "2026-10-26T00:41:46Z",
+    "description": "はじめに\nS3にParquetで出力しているデータがある。このデータを、SnowflakeからもSQLで分析したい。\nそのためにデータをコピーしたり、Iceberg形式に変換する処理を追加したりするのは、できれば避けたいところです。既存の出力処理を活かしたまま、分析を始められるとうれしいですよね。\nこれを実現するのが、既存のParquetファイルを、その場でSnowflakeから参照できるParquet Directです。\nただ、直接読めるだけでは、使うかどうかを判断できませ",
+    "category": "Development",
+    "beginner_score": 3,
+    "rank_score": 30.0
+  },
+  {
+    "type": "article",
+    "title": "eMudhra 中間 CA 漏洩、OS もブラウザも最新なのにコンテナ 9 個と Python 環境 16 個が偽の証明書を信じていた",
+    "url": "https://zenn.dev/nanora/articles/20261024-emudhra-ca-own-bundles",
+    "source": "Zenn",
+    "published_at": "2026-10-24T03:53:11Z",
+    "description": "TL;DR\n\nOS もブラウザも最新だったのに、コンテナ 9 個と Python 環境 16 個が偽の証明書を信じていた\neMudhra の中間 CA 8 本の秘密鍵が、証明書から誰でも復元できる状態だった\nブラウザと OS は塞がったが、自前の証明書を持つアプリは自分で上げるまで偽サイトを信じる\n確かめ方は curl 1 行。証明書エラーなら安全、繋がったら要更新\n直す場所は環境しだい（うちは venv・pip 本体・コンテナ・Edge・VS Code・uv）\n「更新した」",
     "category": "Development",
     "beginner_score": 3,
     "rank_score": 30.0
@@ -419,34 +386,12 @@
   },
   {
     "type": "article",
-    "title": "Oxlint + Oxfmt で規約をコード化するモノレポ運用",
-    "url": "https://zenn.dev/reality_tech/articles/oxc-monorepo-20261006",
-    "source": "Zenn",
-    "published_at": "2026-10-20T02:00:05Z",
-    "description": "長らく ESLint + Prettier を使ってきました。大きな不満はなかったものの、実行時間が少し気になっていました。そこで、Biome と Oxc を実際のモノレポで検証して、最終的に Oxlint + Oxfmt に移行しました。\nこの記事では、Biome と Oxc を比較・検証した過程と、Oxlint + Oxfmt を使ってコーディング規約をコードとして強制する運用を紹介します。\n\n 導入の経緯とモチベーション\n\n lint / format の待ち時間が気に",
-    "category": "Web",
-    "beginner_score": 3,
-    "rank_score": 30.0
-  },
-  {
-    "type": "article",
     "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
     "url": "https://blog.cloudflare.com/hyperdrive-mysql",
     "source": "Cloudflare Blog",
     "published_at": "2026-10-14T13:00:00Z",
     "description": "While adding MySQL support to Hyperdrive, we found a subtle protocol bug when caching query results. Here is how we tracked down a 0.001% rate error and made Hyperdrive MySQL generally available.",
     "category": "AI",
-    "beginner_score": 3,
-    "rank_score": 30.0
-  },
-  {
-    "type": "article",
-    "title": "Filter, reshape, and redact logs before export with Transformers",
-    "url": "https://blog.cloudflare.com/transformers-on-logpush",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-12T14:44:59Z",
-    "description": "Logpush now supports Transformers, allowing teams to filter, redact, and reshape log streams using SQL before export. Powered by Apache DataFusion and Apache Arrow, Transformers apply those changes directly to log data before it reaches the",
-    "category": "Development",
     "beginner_score": 3,
     "rank_score": 30.0
   },
@@ -474,153 +419,230 @@
   },
   {
     "type": "article",
-    "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-    "url": "https://minimaxir.com/2026/10/cheap-llms",
+    "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+    "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-25T21:11:31Z",
+    "published_at": "2026-10-26T22:41:48Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 27.234566222592594
+    "rank_score": 27.330042532222222
   },
   {
     "type": "article",
-    "title": "Serbia's Vucic concedes election defeat in historic win for student movement",
-    "url": "https://www.reuters.com/world/europe/serbia-votes-students-seek-unseat-vucic-snap-election-2026-10-25",
+    "title": "The Exponential Time Hypothesis Is False [pdf]",
+    "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-25T21:08:28Z",
+    "published_at": "2026-10-26T21:59:15Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.21762177814815
+    "rank_score": 27.093653643333333
   },
   {
     "type": "article",
-    "title": "The State of Context Engineering",
-    "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+    "title": "Announcing three new discoveries in mathematics, computer science, and physics",
+    "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-25T20:32:31Z",
+    "published_at": "2026-10-26T21:35:28Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.017899555925926
+    "rank_score": 26.961524013703706
   },
   {
     "type": "article",
-    "title": "What goes into making an animated film?",
-    "url": "https://www.disneyanimation.com/process",
+    "title": "Type Server Protocol",
+    "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-25T20:27:09Z",
+    "published_at": "2026-10-26T18:14:49Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.988084741111113
+    "rank_score": 25.846801791481482
   },
   {
     "type": "article",
-    "title": "Eunice is almost here",
-    "url": "https://armincat.com/articles/eunice-is-almost-here",
+    "title": "昨今のセキュリティ情勢を踏まえて、Azure のセキュリティ系新資格 SC-500 を受けてみた【合格体験記】",
+    "url": "https://zenn.dev/microsoft/articles/112ff28ccc30e3",
+    "source": "Zenn",
+    "published_at": "2026-10-26T18:01:40Z",
+    "description": "以前、AI-300の受験記とAI-103の受験記を書きました。\nhttps://zenn.dev/microsoft/articles/9af0e38b6ae763\nhttps://zenn.dev/microsoft/articles/b8014fa8da044d\n今回はクラウドとAIのセキュリティを扱うSC-500を受験し、2回目で合格しました。\nSC-500はAzureのセキュリティ資格であるAZ-500の後継にあたる試験です。\n初回は合格ラインにあと少し届かず、不合格",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 25.773746235925927
+  },
+  {
+    "type": "article",
+    "title": "GPT-6.1 Terra",
+    "url": "https://openai.com/index/introducing-gpt-6-1-terra",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-25T19:40:27Z",
+    "published_at": "2026-10-26T18:01:17Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.728640296666665
+    "rank_score": 25.771616606296295
   },
   {
     "type": "article",
-    "title": "Why I Am a Programmer",
-    "url": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
+    "title": "Oldest GUI application that still runs on Windows 11",
+    "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-25T19:11:31Z",
+    "published_at": "2026-10-26T17:56:55Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.567899555925926
+    "rank_score": 25.74735734703704
   },
   {
     "type": "article",
-    "title": "Where the Romans Fought (interactive map)",
-    "url": "https://iosiflazaridis.github.io/battles-of-the-romans",
+    "title": "A Man from the Future: Why Johnny Can't Stop Abstracting",
+    "url": "http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-25T18:58:14Z",
+    "published_at": "2026-10-26T17:49:55Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.49410325962963
+    "rank_score": 25.708468458148147
   },
   {
     "type": "article",
-    "title": "Dolly Parton's Imagination Library",
-    "url": "https://imaginationlibrary.com",
+    "title": "Nietzschian Debugger",
+    "url": "https://github.com/DilawarShafiq/nietzschian-debugger",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-25T18:23:54Z",
+    "published_at": "2026-10-26T17:25:30Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.30336251888889
+    "rank_score": 25.57282031
   },
   {
     "type": "article",
-    "title": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop",
-    "url": "https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee",
+    "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+    "url": "https://github.com/FrigadeHQ/hob",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-25T18:04:11Z",
+    "published_at": "2026-10-26T16:12:29Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.193825481851853
+    "rank_score": 25.167172161851852
   },
   {
     "type": "article",
-    "title": "I refuse to accept a censored Internet. Join Me at FOSDEM 27",
-    "url": "https://talkweb.eu/openweb/4558",
+    "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+    "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-25T17:30:55Z",
+    "published_at": "2026-10-26T15:35:12Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.009010667037035
+    "rank_score": 24.96004253222222
   },
   {
     "type": "article",
-    "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
-    "url": "https://lynchlab.net/llm-skin-cancer",
+    "title": "Solar power is becoming bigger than nuclear",
+    "url": "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-25T17:15:38Z",
+    "published_at": "2026-10-26T15:26:17Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.910505495185184
+  },
+  {
+    "type": "article",
+    "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+    "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-26T15:11:59Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.83106105074074
+  },
+  {
+    "type": "article",
+    "title": "AWS Weekly Roundup: Amazon Polly Generative engine, TorchNeuron for Trainium, and more (October 26, 2026)",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-polly-generative-engine-torchneuron-for-trainium-and-more-october-26-2026",
+    "source": "AWS Blog",
+    "published_at": "2026-10-26T15:02:24Z",
+    "description": "A few weeks ago I presented to a small group of commercial and technology leaders from Brazilian agribusiness at the AWS office in São Paulo. My talk ran through where generative AI fits across the different stages of an agribusiness operat",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 24.77782031
+  },
+  {
+    "type": "article",
+    "title": "New iPad mini",
+    "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-26T13:13:36Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.173375865555556
+  },
+  {
+    "type": "article",
+    "title": "Anthropic S-1",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-26T13:04:50Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.12467216185185
+  },
+  {
+    "type": "article",
+    "title": "Vue Fes Japan 2026 「 Vite+への貢献と、Team Memberになって見えてきた風景」スピーカーノート",
+    "url": "https://zenn.dev/comm_vue_nuxt/articles/33f8491afbc66d",
+    "source": "Zenn",
+    "published_at": "2026-10-26T08:44:09Z",
+    "description": "https://www.docswell.com/s/naokihaba/K4N7JN-2026-10-15-132213\nhttps://vuefes.jp/2026/speaker/naokihaba\n\n 導入\nHello, everyone!\nMy slides are in English, but I will speak in Japanese today,\nsince I am still learning English.\nI hope you enjoy m",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 22.67643142111111
+  },
+  {
+    "type": "article",
+    "title": "A Printer Printing onto Paper",
+    "url": "https://twitter.com/macrofying/status/2112904628509528219",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-23T05:01:30Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "LISPy things you can do in 64K bytes of core (2019)",
+    "url": "https://t3x.org/lisp64k/index.html",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-25T12:53:47Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Birdwatching rewires the brain and slows cognitive decline",
+    "url": "https://www.bbc.com/future/article/20261019-birdwatching-rewires-the-brain-and-slows-cognitive-decline",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-23T22:04:55Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 25.92410325962963
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "Active incident at Dreamhost forcing password reset",
-    "url": "https://www.dreamhoststatus.com",
+    "title": "SIMD-accelerated computer vision on a $2 microcontroller",
+    "url": "https://shraiwi.com/blog/simd-fast-esp32s3",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-25T13:09:16Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 24.555399555925927
-  },
-  {
-    "type": "article",
-    "title": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
-    "url": "https://huggingface.co/destined/hurston-1",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-25T01:30:13Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.671788444814815
-  },
-  {
-    "type": "article",
-    "title": "Overgrown, when plants invade your abandoned tabs",
-    "url": "https://charliegerard.dev/blog/overgrown-extension",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-22T15:52:21Z",
+    "published_at": "2026-10-25T22:29:47Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
@@ -628,45 +650,12 @@
   },
   {
     "type": "article",
-    "title": "Making the Buddha Head from Merv Whole Again",
-    "url": "https://www.getty.edu/news/buddha-head-of-merv-turkmenistan-conservation",
+    "title": "Blaise Pascal invented fixed route public transport (2024)",
+    "url": "https://humantransit.org/2024/12/one-of-the-greatest-inventions-in-the-history-of-human-transport.html",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-23T18:46:00Z",
+    "published_at": "2026-10-22T19:52:50Z",
     "description": "Comments",
     "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "We should be more ambitious with the software we build",
-    "url": "https://danluu.com/ambitious",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-24T21:47:31Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "VCF Southwest 2026, but Edited on Silicon Graphics for '90s TV [video]",
-    "url": "https://www.youtube.com/watch?v=46wxttvq9qY",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-24T17:42:08Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "The U.S. Power Grid",
-    "url": "https://nomagicpill.site/knowledge/powergrid.html",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-22T15:20:04Z",
-    "description": "Comments",
-    "category": "Web",
     "beginner_score": 2,
     "rank_score": 20.0
   },
@@ -688,17 +677,6 @@
     "source": "Zenn",
     "published_at": "2026-10-22T01:30:07Z",
     "description": "はじめに\nこんにちは、Dress Code 株式会社でプロダクトエンジニアをやっている津田です。\n以前、SOC2 Type1 取得に向けてやったことを整理した記事を投稿しました。\nhttps://zenn.dev/dress_code/articles/1823b6c22c2534\n引き続き、プロダクトセキュリティを見ており、社内の協力もあって SOC2 Type2 の継続審査も終えることができました。\n今回は、今後の継続審査に向けて、脆弱性を管理する仕組みを整えたので書いて",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "コードレビューをなくして見えたもの",
-    "url": "https://zenn.dev/henteko/articles/b76b15922cdf72",
-    "source": "Zenn",
-    "published_at": "2026-10-21T01:39:50Z",
-    "description": "この記事の内容をざっくり1分20秒でまとめた動画を作っているので、時間がない方はこちらをご覧ください。\nhttps://youtu.be/hjiz8CrAHzc\n\n はじめに\n半年ほど前に、こんな記事を書きました。\nhttps://zenn.dev/henteko/articles/871526c9fffcec\n人間によるコードレビューをやめて、実装の前に「コンセプト」をチームで確認するワークフローに移行したい、という内容でした。その記事の最後にこんなことを書いていました。\n",
     "category": "Web",
     "beginner_score": 2,
     "rank_score": 20.0
@@ -878,5 +856,27 @@
     "category": "AI",
     "beginner_score": 2,
     "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Magic state cultivation on a superconducting quantum processor",
+    "url": "https://arxiv.org/abs/2512.13908",
+    "source": "Hacker News",
+    "published_at": "2026-10-26T19:37:59Z",
+    "description": "12 points · 0 comments on Hacker News.",
+    "category": "Other",
+    "beginner_score": 0,
+    "rank_score": 6.308838828518518
+  },
+  {
+    "type": "article",
+    "title": "The EPA Is Quietly Killing Its Web Archive",
+    "url": "https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-lejeune-trump-clean-power",
+    "source": "Hacker News",
+    "published_at": "2026-10-26T19:05:41Z",
+    "description": "221 points · 41 comments on Hacker News.",
+    "category": "Web",
+    "beginner_score": 0,
+    "rank_score": 6.129394384074074
   }
 ]
