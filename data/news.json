@@ -74,7 +74,7 @@
     "description": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. \n The post  GitHub Universe 2026: Evolving every layer of the stack  appeared first on  The GitHub Blog .",
     "category": "AI",
     "beginner_score": 9,
-    "rank_score": 94.99605912416666
+    "rank_score": 90.0
   },
   {
     "type": "article",
@@ -85,7 +85,7 @@
     "description": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. \n The post  Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents  appeared first on ",
     "category": "AI",
     "beginner_score": 9,
-    "rank_score": 94.98605912416667
+    "rank_score": 90.0
   },
   {
     "type": "article",
@@ -122,14 +122,14 @@
   },
   {
     "type": "article",
-    "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
-    "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-28T23:45:46Z",
-    "description": "Comments",
-    "category": "Security",
+    "title": "GitHub Actions で checkout@v7 のようなバージョン指定を書くのはやめよう！ 時代は actions.lock！",
+    "url": "https://zenn.dev/progate/articles/24b1140180300c",
+    "source": "Zenn",
+    "published_at": "2026-10-29T03:48:15Z",
+    "description": "Progate で業務委託エンジニアをしている横江( @yokoe24 )です！\nセキュリティの話が重要視される昨今ですが、\nみなさんは GitHub Actions の Workflow ファイルで、こんな書き方をしていませんか？\nsteps:\n  - uses: actions/checkout@v7\n・・・私は書いています！！🙈\nこの記事を書きながら、過去の個人リポジトリ、直さなきゃなぁ……って思っています。\n\n @v7 と書くリスク\nnpm の件などで敏感になっている",
+    "category": "Tools",
     "beginner_score": 7,
-    "rank_score": 77.53105912416666
+    "rank_score": 70.83837480416666
   },
   {
     "type": "article",
@@ -140,7 +140,18 @@
     "description": "はじめに\n株式会社ソニックムーブでフロントエンドエンジニアをしているazarashiです。\n前回の記事「検証済み10キットで始める、Claude Code時代のGitHubセキュリティ対策」では、GitHub のリポジトリを AI 時代の脅威から守る方法をまとめました。今回は、手元の PC で動く Claude Code そのものを守る方法です。\nClaude Code は、ファイルを読み、コマンドを実行し、外部と通信できます。便利な反面、悪意のある指示を読み込んだときや、C",
     "category": "AI",
     "beginner_score": 7,
-    "rank_score": 70.70513319824074
+    "rank_score": 70.0
+  },
+  {
+    "type": "article",
+    "title": "PHP5.4 から PHP8.5へ",
+    "url": "https://zenn.dev/ctrlzr/articles/5a88eb939b3bfd",
+    "source": "Zenn",
+    "published_at": "2026-10-29T02:37:00Z",
+    "description": "PHP5.4で放置動かしていたサービスを、PHP8.5へ更新しました。\nPHPの脆弱性対策について\n\n システムの概要\n旧環境: CentOS 7 + PHP 5.4 + Apache\n新環境: php:8.5.12-apache-trixie\n\n 修正方針\n\n\nmysql_* は書き換えない（修正箇所が多いため）\nリファクタリングはしない\n\n\n 作業の流れ\n\nDockerイメージを更新\n\nmysql_ラッパーを追加\n埋め込み変数の書式を修正\nコンストラクタ追加\nデフォルトn",
+    "category": "Tools",
+    "beginner_score": 6,
+    "rank_score": 60.44254147083333
   },
   {
     "type": "article",
@@ -185,17 +196,6 @@
     "category": "Web",
     "beginner_score": 6,
     "rank_score": 60.0
-  },
-  {
-    "type": "article",
-    "title": "RustからDynamoDBを型安全に扱うためのraiden-dynamoを作った",
-    "url": "https://zenn.dev/fraim/articles/50908c30561af5",
-    "source": "Zenn",
-    "published_at": "2026-10-28T04:14:52Z",
-    "description": "RustからDynamoDBを使うとき、SDKが提供するAPIは必要な機能をひと通り備えている。一方で、アプリケーションの構造体とDynamoDBの属性値の変換、式の組み立て、キーの指定など、アプリケーションごとに繰り返し書くことも多い。\nそのあたりを少し楽にしつつ、Rustの型を活かしてDynamoDBを扱えるようにするライブラリとしてraiden-dynamoを作った。（かれこれ6年くらい使っているが大きな問題はない。）\n今回は、何を解決しようとしているのかと、実装してい",
-    "category": "AI",
-    "beginner_score": 5,
-    "rank_score": 51.026059124166665
   },
   {
     "type": "article",
@@ -248,6 +248,17 @@
     "source": "AWS Blog",
     "published_at": "2026-09-17T21:11:48Z",
     "description": "AWS introduces new low-cost burstable Amazon EC2 T8i instances powered by custom sixth generation Intel Xeon Scalable Processors (Granite Rapids), available only on AWS. T8i instances are among the lowest-cost EC2 instances and deliver up t",
+    "category": "AI",
+    "beginner_score": 5,
+    "rank_score": 50.0
+  },
+  {
+    "type": "article",
+    "title": "Partitioning my digital life into security domains (2011)",
+    "url": "https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html",
+    "source": "Hacker News",
+    "published_at": "2026-10-27T19:21:00Z",
+    "description": "24 points · 0 comments on Hacker News.",
     "category": "AI",
     "beginner_score": 5,
     "rank_score": 50.0
@@ -331,78 +342,12 @@
   },
   {
     "type": "article",
-    "title": "Apple's git still trusts the compromised eMudhra certificates",
-    "url": "https://emudhra.we-have-a-problem.com/apple.html",
-    "source": "Hacker News",
-    "published_at": "2026-10-28T11:03:40Z",
-    "description": "1036 points · 377 comments on Hacker News.",
-    "category": "Development",
-    "beginner_score": 3,
-    "rank_score": 33.297170235277775
-  },
-  {
-    "type": "article",
-    "title": "業務マスタの新規登録をSeleniumで連続化したら、「新規」の判定を2回直すことになった【Python】",
-    "url": "https://zenn.dev/cutlet_of_pork/articles/selenium-rpa-new-entry-key-definition",
-    "source": "Zenn",
-    "published_at": "2026-10-28T07:08:48Z",
-    "description": "同じキーの行が 1 件あります。新規の対象は、その行が無いものだけです。\n登録し終わったデータを、わざともう一度流したときに出た行（語は少し伏せた）。「登録」は押さずに止まっている。\nこの 1 行が出るようになるまでに、何を「新規」と呼ぶかを 2 回直した。その後、同じキーの行があったときの扱いを分け、保留にしていた更新も入れて、今はこの 1 行はもう出ない。この記事はその順に書く。\n\n 何をしていたか\n社内の業務システムに、期間付きの値を持つマスタがある。1 行は、種別と組",
-    "category": "Development",
-    "beginner_score": 3,
-    "rank_score": 31.992355420462964
-  },
-  {
-    "type": "article",
     "title": "公表資料から読む2026年秋の情報漏えい18件：侵入経路はどこだったのか",
     "url": "https://zenn.dev/shirochan/articles/f579ce70b08dc3",
     "source": "Zenn",
     "published_at": "2026-10-28T03:44:36Z",
     "description": "!\nこの記事の要点（2026年10月28日時点）\n\n9月以降に公表された国内の不正アクセス・漏えい（可能性を含む）18件のうち、侵入経路が公表されたのは9件\nソースネクスト（22,519,960件）は「会員情報取得APIを不正に利用」された。skyticket では、ログインしなくても表示できる予約完了ページが機械的に閲覧された\n公表された入口は、API・管理機能などが4件、ソフトウェアの脆弱性が4件、委託先のサーバーが2件\nブックオフは、攻撃手法などの詳細について「公表を差",
     "category": "Development",
-    "beginner_score": 3,
-    "rank_score": 30.85791097601852
-  },
-  {
-    "type": "article",
-    "title": "図で理解する Dagster on ECS の構成と、失敗に気づく仕組み",
-    "url": "https://zenn.dev/safie_inc/articles/dagster_on_ecs",
-    "source": "Zenn",
-    "published_at": "2026-10-28T03:00:17Z",
-    "description": "セーフィー株式会社のデータ分析基盤グループでエンジニアをしている渡部です。\nセーフィーのデータ分析基盤では、データソースごとにばらばらだったデータ取り込み処理のやり方を揃えるため、Python ライブラリの dlt(data load tool)を採用することとなりました。\ndlt は取り込みを実行するだけなので「いつ実行するか？」「失敗にどう気づくか？」の仕組みは別で用意する必要があります。\nそこで、オーケストレーションツールとして、Dagster も合わせて導入することと",
-    "category": "Tools",
-    "beginner_score": 3,
-    "rank_score": 30.611707272314813
-  },
-  {
-    "type": "article",
-    "title": "Go で動く新世代の補完プラグイン goda-cmp.vim",
-    "url": "https://zenn.dev/shougo/articles/goda-cmp-vim-beta",
-    "source": "Zenn",
-    "published_at": "2026-10-27T10:25:24Z",
-    "description": "始めに\n新世代の補完プラグインである goda-cmp.vim の主要な機能が一通りそろいました。私自身も ddc.vim から goda-cmp.vim に移行し、普段の編集で使っています。そろそろ広く使ってもらえる品質になったと考えたので、この記事で紹介します。\nまだ開発初期の段階で、API は予告なく変わる可能性があります。皆さんに使ってもらい、バグ報告や要望をもとに仕様を固めて、version 1.0 を目指す予定となっています。\n\n goda-cmp.vim とは\n",
-    "category": "Development",
-    "beginner_score": 3,
-    "rank_score": 30.0
-  },
-  {
-    "type": "article",
-    "title": "eMudhraの中間CA証明書の秘密鍵を求めてみる",
-    "url": "https://zenn.dev/herumi/articles/search_bad_emudhra_key",
-    "source": "Zenn",
-    "published_at": "2026-10-23T05:50:11Z",
-    "description": "はじめに\n2026年10月に認証局eMudhraの中間CA証明書の署名鍵（秘密鍵）が脆弱だったという報告がありました。\nここではそのCA証明書に記載された検証鍵（公開鍵）から署名鍵を実際に求めてみます。\n\n Pythonを使って求める\n脆弱だった秘密鍵は8ビット以下だったということで、洗練された高速なライブラリを使わずナイーブな方法を使います。\n『Software Design 2022年3月号』で紹介した記事、楕円曲線暗号のPythonによる実装その1（有限体とECDH鍵共",
-    "category": "Development",
-    "beginner_score": 3,
-    "rank_score": 30.0
-  },
-  {
-    "type": "article",
-    "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
-    "url": "https://blog.cloudflare.com/hyperdrive-mysql",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-14T13:00:00Z",
-    "description": "While adding MySQL support to Hyperdrive, we found a subtle protocol bug when caching query results. Here is how we tracked down a 0.001% rate error and made Hyperdrive MySQL generally available.",
-    "category": "AI",
     "beginner_score": 3,
     "rank_score": 30.0
   },
@@ -430,168 +375,234 @@
   },
   {
     "type": "article",
-    "title": "MicroZig to Adopt Strict No LLM / No AI Policy",
-    "url": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md",
+    "title": "Show HN: I Turned DOOM into a Transformer",
+    "url": "https://github.com/mottopanikeiku/doomformer",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-29T00:30:37Z",
+    "published_at": "2026-10-29T23:25:46Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.380134063425928
+  },
+  {
+    "type": "article",
+    "title": "A Pig, the State, and War: Porco Rosso (Kurenai No Buta) (2014)",
+    "url": "https://journal.animationstudies.org/article/id/66",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-29T22:26:38Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 27.780225790833335
+    "rank_score": 27.051615544907406
   },
   {
     "type": "article",
-    "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
-    "url": "https://divagr.com/blog/qwenputer",
+    "title": "The Great American Rascal: Tom Sawyer at 150",
+    "url": "https://claremontreviewofbooks.com/the-great-american-rascal",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-29T00:25:45Z",
+    "published_at": "2026-10-29T22:14:23Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.753188753796298
+    "rank_score": 26.983559989351853
   },
   {
     "type": "article",
-    "title": "New York Times adds more AI features to its Cooking app. Users aren't thrilled",
-    "url": "https://www.niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled",
+    "title": "El Niño Is Flooding California's Coasts with the Highest Tides to Come",
+    "url": "https://gizmodo.com/el-nino-is-already-flooding-californias-coasts-and-the-years-highest-tides-havent-arrived-2000832574",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-29T00:16:08Z",
+    "published_at": "2026-10-29T21:48:35Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.84022665601852
+  },
+  {
+    "type": "article",
+    "title": "We ran AI agent swarms in Minecraft and Mindustry",
+    "url": "https://labs.ycombinator.com/projects/games/index.html",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-29T21:40:28Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 27.69976282787037
+    "rank_score": 26.795134063425927
   },
   {
     "type": "article",
-    "title": "Get Ready for Touch on Mac",
-    "url": "https://developer.apple.com/touch-on-mac",
+    "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+    "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-28T23:58:20Z",
+    "published_at": "2026-10-29T21:38:59Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.600873938981483
+    "rank_score": 26.786893322685184
   },
   {
     "type": "article",
-    "title": "The first wired XR glasses powered by Android XR",
-    "url": "https://blog.google/products-and-platforms/platforms/android/xreal-aura",
+    "title": "Sylphide OS: a general-purpose OS for microcontroller-based computers",
+    "url": "https://projects.freehackers.org/sylphide-os",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-28T23:45:19Z",
+    "published_at": "2026-10-29T20:59:55Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.528559124166666
+    "rank_score": 26.569856285648147
   },
   {
     "type": "article",
-    "title": "StackOverflow now gets fewer than 1000 questions a month",
-    "url": "https://data.stackexchange.com/stackoverflow/query/1926661",
+    "title": "ElementaryUI – Swift, in the Browser",
+    "url": "https://elementary.codes",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-28T23:35:02Z",
+    "published_at": "2026-10-29T20:56:39Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.471429494537038
+    "rank_score": 26.5517081375
   },
   {
     "type": "article",
-    "title": "Formlabs Studio 1 $699 Resin Printer",
-    "url": "https://formlabs.com/products/form-studio-1-basic-founders-edition",
+    "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+    "url": "https://github.com/SheepSeb/tinyworldformer",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-28T21:19:30Z",
+    "published_at": "2026-10-29T20:32:28Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.718466531574073
+    "rank_score": 26.417356285648147
   },
   {
     "type": "article",
-    "title": "A Health Update",
-    "url": "https://furbo.org/2026/10/28/a-health-update",
+    "title": "Patrick Stewart has died",
+    "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-28T21:13:21Z",
+    "published_at": "2026-10-29T19:41:39Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.68429986490741
+    "rank_score": 26.135041470833333
   },
   {
     "type": "article",
-    "title": "Nango (YC W23) Is Hiring Across Eng, FDE, Marketing, DevRel",
-    "url": "https://nango.dev/careers",
+    "title": "Show HN: Auto Dismiss Mac OS \"Allow <app> to find devices on local networks?\"",
+    "url": "https://github.com/johncassil/dontallow",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-28T21:00:06Z",
+    "published_at": "2026-10-29T19:27:44Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.610688753796296
+    "rank_score": 26.05772665601852
   },
   {
     "type": "article",
-    "title": "The case of the 9 bit AES key",
-    "url": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
+    "title": "IgE disruptor for food allergy with Claude-enabled antibody design [pdf]",
+    "url": "https://divergencelabs.com/publications/ige-preprint.pdf",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-28T20:51:44Z",
+    "published_at": "2026-10-29T19:25:48Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.564207272314814
+    "rank_score": 26.046985915277777
   },
   {
     "type": "article",
-    "title": "Why is this fingerprinting script creating bioweapons?",
-    "url": "https://nullpt.rs/fingerprinting-bioweapons",
+    "title": "H.264 Is Magic (2016)",
+    "url": "https://sidbala.com/h-264-is-magic",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-28T17:13:29Z",
+    "published_at": "2026-10-29T15:53:03Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.351707272314815
+    "rank_score": 24.865041470833333
   },
   {
     "type": "article",
-    "title": "MacBook Pro with PROLED XDR Display and Touch",
-    "url": "https://www.apple.com/macbook-pro/proled-xdr-display",
+    "title": "LLM Voice",
+    "url": "https://martinfowler.com/bliki/LLM-Voice.html",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-28T17:10:37Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.335781346388888
-  },
-  {
-    "type": "article",
-    "title": "Gemini 4 Carbon",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-28T17:01:23Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.28448505009259
-  },
-  {
-    "type": "article",
-    "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
-    "url": "https://surgehq.ai/blog/dayjob-tax",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-28T15:46:30Z",
+    "published_at": "2026-10-29T14:57:55Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 24.868466531574075
+    "rank_score": 24.558745174537037
   },
   {
     "type": "article",
-    "title": "CNC Stone Carving",
-    "url": "https://carmelitegothic.com/cnc-stone-carving",
+    "title": "We're releasing the weights of Mistral Large 4",
+    "url": "https://mistral.ai/news/mistral-large-4-oss",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-10-28T14:38:22Z",
+    "published_at": "2026-10-29T14:13:21Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 24.489948013055557
+    "rank_score": 24.311152581944445
+  },
+  {
+    "type": "article",
+    "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+    "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-10-29T12:55:00Z",
+    "description": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent botnet takedowns.",
+    "category": "Cloud",
+    "beginner_score": 2,
+    "rank_score": 23.875874804166667
+  },
+  {
+    "type": "article",
+    "title": "DoorDash to acquire Instacart",
+    "url": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-29T12:33:05Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 23.754115544907407
+  },
+  {
+    "type": "article",
+    "title": "If IPv4 were land",
+    "url": "https://iptrust.co/blog/if-ipv4-were-land",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-29T12:19:00Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 23.675874804166668
+  },
+  {
+    "type": "article",
+    "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
+    "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-29T10:42:41Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 23.140782211574074
+  },
+  {
+    "type": "article",
+    "title": "Iterating Backwards in C",
+    "url": "https://www.davidpriver.com/Iterating-backwards-in-C.html",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-26T19:28:19Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Historical Scientific Instruments",
+    "url": "https://nealstephenson.substack.com/p/historical-scientific-instruments",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-27T23:32:35Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
   },
   {
     "type": "article",
@@ -600,72 +611,6 @@
     "source": "Zenn",
     "published_at": "2026-10-28T02:39:36Z",
     "description": "はじめに\nこんにちは。株式会社IVRyで Engineering Managerをしています。tsutou です。\nアイブリーのモバイルアプリのユースケースは、電話の転送を受けたり、着信を折り返して発信したりすることがメインです。\n体験としては、アイブリーの対話型音声AIで、一次対応を自動化しながら、忙しい最中でも人が出ないといけない電話に応答する体験が、そのままエンドユーザーの体験になります。\nhttps://note.com/ryoji_miyazaki3/n/n6b6d",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.496799864907405
-  },
-  {
-    "type": "article",
-    "title": "S3 Tables + Snowflake を使用した Lakehouse 統合",
-    "url": "https://zenn.dev/eversteel_tech/articles/e4771af8952421",
-    "source": "Zenn",
-    "published_at": "2026-10-28T02:30:05Z",
-    "description": "1. 導入: なぜ Lakehouse に移行するのか\nEVERSTEEL のデータ基盤では、日々大量の画像・動画を取得して S3 に保存し、S3 パスやサイズなどのメタデータを管理しています。現行のアーキテクチャは S3 をデータレイクとして利用し、Snowflake の外部ステージ経由で取り込む一般的な構成ですが、運用を続ける中でいくつかの課題が顕在化してきました。AWS S3 Tables や Snowflake の S3 Tables 統合の登場により、これらの課題を",
-    "category": "Cloud",
-    "beginner_score": 2,
-    "rank_score": 20.443929494537038
-  },
-  {
-    "type": "article",
-    "title": "The Grid, a factory-scale robot in Massachusetts that builds PCBs on demand",
-    "url": "https://www.circuithub.com/post/unveiling-the-grid",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-26T13:13:31Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Start Doing Graph Theory",
-    "url": "https://vertex.degree",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-23T13:49:50Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "How we made our MMDB files a 33% smaller",
-    "url": "https://ipinfo.io/blog/how-made-mmdb-files-smaller",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-25T17:33:02Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Why Birds Can Fly over Mount Everest",
-    "url": "https://lede-v2.nautil.us/why-birds-can-fly-over-mount-everest-237864",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-24T13:17:59Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "600人規模のイベント運営を支えたインカムを、学生1人で作った話",
-    "url": "https://zenn.dev/kodak_20/articles/3b0ba74333b56c",
-    "source": "Zenn",
-    "published_at": "2026-10-24T17:23:14Z",
-    "description": "はじめに\n2026年10月18日に開催された DevFest Kansai 2026 で、スタッフが連絡に使うインカムアプリ「inkam」を作りました。\nhttps://gdgkwansai.connpass.com/event/388434/\n当日は60人を超えるスタッフが使ってくれました。朝8時から夜8時までで、1,493回。特に朝から昼過ぎまでは1時間に150〜200回ほど話されていました！！\nちなみに自分はコダックといいます！！神戸電子専門学校の3年生で、GDG Gr",
     "category": "AI",
     "beginner_score": 2,
     "rank_score": 20.0
@@ -870,13 +815,68 @@
   },
   {
     "type": "article",
-    "title": "Leak website releases data on DHS employees",
-    "url": "https://www.reuters.com/legal/government/leak-website-releases-data-tens-thousands-dhs-employees-2026-10-28",
+    "title": "Show HN: Overtone – Transcribe, correct and cut captions for any screen shape",
+    "url": "https://github.com/lonthq/overtone-captions",
     "source": "Hacker News",
-    "published_at": "2026-10-28T20:46:52Z",
-    "description": "67 points · 13 comments on Hacker News.",
-    "category": "Web",
+    "published_at": "2026-10-29T17:48:17Z",
+    "description": "32 points · 2 comments on Hacker News.",
+    "category": "Other",
     "beginner_score": 0,
-    "rank_score": 6.537170235277777
+    "rank_score": 5.505226656018519
+  },
+  {
+    "type": "article",
+    "title": "Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang",
+    "url": "https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang-report",
+    "source": "Hacker News",
+    "published_at": "2026-10-29T17:43:48Z",
+    "description": "282 points · 196 comments on Hacker News.",
+    "category": "Other",
+    "beginner_score": 0,
+    "rank_score": 5.480319248611111
+  },
+  {
+    "type": "article",
+    "title": "16colo.rs – ANSI/ASCII art archive",
+    "url": "https://16colo.rs",
+    "source": "Hacker News",
+    "published_at": "2026-10-29T16:14:28Z",
+    "description": "84 points · 8 comments on Hacker News.",
+    "category": "Other",
+    "beginner_score": 0,
+    "rank_score": 4.984022952314815
+  },
+  {
+    "type": "article",
+    "title": "Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks",
+    "url": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
+    "source": "Hacker News",
+    "published_at": "2026-10-29T15:45:05Z",
+    "description": "128 points · 21 comments on Hacker News.",
+    "category": "Other",
+    "beginner_score": 0,
+    "rank_score": 4.820782211574074
+  },
+  {
+    "type": "article",
+    "title": "Zombie stats: Where the numbers AI quotes come from",
+    "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+    "source": "Hacker News",
+    "published_at": "2026-10-29T15:06:17Z",
+    "description": "141 points · 61 comments on Hacker News.",
+    "category": "AI",
+    "beginner_score": 0,
+    "rank_score": 4.605226656018519
+  },
+  {
+    "type": "article",
+    "title": "NetBSD adds a new text editor called atto",
+    "url": "https://mastodon.sdf.org/@netbsd/117518160563539748",
+    "source": "Hacker News",
+    "published_at": "2026-10-29T11:59:01Z",
+    "description": "163 points · 131 comments on Hacker News.",
+    "category": "Other",
+    "beginner_score": 0,
+    "rank_score": 3.564856285648148
   }
 ]
