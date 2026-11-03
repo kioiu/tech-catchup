@@ -8,28 +8,6 @@
     "description": "ChatGPTにGitHubのログをまとめてもらいました。\n最終スコアは26000点台くらいで、完全敗北でした。repoはこちらです。\nhttps://github.com/catatsuy/isu2026\n\n はじめに\n今回はAIを活用することを前提として、1人でISUCONに参加しました。\n事前にAIに作業してもらうための準備をしておき、当日はCodexなどを使いながら最適化を進めました。自分は主に方針決定、ベンチマーク、ログの分析、デプロイを担当する形です。\n\n 10時",
     "category": "AI",
     "beginner_score": 10,
-    "rank_score": 100.89918844685185
-  },
-  {
-    "type": "article",
-    "title": "Cloudflare Workers を触ってみた",
-    "url": "https://zenn.dev/atware/articles/ec1dfd799289b7",
-    "source": "Zenn",
-    "published_at": "2026-10-30T05:01:51Z",
-    "description": "はじめに\n普段の開発ではAWSを使うことが多いのですが、Cloudflareの全体像を調べてみた記事を書いた際に、アプリケーション実行基盤である Cloudflare Workers にとても興味を持ちました。\nCloudflareというとCDNのイメージが強かったのですが、Workersを使うとエッジ上でJavaScript / TypeScriptを使ってAPIまで動かせます。公式チュートリアルを参考に、Reactの画面とAPIを1つのWorkerで作り、デプロイしてIP",
-    "category": "Cloud",
-    "beginner_score": 10,
-    "rank_score": 100.0
-  },
-  {
-    "type": "article",
-    "title": "WASIじゃない、もう一つのインターフェース「WALI」という提案",
-    "url": "https://zenn.dev/progate/articles/wali-webassembly-linux-interface",
-    "source": "Zenn",
-    "published_at": "2026-10-30T00:45:50Z",
-    "description": "はじめに\n最近、仕事でいろんな言語やツールをWebAssembly（wasm）にして、ブラウザーの中で動かすことをやっています。RubyやPython、vimのような、もともとLinuxやMacで動いているプログラムをソースからwasmにビルドする作業です。\nこのとき毎回悩むのが、ファイルを開く、プロセスを増やす、といった機能をどうするかです。wasmそのものはこうした機能を持っていないので、外から用意してあげる必要があります。よく使われるのは、JavaScriptで用意した",
-    "category": "Web",
-    "beginner_score": 10,
     "rank_score": 100.0
   },
   {
@@ -96,7 +74,7 @@
     "description": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. \n The post  Game Off 2026: The theme is SHIFT",
     "category": "AI",
     "beginner_score": 9,
-    "rank_score": 96.87307733574075
+    "rank_score": 90.0
   },
   {
     "type": "article",
@@ -155,14 +133,14 @@
   },
   {
     "type": "article",
-    "title": "The AI cost of JavaScript frameworks",
-    "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
+    "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+    "url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-01T06:06:19Z",
+    "published_at": "2026-11-02T17:47:40Z",
     "description": "Comments",
-    "category": "AI",
-    "beginner_score": 8,
-    "rank_score": 81.70816992833333
+    "category": "Security",
+    "beginner_score": 7,
+    "rank_score": 74.92297316851852
   },
   {
     "type": "article",
@@ -170,19 +148,8 @@
     "url": "https://zenn.dev/nicklegr/articles/de0a6fd86b6ce3",
     "source": "Zenn",
     "published_at": "2026-11-01T12:20:12Z",
-    "description": "ISUCON2026 に参加しました。初参加です。\n暫定結果は19890点で497位でした。\nプロの方のブログが多数出てるので高度な話を読みたい方はそちらをどうぞ。\n初心者の立場の記事もあるといいかなと思って書いてみます。\n\n 筆者のスキル\n\nVPSや自宅サーバをSSHでいじったことはある\n\nでもほぼDockerなのでLinuxの深い部分は知らない\n\n\nWebアプリはいくつか作ったことがある\nDBは使ったことがある。負荷に困ったことはない\n\n重いとこにインデックス張ってN+1",
+    "description": "ISUCON2026 に参加しました。初参加・1人チームです。\n結果は19890点で513位でした。\nプロの方のブログが多数出てるので高度な話を読みたい方はそちらをどうぞ。\n初心者の立場の記事もあるといいかなと思って書いてみます。\n\n 筆者のスキル\n\nVPSや自宅サーバをSSHでいじったことはある\n\nでもほぼDockerなのでLinuxの深い部分は知らない\n\n\nWebアプリはいくつか作ったことがある\nDBは使ったことがある。負荷に困ったことはない\n\n重いとこにインデックス張っ",
     "category": "Cloud",
-    "beginner_score": 7,
-    "rank_score": 73.78529955796296
-  },
-  {
-    "type": "article",
-    "title": "人間がコードを読まずにPRをマージする技術 ─ それでも、品質は手放さない",
-    "url": "https://zenn.dev/karamage/articles/ac71f1c89c73ff",
-    "source": "Zenn",
-    "published_at": "2026-10-29T08:26:16Z",
-    "description": "ある日ブラウザを開くと、私のGitHubの通知欄に未レビューのPRが20件ほどたまっていました。\n全部、Claude Codeが書いたPRで、私が1件を読み終えるあいだに、Claudeは次のPRを2件出してきます。\nある日、私は気づいてしまいました。\nこの勝負、人間は絶対に勝てない、、、\nみなさんは、AIが出してくるPRを、ちゃんと全部読めていますか？\n私は読めていませんでした。\n読んでいるふりをして、LGTMを押していただけでしただけの無能です＞＜\n\n AIが書くコードを、",
-    "category": "AI",
     "beginner_score": 7,
     "rank_score": 70.0
   },
@@ -196,6 +163,17 @@
     "category": "Tools",
     "beginner_score": 7,
     "rank_score": 70.0
+  },
+  {
+    "type": "article",
+    "title": "日本の全法令を git の履歴にしてみた",
+    "url": "https://zenn.dev/koheiwada/articles/houritsu-japanese-laws-as-git",
+    "source": "Zenn",
+    "published_at": "2026-11-01T03:36:05Z",
+    "description": "きっかけ\nただの思いつきです。\n私は法律のことを全然知りません。ただ、最近は AI のおかげで、知らない分野の調べものがとても速くなりました。国会会議録の API を眺めていたときに、ふと「法律を git で管理したら面白いのでは」と思いつきました。知らない分野でも、AI と一緒ならどこまでできるのか試してみたくなりました。\n法律の改正は「〇〇法の一部を改正する法律」という別の法律で行われます。中身は「第三条中『A』を『B』に改める」のような書き換えの指示なので、読んでも結局",
+    "category": "AI",
+    "beginner_score": 6,
+    "rank_score": 60.0
   },
   {
     "type": "article",
@@ -232,14 +210,14 @@
   },
   {
     "type": "article",
-    "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
-    "url": "https://github.com/ivankovic/omnidiff",
+    "title": "Scaling Git at OpenAI",
+    "url": "https://openai.com/index/scaling-git-at-openai",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-01T13:02:30Z",
+    "published_at": "2026-11-02T23:47:56Z",
     "description": "Comments",
-    "category": "Web",
+    "category": "AI",
     "beginner_score": 5,
-    "rank_score": 54.020299557962964
+    "rank_score": 56.92445465
   },
   {
     "type": "article",
@@ -287,14 +265,14 @@
   },
   {
     "type": "article",
-    "title": "New low-cost burstable Amazon EC2 T8i instances are generally available",
-    "url": "https://aws.amazon.com/blogs/aws/new-low-cost-burstable-amazon-ec2-t8i-instances-are-generally-available",
-    "source": "AWS Blog",
-    "published_at": "2026-09-17T21:11:48Z",
-    "description": "AWS introduces new low-cost burstable Amazon EC2 T8i instances powered by custom sixth generation Intel Xeon Scalable Processors (Granite Rapids), available only on AWS. T8i instances are among the lowest-cost EC2 instances and deliver up t",
-    "category": "AI",
-    "beginner_score": 5,
-    "rank_score": 50.0
+    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-02T18:39:38Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 4,
+    "rank_score": 45.21167687222222
   },
   {
     "type": "article",
@@ -375,23 +353,23 @@
   },
   {
     "type": "article",
-    "title": "U.S. workers took home their smallest share of capital since at least 1947",
-    "url": "https://fortune.com/article/why-did-us-workers-just-take-home-smallest-share-of-capital-since-1947-lowest-ever-recorded",
-    "source": "Hacker News",
-    "published_at": "2026-11-01T23:20:31Z",
-    "description": "179 points · 77 comments on Hacker News.",
+    "title": "学部生3人でISUCON2026に出て、最後に証拠より常識を選んで負けた話",
+    "url": "https://zenn.dev/enari_k/articles/b512e044ec9240",
+    "source": "Zenn",
+    "published_at": "2026-11-02T07:00:35Z",
+    "description": "はじめに\nこんにちは、enari_Kです。ISUCON2026 にチーム 判 で出ました。最終スコアは約 30,000。途中で約 40,000 まで出ていたのに、最後の最後にチームの判断ミスで落としました。悔しいので、当日何が起きていたのかを残しておきます。\nスコアはどれも記憶ベースのおおよその値です。\n最終スコア29387の最大スコア45248\n順位は全体409位、学生27位です。\n\n 問題の概要\n今年の題材は写真 SNS の「ISUReal」。アプリサーバが asia1・",
     "category": "Development",
     "beginner_score": 3,
-    "rank_score": 37.45372548388889
+    "rank_score": 31.328065761111112
   },
   {
     "type": "article",
-    "title": "ISUCON2026 本番に出た",
-    "url": "https://zenn.dev/ntk221/articles/98b17a773669a1",
+    "title": "ローカルLLMはどんな業務で使えるのか？ DGX Spark + DeepSeek V4-FlashのSlackチャットボットを評価した",
+    "url": "https://zenn.dev/sompojapan_dx/articles/05f34316118943",
     "source": "Zenn",
-    "published_at": "2026-10-31T13:14:45Z",
-    "description": "10/31 の ISUCON2026 本番に出ました。ISUCON は今回が初参加です。結果は 最終スコア ____ 点・____ 位 です。どちらもまだ確定していないので、いまは空けておきます。最後のベンチはたしか9万点に届かないくらいでしたね\nこの記事は、当日の Claude Code の会話ログ（~/.claude/projects/ の JSONL）と git の履歴から Claude Code が時刻を拾い直して書いたものを、自分でこね直したものです。数字や経緯は ",
-    "category": "Development",
+    "published_at": "2026-11-02T00:06:09Z",
+    "description": "はじめに\n損害保険ジャパンでAIエージェントシステムを開発しているエンジニアです。\nローカルLLMが実際の業務でどこまで使えるかを検証するため、Slackボットの頭脳をクラウドのAPIではなく手元のマシン1台で完結させる構成を組み、評価してみました。\n今回ローカルLLMを検証した背景には、社内の会話やドキュメントを扱う上で社外APIに出さない選択肢を持っておきたかったこと、そして検証用に手配したDGX Sparkが手元にあったという事情があります。\n環境としては、DGX Sp",
+    "category": "AI",
     "beginner_score": 3,
     "rank_score": 30.0
   },
@@ -419,80 +397,212 @@
   },
   {
     "type": "article",
-    "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
-    "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist",
+    "title": "Show HN: Hacker Times, a New York Times-Inspired Version Hacker News",
+    "url": "https://hackertimes.ca",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-01T22:10:45Z",
+    "published_at": "2026-11-03T01:53:34Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.622417612962963
+  },
+  {
+    "type": "article",
+    "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
+    "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-03T01:33:43Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.512139835185184
+  },
+  {
+    "type": "article",
+    "title": "Ask HN: Does anyone have a contact with Cleveland-area Ham club?",
+    "url": "https://news.ycombinator.com/item?id=50346164",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-03T00:09:36Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.04482502037037
+  },
+  {
+    "type": "article",
+    "title": "Intel stock collapse worsens as $3.5T chip rout spreads",
+    "url": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-03T00:08:53Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.04084353888889
+  },
+  {
+    "type": "article",
+    "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+    "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-02T22:30:47Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.495843538888888
+  },
+  {
+    "type": "article",
+    "title": "SLAC researchers find proof of altermagnetism, a new magnetic phase",
+    "url": "https://www6.slac.stanford.edu/news/2026-10-29-slac-researchers-find-proof-altermagnetism-new-magnetic-phase",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-02T21:42:25Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.227139835185184
+  },
+  {
+    "type": "article",
+    "title": "Egoless Mathematics in the AI Era",
+    "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-02T18:54:44Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 27.066132891296295
+    "rank_score": 25.29556576111111
   },
   {
     "type": "article",
-    "title": "Ask HN: Which TV do you recommend for privacy?",
-    "url": "https://news.ycombinator.com/item?id=50328896",
+    "title": "Astra can read and write weights to improve Qwen",
+    "url": "https://rikiyat.github.io/blog/weight-space-programming",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-01T19:35:27Z",
-    "description": "Comments",
-    "category": "Security",
-    "beginner_score": 2,
-    "rank_score": 26.20335511351852
-  },
-  {
-    "type": "article",
-    "title": "Mathematics has changed. Let's act like it",
-    "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-01T18:28:42Z",
+    "published_at": "2026-11-02T18:21:28Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.832521780185186
+    "rank_score": 25.110750946296296
   },
   {
     "type": "article",
-    "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
-    "url": "https://hackerbooks.org",
+    "title": "Polyend releases the Tracker firmware source code",
+    "url": "https://polyend.com/whats-up/tracker-the-biggest-update-yet",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-01T15:58:28Z",
+    "published_at": "2026-11-02T17:20:13Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 24.997892150555558
+    "rank_score": 24.770473168518517
   },
   {
     "type": "article",
-    "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
-    "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just",
+    "title": "Show HN: Subvocal – Talk to your computer without making noise",
+    "url": "https://news.ycombinator.com/item?id=50340088",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-01T14:34:43Z",
+    "published_at": "2026-11-02T17:16:17Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 24.53261437277778
+    "rank_score": 24.748621316666668
   },
   {
     "type": "article",
-    "title": "Novellas with Groff",
-    "url": "https://movq.de/blog/postings/2026-10-31/0/POSTING-en.html",
+    "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+    "url": "https://momentic.ai",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-01T13:51:41Z",
+    "published_at": "2026-11-02T17:05:25Z",
     "description": "Comments",
-    "category": "Web",
+    "category": "AI",
     "beginner_score": 2,
-    "rank_score": 24.293540298703704
+    "rank_score": 24.688250946296296
   },
   {
     "type": "article",
-    "title": "Proving and improving the Platonic Representation Hypothesis with JEPAs",
-    "url": "https://arxiv.org/abs/2610.39302",
+    "title": "AWS Weekly Roundup: GPT-6.1 Terra on Bedrock, Step Functions as agent tools, and more (November 2, 2026)",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026",
+    "source": "AWS Blog",
+    "published_at": "2026-11-02T16:45:48Z",
+    "description": "The agentic launches that stayed with me last week had nothing to do with how capable a model is. They were about reach. AWS Step Functions, which already orchestrates over 220 AWS services, can now be handed to an agent as a tool, so workf",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 24.579269464814814
+  },
+  {
+    "type": "article",
+    "title": "US boy names that became girl names and vice versa",
+    "url": "https://namedaisy.com/blog/boy-names-that-became-girl-names",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-01T13:24:49Z",
+    "published_at": "2026-11-02T16:34:36Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 24.144281039444444
+    "rank_score": 24.517047242592593
+  },
+  {
+    "type": "article",
+    "title": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
+    "url": "https://p.migdal.pl/warsaw-vibe-voxel",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-02T16:25:26Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.466121316666666
+  },
+  {
+    "type": "article",
+    "title": "Ask HN: Who is hiring? (November 2026)",
+    "url": "https://news.ycombinator.com/item?id=50338728",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-02T16:01:37Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.333806501851853
+  },
+  {
+    "type": "article",
+    "title": "If you love a website, back it up",
+    "url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-02T13:25:35Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 23.46695465
+  },
+  {
+    "type": "article",
+    "title": "Snowflake: Optima Clustering による 1KB クラスタリングキーでの日本語フィルタの改善",
+    "url": "https://zenn.dev/snowflakejp/articles/d907c02698d748",
+    "source": "Zenn",
+    "published_at": "2026-11-02T04:03:34Z",
+    "description": "!\nDisclaimer: 筆者は Snowflake で Principal Performance Engineer として働いていますが、この記事は公式の見解ではなく、あくまでも個人的な内容になります。\n\n\n Intro\n2026 年 10 月頃に Optima Clustering がすべてのアカウントで有効化されました。\nhttps://www.snowflake.com/en/blog/engineering/introducing-snowflake-optim",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.344639835185184
+  },
+  {
+    "type": "article",
+    "title": "Resisting Cognitive Surrender",
+    "url": "https://knlb.dev/essays/surrender",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-01T06:13:30Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Trademarks and Symbols, Volume 2: Symbolical Designs (1973)",
+    "url": "https://www.symbools.com/kuwayama-trademarks-symbols-vol-2",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-10-31T18:50:43Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
   },
   {
     "type": "article",
@@ -501,127 +611,6 @@
     "source": "Zenn",
     "published_at": "2026-11-01T12:16:33Z",
     "description": "ISUCON2026 に INUCON2026(いい感じに猫を動かすコンテスト ニャオニャム)として参加したのでその参加記です。\n最終スコアは 198,146、順位としては 40~50 位あたりになりそうです。\nISUCON には ISUCON 9 から参加していて、ISUCON 12 からは「誰でも ISUCON 優勝クラスのチューニングができる」ようにできないかと思い、ツールの力で勝とうと 1人チームで参加していました。\nhttps://trap.jp/post/2434",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 23.765021780185187
-  },
-  {
-    "type": "article",
-    "title": "HackerTube: YouTube built from videos recommended by HN",
-    "url": "https://karpathy.bearblog.dev/hacker-tube",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-31T19:56:53Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Nibnib: Image compression with extreme decompression speed",
-    "url": "https://github.com/raphlinus/nibnib",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-30T04:17:06Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Tips for more effective fuzz testing with AFL++",
-    "url": "https://nullprogram.com/blog/2025/02/05",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-28T09:46:12Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Keeping Up Appearances – The women taking over the funeral industry",
-    "url": "https://lareviewofbooks.org/article/death-industry-mortuary-programs-women-andie-eisen-quarterly",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-30T12:40:08Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Postgres 19 is late, and it's AI's fault",
-    "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-31T01:38:56Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "New 3D thermal invisibility cloak makes objects disappear from infrared cameras",
-    "url": "https://www.sciencedaily.com/releases/2026/10/261025073051.htm",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-30T03:06:52Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "The She-Wolves of Jülich",
-    "url": "https://www.historytoday.com/archive/history-matters/she-wolves-julich",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-31T17:29:39Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Copper – A minimal low-level programming language with OOP and generics",
-    "url": "https://tibleiz.net/copper",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-30T19:09:33Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Bidirectional charging during grid outages",
-    "url": "https://www.jefftk.com/p/bidirectional-charging-during-grid-outages",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-31T20:21:55Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "One-minute frequency disturbances from synchronization in power systems",
-    "url": "https://www.nature.com/articles/s41560-026-02144-0",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-31T10:14:08Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Parchment Paper History: How We Got Paper Perfect for Baking (2019)",
-    "url": "https://tedium.co/2019/11/21/nonstick-parchment-paper-history",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-10-31T04:31:06Z",
-    "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
     "rank_score": 20.0
@@ -634,28 +623,6 @@
     "published_at": "2026-10-30T10:30:27Z",
     "description": "どうもサイバーセキュリティクラウド 脅威インテリジェンスグループの西川です。\n本日のウェビナー（【緊急開催セミナー】重大脆弱性を狙うサイバー攻撃への備え ～パッチ適用までのリスクを低減する「仮想パッチ」とは～）にお越しくださった皆様ありがとうございます。\n当日は時間の関係でお伝えしきれなかった、今後のセキュリティの考え方について、改めて書いてみます。\n特に AWS 環境の話をしていきますが、すべての環境において共通です。\n\n アタックサーフェスや管理面を減らす\n管理面を減らす",
     "category": "Cloud",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "yoroによろしくぅ！Ai Workforce 事業部のリモートコーディングエージェント環境 yoro のご紹介",
-    "url": "https://zenn.dev/layerx/articles/a277f83a93d300",
-    "source": "Zenn",
-    "published_at": "2026-10-30T02:11:36Z",
-    "description": "Ai Workforce 事業部で SRE をしている石田です。\n先日、バクラク事業部から内製の Background Coding Agent、haro の紹介記事が出ました。\nhttps://tech.layerx.co.jp/entry/why-we-built-our-background-agent\n実は同じ LayerX の中で、Ai Workforce 事業部も似たものを作って使っています。名前は yoro です。Slack や手元のエージェント、Ai Work",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Flutter やめました。電話アプリを Native にした理由",
-    "url": "https://zenn.dev/ivry/articles/d155267331a3ca",
-    "source": "Zenn",
-    "published_at": "2026-10-28T02:39:36Z",
-    "description": "はじめに\nこんにちは。株式会社IVRyで Engineering Managerをしています。tsutou です。\nアイブリーのモバイルアプリのユースケースは、電話の転送を受けたり、着信を折り返して発信したりすることがメインです。\n体験としては、アイブリーの対話型音声AIで、一次対応を自動化しながら、忙しい最中でも人が出ないといけない電話に応答する体験が、そのままエンドユーザーの体験になります。\nhttps://note.com/ryoji_miyazaki3/n/n6b6d",
-    "category": "AI",
     "beginner_score": 2,
     "rank_score": 20.0
   },
@@ -782,17 +749,6 @@
   },
   {
     "type": "article",
-    "title": "Deploy with Void",
-    "url": "https://blog.cloudflare.com/deploy-with-void",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-15T14:00:00Z",
-    "description": "Introducing Void: an open-source SDK, CLI, and self-hosted platform for building full-stack Vite apps and deploying them to Cloudflare.",
-    "category": "Cloud",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
     "title": "AWS Weekly Roundup: Amazon Polly Generative engine, TorchNeuron for Trainium, and more (October 26, 2026)",
     "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-polly-generative-engine-torchneuron-for-trainium-and-more-october-26-2026",
     "source": "AWS Blog",
@@ -870,13 +826,57 @@
   },
   {
     "type": "article",
-    "title": "Patrick Stewart taught us what good men do with power",
-    "url": "https://www.vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism",
+    "title": "GUI64 – GUI for the Commodore 64 running on top of the built-in ROM",
+    "url": "https://www.c64-wiki.com/wiki/GUI64",
     "source": "Hacker News",
-    "published_at": "2026-11-01T17:28:16Z",
-    "description": "361 points · 250 comments on Hacker News.",
-    "category": "Development",
+    "published_at": "2026-11-02T23:32:22Z",
+    "description": "9 points · 1 comments on Hacker News.",
+    "category": "Other",
     "beginner_score": 0,
-    "rank_score": 5.496781039444445
+    "rank_score": 6.837973168518519
+  },
+  {
+    "type": "article",
+    "title": "V100 SXM2 pinout and NVLink reference",
+    "url": "https://github.com/pigeon-labs-stack/v100-sxm2-reference",
+    "source": "Hacker News",
+    "published_at": "2026-11-02T22:30:13Z",
+    "description": "12 points · 1 comments on Hacker News.",
+    "category": "Other",
+    "beginner_score": 0,
+    "rank_score": 6.492695390740741
+  },
+  {
+    "type": "article",
+    "title": "Sneaking into the auditorium for the Windows 2000 launch rehearsal",
+    "url": "https://devblogs.microsoft.com/oldnewthing/20261102-00/?p=112818",
+    "source": "Hacker News",
+    "published_at": "2026-11-02T18:12:48Z",
+    "description": "110 points · 41 comments on Hacker News.",
+    "category": "Other",
+    "beginner_score": 0,
+    "rank_score": 5.062602798148148
+  },
+  {
+    "type": "article",
+    "title": "Skill to Create Product Videos",
+    "url": "https://github.com/aaitor/skill-video-studio",
+    "source": "Hacker News",
+    "published_at": "2026-11-02T18:10:39Z",
+    "description": "70 points · 22 comments on Hacker News.",
+    "category": "Other",
+    "beginner_score": 0,
+    "rank_score": 5.050658353703704
+  },
+  {
+    "type": "article",
+    "title": "C64 Basic Dungeon Crawler: Stairs, Levels and Levelling Up (Part 11)",
+    "url": "https://retrogamecoders.com/c64-basic-dungeon-part11",
+    "source": "Hacker News",
+    "published_at": "2026-11-02T14:56:21Z",
+    "description": "68 points · 11 comments on Hacker News.",
+    "category": "AI",
+    "beginner_score": 0,
+    "rank_score": 3.971213909259259
   }
 ]
