@@ -1,14 +1,14 @@
 [
   {
     "type": "article",
-    "title": "Beyond code generation: A developer’s guide to agentic engineering",
-    "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
-    "source": "GitHub Blog",
-    "published_at": "2026-11-06T22:15:59Z",
-    "description": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. \n The post  Beyond code generation: A deve",
-    "category": "AI",
+    "title": "Cloudflare Zero Wire × GitHub Actions × Claude で公開サーバーの脆弱性チェックを自動化",
+    "url": "https://zenn.dev/tomipetit/articles/zero-wire-github-actions",
+    "source": "Zenn",
+    "published_at": "2026-11-07T06:44:47Z",
+    "description": "はじめに\n2026年11月、Cloudflare Radar に Zero Wire という脆弱性インテリジェンスのフィードが公開されました。全 CVE を網羅するのではなく、Web アプリやランタイム、インターネットに公開されたサービスなど「外向きのソフトウェアの重大な CVE」に絞って、ニュースのように読めるブリーフィングを出してくれるものです。\nhttps://blog.cloudflare.com/zero-wire/\n読み物としても便利ですが、せっかく RSS もあ",
+    "category": "Cloud",
     "beginner_score": 10,
-    "rank_score": 107.05747953361112
+    "rank_score": 101.95648994648148
   },
   {
     "type": "article",
@@ -17,6 +17,17 @@
     "source": "Zenn",
     "published_at": "2026-11-04T01:19:56Z",
     "description": "はじめに\nZennチームのdyoshikawaです。\nZennではAIによるセキュリティチェックの仕組みを急ピッチで構築しました。現在はPull Request（以下PR）ごとのAIレビューに加えて、AIエージェントによる全自動のペネトレーションテストを毎週GitHub Actionsで回しています。\n背景は、みなさんもご存知のとおり昨今のサイバー攻撃の激化です。\nhttps://scan.netsecurity.ne.jp/article/2026/08/06/55875.",
+    "category": "AI",
+    "beginner_score": 10,
+    "rank_score": 100.0
+  },
+  {
+    "type": "article",
+    "title": "Beyond code generation: A developer’s guide to agentic engineering",
+    "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
+    "source": "GitHub Blog",
+    "published_at": "2026-11-06T22:15:59Z",
+    "description": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. \n The post  Beyond code generation: A deve",
     "category": "AI",
     "beginner_score": 10,
     "rank_score": 100.0
@@ -67,14 +78,47 @@
   },
   {
     "type": "article",
-    "title": "GitHub's new Git storage architecture",
-    "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture",
+    "title": "GitHub New pull request overview page in public preview",
+    "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-06T19:24:21Z",
+    "published_at": "2026-11-07T23:09:40Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 9,
-    "rank_score": 96.1039610150926
+    "rank_score": 97.42806402055555
+  },
+  {
+    "type": "article",
+    "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+    "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-07T20:45:32Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 9,
+    "rank_score": 96.62732327981482
+  },
+  {
+    "type": "article",
+    "title": "goda-pm.vim: goda.vim のためのプラグインマネージャー",
+    "url": "https://zenn.dev/shougo/articles/goda-pm-vim-beta",
+    "source": "Zenn",
+    "published_at": "2026-11-07T04:46:13Z",
+    "description": "始めに\nこれまで goda.vim の上に、ddu.vim や ddc.vim など私の作成した denops プラグインを移植してきました。goda-fi.vim、goda-cmp.vim、goda-term.vim、goda-hex.vim、goda-skk.vim といったプラグインです。そして最後に残っていたのがプラグインマネージャー、つまり dpp.vim でした。\nhttps://github.com/Shougo/goda-pm.vim\ngoda-pm.vim ",
+    "category": "Web",
+    "beginner_score": 9,
+    "rank_score": 91.29778624277778
+  },
+  {
+    "type": "article",
+    "title": "Inside GitHub’s new Git storage architecture",
+    "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture",
+    "source": "GitHub Blog",
+    "published_at": "2026-11-05T20:23:21Z",
+    "description": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works. \n The post  Inside GitHub&#8217;s new Git storage architecture  appeared first on  The GitHub Blog .",
+    "category": "AI",
+    "beginner_score": 9,
+    "rank_score": 90.0
   },
   {
     "type": "article",
@@ -243,6 +287,17 @@
   },
   {
     "type": "article",
+    "title": "The $8 Linux Computer (2022)",
+    "url": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-07T14:00:20Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 4,
+    "rank_score": 44.3762121687037
+  },
+  {
+    "type": "article",
     "title": "Claudeを使いこなす人に、MagicPodは要るのか。知らないアプリでPlaywrightと比べた記録",
     "url": "https://zenn.dev/genda_jp/articles/7b423bcd20b532",
     "source": "Zenn",
@@ -250,7 +305,7 @@
     "description": "2026年10月、MagicPodのMCPサーバーが刷新されました。Claudeのコネクタ一覧から接続するだけで、Claudeとの対話を通じてMagicPodのテストケースを作成・編集・実行できるようになっています。\nhttps://prtimes.jp/main/html/rd/p/000000079.000027392.html\n以前、MagicPod MCPサーバーとClaudeを組み合わせて、テストケースをAIでレビューする仕組みについて書きました。\nhttps://",
     "category": "AI",
     "beginner_score": 4,
-    "rank_score": 41.37460916324074
+    "rank_score": 40.0
   },
   {
     "type": "article",
@@ -342,28 +397,6 @@
   },
   {
     "type": "article",
-    "title": "PyLings: Solve Exercises and Learn Python",
-    "url": "https://github.com/thesayfulla/pylings",
-    "source": "Hacker News",
-    "published_at": "2026-11-06T16:59:40Z",
-    "description": "46 points · 2 comments on Hacker News.",
-    "category": "Development",
-    "beginner_score": 3,
-    "rank_score": 35.300164718796296
-  },
-  {
-    "type": "article",
-    "title": "AI生成コードを本番品質に保つためのフロントエンド開発の仕組み",
-    "url": "https://zenn.dev/sun_asterisk/articles/d4e4bc24974b99",
-    "source": "Zenn",
-    "published_at": "2026-11-05T09:00:55Z",
-    "description": "はじめに\nAI が書いたコードの品質は、プロンプトの工夫よりも、AI の外側に用意した「仕組み」で決まります。この記事では、Next.js（App Router）と TypeScript のフロントエンド開発を例に、AI 生成コードを本番品質に保つための仕組みを 4 つの層に分けて紹介します。\n\n AI は「書かれていないこと」を推測で埋める\nたとえば AI に「プロフィール編集フォームを作って」と頼んだとします。仕様書にニックネームの最大文字数やエラー文言が書かれていなけれ",
-    "category": "AI",
-    "beginner_score": 3,
-    "rank_score": 30.0
-  },
-  {
-    "type": "article",
     "title": "Default styles for h1 elements are changing",
     "url": "https://developer.mozilla.org/en-US/blog/h1-element-styles",
     "source": "MDN",
@@ -386,190 +419,212 @@
   },
   {
     "type": "article",
-    "title": "Libghostty 1.0",
-    "url": "https://mitchellh.com/writing/libghostty-1-0",
+    "title": "Making any integer with four 2s (2025)",
+    "url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-06T23:30:52Z",
+    "published_at": "2026-11-07T22:38:58Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.473498052129628
+    "rank_score": 27.257508465
   },
   {
     "type": "article",
-    "title": "Outbound SIP calling is now available to all organizations",
-    "url": "https://developers.openai.com/api/docs/guides/voice-sip",
+    "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+    "url": "https://eyesrhythm.com",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-06T23:03:55Z",
+    "published_at": "2026-11-07T21:47:47Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 27.323775829907408
+    "rank_score": 26.97315661314815
   },
   {
     "type": "article",
-    "title": "Sodium-ion batteries approach cost parity with LFP",
-    "url": "https://www.pv-magazine.com/2026/11/06/sodium-ion-batteries-approach-cost-parity-with-lfp-with-70-gwh-covered-by-supply-agreements",
+    "title": "What I run on my $10 USD OpenStick homelab",
+    "url": "https://blog.bosscher.ch/posts/openstick",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-06T23:00:46Z",
+    "published_at": "2026-11-07T18:12:12Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.306275829907406
+    "rank_score": 25.775471427962962
   },
   {
     "type": "article",
-    "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
-    "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
+    "title": "The end of Microsoft Research's AI Frontiers group",
+    "url": "https://hunch.net/?p=13764006",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-06T22:50:43Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 27.250442496574074
-  },
-  {
-    "type": "article",
-    "title": "AI is dramatically accelerating AI research",
-    "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-06T20:27:23Z",
+    "published_at": "2026-11-07T18:02:17Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 26.454146200277776
+    "rank_score": 25.720378835370372
   },
   {
     "type": "article",
-    "title": "Google has acquired Crusoe's data center site in southeast Wyoming",
-    "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+    "title": "GeoWorks, Microsoft Windows' Upstart '90s Competitor (2016)",
+    "url": "https://www.atlasobscura.com/articles/the-history-of-geoworks-microsoft-windows-upstart-90s-competitor",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-06T20:09:14Z",
+    "published_at": "2026-11-07T17:54:56Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.353312866944446
+    "rank_score": 25.679545502037037
   },
   {
     "type": "article",
-    "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-    "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+    "title": "Five memorable books about programming (2008)",
+    "url": "https://prog21.dadgum.com/19.html",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-06T19:48:51Z",
+    "published_at": "2026-11-07T17:30:49Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.240072126203703
+    "rank_score": 25.545564020555556
   },
   {
     "type": "article",
-    "title": "Firecracker VM Escape: PwnEscape Part 2",
-    "url": "https://pwn.ai/blog/firecracker-escape",
+    "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+    "url": "https://github.com/hedgerow-dev/coldframe",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-06T19:33:38Z",
+    "published_at": "2026-11-07T17:27:30Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.155535089166666
+    "rank_score": 25.52713809462963
   },
   {
     "type": "article",
-    "title": "Restaurant Delivery Payment-Skimming Campaign",
-    "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
+    "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+    "url": "https://maxxbench.unlap.ai/research/why-maxxbench",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-06T19:19:27Z",
+    "published_at": "2026-11-07T17:19:00Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.479915872407407
+  },
+  {
+    "type": "article",
+    "title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
+    "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-07T17:06:36Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.411026983518518
+  },
+  {
+    "type": "article",
+    "title": "How Long Can Life Wait?",
+    "url": "https://mceglowski.substack.com/p/how-long-can-life-wait",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-07T16:22:59Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 26.07673879287037
+    "rank_score": 25.168712168703703
   },
   {
     "type": "article",
-    "title": "Replit rebuilt its sandbox engine with microVMs",
-    "url": "https://frontier.replit.com/sandbox-engine-microvms-part-1",
+    "title": "Retro Song Bird: Plug in any Game Boy cartridge to hear the soundtrack",
+    "url": "https://www.retrosongbird.com",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-06T19:06:10Z",
+    "published_at": "2026-11-07T15:06:54Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.002942496574075
+    "rank_score": 24.74602698351852
   },
   {
     "type": "article",
-    "title": "Memorilla: Latent Semantic Memory for LLMs",
-    "url": "https://arxiv.org/abs/2610.21375",
+    "title": "Every Windows 11 app should kill Electron, and Discord just showed why",
+    "url": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-06T18:03:33Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 25.655072126203702
-  },
-  {
-    "type": "article",
-    "title": "Size-It-Up (Game)",
-    "url": "https://magnitudle.com/size-it-up",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-06T17:59:59Z",
+    "published_at": "2026-11-07T11:11:15Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.635257311388887
+    "rank_score": 23.436860316851853
   },
   {
     "type": "article",
-    "title": "Devvm.dev: One VM for every project",
-    "url": "https://devvm.dev",
+    "title": "Every Mac comes with an (undocumented) family member classifier",
+    "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-06T17:30:22Z",
+    "published_at": "2026-11-07T09:46:03Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.47072027435185
+    "rank_score": 22.96352698351852
   },
   {
     "type": "article",
-    "title": "First steps in bare-metal programming using UEFI",
-    "url": "https://kevinboone.me/efitest_index.html",
+    "title": "Need for Speed Underground 2 online in the browser",
+    "url": "https://nfsu2.xyz",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-06T16:50:29Z",
+    "published_at": "2026-11-07T09:36:36Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.249146200277778
+    "rank_score": 22.911026983518518
   },
   {
     "type": "article",
-    "title": "Rune: A native GPU-rendered Rust UI framework for macOS, Windows, Linux and web",
-    "url": "https://github.com/anomalyco/rune",
+    "title": "Asahi Linux Progress Linux 7.3",
+    "url": "https://asahilinux.org/2026/11/progress-report-7-3",
     "source": "Hacker News",
-    "published_at": "2026-11-06T16:31:32Z",
-    "description": "151 points · 105 comments on Hacker News.",
-    "category": "Web",
+    "published_at": "2026-11-07T05:20:18Z",
+    "description": "310 points · 253 comments on Hacker News.",
+    "category": "Development",
     "beginner_score": 2,
-    "rank_score": 25.1438684225
+    "rank_score": 21.48713809462963
   },
   {
     "type": "article",
-    "title": "Gemini Omni 1.2 Flash",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-06T13:35:27Z",
-    "description": "Comments",
+    "title": "Weight-Space Programming やってみた(やらせてみた)",
+    "url": "https://zenn.dev/nwn/articles/cf9fe78aa33861",
+    "source": "Zenn",
+    "published_at": "2026-11-07T00:57:13Z",
+    "description": "GPT-6 AstraにQwen3.5-0.8Bの重みを編集させることができたという論文が話題です。\nhttps://x.com/rikiyatakehi/status/2117313742891327994\nXで反応を見ていると、AstraがQwenの重みを丸ごと読み込んで、その数値の意味を理解したように受け取られている場面がありました。実験でAstraがやったのは、コードを書いて対象モデルの重みや内部活性を調べ、挙動の仮説を立て、重みに変更を加えて結果を確かめることです。",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 24.165627681759258
+    "rank_score": 20.025564020555557
   },
   {
     "type": "article",
-    "title": "Tesla to wind down Cybertruck production",
-    "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+    "title": "Uranium cubes reveal why the German nuclear project failed",
+    "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-06T12:13:51Z",
+    "published_at": "2026-11-05T10:52:04Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Study solved a 150-year-old mystery into the identity of the extinct giant crane",
+    "url": "https://www.bournemouth.ac.uk/news/2026-10-28/study-has-solved-150-year-old-mystery-identity-extinct-giant-crane",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-04T03:30:28Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 23.712294348425925
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Turning Every Radio into a Radar",
+    "url": "https://tiaminetworks.com/turning-every-radio-into-a-radar",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-03T21:18:48Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
   },
   {
     "type": "article",
@@ -578,39 +633,6 @@
     "source": "Zenn",
     "published_at": "2026-11-06T09:08:06Z",
     "description": "こんにちは！ サイボウズ株式会社 プロダクトエンジニアの くらっち (@kuracchi04) です。\n\n はじめに\nサイボウズは 2025 年 4 月より、W3C のメンバーに加入しました。\nhttps://blog.cybozu.io/entry/joining-w3c\n標準化プロセスに関わることができるようになるための最初の一歩として、フロントエンドエンジニアの一部のメンバーは積極的に Web 標準のキャッチアップを行っています。\nそこで、毎月メンバーが興味を持った W",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 22.68034990398148
-  },
-  {
-    "type": "article",
-    "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
-    "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-06T04:00:28Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.97127582990741
-  },
-  {
-    "type": "article",
-    "title": "Can GROUP BY still be optimized after all these years?",
-    "url": "https://pivotlake.io/blog/know-your-limit-faster-top-k-aggregation",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-03T16:30:23Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Annie Ernaux still feels like an outsider",
-    "url": "https://www.vulture.com/article/annie-ernaux-interview-french-protests-nobel-prize.html",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-04T16:51:22Z",
-    "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
     "rank_score": 20.0
@@ -804,79 +826,57 @@
   },
   {
     "type": "article",
-    "title": "Show HN: Agents infer Lego mechanisms from sources, then animate them",
-    "url": "https://github.com/anteloc/ldraw-mecha/tree/v0.5.0",
+    "title": "Text.js: Build full-stack React apps that render inside console.log",
+    "url": "https://textjs.org",
     "source": "Hacker News",
-    "published_at": "2026-11-06T19:41:20Z",
-    "description": "24 points · 1 comments on Hacker News.",
-    "category": "AI",
-    "beginner_score": 0,
-    "rank_score": 6.198312866944445
+    "published_at": "2026-11-04T04:59:36Z",
+    "description": "80 points · 47 comments on Hacker News.",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "40C3 halfnarp – Submit talk preferences to aid scheduling",
-    "url": "https://halfnarp.events.ccc.de",
+    "title": "Commodore PET – The Worlds First Personal Computer",
+    "url": "https://www.commodore.ca/commodore-products/commodore-pet-the-worlds-first-personal-computer",
     "source": "Hacker News",
-    "published_at": "2026-11-06T18:16:43Z",
-    "description": "42 points · 9 comments on Hacker News.",
-    "category": "AI",
-    "beginner_score": 0,
-    "rank_score": 5.728220274351852
-  },
-  {
-    "type": "article",
-    "title": "Anthropic IPO buyers see valuation as low as $1.1T",
-    "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
-    "source": "Hacker News",
-    "published_at": "2026-11-06T16:54:36Z",
-    "description": "217 points · 471 comments on Hacker News.",
+    "published_at": "2026-11-07T23:15:34Z",
+    "description": "5 points · 0 comments on Hacker News.",
     "category": "Other",
     "beginner_score": 0,
-    "rank_score": 5.272016570648148
+    "rank_score": 7.460841798333334
   },
   {
     "type": "article",
-    "title": "Deus Ex",
-    "url": "https://www.filfre.net/2026/11/deus-ex",
+    "title": "IRA Velinsky – Commodore's Industrial Designer",
+    "url": "https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer",
     "source": "Hacker News",
-    "published_at": "2026-11-06T15:44:36Z",
-    "description": "336 points · 170 comments on Hacker News.",
+    "published_at": "2026-11-07T22:45:39Z",
+    "description": "7 points · 0 comments on Hacker News.",
     "category": "Other",
     "beginner_score": 0,
-    "rank_score": 4.883127681759259
+    "rank_score": 7.294638094629629
   },
   {
     "type": "article",
-    "title": "[破壊的変更] 明治時代の開始日が変更になって単体テストが失敗した件",
-    "url": "https://zenn.dev/xin9le/articles/9a1cf8e10494d6",
-    "source": "Zenn",
-    "published_at": "2026-11-06T14:39:45Z",
-    "description": "「お前は何を言っているんだ？」と思うかもしれませんが、本当なのだから仕方ない！動いていたはずの CI の単体テストが突然コケるという事態に遭遇してビックリ。「何もしてないのに壊れた」。まじで。\n\n\n 何が起きたか\nありのままのコードを載せるわけにはいかないのでポイントを絞って記載します。ざっくり以下のような感じです。サンプルコードは C# / .NET です。\n\n和暦への変換\n// 和暦のカルチャ情報を作る\nvar culture = new CultureInfo(&quo",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 4.522849903981482
-  },
-  {
-    "type": "article",
-    "title": "The post-quantum future of web privacy",
-    "url": "https://blog.cloudflare.com/vole-mole",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-11-06T14:00:00Z",
-    "description": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
-    "category": "Security",
-    "beginner_score": 0,
-    "rank_score": 4.302016570648148
-  },
-  {
-    "type": "article",
-    "title": "How octopuses squeeze through too small gaps",
-    "url": "https://journals.biologists.com/jeb/article/229/21/jeb253615/373332/How-octopuses-squeeze-through-too-small-gaps",
+    "title": "MeccanicOS",
+    "url": "https://meccanicos.com",
     "source": "Hacker News",
-    "published_at": "2026-11-06T13:57:20Z",
-    "description": "46 points · 16 comments on Hacker News.",
+    "published_at": "2026-11-07T21:13:44Z",
+    "description": "14 points · 4 comments on Hacker News.",
     "category": "Other",
     "beginner_score": 0,
-    "rank_score": 4.287201755833333
+    "rank_score": 6.783989946481481
+  },
+  {
+    "type": "article",
+    "title": "Shadow of the Sun (2021)",
+    "url": "https://mattlakeman.org/2021/07/27/shadow-of-the-sun",
+    "source": "Hacker News",
+    "published_at": "2026-11-07T21:11:05Z",
+    "description": "18 points · 4 comments on Hacker News.",
+    "category": "Other",
+    "beginner_score": 0,
+    "rank_score": 6.769267724259259
   }
 ]
