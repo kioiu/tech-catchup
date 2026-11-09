@@ -8,7 +8,7 @@
     "description": "はじめに\n2026年11月、Cloudflare Radar に Zero Wire という脆弱性インテリジェンスのフィードが公開されました。全 CVE を網羅するのではなく、Web アプリやランタイム、インターネットに公開されたサービスなど「外向きのソフトウェアの重大な CVE」に絞って、ニュースのように読めるブリーフィングを出してくれるものです。\nhttps://blog.cloudflare.com/zero-wire/\n読み物としても便利ですが、せっかく RSS もあ",
     "category": "Cloud",
     "beginner_score": 10,
-    "rank_score": 101.95648994648148
+    "rank_score": 100.0
   },
   {
     "type": "article",
@@ -75,39 +75,6 @@
     "category": "Web",
     "beginner_score": 10,
     "rank_score": 100.0
-  },
-  {
-    "type": "article",
-    "title": "GitHub New pull request overview page in public preview",
-    "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-07T23:09:40Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 9,
-    "rank_score": 97.42806402055555
-  },
-  {
-    "type": "article",
-    "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-    "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-07T20:45:32Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 9,
-    "rank_score": 96.62732327981482
-  },
-  {
-    "type": "article",
-    "title": "goda-pm.vim: goda.vim のためのプラグインマネージャー",
-    "url": "https://zenn.dev/shougo/articles/goda-pm-vim-beta",
-    "source": "Zenn",
-    "published_at": "2026-11-07T04:46:13Z",
-    "description": "始めに\nこれまで goda.vim の上に、ddu.vim や ddc.vim など私の作成した denops プラグインを移植してきました。goda-fi.vim、goda-cmp.vim、goda-term.vim、goda-hex.vim、goda-skk.vim といったプラグインです。そして最後に残っていたのがプラグインマネージャー、つまり dpp.vim でした。\nhttps://github.com/Shougo/goda-pm.vim\ngoda-pm.vim ",
-    "category": "Web",
-    "beginner_score": 9,
-    "rank_score": 91.29778624277778
   },
   {
     "type": "article",
@@ -183,6 +150,17 @@
     "published_at": "2026-11-05T13:05:08Z",
     "description": "某 NIKKE のゲームランチャーが攻撃されるインシデントが発生しました。\n協力会社（出資元？）が CDN として使っていたドメインが期限切れになり、一部のスクリプトが改ざんされたことが原因だそうです。\n\n 動的データは開発体験を上げるが・・・\nいわゆる RemoteConfig 等のゲームに関連するもの「ではなく」\n\n常に最新版をサーバーから引っ張ってくれば楽できて開発体験が上がる\n\nによって問題が起きたように見えます。\n私も広く公開していないアプリで「最新版を常に Git",
     "category": "Development",
+    "beginner_score": 7,
+    "rank_score": 70.0
+  },
+  {
+    "type": "article",
+    "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+    "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+    "source": "Hacker News",
+    "published_at": "2026-11-07T20:45:32Z",
+    "description": "583 points · 394 comments on Hacker News.",
+    "category": "AI",
     "beginner_score": 7,
     "rank_score": 70.0
   },
@@ -287,39 +265,6 @@
   },
   {
     "type": "article",
-    "title": "The $8 Linux Computer (2022)",
-    "url": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-07T14:00:20Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 4,
-    "rank_score": 44.3762121687037
-  },
-  {
-    "type": "article",
-    "title": "Claudeを使いこなす人に、MagicPodは要るのか。知らないアプリでPlaywrightと比べた記録",
-    "url": "https://zenn.dev/genda_jp/articles/7b423bcd20b532",
-    "source": "Zenn",
-    "published_at": "2026-11-06T05:13:04Z",
-    "description": "2026年10月、MagicPodのMCPサーバーが刷新されました。Claudeのコネクタ一覧から接続するだけで、Claudeとの対話を通じてMagicPodのテストケースを作成・編集・実行できるようになっています。\nhttps://prtimes.jp/main/html/rd/p/000000079.000027392.html\n以前、MagicPod MCPサーバーとClaudeを組み合わせて、テストケースをAIでレビューする仕組みについて書きました。\nhttps://",
-    "category": "AI",
-    "beginner_score": 4,
-    "rank_score": 40.0
-  },
-  {
-    "type": "article",
-    "title": "Security Hub の SBOM インベントリで、Athena を使わずに組織全体のソフトウェアを調べてみた",
-    "url": "https://zenn.dev/cscloud_blog/articles/securityhub-sbom-inventory",
-    "source": "Zenn",
-    "published_at": "2026-11-06T00:00:00Z",
-    "description": "こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！\n先日、Amazon Inspector の SBOM を S3 にエクスポートし、Athena で組織横断の影響調査をする記事を書きました。\nhttps://zenn.dev/cscloud_blog/articles/inspector-sbom-php-research\nこの方法は柔軟に調べられる一方で、S3 バケットや KMS キー、Athena のテーブ",
-    "category": "Cloud",
-    "beginner_score": 4,
-    "rank_score": 40.0
-  },
-  {
-    "type": "article",
     "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
     "url": "https://blog.cloudflare.com/php-ctf",
     "source": "Cloudflare Blog",
@@ -397,6 +342,28 @@
   },
   {
     "type": "article",
+    "title": "How to prove equations using diagrams, part 1",
+    "url": "https://www.epatters.org/post/e-graphs-1",
+    "source": "Hacker News",
+    "published_at": "2026-11-08T12:51:38Z",
+    "description": "63 points · 7 comments on Hacker News.",
+    "category": "Other",
+    "beginner_score": 3,
+    "rank_score": 33.900267541203704
+  },
+  {
+    "type": "article",
+    "title": "SELECTしかしていないのに、PostgreSQLのマイグレーションがロック待ちで失敗した話",
+    "url": "https://zenn.dev/naokisuzuki27/articles/cb1a5ac0e23763",
+    "source": "Zenn",
+    "published_at": "2026-11-08T08:41:46Z",
+    "description": "前提\n\nDB：Amazon Aurora PostgreSQL 16\n\n\n TL;DR\n\nSELECTしかしていないトランザクションが放置され、リリース時のマイグレーションがロック待ちで失敗した\nPostgreSQLのロックは「共有」「排他」の2種類ではなく、SELECTが取るACCESS SHAREは REINDEX などが要求するACCESS EXCLUSIVEを止める\nトランザクションは最小限に分け、保険としてAuroraの idle_in_transaction_se",
+    "category": "Development",
+    "beginner_score": 3,
+    "rank_score": 32.512119393055556
+  },
+  {
+    "type": "article",
     "title": "Default styles for h1 elements are changing",
     "url": "https://developer.mozilla.org/en-US/blog/h1-element-styles",
     "source": "MDN",
@@ -419,168 +386,278 @@
   },
   {
     "type": "article",
-    "title": "Making any integer with four 2s (2025)",
-    "url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s",
+    "title": "Unlocking any car from X brand in most of the world",
+    "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-07T22:38:58Z",
+    "published_at": "2026-11-09T00:10:50Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.257508465
+    "rank_score": 27.673600874537037
   },
   {
     "type": "article",
-    "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
-    "url": "https://eyesrhythm.com",
+    "title": "Herb Sutter: When a language's creator and its owners strongly disagree [pdf]",
+    "url": "https://isocpp.org/files/papers/P4454R0.pdf",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-07T21:47:47Z",
+    "published_at": "2026-11-08T23:28:01Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.435730504166667
+  },
+  {
+    "type": "article",
+    "title": "Chimera Vocal Synth",
+    "url": "https://chimera-vocal-synth.vercel.app",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-08T22:36:03Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.147026800462964
+  },
+  {
+    "type": "article",
+    "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+    "url": "https://ketchup3d.github.io/app",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-08T22:35:35Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.144434207870372
+  },
+  {
+    "type": "article",
+    "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+    "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-08T22:20:09Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 26.97315661314815
+    "rank_score": 27.05869346712963
   },
   {
     "type": "article",
-    "title": "What I run on my $10 USD OpenStick homelab",
-    "url": "https://blog.bosscher.ch/posts/openstick",
+    "title": "Ask HN: What are you working on? (November 2026)",
+    "url": "https://news.ycombinator.com/item?id=50417407",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-07T18:12:12Z",
+    "published_at": "2026-11-08T21:20:20Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.775471427962962
+    "rank_score": 26.726378652314814
   },
   {
     "type": "article",
-    "title": "The end of Microsoft Research's AI Frontiers group",
-    "url": "https://hunch.net/?p=13764006",
+    "title": "The Web Is More Than Enough, by Paul Ford",
+    "url": "https://ftrain.com/aboard-the-web-is-more-than-enough",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-07T18:02:17Z",
+    "published_at": "2026-11-08T19:48:32Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.216378652314816
+  },
+  {
+    "type": "article",
+    "title": "How I Fight AI Brain Fry",
+    "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-08T19:37:42Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 25.720378835370372
+    "rank_score": 26.15619346712963
   },
   {
     "type": "article",
-    "title": "GeoWorks, Microsoft Windows' Upstart '90s Competitor (2016)",
-    "url": "https://www.atlasobscura.com/articles/the-history-of-geoworks-microsoft-windows-upstart-90s-competitor",
+    "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+    "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-07T17:54:56Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.679545502037037
-  },
-  {
-    "type": "article",
-    "title": "Five memorable books about programming (2008)",
-    "url": "https://prog21.dadgum.com/19.html",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-07T17:30:49Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.545564020555556
-  },
-  {
-    "type": "article",
-    "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
-    "url": "https://github.com/hedgerow-dev/coldframe",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-07T17:27:30Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.52713809462963
-  },
-  {
-    "type": "article",
-    "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
-    "url": "https://maxxbench.unlap.ai/research/why-maxxbench",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-07T17:19:00Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.479915872407407
-  },
-  {
-    "type": "article",
-    "title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
-    "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-07T17:06:36Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 25.411026983518518
-  },
-  {
-    "type": "article",
-    "title": "How Long Can Life Wait?",
-    "url": "https://mceglowski.substack.com/p/how-long-can-life-wait",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-07T16:22:59Z",
+    "published_at": "2026-11-08T19:20:32Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 25.168712168703703
+    "rank_score": 26.06082309675926
   },
   {
     "type": "article",
-    "title": "Retro Song Bird: Plug in any Game Boy cartridge to hear the soundtrack",
-    "url": "https://www.retrosongbird.com",
+    "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+    "url": "https://duxlabs.dev",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-07T15:06:54Z",
+    "published_at": "2026-11-08T19:08:51Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 24.74602698351852
+    "rank_score": 25.99591568935185
   },
   {
     "type": "article",
-    "title": "Every Windows 11 app should kill Electron, and Discord just showed why",
-    "url": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in",
+    "title": "Playing with the STM32MP2",
+    "url": "https://serd.es/2026/11/08/playing-with-stm32mp2.html",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-07T11:11:15Z",
+    "published_at": "2026-11-08T19:04:07Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 23.436860316851853
+    "rank_score": 25.969619393055556
   },
   {
     "type": "article",
-    "title": "Every Mac comes with an (undocumented) family member classifier",
-    "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-07T09:46:03Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 22.96352698351852
-  },
-  {
-    "type": "article",
-    "title": "Need for Speed Underground 2 online in the browser",
-    "url": "https://nfsu2.xyz",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-07T09:36:36Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 22.911026983518518
-  },
-  {
-    "type": "article",
-    "title": "Asahi Linux Progress Linux 7.3",
-    "url": "https://asahilinux.org/2026/11/progress-report-7-3",
+    "title": "Playing Zork 1 on a CP/M emulator on Linux (2021)",
+    "url": "https://kevinboone.me/cpmzork.html",
     "source": "Hacker News",
-    "published_at": "2026-11-07T05:20:18Z",
-    "description": "310 points · 253 comments on Hacker News.",
+    "published_at": "2026-11-08T18:33:50Z",
+    "description": "28 points · 12 comments on Hacker News.",
     "category": "Development",
     "beginner_score": 2,
-    "rank_score": 21.48713809462963
+    "rank_score": 25.801378652314813
+  },
+  {
+    "type": "article",
+    "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+    "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-08T18:16:07Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.70295272638889
+  },
+  {
+    "type": "article",
+    "title": "I'm not a fan of Deno's security model (2024)",
+    "url": "https://goldstein.lol/posts/deno-security",
+    "source": "Hacker News",
+    "published_at": "2026-11-08T14:42:38Z",
+    "description": "83 points · 39 comments on Hacker News.",
+    "category": "Security",
+    "beginner_score": 2,
+    "rank_score": 24.51693420787037
+  },
+  {
+    "type": "article",
+    "title": "Writing as a thinking tool",
+    "url": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-08T10:41:52Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 23.179341615277778
+  },
+  {
+    "type": "article",
+    "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+    "url": "https://github.com/synchopate/llama-modchip",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-08T10:22:04Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 23.06934161527778
+  },
+  {
+    "type": "article",
+    "title": "自宅サーバーにClaude Codeを常駐させ、スマホから24時間指示を出す（Remote Control＋systemd）",
+    "url": "https://zenn.dev/samurai_works/articles/114a5e654ca295",
+    "source": "Zenn",
+    "published_at": "2026-11-08T08:59:05Z",
+    "description": "自宅の Linux サーバーに Claude Code を入れて常駐させ、外出先のスマホから「サーバー上の実ファイルを触る作業」を頼めるようにしました。ポート開放なし・VPN なしで動く構成です。\n実際にセットアップしてハマったところも含めて、手順をまとめます。\n!\n2026年11月時点の情報です。Claude Code は更新が速いので、画面や挙動が変わっている可能性があります。最新の公式ドキュメントもあわせて確認してください。\n筆者は Anthropic とは無関係の一ユ",
+    "category": "Development",
+    "beginner_score": 2,
+    "rank_score": 22.60832309675926
+  },
+  {
+    "type": "article",
+    "title": "AWSから4.3億円の課金が...バグと思われる高額請求された際にまずすること",
+    "url": "https://zenn.dev/tsumita7/articles/aoss-intelligent-ingestion-billing-202610",
+    "source": "Zenn",
+    "published_at": "2026-11-08T08:56:07Z",
+    "description": "AWS Ambassadorの積田です。\n画像入りのPDFをS3に置いて、Amazon OpenSearch Serverless(以下AOSS)のIntelligent ingestionでIngestion jobを実行しました。\n翌朝コンソールを開いたら、当月のコストが$2,777,528.09になっていました。1ドル155円で換算すると約4.3億円です。\n\n実はAWSさんの課金バグで1,000万円以上の請求をされるは今年3回目です（2月に約1,400万円、7月に約34",
+    "category": "Cloud",
+    "beginner_score": 2,
+    "rank_score": 22.59184161527778
+  },
+  {
+    "type": "article",
+    "title": "Goodbye Claude, hello Pi",
+    "url": "https://caleb.software/posts/claude-to-pi.html",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-08T03:11:48Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.678971244907405
+  },
+  {
+    "type": "article",
+    "title": "Declarative Dragging",
+    "url": "https://declarative-dragging.github.io",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-04T17:05:07Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Edward Hopper's Iconic Painting, \"Nighthawks",
+    "url": "https://lithub.com/the-story-behind-edward-hoppers-iconic-painting-nighthawks",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-04T23:23:08Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "The History of Djgpp (1998)",
+    "url": "https://www.delorie.com/djgpp/history.html",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-03T16:10:37Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Air holes turn silicon wafers into flat UV focusing mirrors for compact optics",
+    "url": "https://phys.org/news/2026-11-air-holes-silicon-wafers-flat.html",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-07T14:51:40Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Show HN: Vegetable Gardening for Engineers",
+    "url": "https://jrcpl.us/contrib/2020/gardening-for-engineers",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-04T08:54:27Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "ISUCON2026 ソロ参加記：自作ハーネスで Claude Code をほぼ無人運転した",
+    "url": "https://zenn.dev/5alt_nacl/articles/isucon2026-solo-ai-agent",
+    "source": "Zenn",
+    "published_at": "2026-11-07T23:35:44Z",
+    "description": "はじめに\n2026-10-31 の ISUCON2026 に、チーム「なんとかなれー」として1人で出ました。\n競技時間（10:00〜18:00）の作業は、ほぼすべて AI エージェントの Claude Code に任せました。自宅の Windows デスクトップで動く Claude Code が、マニュアルを読み、スタックを作り、計測し、コードを直し、ベンチを回し、再起動試験まで自分で進めています。私はその日は旅行中で、移動の合間にスマホで通知を見ていました。\nただし、完全な",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.0
   },
   {
     "type": "article",
@@ -589,50 +666,6 @@
     "source": "Zenn",
     "published_at": "2026-11-07T00:57:13Z",
     "description": "GPT-6 AstraにQwen3.5-0.8Bの重みを編集させることができたという論文が話題です。\nhttps://x.com/rikiyatakehi/status/2117313742891327994\nXで反応を見ていると、AstraがQwenの重みを丸ごと読み込んで、その数値の意味を理解したように受け取られている場面がありました。実験でAstraがやったのは、コードを書いて対象モデルの重みや内部活性を調べ、挙動の仮説を立て、重みに変更を加えて結果を確かめることです。",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.025564020555557
-  },
-  {
-    "type": "article",
-    "title": "Uranium cubes reveal why the German nuclear project failed",
-    "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-05T10:52:04Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Study solved a 150-year-old mystery into the identity of the extinct giant crane",
-    "url": "https://www.bournemouth.ac.uk/news/2026-10-28/study-has-solved-150-year-old-mystery-identity-extinct-giant-crane",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-04T03:30:28Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Turning Every Radio into a Radar",
-    "url": "https://tiaminetworks.com/turning-every-radio-into-a-radar",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-03T21:18:48Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Web 標準動向 2026年10月版",
-    "url": "https://zenn.dev/cybozu_frontend/articles/web-standards-trends-202610",
-    "source": "Zenn",
-    "published_at": "2026-11-06T09:08:06Z",
-    "description": "こんにちは！ サイボウズ株式会社 プロダクトエンジニアの くらっち (@kuracchi04) です。\n\n はじめに\nサイボウズは 2025 年 4 月より、W3C のメンバーに加入しました。\nhttps://blog.cybozu.io/entry/joining-w3c\n標準化プロセスに関わることができるようになるための最初の一歩として、フロントエンドエンジニアの一部のメンバーは積極的に Web 標準のキャッチアップを行っています。\nそこで、毎月メンバーが興味を持った W",
     "category": "Web",
     "beginner_score": 2,
     "rank_score": 20.0
@@ -826,57 +859,24 @@
   },
   {
     "type": "article",
-    "title": "Text.js: Build full-stack React apps that render inside console.log",
-    "url": "https://textjs.org",
+    "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+    "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
     "source": "Hacker News",
-    "published_at": "2026-11-04T04:59:36Z",
-    "description": "80 points · 47 comments on Hacker News.",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
+    "published_at": "2026-11-08T20:26:43Z",
+    "description": "371 points · 289 comments on Hacker News.",
+    "category": "Other",
+    "beginner_score": 0,
+    "rank_score": 6.428508281944445
   },
   {
     "type": "article",
-    "title": "Commodore PET – The Worlds First Personal Computer",
-    "url": "https://www.commodore.ca/commodore-products/commodore-pet-the-worlds-first-personal-computer",
+    "title": "Starship Flight 15 on 11/13 plans to catch both booster and ship",
+    "url": "https://www.spacex.com/launches/starship-flight-15",
     "source": "Hacker News",
-    "published_at": "2026-11-07T23:15:34Z",
-    "description": "5 points · 0 comments on Hacker News.",
+    "published_at": "2026-11-08T19:49:46Z",
+    "description": "85 points · 49 comments on Hacker News.",
     "category": "Other",
     "beginner_score": 0,
-    "rank_score": 7.460841798333334
-  },
-  {
-    "type": "article",
-    "title": "IRA Velinsky – Commodore's Industrial Designer",
-    "url": "https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer",
-    "source": "Hacker News",
-    "published_at": "2026-11-07T22:45:39Z",
-    "description": "7 points · 0 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 7.294638094629629
-  },
-  {
-    "type": "article",
-    "title": "MeccanicOS",
-    "url": "https://meccanicos.com",
-    "source": "Hacker News",
-    "published_at": "2026-11-07T21:13:44Z",
-    "description": "14 points · 4 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 6.783989946481481
-  },
-  {
-    "type": "article",
-    "title": "Shadow of the Sun (2021)",
-    "url": "https://mattlakeman.org/2021/07/27/shadow-of-the-sun",
-    "source": "Hacker News",
-    "published_at": "2026-11-07T21:11:05Z",
-    "description": "18 points · 4 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 6.769267724259259
+    "rank_score": 6.223230504166668
   }
 ]
