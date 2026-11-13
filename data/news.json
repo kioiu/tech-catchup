@@ -1,6 +1,28 @@
 [
   {
     "type": "article",
+    "title": "Build once, run on any agent: A practical guide to agent skills",
+    "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills",
+    "source": "GitHub Blog",
+    "published_at": "2026-11-12T22:54:52Z",
+    "description": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. \n The post  Build once, run on any agent: A practical guide to a",
+    "category": "AI",
+    "beginner_score": 10,
+    "rank_score": 106.95066299537037
+  },
+  {
+    "type": "article",
+    "title": "AWS EmulatorはAWS Blocksのモックを置き換えるのか？実際に動かして見えた「三つ目の層」",
+    "url": "https://zenn.dev/genda_jp/articles/18d1f780f6b41f",
+    "source": "Zenn",
+    "published_at": "2026-11-12T05:20:41Z",
+    "description": "2026年11月11日（米国時間）、AWSが AWS Emulator をリリースしました。AWS SDKやAWS CLIの呼び出しを、クラウドではなく手元のエミュレーターが受けて、AWSと同じ形の応答を返すツールです。\nhttps://github.com/aws/aws-emulator\nニュースを見て、真っ先に頭に浮かんだのはこれでした。\n「AWS Blocksのモックって、もういらなくなるの？」\nAWS Blocksには、パブリックプレビューの段階から微力ながらコント",
+    "category": "Cloud",
+    "beginner_score": 10,
+    "rank_score": 101.0940889212963
+  },
+  {
+    "type": "article",
     "title": "Rustで作られたExpoの新フレームワーク「Exact」で、モバイル・Web・デスクトップアプリを作ってみた",
     "url": "https://zenn.dev/tellernovel_inc/articles/expo-exact-first-impression",
     "source": "Zenn",
@@ -45,17 +67,6 @@
   },
   {
     "type": "article",
-    "title": "How bug bounty sharpens one researcher’s security skills",
-    "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills",
-    "source": "GitHub Blog",
-    "published_at": "2026-10-22T17:21:30Z",
-    "description": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. \n The post  How bug bounty sharpens one researcher’s securi",
-    "category": "Security",
-    "beginner_score": 10,
-    "rank_score": 100.0
-  },
-  {
-    "type": "article",
     "title": "A beginner-friendly guide to view transitions in CSS",
     "url": "https://developer.mozilla.org/en-US/blog/view-transitions-beginner-guide",
     "source": "MDN",
@@ -67,14 +78,14 @@
   },
   {
     "type": "article",
-    "title": "Lock Your GitHub Actions",
-    "url": "https://hugovk.dev/blog/2026/lock-github-actions",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-11T22:16:41Z",
-    "description": "Comments",
-    "category": "Web",
+    "title": "GitHub availability report: October 2026",
+    "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026",
+    "source": "GitHub Blog",
+    "published_at": "2026-11-13T00:20:16Z",
+    "description": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. \n The post  GitHub availability report: October 2026  appeared first on  The GitHub Blog .",
+    "category": "AI",
     "beginner_score": 9,
-    "rank_score": 96.61384808435186
+    "rank_score": 97.42510743981481
   },
   {
     "type": "article",
@@ -133,17 +144,6 @@
   },
   {
     "type": "article",
-    "title": "The bridge to agent-scale Git infrastructure",
-    "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure",
-    "source": "GitHub Blog",
-    "published_at": "2026-10-21T16:00:00Z",
-    "description": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. \n The post  The bridge to agent-scale Git infrastructure  appe",
-    "category": "AI",
-    "beginner_score": 9,
-    "rank_score": 90.0
-  },
-  {
-    "type": "article",
     "title": "AIに書かせた、が全然AIが書いてない件",
     "url": "https://zenn.dev/appleworld/articles/65aed6c725af71",
     "source": "Zenn",
@@ -188,25 +188,14 @@
   },
   {
     "type": "article",
-    "title": "Gemini Decisions API",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-11T18:32:42Z",
-    "description": "Comments",
-    "category": "Web",
+    "title": "週刊Cloudflare - 2026/11/08週",
+    "url": "https://zenn.dev/gemcook/articles/weekly-cloudflare_2026_1101-1107",
+    "source": "Zenn",
+    "published_at": "2026-11-12T04:54:55Z",
+    "description": "こんにちは、あさひです 🙋‍♂️ 今週の Cloudflare のアップデートをまとめていきます！\n\n\n この記事の主旨\nこの記事では、前週に Cloudflare のサービスにどんな変更があったかをざっくりと理解してもらい、サービスに興味を持ってもらうことを目的としています。そのため、変更点を網羅することを優先します。\n\n 2026/11/01 ~ 2026/11/07 の変更\n\n Wrangler\n\n\n 4.156.1\n\nパッチアップデート\n\n\nwrangler type",
+    "category": "Cloud",
     "beginner_score": 5,
-    "rank_score": 55.3694962325
-  },
-  {
-    "type": "article",
-    "title": "How to make a CNC plasma cutter with high-frequency start",
-    "url": "https://incoherency.co.uk/blog/stories/cnc-plasma-cutter.html",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-08T12:34:04Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 5,
-    "rank_score": 50.0
+    "rank_score": 50.95094077314815
   },
   {
     "type": "article",
@@ -240,28 +229,6 @@
     "category": "Cloud",
     "beginner_score": 5,
     "rank_score": 50.0
-  },
-  {
-    "type": "article",
-    "title": "AWS emulator",
-    "url": "https://github.com/aws/aws-emulator",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-11T18:21:38Z",
-    "description": "Comments",
-    "category": "Cloud",
-    "beginner_score": 4,
-    "rank_score": 45.30801475101852
-  },
-  {
-    "type": "article",
-    "title": "ShopifyのReact Native→ネイティブ移行を支える「Reflex」をSwiftとKotlinで試す",
-    "url": "https://zenn.dev/tellernovel_inc/articles/reflex-native-swift-kotlin",
-    "source": "Zenn",
-    "published_at": "2026-11-09T01:38:40Z",
-    "description": "こんにちは！テラーノベルでiOS/Android/Webとフロントエンド周りを担当している@kazutoyoです！\n先日、Shopify Engineeringから「Reflex」というモバイルアプリのアーキテクチャの記事が公開されました。\nhttps://shopify.engineering/reflex\nShopifyはReact Nativeで作っていたアプリをネイティブに置き換えていて、Reflexはその中で生まれた設計です。\niOSとAndroidをそれぞれネイテ",
-    "category": "Web",
-    "beginner_score": 4,
-    "rank_score": 40.0
   },
   {
     "type": "article",
@@ -342,6 +309,28 @@
   },
   {
     "type": "article",
+    "title": "Adapting CPython for Yk",
+    "url": "https://tratt.net/laurie/blog/2026/adapting_cpython_for_yk.html",
+    "source": "Hacker News",
+    "published_at": "2026-11-12T12:51:38Z",
+    "description": "43 points · 2 comments on Hacker News.",
+    "category": "Development",
+    "beginner_score": 3,
+    "rank_score": 33.599366699074075
+  },
+  {
+    "type": "article",
+    "title": "Amazon Bedrock AgentCore Gatewayで、vLLMのQwenとAmazon Bedrockを使い分けてみた",
+    "url": "https://zenn.dev/fusic/articles/4dc357178cbc1e",
+    "source": "Zenn",
+    "published_at": "2026-11-11T22:00:05Z",
+    "description": "はじめに\nFusicのレオナです。\n社内ではOpenCodeから量子化されたQwen3.6を使っています。モデルはRunPodのGPUを借りてvLLMで動かしており、GPUを借りるのは平日の日中だけです。GPUがない時間帯は、Amazon Bedrockで使えるモデル群を代わりに答えさせたいと考えました。\nそこで、Amazon Bedrock AgentCore Gateway(以下、AgentCore Gateway)の推論ターゲットを使い、vLLM経由とAmazon Be",
+    "category": "AI",
+    "beginner_score": 3,
+    "rank_score": 30.0
+  },
+  {
+    "type": "article",
     "title": "Default styles for h1 elements are changing",
     "url": "https://developer.mozilla.org/en-US/blog/h1-element-styles",
     "source": "MDN",
@@ -364,210 +353,254 @@
   },
   {
     "type": "article",
-    "title": "Optimizing Reference Deletions in Git",
-    "url": "https://nayak.im/posts/optimizing-reference-deletion",
-    "source": "Hacker News",
-    "published_at": "2026-11-08T19:37:42Z",
-    "description": "28 points · 0 comments on Hacker News.",
-    "category": "Development",
-    "beginner_score": 3,
-    "rank_score": 30.0
-  },
-  {
-    "type": "article",
-    "title": "A general purpose Apple Silicon layer for x86-64 PCs",
-    "url": "https://github.com/tylertms/Stela",
+    "title": "Chicago schools to Google – we'd rather lose Search than be forced to accept AI",
+    "url": "https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-11T23:02:38Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.86912586212963
-  },
-  {
-    "type": "article",
-    "title": "93% of paint splatters are valid Perl programs (2019)",
-    "url": "https://www.mcmillen.dev/sigbovik",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-11T22:34:23Z",
+    "published_at": "2026-11-13T00:38:41Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 26.712181417685184
+    "rank_score": 27.52742225462963
   },
   {
     "type": "article",
-    "title": "Nvidia is preparing to oust Jensen Huang",
-    "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+    "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+    "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-11T22:31:06Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 26.693940676944443
-  },
-  {
-    "type": "article",
-    "title": "Jensen Huang said to have had relationship with executive who reports to him",
-    "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-11T22:03:58Z",
+    "published_at": "2026-11-12T23:06:17Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 26.543199936203703
+    "rank_score": 27.014088921296295
   },
   {
     "type": "article",
-    "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
-    "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights",
+    "title": "Foundation Models framework",
+    "url": "https://developer.apple.com/foundation-models-framework",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-11T21:24:35Z",
+    "published_at": "2026-11-12T21:13:26Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.38714447685185
+  },
+  {
+    "type": "article",
+    "title": "AI is turning Apple's app review process into a nightmare for synth developers",
+    "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-12T21:09:49Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 26.32440363990741
+    "rank_score": 26.367051884259258
   },
   {
     "type": "article",
-    "title": "Emacs in the Age of Magic",
-    "url": "https://commandlinesystems.com/magic.txt",
+    "title": "Announcement: Conductor Is Back",
+    "url": "https://twitter.com/charlieholtz/status/2120973052024598620",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-11T20:26:32Z",
+    "published_at": "2026-11-12T20:37:55Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.001903639907407
+    "rank_score": 26.189829662037038
   },
   {
     "type": "article",
-    "title": "Huawei releases MACaQ, its internal quantizer for local inference",
-    "url": "https://github.com/huawei-csl/MACaQ",
+    "title": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
+    "url": "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-11T20:23:57Z",
+    "published_at": "2026-11-12T19:05:33Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.987551788055555
+    "rank_score": 25.676681513888887
   },
   {
     "type": "article",
-    "title": "The Utah Teapot",
-    "url": "https://graphics.cs.utah.edu/teapot",
+    "title": "Gemini 4 Hydrogen and Orchestrator",
+    "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-11T19:45:10Z",
+    "published_at": "2026-11-12T18:52:01Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.77208882509259
+    "rank_score": 25.601496328703703
   },
   {
     "type": "article",
-    "title": "Show HN: I recreated Papers Please but you're deciding which YC startups to fund",
-    "url": "https://termsheetplease.com",
+    "title": "Rust 1.100",
+    "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-11T19:12:16Z",
+    "published_at": "2026-11-12T18:39:05Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.589311047314816
+    "rank_score": 25.529644476851853
   },
   {
     "type": "article",
-    "title": "Test your applications against AWS locally with AWS Emulator",
-    "url": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator",
-    "source": "AWS Blog",
-    "published_at": "2026-11-11T19:00:44Z",
-    "description": "AWS Emulator is a free, open-source local emulator in Rust that lets developers test applications against nearly every AWS service on their own machine using the same CLI and SDK commands, with fidelity measured against real AWS behavior.",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 25.52523697324074
-  },
-  {
-    "type": "article",
-    "title": "Faster Retrieval for Better, More Efficient RAG",
-    "url": "https://machinelearning.apple.com/research/faster-retrieval",
+    "title": "Turning a 22-year-old Postgres type-confusion primitive into RCE",
+    "url": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-11T16:57:45Z",
+    "published_at": "2026-11-12T18:22:22Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 24.8419962325
+    "rank_score": 25.436774106481483
   },
   {
     "type": "article",
-    "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
-    "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter",
+    "title": "Service degradation on Microsoft 365",
+    "url": "https://status.cloud.microsoft",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-11T16:38:44Z",
+    "published_at": "2026-11-12T18:20:48Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 24.736348084351853
+    "rank_score": 25.428070402777777
   },
   {
     "type": "article",
-    "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
-    "url": "https://github.com/FrigadeHQ/yogurt",
+    "title": "Gemini 4 Hydrogen",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-11T15:33:06Z",
+    "published_at": "2026-11-12T18:01:48Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 24.37171845472222
+    "rank_score": 25.322514847222223
   },
   {
     "type": "article",
-    "title": "Choosing QuePaxa, an unusual consensus algorithm",
-    "url": "https://blog.cloudflare.com/choosing-quepaxa",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-11-11T14:24:46Z",
-    "description": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 23.992088825092594
-  },
-  {
-    "type": "article",
-    "title": "Hyper-Realistic Sand with WebGL2",
-    "url": "https://av.github.io/safe-sand",
+    "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+    "url": "https://github.com/simpsoka/zigzag",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-11T13:39:29Z",
+    "published_at": "2026-11-12T17:02:42Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 23.74051475101852
+    "rank_score": 24.99418151388889
   },
   {
     "type": "article",
-    "title": "My AI agents found an unmapped Maya site?",
-    "url": "https://pietromiotti.com/latest/maya-site",
+    "title": "I'm making LLMs work on small and old devices",
+    "url": "https://github.com/hyperionaidev/smolmaxxing",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-11T12:05:22Z",
+    "published_at": "2026-11-12T15:23:10Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 23.217644380648146
+    "rank_score": 24.441218550925925
   },
   {
     "type": "article",
-    "title": "Tim Peters has died",
-    "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+    "title": "Abandoned Quake 4 expansion finished by modders and now playable",
+    "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-11T07:03:17Z",
+    "published_at": "2026-11-12T14:18:49Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 21.53940363990741
+    "rank_score": 24.083718550925926
   },
   {
     "type": "article",
-    "title": "Flying on Green: Why Farmers Are Turning to Drones for Cover Crop Seeding",
-    "url": "https://www.agweb.com/news/machinery/flying-green-why-farmers-are-turning-drones-cover-crop-seeding",
+    "title": "Talking Zen 6 with Mike Clark at AMD In-Depth",
+    "url": "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-09T22:15:13Z",
+    "published_at": "2026-11-12T14:12:37Z",
     "description": "Comments",
     "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.04927410648148
+  },
+  {
+    "type": "article",
+    "title": "Jensen Huang resigns",
+    "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-12T13:52:29Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 23.93742225462963
+  },
+  {
+    "type": "article",
+    "title": "Writing correct software is hard and math alone won’t help us (2016)",
+    "url": "https://pron.github.io/posts/correctness-and-complexity",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-12T10:28:26Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 22.80381114351852
+  },
+  {
+    "type": "article",
+    "title": "Node.js 22 / 24 / 26 の脆弱性、自分のアプリが影響を受けるか確認する方法【2026年11月】",
+    "url": "https://zenn.dev/rakko_inc/articles/nodejs-security-nov-2026-proxy",
+    "source": "Zenn",
+    "published_at": "2026-11-12T02:31:30Z",
+    "description": "Next.js や NestJS でアプリを書いていて、「Node.js の脆弱性が公表されたけれど、自分のアプリは対象なのか」を自分で判断したい人に向けた記事です。\n2026年11月11日に、Node.js 22・24・26 系のセキュリティリリースが公表されました。深刻度が High の 7 件は、ロードバランサーや nginx の後ろで Node.js を動かしている構成には届きません。\n\n TL;DR\n\n今回の High の 7 件は、Node.js が自分で暗号化の",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.15418151388889
+  },
+  {
+    "type": "article",
+    "title": "Relax: JIT compiler for Rust to reduce build times",
+    "url": "https://makepad.github.io/relax",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-11T21:20:01Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Sift: LSP, Lint, Format Lisp, Scheme and Emacs Lisp",
+    "url": "https://github.com/jjba23/sift",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-11T23:09:27Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Before Pixels: Speed-Minder",
+    "url": "https://unsung.aresluna.org/before-pixels-speed-minder",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-11T15:40:05Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "libsignal のグループ暗号化を追って、署名改ざんのテストを追加した",
+    "url": "https://zenn.dev/under_michi/articles/7791295efdb23e",
+    "source": "Zenn",
+    "published_at": "2026-11-12T01:12:25Z",
+    "description": "はじめに\nこの記事は、東京大学工学部電子情報工学科・電気電子工学科の3年次後期実験の一つ、「大規模ソフトウェアを手探る」の実験レポートを兼ねています。\nこの記事は Signal, libsignalをいじってみた の実験の子ページです。libsignal自体の説明は親ページを参照してください。\nこの記事の目的は、libsignal でまだテストされていないケースをデバッグで見つけて、テストを追加することです。主にグループ署名についてのテストについて調べて、PRを提出しました(",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "Software Factoryの先へ：全社の仕事をAI-NativeにするUbieの内製クラウドエージェント基盤",
+    "url": "https://zenn.dev/ubie_dev/articles/45501469c9c044",
+    "source": "Zenn",
+    "published_at": "2026-11-12T00:44:52Z",
+    "description": "Ubie CTO の @yukukotani です。\nUbie では 2023 年、GPT-3.5 Turbo が出た頃から、Web UI や Slack を起点に動くクラウドエージェント基盤を内製してきました（当時の様子）。\n2025 年には、Software Factory を目指して、クラウド型エンジニアリングエージェント Uvin の開発も始めました（当時の様子）。一貫してクラウドエージェントに Bet しています。\nhttps://zenn.dev/ubie_dev",
+    "category": "AI",
     "beginner_score": 2,
     "rank_score": 20.0
   },
@@ -584,23 +617,12 @@
   },
   {
     "type": "article",
-    "title": "NVIDIAの「長文コンテキスト不要」論文",
-    "url": "https://zenn.dev/knowledgesense/articles/bd917ed6829121",
-    "source": "Zenn",
-    "published_at": "2026-11-10T00:01:05Z",
-    "description": "本記事では、AIエージェントの推論コストを下げつつ、精度を保つ手法について、ざっくり理解します。\n株式会社ナレッジセンスは、生成AIやRAGを使ったプロダクトを、エンタープライズ企業向けに開発しているスタートアップです。\n\n この記事は何\nこの記事は、「AIに長い文章を読ませると、コストが高くなる」問題に関する記事です。NVIDIAの研究チームによって2026年11月に発表された新手法の論文[1]について、日本語で簡単にまとめています。\nhttps://arxiv.org/a",
+    "title": "Choosing QuePaxa, an unusual consensus algorithm",
+    "url": "https://blog.cloudflare.com/choosing-quepaxa",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-11-11T14:24:46Z",
+    "description": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
     "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "AWSから4.3億円の課金が...バグと思われる高額請求された際にまずすること",
-    "url": "https://zenn.dev/tsumita7/articles/aoss-intelligent-ingestion-billing-202610",
-    "source": "Zenn",
-    "published_at": "2026-11-08T08:56:07Z",
-    "description": "AWS Ambassadorの積田です。\n画像入りのPDFをS3に置いて、Amazon OpenSearch Serverless(以下AOSS)のIntelligent ingestionでIngestion jobを実行しました。\n翌朝コンソールを開いたら、当月のコストが$2,777,528.09になっていました。1ドル155円で換算すると約4.3億円です。\n\n実はAWSさんの課金バグで1,000万円以上の請求をされるのは今年3回目です（2月に約1,400万円、7月に約3",
-    "category": "Cloud",
     "beginner_score": 2,
     "rank_score": 20.0
   },
@@ -716,6 +738,17 @@
   },
   {
     "type": "article",
+    "title": "Test your applications against AWS locally with AWS Emulator",
+    "url": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator",
+    "source": "AWS Blog",
+    "published_at": "2026-11-11T19:00:44Z",
+    "description": "AWS Emulator is a free, open-source local emulator in Rust that lets developers test applications against nearly every AWS service on their own machine using the same CLI and SDK commands, with fidelity measured against real AWS behavior.",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
     "title": "AWS Weekly Roundup: AgentCore Runtime V2, Amazon DynamoDB bulk put items, and more (November 9, 2026)",
     "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentcore-runtime-v2-amazon-dynamodb-bulk-put-items-and-more-november-9-2026",
     "source": "AWS Blog",
@@ -804,79 +837,46 @@
   },
   {
     "type": "article",
-    "title": "IBM Quantum Nighthawk Demonstrates New Levels of Speed and Quality",
-    "url": "https://newsroom.ibm.com/2026-11-11-ibm-quantum-nighthawk-demonstrates-new-levels-of-speed-and-quality,-with-plans-to-scale-beyond-1,000-qubits-in-2027",
+    "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+    "url": "https://unemploymentlabs.com/checkpoint-forensics",
     "source": "Hacker News",
-    "published_at": "2026-11-11T19:47:59Z",
-    "description": "52 points · 24 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 5.78773697324074
-  },
-  {
-    "type": "article",
-    "title": "The hardest notes to find on the guitar",
-    "url": "https://www.gitori.com/blog/articles/hardest-notes-on-the-guitar-fretboard",
-    "source": "Hacker News",
-    "published_at": "2026-11-11T16:05:18Z",
-    "description": "53 points · 64 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 4.550607343611111
-  },
-  {
-    "type": "article",
-    "title": "Atuin Threads: All your agent sessions on every machine",
-    "url": "https://blog.atuin.sh/threads-agent-sessions",
-    "source": "Hacker News",
-    "published_at": "2026-11-11T14:10:46Z",
-    "description": "191 points · 73 comments on Hacker News.",
+    "published_at": "2026-11-12T21:56:11Z",
+    "description": "172 points · 47 comments on Hacker News.",
     "category": "AI",
     "beginner_score": 0,
-    "rank_score": 3.914311047314815
+    "rank_score": 6.624644476851852
   },
   {
     "type": "article",
-    "title": "OpenCodeを拡張して、複数の担当と定期実行をひとつのチャットにまとめる「いちょまる」を作った",
-    "url": "https://zenn.dev/theoj/articles/opencode-development-log",
-    "source": "Zenn",
-    "published_at": "2026-11-11T12:38:35Z",
-    "description": "はじめに\n\n 背景と構想\nAIに調査や資料作成を依頼していると、用途ごとに会話が増えていきます。その結果、「どの会話に依頼したか」「どこまで進んだか」「次の依頼をどこへ送るか」を、利用者が会話を行き来しながら覚えておくことになります。毎朝同じ依頼をしたい場合も、利用者が毎朝送り直すしかありません。\nいちょまる（初期の資料ではOMyBotと呼んでいます）は、この管理をひとつのチャットにまとめることを目指しました。構想を図1に示します。利用者が話しかける相手は、常に同じ親セッショ",
+    "title": "Distributed Ray Tracer",
+    "url": "https://ray.hatchet.run",
+    "source": "Hacker News",
+    "published_at": "2026-11-12T19:06:23Z",
+    "description": "36 points · 12 comments on Hacker News.",
+    "category": "Other",
+    "beginner_score": 0,
+    "rank_score": 5.681311143518518
+  },
+  {
+    "type": "article",
+    "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+    "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+    "source": "Hacker News",
+    "published_at": "2026-11-12T18:15:48Z",
+    "description": "76 points · 16 comments on Hacker News.",
     "category": "AI",
     "beginner_score": 0,
-    "rank_score": 3.402181417685185
+    "rank_score": 5.400292625
   },
   {
     "type": "article",
-    "title": "Can a Linear Program Do Weight-Space Programming?",
-    "url": "https://nathan.rs/posts/weight-space-lp",
+    "title": "ExcalidrawZ: Local Native Excalidraw on macOS/iOS",
+    "url": "https://github.com/chocoford/ExcalidrawZ",
     "source": "Hacker News",
-    "published_at": "2026-11-11T12:30:17Z",
-    "description": "248 points · 37 comments on Hacker News.",
+    "published_at": "2026-11-12T15:25:52Z",
+    "description": "107 points · 24 comments on Hacker News.",
     "category": "Other",
     "beginner_score": 0,
-    "rank_score": 3.3560703065740736
-  },
-  {
-    "type": "article",
-    "title": "Using voltage glitching to unleash the A100 in my mining card",
-    "url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100",
-    "source": "Hacker News",
-    "published_at": "2026-11-11T10:48:40Z",
-    "description": "265 points · 108 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 2.791533269537037
-  },
-  {
-    "type": "article",
-    "title": "Real2Sim2Realの現在地：現場スキャンからロボット検証環境へ",
-    "url": "https://zenn.dev/kudan_jp/articles/a0cb75384f4a83",
-    "source": "Zenn",
-    "published_at": "2026-11-11T09:46:24Z",
-    "description": "Kudanでは、自律移動ロボットの開発に、実際の現場をスキャンして作ったシミュレーション環境を使っています。現場をスキャンして環境を作り、その中で検証してから現場に持ち込む、いわゆるReal2Sim2Realの進め方は業界でも一般的になってきており、汎用のテスト環境でアルゴリズムの動作を確かめるだけだった頃と比べると、現場固有の条件での検証をはるかに低いコストで回せるようになっています。\nただ、実際にやってみると、現場をスキャンすること自体よりも、そのデータをロボットが動ける",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 2.4456073436111105
+    "rank_score": 4.456218550925926
   }
 ]
