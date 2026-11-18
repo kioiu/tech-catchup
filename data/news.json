@@ -1,22 +1,22 @@
 [
   {
     "type": "article",
+    "title": "Claude Desktop 開発のすゝめ",
+    "url": "https://zenn.dev/peoplex_blog/articles/vscode-to-claude-desktop",
+    "source": "Zenn",
+    "published_at": "2026-11-17T03:41:36Z",
+    "description": "はじめに\nPeopleX でプロダクト開発をしている Aki です。もともとフロントエンドのエンジニアで、最近はバックエンドの実装にも挑戦しています。\n私のメインのエディタは、ここ数年 VS Code でした。使い始めたのは前の職場にいた2018年ごろだったと思います（その前は Atom を使っていました）。ちょうど Subversion から GitHub に本格的に移り、JavaScript から TypeScript に書き換えていった時期です。\nいまは Claude ",
+    "category": "Web",
+    "beginner_score": 10,
+    "rank_score": 100.20152880361111
+  },
+  {
+    "type": "article",
     "title": "GitHub IssueにArtifactとしてHTMLとMarkdownを添付できるようになった",
     "url": "https://zenn.dev/kesin11/articles/20261114_github_issue_artifact",
     "source": "Zenn",
     "published_at": "2026-11-15T23:00:07Z",
     "description": "今年もGitHub Universeが開催され、多くの新機能が発表されました！\n一方、派手な発表の影に隠れてあまり目立っていませんが、普段使いしているIssueにも「Issue Artifact」という機能がPublic Previewとして追加されています。Issueに対してHTMLやMarkdownをArtifactとして添付し、Issue画面上の専用パネルでそのまま表示できる機能です。\nhttps://github.blog/changelog/2026-10-28-i",
-    "category": "Web",
-    "beginner_score": 10,
-    "rank_score": 100.0
-  },
-  {
-    "type": "article",
-    "title": "ng: Neovim のためのシンプルな GUI",
-    "url": "https://zenn.dev/shougo/articles/ng-nvim-simple-gui",
-    "source": "Zenn",
-    "published_at": "2026-11-13T10:49:55Z",
-    "description": "はじめに\n私は今回 Linux 向けの Neovim GUIとして「ng」を作りました。Go で書いた、最小限の GUI クライアントです。\nhttps://github.com/Shougo/ng\nng は Neovim の上に新しいエディタを作るものではありません。Neovim のための、ただの UI です。GVim が Vim にとってそうであるように、ng は Neovim に GUI の窓を与えるだけです。\n\nリポジトリ: Shougo/ng\n\nライセンス: MIT",
     "category": "Web",
     "beginner_score": 10,
     "rank_score": 100.0
@@ -38,7 +38,7 @@
     "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7",
     "source": "GitHub Blog",
     "published_at": "2026-11-10T18:00:00Z",
-    "description": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. \n The post  Git security vulnerabilities announced  appea",
+    "description": "Git is releasing updates addressing six security vulnerabilities affecting clones, reference handling, merges, binary patches, and imports. Here is what users need to know. \n The post  Git security vulnerabilities announced  appeared first ",
     "category": "Security",
     "beginner_score": 10,
     "rank_score": 100.0
@@ -75,6 +75,39 @@
     "category": "Web",
     "beginner_score": 10,
     "rank_score": 100.0
+  },
+  {
+    "type": "article",
+    "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+    "url": "https://github.com/microsoft/onnxruntime",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-17T23:18:49Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 9,
+    "rank_score": 96.7416213962037
+  },
+  {
+    "type": "article",
+    "title": "Maintainers don’t need more AI bug reports. They need fixes.",
+    "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes",
+    "source": "GitHub Blog",
+    "published_at": "2026-11-17T18:29:29Z",
+    "description": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half. \n The post ",
+    "category": "AI",
+    "beginner_score": 9,
+    "rank_score": 95.13421398879629
+  },
+  {
+    "type": "article",
+    "title": "Building the Agent Host Protocol for sessions that continue across devices",
+    "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices",
+    "source": "GitHub Blog",
+    "published_at": "2026-11-17T18:20:40Z",
+    "description": "Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud. \n The post  Building the Agent Host Protocol for sessions that continue across devices  appeared first on",
+    "category": "AI",
+    "beginner_score": 9,
+    "rank_score": 95.08523250731481
   },
   {
     "type": "article",
@@ -122,39 +155,6 @@
   },
   {
     "type": "article",
-    "title": "GitHub Universe 2026: Evolving every layer of the stack",
-    "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack",
-    "source": "GitHub Blog",
-    "published_at": "2026-10-28T16:09:28Z",
-    "description": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. \n The post  GitHub Universe 2026: Evolving every layer of the stack  appeared first on  The GitHub Blog .",
-    "category": "AI",
-    "beginner_score": 9,
-    "rank_score": 90.0
-  },
-  {
-    "type": "article",
-    "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
-    "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents",
-    "source": "GitHub Blog",
-    "published_at": "2026-10-28T16:07:40Z",
-    "description": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. \n The post  Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents  appeared first on ",
-    "category": "AI",
-    "beginner_score": 9,
-    "rank_score": 90.0
-  },
-  {
-    "type": "article",
-    "title": "How to Break into Security, Ptacek Edition (2012)",
-    "url": "https://krebsonsecurity.com/2012/06/how-to-break-into-security-ptacek-edition",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-16T22:19:23Z",
-    "description": "Comments",
-    "category": "Security",
-    "beginner_score": 7,
-    "rank_score": 76.06965602527778
-  },
-  {
-    "type": "article",
     "title": "mizchi/mutator を入れてみた",
     "url": "https://zenn.dev/polyco/articles/e05cb28c569801",
     "source": "Zenn",
@@ -199,14 +199,25 @@
   },
   {
     "type": "article",
-    "title": "Optimizely Compromised, Served Malware on Zoom, GitLab",
-    "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely",
+    "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+    "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-16T23:00:34Z",
+    "published_at": "2026-11-17T21:16:12Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 5,
+    "rank_score": 56.060417692499996
+  },
+  {
+    "type": "article",
+    "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+    "url": "https://calif.io/java4shell",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-17T21:11:28Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 5,
-    "rank_score": 56.298452321574075
+    "rank_score": 56.0341213962037
   },
   {
     "type": "article",
@@ -243,6 +254,39 @@
   },
   {
     "type": "article",
+    "title": "Highly classified US national security communications network goes down",
+    "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-17T15:38:28Z",
+    "description": "Comments",
+    "category": "Security",
+    "beginner_score": 4,
+    "rank_score": 44.18412139620371
+  },
+  {
+    "type": "article",
+    "title": "LTを盛り上げよう！AWSサービス応援うちわ制作裏話",
+    "url": "https://zenn.dev/namiki64/articles/7aab23e02d1dc4",
+    "source": "Zenn",
+    "published_at": "2026-11-17T03:55:17Z",
+    "description": "はじめに\n私が運営に携わっているJAWS-UG大阪で、「あなたの推しサービス教えて！」 というLTイベントを開催しました。\nhttps://jawsugosaka.connpass.com/event/408808/\nこちらのイベントにて、よりLTを盛り上げるために 応援うちわ を作りました。\n\nイメージ図\n私自身はアイドル文化に疎くライブにも行ったことがないのですが、アイドル側がファンを楽しませるだけでなく、ファン側もオリジナルうちわを作ったりオタ芸をしたり、お互いが場を盛",
+    "category": "Cloud",
+    "beginner_score": 4,
+    "rank_score": 40.27754732212963
+  },
+  {
+    "type": "article",
+    "title": "OpenTelemetry×Cloudflareで組織のClaude Code利用ログを収集する",
+    "url": "https://zenn.dev/gemcook/articles/claude-code-otel-cloudflare",
+    "source": "Zenn",
+    "published_at": "2026-11-17T02:35:22Z",
+    "description": "はじめに\nこんにちは、sosoです！\n以前の記事で書いた通り、GemcookではClaude Codeを全社導入しています。\nhttps://zenn.dev/gemcook/articles/claude-code-company-wide\n導入したら次に気になるのが「実際どれくらい使われているのか」です。AI活用を推進していくために、Claude Codeの利用状況をモニタリングしたくなりました。\nそこでClaude CodeのOpenTelemetry対応を使い、活用状",
+    "category": "AI",
+    "beginner_score": 4,
+    "rank_score": 40.0
+  },
+  {
+    "type": "article",
     "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
     "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators",
     "source": "Cloudflare Blog",
@@ -270,17 +314,6 @@
     "source": "Cloudflare Blog",
     "published_at": "2026-10-22T13:00:00Z",
     "description": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our global security program.",
-    "category": "Cloud",
-    "beginner_score": 4,
-    "rank_score": 40.0
-  },
-  {
-    "type": "article",
-    "title": "Introducing full transaction detection for Cloudflare WAF",
-    "url": "https://blog.cloudflare.com/full-transaction-waf",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-10-21T14:10:42Z",
-    "description": "Cloudflare's web application firewall can now correlate an HTTP request with its response. Full transaction detection helps every customer find successful exploits, data exposure, and risky misconfigurations that request-only inspection can",
     "category": "Cloud",
     "beginner_score": 4,
     "rank_score": 40.0
@@ -331,14 +364,14 @@
   },
   {
     "type": "article",
-    "title": "Kotlin Fest 2026 参加記",
-    "url": "https://zenn.dev/0st_ts/articles/d55862e1a134c2",
+    "title": "毎月6,000 AI Agentsを捌くためにキーボードを捨てた話",
+    "url": "https://zenn.dev/andoshin11/articles/ba68b39ef9a8ce",
     "source": "Zenn",
-    "published_at": "2026-11-16T10:00:05Z",
-    "description": "こんにちは、わかと（@0ts_st）です。\n2026年11月14日、東京コンファレンスセンター品川で開催されたKotlin Fest 2026に参加してきました！\n今回は学生スカラシップで参加しました。この制度、Kotlin Festでは今回が初めてだったそうです。こういう機会を作ってくださった運営・スポンサーの皆さん、ありがとうございます！\n普段はGoやTypeScriptを触ることが多いので、Kotlinは知らないことが結構多いです。聞きながら「これ何の話？」ってなるとこ",
-    "category": "Web",
+    "published_at": "2026-11-17T03:13:36Z",
+    "description": "カーナベル株式会社で開発統括兼Microservices Platform OwnerをやっているAndyです。\n最近はOrca ADEの便利さに脳を焼かれています。\n8月からgit worktreeとorca workspaceを活用した開発スタイルに完全移行し、今では毎月 6,000 セッションほど動かすようになりました。\n主に利用しているのはClaudeとCodexです。\n\n1日200セッション前後で開発velocityが安定し、100セッションを下回る日はほとんどあり",
+    "category": "AI",
     "beginner_score": 3,
-    "rank_score": 31.962433803055557
+    "rank_score": 30.045973248055557
   },
   {
     "type": "article",
@@ -364,168 +397,201 @@
   },
   {
     "type": "article",
-    "title": "If an App Asks for Full Disk Access or System and App Protection Override",
-    "url": "https://support.apple.com/en-us/149699",
+    "title": "Cerebras Disaggregated Inference",
+    "url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-17T02:17:04Z",
+    "published_at": "2026-11-18T00:56:23Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.39011898824074
+    "rank_score": 27.283658433240742
   },
   {
     "type": "article",
-    "title": "Mem Is Shutting Down",
-    "url": "https://get.mem.ai/blog/mem-is-shutting-down",
+    "title": "ID.me terms required for IRS sign-in",
+    "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-17T02:13:41Z",
+    "published_at": "2026-11-18T00:51:45Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.371322691944446
+    "rank_score": 27.2579176925
   },
   {
     "type": "article",
-    "title": "Running coding agents without handing them my credentials",
-    "url": "https://blog.antonio.cx/running-agents-with-lend",
+    "title": "Google's AI answers reducing search traffic by 40%",
+    "url": "https://revscope.co/blog/search-seo-geo-2026",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-17T01:18:56Z",
+    "published_at": "2026-11-18T00:17:58Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 27.06715602527778
+    "rank_score": 27.070232507314813
   },
   {
     "type": "article",
-    "title": "Show HN: Sutra-OS – A self-hosted ontology platform",
-    "url": "https://github.com/0nelight/sutra-os",
+    "title": "Archive Team is archiving the Apple Support Community (closes November 20, 2026)",
+    "url": "https://wiki.archiveteam.org/index.php/Apple_Discussions",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-16T23:25:41Z",
+    "published_at": "2026-11-17T23:32:58Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.437989358611112
+    "rank_score": 26.820232507314813
   },
   {
     "type": "article",
-    "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
-    "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry",
+    "title": "Quad9's withdrawal from France: A canary in the coal mine",
+    "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-16T22:58:20Z",
+    "published_at": "2026-11-17T22:13:34Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.379121396203704
+  },
+  {
+    "type": "article",
+    "title": "jQuery 4.1.0",
+    "url": "https://github.com/jquery/jquery/releases/tag/4.1.0",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-17T19:50:40Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.585232507314814
+  },
+  {
+    "type": "article",
+    "title": "350 years ago, Ole Rømer discovered that light has a finite speed",
+    "url": "https://www.sciencenorway.no/culture-history-history-of-science/350-years-ago-this-man-discovered-that-light-has-a-finite-speed/2737969",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-17T19:25:27Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.445139914722223
+  },
+  {
+    "type": "article",
+    "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+    "url": "https://starsling.dev",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-17T19:01:43Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 26.286044914166666
+    "rank_score": 25.31328806287037
   },
   {
     "type": "article",
-    "title": "BugMeNot has closed",
-    "url": "https://www.bugmenot.com",
+    "title": "Solid 2.0",
+    "url": "https://www.solidjs.com/blog/solid-2-0-the-long-hold",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-16T21:32:17Z",
+    "published_at": "2026-11-17T18:56:17Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.80798935861111
+    "rank_score": 25.283102877685184
   },
   {
     "type": "article",
-    "title": "OpenCode Browse",
-    "url": "https://opencode.ai/product/browse",
+    "title": "Phrack 73 Released",
+    "url": "https://phrack.org/issues/73/introduction_md",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-16T21:20:37Z",
+    "published_at": "2026-11-17T18:31:25Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.743174543796297
+    "rank_score": 25.144954729537037
   },
   {
     "type": "article",
-    "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
-    "url": "https://www.cs.cmu.edu/learn",
+    "title": "MAI Code 2 and Code 2 Flash",
+    "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-16T20:43:36Z",
+    "published_at": "2026-11-17T18:25:13Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 25.110510285092595
+  },
+  {
+    "type": "article",
+    "title": "GPT‑6.2 Astra and Sol",
+    "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-17T17:46:43Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.537526395648147
+    "rank_score": 24.896621396203706
   },
   {
     "type": "article",
-    "title": "Chemistry is Actually Geometry",
-    "url": "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
+    "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+    "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-16T20:22:18Z",
+    "published_at": "2026-11-17T17:12:06Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.419193062314815
+    "rank_score": 24.704306581388888
   },
   {
     "type": "article",
-    "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
-    "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-16T18:31:30Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 24.80363750675926
-  },
-  {
-    "type": "article",
-    "title": "AWS Weekly Roundup: AWS Nitro Sandboxes, AWS Emulator, and more (November 16, 2026)",
-    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-nitro-sandboxes-aws-emulator-and-more-november-16-2026",
+    "title": "Four Continents, Four New AWS Heroes: Closing Out 2026",
+    "url": "https://aws.amazon.com/blogs/aws/four-continents-four-new-aws-heroes-closing-out-2026",
     "source": "AWS Blog",
-    "published_at": "2026-11-16T17:55:46Z",
-    "description": "A second delivery of the same message can reveal more about an application than its happy-path demo. I like tools that make those cases easier to investigate while a change is still small. Last week’s launch of AWS Emulator brings part of t",
+    "published_at": "2026-11-17T17:06:43Z",
+    "description": "As AWS re:Invent is around the corner, we’re proud to recognize a new group of AWS Heroes. Every Hero finds their own way to give back, whether through sharing what they know, bringing people together, or building tools that help others suc",
+    "category": "Cloud",
+    "beginner_score": 2,
+    "rank_score": 24.67439917398148
+  },
+  {
+    "type": "article",
+    "title": "What is the best harness for each model?",
+    "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-17T14:53:43Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 23.935510285092594
+  },
+  {
+    "type": "article",
+    "title": "おい、 Mutation Test をやれ。テスト品質を、測るために",
+    "url": "https://zenn.dev/mizchi/articles/mutation-test-quality",
+    "source": "Zenn",
+    "published_at": "2026-11-17T09:53:47Z",
+    "description": "AIがコードを書き散らして認知的負荷が限界に達する今日この頃、皆様いかがお過ごしでしょうか。\nAIによってテストカバレッジを上げることは容易になりました。僕も「分岐カバレッジを80%以上にしろ」みたいな雑なプロンプトを書いて昼飯に行ったりします。帰ってきたらヨシっ！ってマージするわけですね。\nところでそのヨシッは何を担保しているのでしょうか？\nこの記事は次の記事の熱い思いに応えるために書かれています。\nhttps://zenn.dev/polyco/articles/e05c",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 24.60511898824074
+    "rank_score": 22.269213988796295
   },
   {
     "type": "article",
-    "title": "Grazing sheep in fields with solar arrays",
-    "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+    "title": "Fun with Constrained Programming",
+    "url": "https://blog.cmpxchg8b.com/2012/09/fun-with-constrained-programming.html",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-16T17:27:46Z",
+    "published_at": "2026-11-15T02:45:57Z",
     "description": "Comments",
-    "category": "Web",
+    "category": "AI",
     "beginner_score": 2,
-    "rank_score": 24.449563432685185
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "Jiff 1.0: A datetime library for Rust",
-    "url": "https://burntsushi.net/jiff",
+    "title": "Nozzle: A streaming library that emits when possible and buffers where necessary",
+    "url": "https://github.com/Robert-Cunningham/nozzle",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-16T16:53:39Z",
+    "published_at": "2026-11-15T01:13:52Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 24.260026395648147
-  },
-  {
-    "type": "article",
-    "title": "Frame – 31.5\" color ePaper display",
-    "url": "https://trmnl.com/blog/introducing-frame",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-16T16:23:22Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 24.091785654907408
-  },
-  {
-    "type": "article",
-    "title": "Do Repeat Yourself",
-    "url": "https://arcentry.com/blog/do-repeat-yourself",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-16T12:06:46Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 22.666230099351854
+    "rank_score": 20.0
   },
   {
     "type": "article",
@@ -534,61 +600,6 @@
     "source": "Zenn",
     "published_at": "2026-11-16T08:00:05Z",
     "description": "1. はじめに\nAIが「いま何を考えているのか」を、人間はどうやって知ればいいのでしょうか？\n我々チューリング株式会社は、カメラ映像から走行軌跡を直接予測するEnd-to-End（E2E）自動運転AIを開発しています。社内では、予測軌跡をカメラ映像に重ねる可視化が、実車試験の振り返りからデモ映像まで、あらゆる場面で使われています。\nhttps://x.com/DaisukeMAN/status/2109111871228022910\n自動運転AIが出力する「自車がこの先数秒間",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 21.29576713638889
-  },
-  {
-    "type": "article",
-    "title": "Squircles",
-    "url": "https://linebender.org/wiki/curves/squircle",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-16T07:55:10Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 21.268452321574074
-  },
-  {
-    "type": "article",
-    "title": "Atomic Nuked Veteran",
-    "url": "https://www.armscontrolwonk.com/archive/201309/atomic-nuked-veteran",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-16T06:29:54Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.794748617870372
-  },
-  {
-    "type": "article",
-    "title": "Formal Verification Is Not Verifiable",
-    "url": "https://alperenkeles.com/posts/formal-verification-is-not-verifiable",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-14T15:07:48Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "New open source C4 Diagram tool",
-    "url": "https://www.youtube.com/watch?v=ZCAHP50Zly8",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-15T15:55:08Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "サンドボックス内のAIエージェントにHerdrを安全に使わせたい",
-    "url": "https://zenn.dev/naofumimurata/articles/nono-hc-proxy",
-    "source": "Zenn",
-    "published_at": "2026-11-15T09:46:35Z",
-    "description": "Claude Code を nono のサンドボックス内で動かしています。サンドボックス内で実行しているときも、ターミナルマルチプレクサの Herdr をエージェントに使わせたいのですが、何もせず Herdr の操作を許可するとサンドボックスを抜けられてしまうため、エージェントと Herdr の間にプロキシを挟む構成を作ってみました。\n\n 前提\n\n nono\nhttps://nono.sh\nAI エージェントなどのプロセスを、ファイルシステム・ネットワーク・コマンド実行を制限",
     "category": "AI",
     "beginner_score": 2,
     "rank_score": 20.0
@@ -727,6 +738,17 @@
   },
   {
     "type": "article",
+    "title": "AWS Weekly Roundup: AWS Nitro Sandboxes, AWS Emulator, and more (November 16, 2026)",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-nitro-sandboxes-aws-emulator-and-more-november-16-2026",
+    "source": "AWS Blog",
+    "published_at": "2026-11-16T17:55:46Z",
+    "description": "A second delivery of the same message can reveal more about an application than its happy-path demo. I like tools that make those cases easier to investigate while a change is still small. Last week’s launch of AWS Emulator brings part of t",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
     "title": "Test your applications against AWS locally with AWS Emulator",
     "url": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator",
     "source": "AWS Blog",
@@ -804,79 +826,57 @@
   },
   {
     "type": "article",
-    "title": "AWS Weekly Roundup: GPT-6 Sol and Luna, Claude Opus 5.5 on Amazon Bedrock, Strands harness, and more (September 28, 2026)",
-    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-sol-and-luna-claude-opus-5-5-on-amazon-bedrock-strands-harness-and-more-september-28-2026",
-    "source": "AWS Blog",
-    "published_at": "2026-09-28T16:14:54Z",
-    "description": "If there’s one theme that defined last week, it’s choice. The frontier models keep arriving, and the interesting question is no longer just “how smart is it?” but “which model fits this step, at this cost, at this latency?” That’s exactly w",
-    "category": "Cloud",
-    "beginner_score": 2,
-    "rank_score": 20.0
+    "title": "Latent Lattice Language Models",
+    "url": "https://shivamduggal4.github.io/latent-lattice-language-models",
+    "source": "Hacker News",
+    "published_at": "2026-11-17T22:17:18Z",
+    "description": "30 points · 4 comments on Hacker News.",
+    "category": "Other",
+    "beginner_score": 0,
+    "rank_score": 6.399862136944445
   },
   {
     "type": "article",
-    "title": "Pentagon fails ninth straight audit despite progress in organizing finances",
-    "url": "https://www.reuters.com/business/aerospace-defense/pentagon-fails-ninth-straight-audit-despite-progress-organizing-finances-2026-11-16",
+    "title": "Tencent Hy4 Flash",
+    "url": "https://hy.tencent.ai/research/hy4-flash",
     "source": "Hacker News",
-    "published_at": "2026-11-17T00:23:21Z",
-    "description": "67 points · 18 comments on Hacker News.",
+    "published_at": "2026-11-17T21:06:08Z",
+    "description": "65 points · 10 comments on Hacker News.",
+    "category": "Other",
+    "beginner_score": 0,
+    "rank_score": 6.004491766574074
+  },
+  {
+    "type": "article",
+    "title": "Web Browser Engineering (2021)",
+    "url": "https://browser.engineering",
+    "source": "Hacker News",
+    "published_at": "2026-11-17T20:01:35Z",
+    "description": "128 points · 20 comments on Hacker News.",
+    "category": "Web",
+    "beginner_score": 0,
+    "rank_score": 5.645880655462963
+  },
+  {
+    "type": "article",
+    "title": "Effects of a Nuclear Detonation in Low Earth Orbit",
+    "url": "https://arxiv.org/abs/2611.09827",
+    "source": "Hacker News",
+    "published_at": "2026-11-17T19:46:57Z",
+    "description": "85 points · 53 comments on Hacker News.",
+    "category": "Other",
+    "beginner_score": 0,
+    "rank_score": 5.564584359166666
+  },
+  {
+    "type": "article",
+    "title": "Not Everything Needs an LLM",
+    "url": "https://newsletter.posthog.com/p/decision-models",
+    "source": "Hacker News",
+    "published_at": "2026-11-17T18:16:18Z",
+    "description": "108 points · 44 comments on Hacker News.",
     "category": "AI",
     "beginner_score": 0,
-    "rank_score": 6.758359728981482
-  },
-  {
-    "type": "article",
-    "title": "Why 3dfx 1 cards had such a washed out color output?",
-    "url": "https://twitter.com/id_aa_carmack/status/2122478083319992513",
-    "source": "Hacker News",
-    "published_at": "2026-11-17T00:16:24Z",
-    "description": "21 points · 0 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 6.71974861787037
-  },
-  {
-    "type": "article",
-    "title": "United Airlines experiencing a widespread system outage, airline says",
-    "url": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
-    "source": "Hacker News",
-    "published_at": "2026-11-16T22:14:38Z",
-    "description": "204 points · 106 comments on Hacker News.",
-    "category": "AI",
-    "beginner_score": 0,
-    "rank_score": 6.043267136388889
-  },
-  {
-    "type": "article",
-    "title": "My Quest to push native Three.js quality match AAA Game Engines",
-    "url": "https://ben3d.ca/blog/building-the-aaa-lighting-pipeline-in-threejs",
-    "source": "Hacker News",
-    "published_at": "2026-11-16T21:07:43Z",
-    "description": "107 points · 44 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 5.67150787712963
-  },
-  {
-    "type": "article",
-    "title": "Rust changed me as a developer",
-    "url": "https://blog.startifact.com/posts/how-rust-changed-me",
-    "source": "Hacker News",
-    "published_at": "2026-11-16T20:16:50Z",
-    "description": "210 points · 134 comments on Hacker News.",
-    "category": "Development",
-    "beginner_score": 0,
-    "rank_score": 5.388822691944444
-  },
-  {
-    "type": "article",
-    "title": "Michael Mann's 'Heat' Copyright Fight Turns on a Deal with Himself",
-    "url": "https://copyrightlately.com/michael-mann-heat-copyright-termination",
-    "source": "Hacker News",
-    "published_at": "2026-11-16T17:52:23Z",
-    "description": "97 points · 45 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 4.586322691944445
+    "rank_score": 5.060973248055555
   }
 ]
