@@ -1,6 +1,17 @@
 [
   {
     "type": "article",
+    "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+    "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-22T21:01:16Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 10,
+    "rank_score": 106.36768877703703
+  },
+  {
+    "type": "article",
     "title": "Claude Desktop 開発のすゝめ",
     "url": "https://zenn.dev/peoplex_blog/articles/vscode-to-claude-desktop",
     "source": "Zenn",
@@ -78,17 +89,6 @@
   },
   {
     "type": "article",
-    "title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
-    "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-17T15:22:57Z",
-    "description": "Comments",
-    "category": "Security",
-    "beginner_score": 9,
-    "rank_score": 90.0
-  },
-  {
-    "type": "article",
     "title": "The best things in open source are built together",
     "url": "https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together",
     "source": "GitHub Blog",
@@ -155,6 +155,17 @@
   },
   {
     "type": "article",
+    "title": "SideLoadをしよう！〜SideStoreをiPhone単体で入れる〜(SideInstaller編)",
+    "url": "https://zenn.dev/l_port8000/articles/7550549e6e9970",
+    "source": "Zenn",
+    "published_at": "2026-11-22T03:46:17Z",
+    "description": "⚠注意書き\n・非公式アプリを助長するものではありません。\n・iOS27以上じゃないと単体は無理らしい。\n・アプリの出どころをしっかり確認してください。通常GitHubやdecrypt.download, ipatoolからのインストールのみに限定してください。\n・わからないところがあったらTwitter間違えたXの@L_port8080をメンションして質問してください。必要に応じてここにも書き加えます。DMも対応可能です。\n\n 適当な前置き\n\nこの記事での説明ではPCが不要で",
+    "category": "Tools",
+    "beginner_score": 7,
+    "rank_score": 70.61778136962963
+  },
+  {
+    "type": "article",
     "title": "mizchi/mutator を入れてみた",
     "url": "https://zenn.dev/polyco/articles/e05cb28c569801",
     "source": "Zenn",
@@ -199,14 +210,25 @@
   },
   {
     "type": "article",
-    "title": "PostgreSQL Extensions in Go",
-    "url": "https://jespino.github.io/gopgext",
+    "title": "What we learned operating auth for 1k APIs",
+    "url": "https://nango.dev/blog/lessons-from-operating-api-auth-for-900-apis",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-21T17:08:04Z",
+    "published_at": "2026-11-23T01:01:11Z",
+    "description": "Comments",
+    "category": "Security",
+    "beginner_score": 5,
+    "rank_score": 57.700559147407404
+  },
+  {
+    "type": "article",
+    "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+    "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-22T19:10:34Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 5,
-    "rank_score": 55.21250444166667
+    "rank_score": 55.75268877703704
   },
   {
     "type": "article",
@@ -262,6 +284,28 @@
     "category": "Cloud",
     "beginner_score": 5,
     "rank_score": 50.0
+  },
+  {
+    "type": "article",
+    "title": "GL.iNet Security Notice 2026-11-20",
+    "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-22T23:06:37Z",
+    "description": "Comments",
+    "category": "Security",
+    "beginner_score": 4,
+    "rank_score": 47.06407766592593
+  },
+  {
+    "type": "article",
+    "title": "How the World Draws the World",
+    "url": "https://googlemapsmania.blogspot.com/2026/10/how-world-draws-world.html",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-20T14:20:15Z",
+    "description": "Comments",
+    "category": "Cloud",
+    "beginner_score": 4,
+    "rank_score": 40.0
   },
   {
     "type": "article",
@@ -331,6 +375,17 @@
   },
   {
     "type": "article",
+    "title": "Next.jsのストリーミングはLambda Web Functionsで動くか",
+    "url": "https://zenn.dev/ryota_09/articles/nextjs-suspense-streaming-lambda-web-functions",
+    "source": "Zenn",
+    "published_at": "2026-11-22T02:30:19Z",
+    "description": "!\nこの記事はAIとの共著です。\n\nこんにちは！@Ryo54388667です！☺️\n普段は都内でエンジニアとして業務をしてます！主にTypeScriptやNext.jsといった技術を触っています。\nLambda Web Functions が出たとき、最初に気になったのは「Next.js の Suspense ストリーミングで、ちゃんと段階表示されるのか」でした。以前 Lambda Web Adapter で試したときは、うまくいかなかったからです。今回は Vercel と並",
+    "category": "AI",
+    "beginner_score": 3,
+    "rank_score": 30.195744332592593
+  },
+  {
+    "type": "article",
     "title": "毎月6,000 AI Agentsを捌くためにキーボードを捨てた話",
     "url": "https://zenn.dev/andoshin11/articles/ba68b39ef9a8ce",
     "source": "Zenn",
@@ -364,164 +419,164 @@
   },
   {
     "type": "article",
-    "title": "Shaping the Loops, Closing the Loops",
-    "url": "https://revyl.com/blog/pattern-engineering",
+    "title": "Inside PyPy: First Contact with RPython",
+    "url": "https://bernsteinbear.com/blog/inside-pypy-first-contact-with-rpython",
     "source": "Hacker News",
-    "published_at": "2026-11-18T22:29:04Z",
-    "description": "3 points · 2 comments on Hacker News.",
+    "published_at": "2026-11-19T16:26:51Z",
+    "description": "61 points · 9 comments on Hacker News.",
     "category": "Development",
     "beginner_score": 3,
     "rank_score": 30.0
   },
   {
     "type": "article",
-    "title": "Supposed Fired Rockstar Engineer Says GTAVI Makes Psychological Profiles",
-    "url": "https://www.gadgetreview.com/man-claiming-to-be-fired-rockstar-engineer-says-gta-6-is-secretly-tracking-player-behavior-and-reporting-it-to-take-two",
+    "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+    "url": "https://spelunkr.tv",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-22T01:12:15Z",
+    "published_at": "2026-11-23T01:13:51Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 27.902411849074074
+    "rank_score": 27.770929517777777
   },
   {
     "type": "article",
-    "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
-    "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+    "title": "What should AAA game devs do",
+    "url": "https://gamethoughts.bearblog.dev/what-should-aaa-game-devs-do",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-21T22:09:58Z",
+    "published_at": "2026-11-22T23:51:00Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.88972666388889
+    "rank_score": 27.31065174
   },
   {
     "type": "article",
-    "title": "Advice for the next 100 Rust GUIs",
-    "url": "https://linebender.org/blog/next-100-guis",
+    "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+    "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-21T21:17:53Z",
+    "published_at": "2026-11-22T23:12:10Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.600374812037035
+    "rank_score": 27.09491099925926
   },
   {
     "type": "article",
-    "title": "Tasklet (YC P26) Is Hiring Product and Agent Infra Engineers",
-    "url": "https://tasklet.ai/careers",
+    "title": "Localcode, open source agentic coding on your Mac with one command",
+    "url": "https://github.com/mjwsolo/localcode",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-21T21:11:08Z",
+    "published_at": "2026-11-22T22:18:48Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 26.562874812037037
+    "rank_score": 26.798429517777777
   },
   {
     "type": "article",
-    "title": "The Emergence of Inequality in the Czech Corded Ware Culture",
-    "url": "https://www.jna.uni-kiel.de/index.php/jna/article/view/1560/1746",
+    "title": "The Usefulness of Useless Knowledge [pdf] (1939)",
+    "url": "https://www.ias.edu/sites/default/files/library/UsefulnessHarpers.pdf",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-21T21:06:14Z",
+    "published_at": "2026-11-22T22:10:58Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.535652589814816
+    "rank_score": 26.75491099925926
   },
   {
     "type": "article",
-    "title": "Pandex – Official European Law for AI Agents, over MCP",
-    "url": "https://www.pandex.io",
+    "title": "The struggle for freedom: How BSD escaped AT&T licensing",
+    "url": "https://fosscomics.com/posts/16.%20BSD%20Unix%20Part%206%20-%20The%20Struggle%20for%20Freedom",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-21T20:47:41Z",
+    "published_at": "2026-11-22T21:33:12Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.545096184444443
+  },
+  {
+    "type": "article",
+    "title": "A miniature San Francisco with live buses, planes and boats",
+    "url": "https://smallsf.com",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-22T20:33:23Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.212781369629628
+  },
+  {
+    "type": "article",
+    "title": "Nyx, the Oldest Internet Service Provider",
+    "url": "https://nyx.net",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-22T20:15:59Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.116114702962964
+  },
+  {
+    "type": "article",
+    "title": "Assume People Are Not Interested in Your Blog Post",
+    "url": "https://danielsada.tech/blog/assume-people-are-not-interested-in-your-blog-post",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-22T19:41:30Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.924540628888888
+  },
+  {
+    "type": "article",
+    "title": "What Happened to Silicon Valley?",
+    "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-22T19:20:15Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.806485073333334
+  },
+  {
+    "type": "article",
+    "title": "Perplexity and Intelligence",
+    "url": "https://openai.com/index/perplexity-and-intelligence",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-22T17:06:27Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 25.06315174
+  },
+  {
+    "type": "article",
+    "title": "Show HN: I built a game where you are an LLM's subagent",
+    "url": "https://github.com/gulivan/worker755",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-22T13:56:58Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 26.43259703425926
+    "rank_score": 24.010466554814816
   },
   {
     "type": "article",
-    "title": "Upload2Shell (CVE-2026-125396)",
-    "url": "https://pwn.ai/upload2shell",
+    "title": "Masullo on the Riemann Hypothesis",
+    "url": "https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-21T18:29:29Z",
-    "description": "Comments",
-    "category": "Security",
-    "beginner_score": 2,
-    "rank_score": 25.664819256481483
-  },
-  {
-    "type": "article",
-    "title": "Inkling-2-Mini in 5.4 GB Memory",
-    "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-21T18:02:19Z",
+    "published_at": "2026-11-22T10:59:56Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.513893330555554
+    "rank_score": 23.026948036296297
   },
   {
     "type": "article",
-    "title": "Show HN: Zero C# – C# without a runtime or GC",
-    "url": "https://onurgumus.github.io/zero-csharp/index.html",
+    "title": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
+    "url": "https://apnews.com/article/sudan-antiquities-nubia-cathedral-1b16f67da881ee5592de4481ee55c527",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-21T15:39:09Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 24.718522960185187
-  },
-  {
-    "type": "article",
-    "title": "Lean verification of the Riemann Hypothesis",
-    "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-21T14:36:45Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 24.37185629351852
-  },
-  {
-    "type": "article",
-    "title": "Detonating a pile of lead azide",
-    "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-21T13:23:14Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 23.963430367592593
-  },
-  {
-    "type": "article",
-    "title": "My monitor was cutting my download speed by 75%",
-    "url": "https://blog.tymscar.com/posts/studiodisplayethernet",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-21T10:36:32Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 23.03731925648148
-  },
-  {
-    "type": "article",
-    "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
-    "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-20T21:03:12Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Getting the mind to steer the body to steer you",
-    "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-20T22:11:05Z",
+    "published_at": "2026-11-18T15:43:29Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
@@ -529,10 +584,10 @@
   },
   {
     "type": "article",
-    "title": "Inkling 2 Mini",
-    "url": "https://thinkingmachines.ai/news/inkling-2-mini",
+    "title": "Advice for Young Researchers",
+    "url": "http://togelius.blogspot.com/2026/11/advice-for-young-researchers.html",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-20T20:12:19Z",
+    "published_at": "2026-11-18T13:33:25Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
@@ -540,44 +595,11 @@
   },
   {
     "type": "article",
-    "title": "Windows has two settings that bring work back after restart, both off by default",
-    "url": "https://www.makeuseof.com/windows-can-bring-your-work-back-after-restart",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-19T14:00:08Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Tropical Rainforests Species may be surprisingly young",
-    "url": "https://phys.org/news/2026-11-species-tropical-rainforests-young-emergence.html",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-17T15:08:54Z",
-    "description": "Comments",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Bolt's Scooters Are Becoming Accessibility Sensors",
-    "url": "https://geoawesome.com/bolt-scooters-accessibility-mapping-wheels4wheels",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-17T16:12:11Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "自宅サーバー上のアプリケーションを Cloudflare Tunnel + Access で安全に公開する",
-    "url": "https://zenn.dev/bisque/articles/home-server-cloudflare-tunnel-access",
+    "title": "Orca Botsが良さそう、何ができるのか",
+    "url": "https://zenn.dev/kg_motors_mibot/articles/orca-bot-intro",
     "source": "Zenn",
-    "published_at": "2026-11-20T07:14:41Z",
-    "description": "はじめに\n最近は Coding Agent のおかげで、ちょっとしたアプリなら週末にサクッと作れるようになりました。「こういうのがあったら便利だな」と思ったら、とりあえず作ってみる。個人開発のハードルは本当に下がったと感じます。\nただ、作ったアプリをどこで動かすかは、意外と悩みどころです。クラウドなどの費用をできるだけ抑えるためにサービスやアーキテクチャを選定することは、ときには楽しい作業ですが、本質ではありません。\nそこで、安価なミニPCを購入して自宅にサーバーを置くことに",
+    "published_at": "2026-11-21T15:14:13Z",
+    "description": "はじめに\nこんにちは！KGモーターズの中村です！\nKGモーターズは、1人乗り小型 EV mibot を開発しているスタートアップです。\n\n今回は、最近リリースされた Orca Bots についてのお話です。\n普段からAI Agentを使って開発しているのですが、Orca Botsはなかなか面白かったので、実際に触ってみた内容を簡単にまとめようと思います。\n\n Orcaとは\nまず最初にOrcaについて。\nhttps://orca.dev/\nOrcaは、Claude CodeやC",
     "category": "AI",
     "beginner_score": 2,
     "rank_score": 20.0
@@ -848,35 +870,13 @@
   },
   {
     "type": "article",
-    "title": "Sandwich Simulator",
-    "url": "https://stulle.app",
+    "title": "Nespresso's project to reduce grams of coffee per capsule",
+    "url": "https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus",
     "source": "Hacker News",
-    "published_at": "2026-11-22T00:07:59Z",
-    "description": "9 points · 1 comments on Hacker News.",
+    "published_at": "2026-11-22T23:57:45Z",
+    "description": "89 points · 82 comments on Hacker News.",
     "category": "Other",
     "beginner_score": 0,
-    "rank_score": 7.5453748120370365
-  },
-  {
-    "type": "article",
-    "title": "Verification files for the Lean proof of the Riemann Hypothesis",
-    "url": "https://math.mit.edu/~drew/grh",
-    "source": "Hacker News",
-    "published_at": "2026-11-21T15:54:34Z",
-    "description": "92 points · 36 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 4.804171108333333
-  },
-  {
-    "type": "article",
-    "title": "RCE in Gnupg",
-    "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
-    "source": "Hacker News",
-    "published_at": "2026-11-21T08:32:58Z",
-    "description": "232 points · 93 comments on Hacker News.",
-    "category": "Other",
-    "beginner_score": 0,
-    "rank_score": 2.350837775
+    "rank_score": 7.34815174
   }
 ]
