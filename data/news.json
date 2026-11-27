@@ -8,7 +8,7 @@
     "description": "Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill. \n The post  How to choose the next safe step in application modernization  appeared first on  The GitHub ",
     "category": "AI",
     "beginner_score": 10,
-    "rank_score": 103.75901706462963
+    "rank_score": 100.0
   },
   {
     "type": "article",
@@ -62,28 +62,6 @@
     "published_at": "2026-11-25T16:00:00Z",
     "description": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers. \n The post  Art of play in the age of AI  appeared first on  The GitHub Blog ",
     "category": "AI",
-    "beginner_score": 9,
-    "rank_score": 94.09235039796296
-  },
-  {
-    "type": "article",
-    "title": "【自動化】Muse のサイドチャットへ Webhook を届ける MuseKnock の仕組み",
-    "url": "https://zenn.dev/codehex/articles/33bc6ee330b880",
-    "source": "Zenn",
-    "published_at": "2026-11-25T06:12:03Z",
-    "description": "Meta の個人向け AI エージェント「Muse」を使い込んでいくうちに、どうしても欲しくなった仕組みがあります。Slack でメンションされた瞬間や、GitHub でリリースが出た瞬間に、そのまま Muse を動かすことです。\n執筆時点（2026 年 11 月）で僕が調べた範囲では、Muse を外部イベントで即座に動かす仕組みを公開している例は見当たりませんでした。（でもいつかはリリースされそう...?）\nそして、これを見てください！！\nhttps://x.com/cod",
-    "category": "AI",
-    "beginner_score": 9,
-    "rank_score": 90.82596150907408
-  },
-  {
-    "type": "article",
-    "title": "マーダーミステリーのシナリオを形式手法で検証しようとしたら、バグと曖昧さが見つかった",
-    "url": "https://zenn.dev/henteko/articles/ed8d1458246d7a",
-    "source": "Zenn",
-    "published_at": "2026-11-24T16:45:47Z",
-    "description": "形式手法の勉強のために、マーダーミステリーのシナリオの矛盾を検出するCLIを開発しました。\nhttps://github.com/henteko/murder-mystery-checker\n決まった仕様(JSON)でシナリオを記述すると、到達しないエンディングがあるなど、矛盾を指摘してくれます。\n$ mmcheck check --strict examples/hexagon-house/scenario.json\nwarning H003  持っている物がハンドアウトに",
-    "category": "Web",
     "beginner_score": 9,
     "rank_score": 90.0
   },
@@ -144,25 +122,14 @@
   },
   {
     "type": "article",
-    "title": "specは実装後に8割削除しよう",
-    "url": "https://zenn.dev/ruri/articles/distill-specs-after-implementation",
+    "title": "【自動化】Muse のサイドチャットへ Webhook を届ける MuseKnock の仕組み",
+    "url": "https://zenn.dev/codehex/articles/33bc6ee330b880",
     "source": "Zenn",
-    "published_at": "2026-11-25T11:33:06Z",
-    "description": "参考にした仕組み: GitHub Spec Kit / OpenSpec のテンプレートとコマンド定義\n参照日: 2026-10-18\n\n\n TL;DR\nspec は、実装の前に考えるための文書です。実装が終わったら、そのまま残さずに仕分けます。実際の spec 7 本で数えると、8 割強は消してよいものでした。\n真実はコードにあります。機能要件・用語・非機能の目標値は、テスト・型・定義箇所のコメントに移ります。動機や設計の判断は ADR に移ります。spec として残るのは",
-    "category": "Development",
+    "published_at": "2026-11-25T06:12:03Z",
+    "description": "Meta の個人向け AI エージェント「Muse」を使い込んでいくうちに、どうしても欲しくなった仕組みがあります。Slack でメンションされた瞬間や、GitHub でリリースが出た瞬間に、そのまま Muse を動かすことです。 執筆時点（2026 年 11 月）で僕が調べた範囲では、Muse を外部イベントで即座に動かす仕組みを公開している例は見当たりませんでした。（でもいつかはリリースされそう...?） そして、これを見てください！！ これまでは、みんな定期実行のタスク",
+    "category": "AI",
     "beginner_score": 7,
-    "rank_score": 72.60957262018519
-  },
-  {
-    "type": "article",
-    "title": "moejsはSobekの半分以下、正規表現を使う処理ではgo-quickjsが逆転： pure Go製JSエンジン3種を同じプラグインで比較",
-    "url": "https://zenn.dev/nonejp/articles/3bbffb1db9c4ce",
-    "source": "Zenn",
-    "published_at": "2026-11-25T01:00:51Z",
-    "description": "はじめに：Go に JS プラグインを載せるなら、どのエンジンを選ぶ？\nGo のサーバーに「ユーザーが書いた JavaScript でリクエストを書き換える」ようなプラグインの仕組みを入れたいとき、cgo を使わずに組み込める JS エンジンの候補は、ここ1年でずいぶん増えました。k6 が使っている Sobek（goja のフォーク）[1]に加えて、プラグイン向けに作られた moejs[2]、QuickJS-NG を Go で書き直した go-quickjs[3]が出てきてい",
-    "category": "Web",
-    "beginner_score": 6,
-    "rank_score": 60.0
+    "rank_score": 70.0
   },
   {
     "type": "article",
@@ -199,33 +166,11 @@
   },
   {
     "type": "article",
-    "title": "Collection of preserved UI style guides",
-    "url": "https://aresluna.org/ui-style-guides",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-26T00:40:00Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 5,
-    "rank_score": 56.98123928685185
-  },
-  {
-    "type": "article",
-    "title": "Introducing Search for Agents",
-    "url": "https://blog.cloudflare.com/search-for-agents",
-    "source": "Cloudflare Blog",
-    "published_at": "2026-11-25T14:00:00Z",
-    "description": "Flip one toggle to make your site searchable by AI agents — complete with automatic content indexing, a discoverable search API, and native HTTP QUERY support.",
-    "category": "AI",
-    "beginner_score": 5,
-    "rank_score": 53.425683731296296
-  },
-  {
-    "type": "article",
     "title": "モデルの性能が出ないのは AI ゲートウェイのせいかもしれない",
     "url": "https://zenn.dev/google_cloud_jp/articles/7e29a9acf06557",
     "source": "Zenn",
     "published_at": "2026-11-24T22:22:23Z",
-    "description": "TL;DR\n\nClaude Code 等から AI ゲートウェイ経由で別プロバイダーのモデルを呼ぶと、HTTP 200 のまま思考のリセットやキャッシュ失効が起きることがある\n異変に気づくには応答品質やエラー率だけでなく、2 ターン目以降の思考トークン数・キャッシュヒット率や、プロバイダー純正のクライアント・API の組み合わせで直接動かしたときとの差を確認するのが有効\nネイティブ API を使える場合はゲートウェイの無変換パススルーを選び、変換を挟む場合はマルチターンの結合",
+    "description": "Claude Code 等から AI ゲートウェイ経由で別プロバイダーのモデルを呼ぶと、HTTP 200 のまま思考のリセットやキャッシュ失効が起きることがある 異変に気づくには応答品質やエラー率だけでなく、2 ターン目以降の思考トークン数・キャッシュヒット率や、プロバイダー純正のクライアント・API の組み合わせで直接動かしたときとの差を確認するのが有効 ネイティブ API を使える場合はゲートウェイの無変換パススルーを選び、変換を挟む場合はマルチターンの結合テストで状態維",
     "category": "AI",
     "beginner_score": 5,
     "rank_score": 50.0
@@ -236,8 +181,19 @@
     "url": "https://zenn.dev/nexta_/articles/a3ff76a9f98f1c",
     "source": "Zenn",
     "published_at": "2026-11-24T02:30:05Z",
-    "description": "Claude Code は、VSCode の拡張機能で使うのが好きだ。\nMarkdown が見やすく、コードも Git の変更差分もその場で見られる。\nパネルを横に並べられるので、セッション同士が隠れない。VSCode から離れずに済む。\nただ、セッションを5つほど並べると困ることが出てくる。\n一番困ったのは、パネルの見出しが短くて、どれが何の作業をしているのか一目で分からないことだった。\n一時期はメモ帳にパネルの並び順と同じ順で、それぞれ何をしているかを書いていた。\n困りご",
+    "description": "Claude Code は、VSCode の拡張機能で使うのが好きだ。 Markdown が見やすく、コードも Git の変更差分もその場で見られる。 パネルを横に並べられるので、セッション同士が隠れない。VSCode から離れずに済む。 ただ、セッションを5つほど並べると困ることが出てくる。 一番困ったのは、パネルの見出しが短くて、どれが何の作業をしているのか一目で分からないことだった。 一時期はメモ帳にパネルの並び順と同じ順で、それぞれ何をしているかを書いていた。 困りご",
     "category": "Tools",
+    "beginner_score": 5,
+    "rank_score": 50.0
+  },
+  {
+    "type": "article",
+    "title": "Introducing Search for Agents",
+    "url": "https://blog.cloudflare.com/search-for-agents",
+    "source": "Cloudflare Blog",
+    "published_at": "2026-11-25T14:00:00Z",
+    "description": "Flip one toggle to make your site searchable by AI agents — complete with automatic content indexing, a discoverable search API, and native HTTP QUERY support.",
+    "category": "AI",
     "beginner_score": 5,
     "rank_score": 50.0
   },
@@ -273,39 +229,6 @@
     "category": "AI",
     "beginner_score": 5,
     "rank_score": 50.0
-  },
-  {
-    "type": "article",
-    "title": "Slow Ubuntu security response times",
-    "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-25T20:38:00Z",
-    "description": "Comments",
-    "category": "Security",
-    "beginner_score": 4,
-    "rank_score": 45.63679484240741
-  },
-  {
-    "type": "article",
-    "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
-    "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-25T20:35:50Z",
-    "description": "Comments",
-    "category": "Security",
-    "beginner_score": 4,
-    "rank_score": 45.62475780537037
-  },
-  {
-    "type": "article",
-    "title": "1Password Security Incident",
-    "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-25T17:18:26Z",
-    "description": "Comments",
-    "category": "Security",
-    "beginner_score": 4,
-    "rank_score": 44.5280911387037
   },
   {
     "type": "article",
@@ -375,11 +298,11 @@
   },
   {
     "type": "article",
-    "title": "Gemini 4 Neon を API で叩いて Claude Code・Codex CLI と比べた：65万トークンの超長文、費用、失敗",
-    "url": "https://zenn.dev/canly/articles/40e773759da8f8",
+    "title": "型チェックが重かったので、クエリの型推論を手放してみた",
+    "url": "https://zenn.dev/dress_code/articles/88b55221eea4e0",
     "source": "Zenn",
-    "published_at": "2026-11-24T08:51:41Z",
-    "description": "カンリーCAIOの萩野です。\n2026年11月18日に Google が出した Gemini 4 Neon を、同じ8つの課題で Claude Opus 5.5（Claude Code 経由）と GPT-6.2 Sol（Codex CLI 経由）と比べました。一般向けのまとめは note に書いたので、この記事ではどんなリクエストを送り、どう採点し、いくらかかり、どこで失敗したかを、手順を追える粒度で書きます。プロンプトの全文と正解データの作り方は付録に載せました。\n結論を先",
+    "published_at": "2026-11-26T02:15:05Z",
+    "description": "こんにちは、Dress Code 株式会社でプロダクトエンジニアをやっている津田です。 並列で設計・実装を進めていると、メモリが足りなくて困ることありませんか？ 多分に漏れず、手元の Mac のメモリが足りず、あまつさえディスクまで圧迫される状態が続いていました。原因を追っていくと TypeScript の型チェックに行き着き、さらに調べると、1 つのクエリの型推論が、全件の型チェックの仕事量の約 3 分の 1 を占めていました。 今回は、そのクエリの型推論をやめた話です。 ",
     "category": "AI",
     "beginner_score": 3,
     "rank_score": 30.0
@@ -408,80 +331,234 @@
   },
   {
     "type": "article",
-    "title": "Tell HN: Lots of Ask HNs again",
-    "url": "https://news.ycombinator.com/item?id=50649864",
+    "title": "Google will show solo Android developers' phone numbers and addresses",
+    "url": "https://support.google.com/googleplay/android-developer/answer/17594752?hl=en",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-26T00:43:34Z",
+    "published_at": "2026-11-27T03:11:41Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.817190647407408
+  },
+  {
+    "type": "article",
+    "title": "Hard Drive pricing has gotten bad",
+    "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-27T01:13:49Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 27.16237583259259
+  },
+  {
+    "type": "article",
+    "title": "Novita, StreamLake, etc. are ByteDance Ark wrappers",
+    "url": "https://kendell.dev/blog/arkwrapper",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-26T21:59:19Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 26.081820277037036
+  },
+  {
+    "type": "article",
+    "title": "AI made self-hosting fun again",
+    "url": "https://janlukas.blog/posts/ai-self-hosting",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-26T21:47:45Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 27.001054101666668
+    "rank_score": 26.017561017777776
   },
   {
     "type": "article",
-    "title": "Jev is probably Qwen3.5-35B-A3B",
-    "url": "https://modaic.dev/blog/latency-doesnt-lie",
+    "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+    "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-25T22:57:04Z",
+    "published_at": "2026-11-26T21:08:05Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.409387435
+    "rank_score": 25.797190647407408
   },
   {
     "type": "article",
-    "title": "Bare Metal Qwen",
-    "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+    "title": "Company Culture = Slack Emoji ÷ √Headcount",
+    "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-25T22:15:34Z",
+    "published_at": "2026-11-26T20:49:49Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.178831879444445
+    "rank_score": 25.695709165925926
   },
   {
     "type": "article",
-    "title": "Deploying a payphone on a tiny Pacific Island",
-    "url": "https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit",
+    "title": "Rvoip: VoIP stack in Rust",
+    "url": "https://github.com/eisenzopf/rvoip",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-25T22:12:25Z",
+    "published_at": "2026-11-26T19:18:09Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.161331879444443
+    "rank_score": 25.186449906666667
   },
   {
     "type": "article",
-    "title": "Much shorter version of GRH Lean verification from Anthropic",
-    "url": "https://github.com/lsernau/grh-lean",
+    "title": "An introduction to uncertainty in machine learning",
+    "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-25T21:48:10Z",
+    "published_at": "2026-11-26T19:04:50Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 25.112468425185185
+  },
+  {
+    "type": "article",
+    "title": "Largest 2D Chart library in the world using BUI: BlenderUI",
+    "url": "https://bui.preetham.top/charts",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-26T18:37:24Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.026609657222224
+    "rank_score": 24.96006101777778
   },
   {
     "type": "article",
-    "title": "Defang Security Incident",
-    "url": "https://defang.io/blog/post/security-incident-november-2026",
+    "title": "George Whitesides, 1939-2026",
+    "url": "https://www.science.org/content/blog-post/george-whitesides-1939-2026",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-26T18:13:07Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.82515361037037
+  },
+  {
+    "type": "article",
+    "title": "CTO of 'RansomwareHelp' indicted for wire fraud",
+    "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-26T17:47:45Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.684227684444444
+  },
+  {
+    "type": "article",
+    "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
+    "url": "https://github.com/antonpictures/youtube-punisher",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-26T17:36:47Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.62330175851852
+  },
+  {
+    "type": "article",
+    "title": "AMD-specific fork of llama.cpp",
+    "url": "https://devnull.land/amd-specific-llama-cpp",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-26T17:11:29Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 24.482746202962964
+  },
+  {
+    "type": "article",
+    "title": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
+    "url": "https://michidk.github.io/sidebyside",
     "source": "Hacker News",
-    "published_at": "2026-11-25T21:47:16Z",
-    "description": "68 points · 20 comments on Hacker News.",
-    "category": "Security",
+    "published_at": "2026-11-26T15:00:06Z",
+    "description": "118 points · 26 comments on Hacker News.",
+    "category": "Web",
     "beginner_score": 2,
-    "rank_score": 26.02160965722222
+    "rank_score": 23.752838795555554
   },
   {
     "type": "article",
-    "title": "The New York Times warns photographers not to update Photoshop over AI features",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+    "title": "Show HN: I wrote an entire Vim manual over 4 years",
+    "url": "http://themouseless.dev/vim",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-25T21:18:02Z",
+    "published_at": "2026-11-26T14:44:22Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 23.665431388148146
+  },
+  {
+    "type": "article",
+    "title": "Intel One Mono font (2023)",
+    "url": "https://github.com/intel/intel-one-mono",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-26T10:11:01Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 22.146820277037037
+  },
+  {
+    "type": "article",
+    "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+    "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-26T09:44:23Z",
     "description": "Comments",
     "category": "AI",
     "beginner_score": 2,
-    "rank_score": 25.859202249814814
+    "rank_score": 21.998857314074073
+  },
+  {
+    "type": "article",
+    "title": "自動運転の予測軌跡の可視化動画を誰でも高速に作れるようにする",
+    "url": "https://zenn.dev/turing_motors/articles/cbf9872ca90166",
+    "source": "Zenn",
+    "published_at": "2026-11-26T08:00:08Z",
+    "description": "MLOps チーム の @stu3dio_graph です。 チューリングでは，自動運転モデルが予測した軌跡を，車幅の半透明の帯として走行映像に重ねた動画を作っています。モデル開発での介入の振り返りや，広報・事業開発による社外への発信に使われています。 この動画は，もともと CTO の山口さんが書いたスクリプトで作るものでした。手元でスクリプトを順番に実行しなければならず，AWS の認証情報と GPU のある環境も必要でした。 このたび，このスクリプトを AWS Step F",
+    "category": "Cloud",
+    "beginner_score": 2,
+    "rank_score": 21.419690647407407
+  },
+  {
+    "type": "article",
+    "title": "週刊Cloudflare - 2026/11/22週",
+    "url": "https://zenn.dev/gemcook/articles/weekly-cloudflare_2026_1115-1121",
+    "source": "Zenn",
+    "published_at": "2026-11-26T05:00:05Z",
+    "description": "こんにちは、あさひです 🙋‍♂️ 今週の Cloudflare のアップデートをまとめていきます！ この記事では、前週に Cloudflare のサービスにどんな変更があったかをざっくりと理解してもらい、サービスに興味を持ってもらうことを目的としています。そのため、変更点を網羅することを優先します。 Build Output を .cloudflare/output/v1/ に出力し、出力元の producer を記録するようになりました vite build および exp",
+    "category": "Cloud",
+    "beginner_score": 2,
+    "rank_score": 20.419412869629628
+  },
+  {
+    "type": "article",
+    "title": "Show HN: Olumino, a Markdown notes and spaced repetition app",
+    "url": "https://olumino.app",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-26T03:33:06Z",
+    "description": "Comments",
+    "category": "Web",
+    "beginner_score": 2,
+    "rank_score": 20.0
+  },
+  {
+    "type": "article",
+    "title": "The USAID Files",
+    "url": "https://reclaimthenet.org/usaid-files",
+    "source": "Hacker News (RSS)",
+    "published_at": "2026-11-25T23:15:52Z",
+    "description": "Comments",
+    "category": "AI",
+    "beginner_score": 2,
+    "rank_score": 20.0
   },
   {
     "type": "article",
@@ -492,47 +569,14 @@
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
-    "rank_score": 25.155961509074075
+    "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "The polynomial Hirsch conjecture is false [pdf]",
-    "url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+    "title": "Curiosity Is No Solo Act",
+    "url": "https://thereader.mitpress.mit.edu/curiosity-is-no-solo-act",
     "source": "Hacker News (RSS)",
-    "published_at": "2026-11-25T17:34:34Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 24.617720768333335
-  },
-  {
-    "type": "article",
-    "title": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
-    "url": "https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-25T15:14:32Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 23.83975780537037
-  },
-  {
-    "type": "article",
-    "title": "Google releases Cogentic papers on integer factorization, discrete logs and more",
-    "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-25T13:33:07Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 23.276331879444445
-  },
-  {
-    "type": "article",
-    "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
-    "url": "https://bjin.github.io/go-codegolf-benchmark",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-22T16:44:48Z",
+    "published_at": "2026-11-25T00:37:07Z",
     "description": "Comments",
     "category": "Web",
     "beginner_score": 2,
@@ -540,110 +584,22 @@
   },
   {
     "type": "article",
-    "title": "How did pinwheel calculators work?",
-    "url": "https://blog.coredump.cx/p/how-did-pinwheel-calculators-work",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-25T02:00:08Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "SSH is a GUI framework",
-    "url": "https://zydra.sh/articles/ssh-is-a-gui-framework",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-21T14:52:41Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Hacking radiators",
-    "url": "https://qsantos.fr/2026/11/20/hacking-radiators-for-fun-and-no-profit",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-24T02:56:41Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Hkust 3D Prints a Titanium Alloy That Keeps Hardening",
-    "url": "https://3dprinting.com/news/hkust-researchers-3d-print-a-titanium-alloy-that-keeps-hardening-under-strain",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-23T23:25:26Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "The trouble with serendipity: Scientific discoveries don't happen how you think",
-    "url": "https://www.worksinprogress.news/p/the-trouble-with-serendipity",
-    "source": "Hacker News (RSS)",
-    "published_at": "2026-11-23T18:18:08Z",
-    "description": "Comments",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Personal Agent Protocol (Poppy) が解く問題と仕組み",
-    "url": "https://zenn.dev/sierra_japan/articles/0b9ba590232345",
+    "title": "既存のExcelを自動で編集したい──AIに書かせたOffice ScriptsとCopilot Studioで試してみた",
+    "url": "https://zenn.dev/upgradetech/articles/1bed37bcbf0732",
     "source": "Zenn",
-    "published_at": "2026-11-24T23:30:05Z",
-    "description": "こんにちは、Sierra で Agent Engineer をしている konippi です。\nこの度、Sierra Japan の有志で Engineering Blog を始めました 🎉🎉🎉\nhttps://zenn.dev/p/sierra_japan\n記念すべき最初の記事では、パーソナル AI エージェントと企業をつなぐオープンなプロトコル、Personal Agent Protocol を取り上げます。\n\n はじめに\nMeta の Muse のように、ユーザーの代わ",
+    "published_at": "2026-11-26T03:37:56Z",
+    "description": "業務で使うExcelのファイルには、次のような形のものがあります。 図1：検証に使った架空の備品管理台帳（一部）。分類ごとの区切り行と小計行がある Copilot Studioの標準のExcel用アクション（Excel Online (Business) コネクタの行の取得・追加・更新など）は、Excelの「テーブル」が前提です。テーブルは、1行目に見出しが1段だけあり、その下に1件ずつデータの行が続く形の表です。図1のファイルには、この形に当てはまらない部分があります。 ①",
     "category": "AI",
     "beginner_score": 2,
     "rank_score": 20.0
   },
   {
     "type": "article",
-    "title": "Copilot Studioのエージェント開発をClaude Codeにどこまで任せられるか試した",
-    "url": "https://zenn.dev/upgradetech/articles/a9a1637d3071c1",
+    "title": "マーダーミステリーのシナリオを形式手法で検証しようとしたら、バグと曖昧さが見つかった",
+    "url": "https://zenn.dev/henteko/articles/ed8d1458246d7a",
     "source": "Zenn",
-    "published_at": "2026-11-24T09:24:58Z",
-    "description": "この記事の想定読者\n\nCopilot Studioのエージェントを画面操作で作っていて、直すたびにどこを変えたのか分からなくなっている方\nClaude Codeを使い始めて、コードを書く以外の仕事にも使えないか考えている方\n「AIにアプリを作らせる」が実際どこまで通用するのか、判断材料がほしいPM・マネージャーの方\n記事を見ながら同じものを自分の環境で作ってみたい方\n\nこの記事を読むと、小さなサンプルでClaude Codeにどこまで任せられたのかが分かります。同じものを自分",
-    "category": "AI",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Claude Code の /ship を図解する",
-    "url": "https://zenn.dev/peoplex_blog/articles/claude-code-ship",
-    "source": "Zenn",
-    "published_at": "2026-11-24T06:30:06Z",
-    "description": "はじめに\nPeopleX でプロダクト開発をしている Aki です🚀\nClaude Code に /ship というスキルがベータ版としてリリースされました。コミットと push、PR の作成、レビューと修正、マージかクローズまでの見張りを、1つのセッションで受け持つスキルです。\nhttps://x.com/claudedevs/status/2124959436640858475\n私は普段、自作のスキルと Claude Desktop の Auto-fix を組み合わせて、",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "JSConf JP 2026 公開資料・Xアカウントリンクまとめ",
-    "url": "https://zenn.dev/h_yoshikawa0724/articles/2026-11-23-jsconf-jp-2026",
-    "source": "Zenn",
-    "published_at": "2026-11-23T05:38:39Z",
-    "description": "2026/11/22(日)で開催された JSConf JP 2026に関する、現時点での公開資料と X アカウントリンクをまとめました。\nよろしければご活用ください。\n!\nこの記事は、個人ブログへ投稿した記事の転載です。\n\n\n はじめに\nhttps://jsconf.jp/2026/ja\n登壇社名および登壇者名は敬称略させていただいています。\nx アカウントについては、以下のように確認できたものを記載しております。\n\nJSConf JP 公式サイトに記載のプロフィールと一致し",
-    "category": "Web",
-    "beginner_score": 2,
-    "rank_score": 20.0
-  },
-  {
-    "type": "article",
-    "title": "Orca Botsが良さそう、何ができるのか",
-    "url": "https://zenn.dev/kg_motors_mibot/articles/orca-bot-intro",
-    "source": "Zenn",
-    "published_at": "2026-11-21T15:14:13Z",
-    "description": "はじめに\nこんにちは！KGモーターズの中村です！\nKGモーターズは、1人乗り小型 EV mibot を開発しているスタートアップです。\n\n今回は、最近リリースされた Orca Bots についてのお話です。\n普段からAI Agentを使って開発しているのですが、Orca Botsはなかなか面白かったので、実際に触ってみた内容を簡単にまとめようと思います。\n\n Orcaとは\nまず最初にOrcaについて。\nhttps://orca.dev/\nOrcaは、Claude CodeやC",
+    "published_at": "2026-11-24T16:45:47Z",
+    "description": "形式手法の勉強のために、マーダーミステリーのシナリオの矛盾を検出するCLIを開発しました。 決まった仕様(JSON)でシナリオを記述すると、到達しないエンディングがあるなど、矛盾を指摘してくれます。 これでAIによって自動で作成したシナリオが矛盾がないものになっているかを機械的に判定することができるようになりました。マーダーミステリーのシナリオジェネレーターが作れるってことですね、夢がある。 またHTMLで人間が見やすいようにシナリオと検証結果を表示する機能もあります。 マー",
     "category": "AI",
     "beginner_score": 2,
     "rank_score": 20.0
@@ -870,13 +826,57 @@
   },
   {
     "type": "article",
-    "title": "Britain's ghost stations",
-    "url": "https://spectator.com/article/britains-ghost-stations-are-fascinating",
+    "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+    "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant",
     "source": "Hacker News",
-    "published_at": "2026-11-25T17:43:46Z",
-    "description": "104 points · 21 comments on Hacker News.",
+    "published_at": "2026-11-27T00:03:18Z",
+    "description": "39 points · 19 comments on Hacker News.",
     "category": "AI",
     "beginner_score": 0,
-    "rank_score": 4.668831879444444
+    "rank_score": 6.770616573333334
+  },
+  {
+    "type": "article",
+    "title": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
+    "url": "https://github.com/rxliuli/sim-drop",
+    "source": "Hacker News",
+    "published_at": "2026-11-26T16:51:38Z",
+    "description": "41 points · 10 comments on Hacker News.",
+    "category": "Other",
+    "beginner_score": 0,
+    "rank_score": 4.372468425185185
+  },
+  {
+    "type": "article",
+    "title": "迷惑メール対策をしているのに、なぜ詐欺メールは届くのか",
+    "url": "https://zenn.dev/akagumi/articles/catch-all-phishing-invisible-chars",
+    "source": "Zenn",
+    "published_at": "2026-11-26T14:08:33Z",
+    "description": "つい先日、知り合いがメールの受け取りを「キャッチオール」にしてみたそうです。 キャッチオールとは？ 特定の宛先（ローカル部）を決めず、ドメイン全体に届いたメールをまるごと受け取る設定のこと。 すると、1 時間も経たないうちに迷惑メールが数十通届き、しかもそのすべてが詐欺メールだったとのこと。 「キャッチオールでも迷惑メールフィルターや SPF などの認証は動いているはずなのに、なぜすり抜けて受信箱に入ってしまうんだろう？」 気になったので、実際に届いたデータをもとに、詐欺メー",
+    "category": "Other",
+    "beginner_score": 0,
+    "rank_score": 3.4664499066666665
+  },
+  {
+    "type": "article",
+    "title": "Nextcloud Office Desktop app",
+    "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app",
+    "source": "Hacker News",
+    "published_at": "2026-11-26T11:50:49Z",
+    "description": "407 points · 206 comments on Hacker News.",
+    "category": "Cloud",
+    "beginner_score": 0,
+    "rank_score": 2.7012647214814813
+  },
+  {
+    "type": "article",
+    "title": "OpenAI may be in cost control mode",
+    "url": "https://micjm.com/blog/openai-is-in-cost-control-mode",
+    "source": "Hacker News",
+    "published_at": "2026-11-26T07:33:12Z",
+    "description": "295 points · 301 comments on Hacker News.",
+    "category": "AI",
+    "beginner_score": 0,
+    "rank_score": 1.2700610177777776
   }
 ]
